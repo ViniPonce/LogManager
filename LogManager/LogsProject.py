@@ -60,24 +60,39 @@ with open(new_file_path) as f:
     BTRC_count = len(BTRC_dates)
 #-------------------------- TIME DIFERENCE ----------------------------------
 
-def calculate_time_difference(filename):
-    with open(filename, 'r') as file:
+
+def calculate_time_differences(new_file_path):
+    with open(new_file_path, 'r') as file:
         lines = file.readlines()
-    disconnected_time = None
-    connected_time = None
+    disconnected_times = []
+    connected_times = []
     for line in lines:
         if "BTRC lost connection" in line:
-            disconnected_time = datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f')
+            disconnected_times.append(datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
         if "BTRC connected" in line:
-            connected_time = datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f')
-        if disconnected_time and connected_time:
-            break
-    time_difference = abs(connected_time - disconnected_time)
-    time_difference_in_minutes = time_difference.total_seconds() / 60
-    return time_difference_in_minutes
+            connected_times.append(datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
+    time_differences = []
+    i = 0
+    j = 0
+    while i < len(disconnected_times) and j < len(connected_times):
+        if disconnected_times[i] < connected_times[j]:
+            i += 1
+        elif disconnected_times[i] > connected_times[j]:
+            j += 1
+        else:
+            time_difference = connected_times[j + 1] - disconnected_times[i]
+            time_differences.append(time_difference)
+            i += 1
+            j += 2
+    return disconnected_times, time_differences
 
-time_difference = calculate_time_difference(new_file_path)
-print("Time difference between BTRC lost connection and connection: {:.2f}".format(time_difference))
+def print_time_differences(disconnected_times, time_differences):
+    for i, time_difference in enumerate(time_differences):
+        hours, remainder = divmod(time_difference.total_seconds(), 3600)
+        minutes, remainder = divmod(remainder, 60)
+        seconds, milliseconds = divmod(remainder, 1)
+        milliseconds = int(milliseconds * 1000)
+        print(f"Time difference for disconnection {i + 1} on {disconnected_times[i].strftime('%d-%m-%Y %H:%M:%S')}: {int(hours)} hours, {int(minutes)} minutes, {int(seconds)} seconds, and {milliseconds} milliseconds")
 
 # --------------------- METRICS DISPLAY --------------
 metrics_window = tk.Tk()
