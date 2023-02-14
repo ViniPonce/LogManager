@@ -1,10 +1,10 @@
 import tkinter as tk
 import zipfile
 import os
-import pandas as pd
 from tkinter import filedialog
 from tkinter import messagebox
 import datetime
+from datetime import timedelta
 
 #----------------- FILE SELECTION -----------------
 root = tk.Tk()
@@ -86,7 +86,6 @@ def calculate_time_differences(new_file_path):
 
 disconnected_times, time_differences = calculate_time_differences(new_file_path)
 events = sorted(list(zip(disconnected_times, time_differences)))
-print("List of time between BTRC Lost connections and the next BTRC Connection:")
 for event in events:
     timestamp = event[0].strftime('%d-%m-%Y %H:%M:%S.%f')
     time_diff = event[1]
@@ -94,13 +93,12 @@ for event in events:
     hours = int(seconds / 3600)
     minutes = int((seconds % 3600) / 60)
     seconds = int(seconds % 60)
-    print(f"{timestamp}: {hours} hours, {minutes} minutes, {seconds} seconds.")
-print(f"Total number of lost connections: {len(events)}")
+
 
 # --------------------- METRICS DISPLAY --------------
 metrics_window = tk.Tk()
 metrics_window.title("Files Metrics")
-metrics_window.geometry("800x800")
+metrics_window.geometry("1000x1000")
 
 OS_RST_label = tk.Label(metrics_window, text="OS_RST occurrences:", font=("Arial", 12, "bold"))
 OS_RST_count_label = tk.Label(metrics_window, text=OS_RST_count, font=("Arial", 12))
@@ -146,6 +144,22 @@ BTRC_label.pack()
 BTRC_count_label.pack()
 BTRC_dates_label.pack()
 BTRC_dates_text.pack()
+
+BTRC_time_label = tk.Label(metrics_window, text="Time between BTRC Lost connections and the next BTRC Connection:", font=("Arial", 12, "bold"))
+BTRC_time_label.pack()
+
+SECONDS_IN_DAY = 86400
+SECONDS_IN_HOUR = 3600
+
+for event in events:
+    timestamp = event[0].strftime('%d-%m-%Y %H:%M:%S.%f')
+    time_diff = event[1]
+    days = time_diff.days
+    hours, remainder = divmod(time_diff.seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    duration_str = f"{days} day{'s' if days != 1 else ''}, {hours} hour{'s' if hours != 1 else ''}, {minutes} minute{'s' if minutes != 1 else ''}, {seconds} second{'s' if seconds != 1 else ''}"
+    time_label = tk.Label(metrics_window, text=f"{timestamp}: {duration_str}", font=("Arial", 12))
+    time_label.pack()
 
 summary_label.pack(pady=20)
 summary_text.pack()
