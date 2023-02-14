@@ -73,26 +73,29 @@ def calculate_time_differences(new_file_path):
             connected_times.append(datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
     time_differences = []
     i = 0
-    j = 0
-    while i < len(disconnected_times) and j < len(connected_times):
-        if disconnected_times[i] < connected_times[j]:
-            i += 1
-        elif disconnected_times[i] > connected_times[j]:
+    while i < len(disconnected_times):
+        j = 0
+        while j < len(connected_times) and disconnected_times[i] > connected_times[j]:
             j += 1
-        else:
-            time_difference = connected_times[j + 1] - disconnected_times[i]
-            time_differences.append(time_difference)
-            i += 1
-            j += 2
+        if j >= len(connected_times):
+            break
+        time_difference = connected_times[j] - disconnected_times[i]
+        time_differences.append(time_difference)
+        i += 1
     return disconnected_times, time_differences
 
-def print_time_differences(disconnected_times, time_differences):
-    for i, time_difference in enumerate(time_differences):
-        hours, remainder = divmod(time_difference.total_seconds(), 3600)
-        minutes, remainder = divmod(remainder, 60)
-        seconds, milliseconds = divmod(remainder, 1)
-        milliseconds = int(milliseconds * 1000)
-        print(f"Time difference for disconnection {i + 1} on {disconnected_times[i].strftime('%d-%m-%Y %H:%M:%S')}: {int(hours)} hours, {int(minutes)} minutes, {int(seconds)} seconds, and {milliseconds} milliseconds")
+disconnected_times, time_differences = calculate_time_differences(new_file_path)
+events = sorted(list(zip(disconnected_times, time_differences)))
+print("List of time between BTRC Lost connections and the next BTRC Connection:")
+for event in events:
+    timestamp = event[0].strftime('%d-%m-%Y %H:%M:%S.%f')
+    time_diff = event[1]
+    seconds = time_diff.total_seconds()
+    hours = int(seconds / 3600)
+    minutes = int((seconds % 3600) / 60)
+    seconds = int(seconds % 60)
+    print(f"{timestamp}: {hours} hours, {minutes} minutes, {seconds} seconds.")
+print(f"Total number of lost connections: {len(events)}")
 
 # --------------------- METRICS DISPLAY --------------
 metrics_window = tk.Tk()
