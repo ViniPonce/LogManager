@@ -4,7 +4,7 @@ import os
 from tkinter import filedialog
 from tkinter import messagebox
 import datetime
-from datetime import timedelta
+
 
 #----------------- FILE SELECTION -----------------
 root = tk.Tk()
