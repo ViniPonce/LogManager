@@ -4,6 +4,7 @@ import os
 from tkinter import filedialog
 from tkinter import messagebox
 import datetime
+import re
 
 
 #----------------- FILE SELECTION -----------------
@@ -58,7 +59,7 @@ with open(new_file_path) as f:
     OS_RST_count = len(OS_RST_dates)
     MRST_count = len(MRST_dates)
     BTRC_count = len(BTRC_dates)
-#-------------------------- TIME DIFERENCE ----------------------------------
+#-------------------------- BTRC TIME DIFERENCE ----------------------------------
 
 
 def calculate_time_differences(new_file_path):
@@ -95,10 +96,51 @@ for event in events:
     seconds = int(seconds % 60)
 
 
+#-------------------------------- STATUSBIT TIME DIFFERENCE --------------------
+
+
+
+def calculate_on_off_time_differences(new_file_path):
+    with open(new_file_path, 'r') as file:
+        lines = file.readlines()
+    on_times = []
+    off_times = []
+    for line in lines:
+        if "StatusBitLog;ONOFF = 1" in line:
+            on_times.append(datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
+        if "StatusBitLog;ONOFF = 0" in line:
+            off_times.append(datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
+    on_times = sorted(on_times)
+    off_times = sorted(off_times)
+    time_differences = []
+    i = 0
+    while i < len(on_times):
+        j = 0
+        while j < len(off_times) and off_times[j] < on_times[i]:
+            j += 1
+        if j >= len(off_times):
+            break
+        time_difference = on_times[i] - off_times[j]
+        time_differences.append(time_difference)
+        i += 1
+    return on_times, time_differences
+
+on_times, time_differences = calculate_on_off_time_differences(new_file_path)
+events = sorted(list(zip(on_times, time_differences)))
+for event in events:
+    timestamp = event[0].strftime('%d-%m-%Y %H:%M:%S.%f')
+    time_diff = event[1]
+    seconds = abs(time_diff.total_seconds())
+    hours = int(seconds / 3600)
+    minutes = int((seconds % 3600) / 60)
+    seconds = int(seconds % 60)
+    print(f"Timestamp: {timestamp}, Time difference: {hours:02d}:{minutes:02d}:{seconds:02d}")
+
+
 # --------------------- METRICS DISPLAY --------------
 metrics_window = tk.Tk()
 metrics_window.title("Files Metrics")
-metrics_window.geometry("1000x1000")
+metrics_window.geometry("1900x1500")
 
 OS_RST_label = tk.Label(metrics_window, text="OS_RST occurrences:", font=("Arial", 12, "bold"))
 OS_RST_count_label = tk.Label(metrics_window, text=OS_RST_count, font=("Arial", 12))
