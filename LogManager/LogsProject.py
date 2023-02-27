@@ -3,8 +3,8 @@ import zipfile
 import os
 from tkinter import filedialog
 from tkinter import messagebox
-import datetime
-import re
+from datetime import datetime
+
 
 
 #----------------- FILE SELECTION -----------------
@@ -61,7 +61,6 @@ with open(new_file_path) as f:
     BTRC_count = len(BTRC_dates)
 #-------------------------- BTRC TIME DIFERENCE ----------------------------------
 
-
 def calculate_time_differences(new_file_path):
     with open(new_file_path, 'r') as file:
         lines = file.readlines()
@@ -69,9 +68,9 @@ def calculate_time_differences(new_file_path):
     connected_times = []
     for line in lines:
         if "BTRC lost connection" in line:
-            disconnected_times.append(datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
+            disconnected_times.append(datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
         if "BTRC connected" in line:
-            connected_times.append(datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
+            connected_times.append(datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
     time_differences = []
     i = 0
     while i < len(disconnected_times):
@@ -80,12 +79,12 @@ def calculate_time_differences(new_file_path):
             j += 1
         if j >= len(connected_times):
             break
-        time_difference = connected_times[j] - disconnected_times[i]
+        time_difference = disconnected_times[i] - connected_times[j]
         time_differences.append(time_difference)
         i += 1
-    return disconnected_times, time_differences
+    return disconnected_times, time_differences, connected_times
 
-disconnected_times, time_differences = calculate_time_differences(new_file_path)
+disconnected_times, time_differences, connected_times = calculate_time_differences(new_file_path)
 events = sorted(list(zip(disconnected_times, time_differences)))
 for event in events:
     timestamp = event[0].strftime('%d-%m-%Y %H:%M:%S.%f')
@@ -107,9 +106,9 @@ def calculate_on_off_time_differences(new_file_path):
     off_times = []
     for line in lines:
         if "StatusBitLog;ONOFF = 1" in line:
-            on_times.append(datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
+            on_times.append(datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
         if "StatusBitLog;ONOFF = 0" in line:
-            off_times.append(datetime.datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
+            off_times.append(datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
     on_times = sorted(on_times)
     off_times = sorted(off_times)
     time_differences = []
@@ -134,7 +133,6 @@ for event in events:
     hours = int(seconds / 3600)
     minutes = int((seconds % 3600) / 60)
     seconds = int(seconds % 60)
-    print(f"Timestamp: {timestamp}, Time difference: {hours:02d}:{minutes:02d}:{seconds:02d}")
 
 
 # --------------------- METRICS DISPLAY --------------
@@ -187,22 +185,54 @@ BTRC_count_label.pack()
 BTRC_dates_label.pack()
 BTRC_dates_text.pack()
 
-BTRC_time_label = tk.Label(metrics_window, text="Time between BTRC Lost connections and the next BTRC Connection:", font=("Arial", 12, "bold"))
-BTRC_time_label.pack()
 
-SECONDS_IN_DAY = 86400
-SECONDS_IN_HOUR = 3600
+BTRC_duration_label = tk.Label(metrics_window, text="Time between BTRC Lost connections and the next BTRC Connection:", font=("Arial", 12))
+BTRC_duration_label.pack()
 
+
+BTRC_duration_listbox = tk.Listbox(metrics_window, height=10, width=60)
+BTRC_duration_listbox.pack()
+
+
+disconnected_times, time_differences, connected_times = calculate_time_differences(new_file_path)
+events = sorted(list(zip(disconnected_times, time_differences)))
+BTRC_duration_listbox.insert(tk.END, f"{'Timestamp':<30}{'Time Difference (hours:minutes:seconds)':<40}")
 for event in events:
     timestamp = event[0].strftime('%d-%m-%Y %H:%M:%S.%f')
     time_diff = event[1]
-    days = time_diff.days
-    hours, remainder = divmod(time_diff.seconds, 3600)
-    minutes, seconds = divmod(remainder, 60)
-    duration_str = f"{days} day{'s' if days != 1 else ''}, {hours} hour{'s' if hours != 1 else ''}, {minutes} minute{'s' if minutes != 1 else ''}, {seconds} second{'s' if seconds != 1 else ''}"
-    time_label = tk.Label(metrics_window, text=f"{timestamp}: {duration_str}", font=("Arial", 12))
-    time_label.pack()
+    seconds = time_diff.total_seconds()
+    hours = int(seconds / 3600)
+    minutes = int((seconds % 3600) / 60)
+    seconds = int(seconds % 60)
+    time_str = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+    BTRC_duration_listbox.insert(tk.END, f"{timestamp:<30}{time_str:<40}")
 
+
+
+statusbit_duration_label = tk.Label(metrics_window, text="Time between StatusBit ON and OFF events:", font=("Arial", 12))
+statusbit_duration_label.pack()
+
+statusbit_duration_listbox = tk.Listbox(metrics_window, height=10, width=65)
+statusbit_duration_listbox.pack()
+
+on_times, time_differences = calculate_on_off_time_differences(new_file_path)
+events = sorted(list(zip(on_times, time_differences)))
+statusbit_duration_listbox.insert(tk.END, f"{'Timestamp':<30}{'Time Difference (minutes:seconds:ms)':<40}")
+for event in events:
+    timestamp = event[0].strftime('%d-%m-%Y %H:%M:%S.%f')
+    time_diff = event[1]
+    seconds = abs(time_diff.total_seconds())
+    hours = int(seconds / 3600)
+    minutes = int((seconds % 3600) / 60)
+    seconds = int(seconds % 60)
+    time_str = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+    statusbit_duration_listbox.insert(tk.END, f"{timestamp:<30}{time_str:<40}")
+
+
+
+
+if len(event) >= 3:
+    BTRC_ONOFF_label.pack(pady=20)
 summary_label.pack(pady=20)
 summary_text.pack()
 
