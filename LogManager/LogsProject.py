@@ -7,6 +7,7 @@ from datetime import datetime
 
 
 
+
 #----------------- FILE SELECTION -----------------
 root = tk.Tk()
 root.withdraw()
@@ -95,9 +96,7 @@ for event in events:
     seconds = int(seconds % 60)
 
 
-#-------------------------------- STATUSBIT TIME DIFFERENCE --------------------
-
-
+#-------------------------------- STATUSBIT ONOFF TIME DIFFERENCE --------------------
 
 def calculate_on_off_time_differences(new_file_path):
     with open(new_file_path, 'r') as file:
@@ -133,6 +132,46 @@ for event in events:
     hours = int(seconds / 3600)
     minutes = int((seconds % 3600) / 60)
     seconds = int(seconds % 60)
+
+#-------------------------------- STATUSBIT DAC TIME DIFFERENCE --------------------
+
+def calculate_dac_time_differences(new_file_path):
+    with open(new_file_path, 'r') as file:
+        lines = file.readlines()
+    dac_0_times = []
+    dac_1_times = []
+    for line in lines:
+        if "DAC_SIGNAL = 0" in line:
+            dac_0_times.append(datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
+        if "DAC_SIGNAL = 1" in line:
+            dac_1_times.append(datetime.strptime(line[:23], '%d-%m-%Y %H:%M:%S.%f'))
+    dac_0_times = sorted(dac_0_times)
+    dac_1_times = sorted(dac_1_times)
+    time_differences = []
+    i = 0
+    while i < len(dac_0_times):
+        j = 0
+        while j < len(dac_1_times) and dac_1_times[j] < dac_0_times[i]:
+            j += 1
+        if j >= len(dac_1_times):
+            break
+        time_difference = dac_1_times[j] - dac_0_times[i]
+        time_differences.append(time_difference)
+        i += 1
+    return dac_0_times, time_differences
+
+dac_0_times, time_differences = calculate_dac_time_differences(new_file_path)
+events = sorted(list(zip(dac_0_times, time_differences)))
+for i in range(len(events)-1):
+    start_time = events[i][0]
+    end_time = events[i+1][0]
+    time_diff = events[i+1][1]
+    timestamp = start_time.strftime('%d-%m-%Y %H:%M:%S.%f')
+    total_seconds = abs(int(time_diff.total_seconds()))
+    hours, remainder = divmod(total_seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+
+
 
 
 # --------------------- METRICS DISPLAY --------------
@@ -228,7 +267,24 @@ for event in events:
     time_str = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
     statusbit_duration_listbox.insert(tk.END, f"{timestamp:<30}{time_str:<40}")
 
+statusbit_duration_label = tk.Label(metrics_window, text="Time between StatusBit DAC events:", font=("Arial", 12))
+statusbit_duration_label.pack()
 
+statusbit_duration_listbox = tk.Listbox(metrics_window, height=10, width=65)
+statusbit_duration_listbox.pack()
+
+dac_on_times, dac_time_differences = calculate_dac_time_differences(new_file_path)
+events = sorted(list(zip(dac_on_times, dac_time_differences)))
+statusbit_duration_listbox.insert(tk.END, f"{'Timestamp':<30}{'Time Difference (minutes:seconds:ms)':<40}")
+for event in events:
+    timestamp = event[0].strftime('%d-%m-%Y %H:%M:%S.%f')
+    time_diff = event[1]
+    seconds = abs(time_diff.total_seconds())
+    hours = int(seconds / 3600)
+    minutes = int((seconds % 3600) / 60)
+    seconds = int(seconds % 60)
+    time_str = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+    statusbit_duration_listbox.insert(tk.END, f"{timestamp:<30}{time_str:<40}")
 
 
 if len(event) >= 3:
