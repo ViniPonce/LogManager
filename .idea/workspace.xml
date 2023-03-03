@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147020c6-7209-4ca3-b747-96535e4bc90f" name="Changes" comment="Commit time difference StatusBit DAC">
+    <list default="true" id="147020c6-7209-4ca3-b747-96535e4bc90f" name="Changes" comment="Commit time difference logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LogManager/LogsProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogManager/LogsProject.py" afterDir="false" />
     </list>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677613436237</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit time difference logic">
+      <created>1677804291105</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677804291105</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,15 +160,21 @@
     <MESSAGE value="Commit time difference StatusBit ONOFF" />
     <MESSAGE value="Commit time difference StatusBit ONOFF Metrics" />
     <MESSAGE value="Commit time difference StatusBit DAC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit time difference StatusBit DAC" />
+    <MESSAGE value="Commit time difference logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit time difference logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/LogManager/LogsProject.py</url>
-          <line>81</line>
-          <option name="timeStamp" value="16" />
+          <line>75</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LogManager/LogsProject.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
