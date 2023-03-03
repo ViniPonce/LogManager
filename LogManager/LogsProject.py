@@ -35,7 +35,6 @@ def flatten(xs):
     return result
 
 def read_file_as_csv(file):
-
     return list(csv.DictReader(file.splitlines(), delimiter=';', fieldnames=['timestamp', 'status', 'event']))
 def sortByTimestamp(e):
     time_format = "%d-%m-%Y %H:%M:%S.%f" if '.' in e['timestamp'] else "%d-%m-%Y %H:%M:%S"
@@ -61,17 +60,18 @@ with zipfile.ZipFile(file_path, 'r') as zip_ref:
 
     files_dict = dict()
     files = []
-    for key in unique_file_names:
-        file_names = unique_file_names[key]
-        files_dict[key] = []
-        for file_name in file_names:
-            if file_name.endswith('.txt'):
-                with zip_ref.open(file_name) as file:
-                    csv_list = read_file_as_csv(file.read().decode('utf-8'))
-                    files_dict[key].extend(csv_list)
-        files.extend(files_dict.values())
+    #for key in unique_file_names:
+    #    file_names = unique_file_names[key]
+    #    files_dict[key] = []
+    for file_name in file_names:
+        if file_name.endswith('.txt'):
+            with zip_ref.open(file_name) as file:
+                csv_list = read_file_as_csv(file.read().decode('utf-8'))
+                files.extend(csv_list)
+                    #files_dict[key].extend(csv_list)
+        #files.update(tuple(files_dict.values()))
 
-    files = list(flatten(files))
+    #files = list(flatten(files))
     print('Please wait, the files are being sorted.')
     files.sort(key=sortByTimestamp)
 
@@ -121,70 +121,78 @@ def calculate_time_differences(new_file_path):
 
 def display_events_in_listbox(events, listbox):
     listbox.delete(0, tk.END)
-    listbox.insert(tk.END, "Timestamp                    Time Difference(hours:minutes:seconds)")
+    listbox.insert(tk.END, "                   Timestamp                      Time Difference(hours:minutes:seconds)")
     for event in events:
         disconnected_time = event[0]
-        time_difference = event[1]
+        time_difference = event[-1]
         seconds = time_difference.total_seconds()
         hours = int(seconds / 3600)
         minutes = int((seconds % 3600) / 60)
         seconds = int(seconds % 60)
         timestamp = disconnected_time.strftime('%d-%m-%Y %H:%M:%S')
-        text = f'{timestamp.ljust(25)}  {hours:02d}:{minutes:02d}:{seconds:02d}'.ljust(20)
+        text = f'{timestamp.ljust(25)}           {hours:02d}:{minutes:02d}:{seconds:02d}'.ljust(20)
         listbox.insert(tk.END, text)
 #-------------------------- BTRC TIME DIFERENCE ----------------------------------
 
-#-------------------------------- STATUSBIT ONOFF TIME DIFFERENCE --------------------
-def get_on_off_time_differences(files):
-    on_off_events = []
-    on_off_0_time = None
-    on_off_1_found = False
+def get_time_differences(files, status_log, event):
+    events = []
+    time_0 = None
+    found_1 = False
 
     for line in files:
-        # Se a linha não tem pelo menos três partes, pula para a próxima
+
         if len(line) < 3:
             continue
 
         try:
             timestamp = datetime.strptime(line['timestamp'], '%d-%m-%Y %H:%M:%S.%f')
         except ValueError:
-            # Se não conseguir converter a data/hora, pula para a próxima linha
-            continue
-        # Verifica se a linha contém a string "StatusBitLog"
-        status_log = line['status']
-        if "StatusBitLog" not in status_log:
+
             continue
 
-        event = line['event']
-        if not event.startswith("ONOFF ="):
+        line_status_log = line['status']
+        if status_log not in line_status_log:
             continue
-        # Extrai o valor de ONOFF da terceira parte
-        onoff_str = event.strip().split("=")[-1]
+
+        line_event = line['event']
+        if not line_event.startswith(event):
+            continue
+
+        line_event_value_str = line_event.strip().split("=")[-1]
         try:
-            onoff = int(onoff_str)
+            line_event_value = int(line_event_value_str)
         except ValueError:
-            # Se não conseguir converter o valor de ONOFF para inteiro, pula para a próxima linha
-            continue
-        # Se o valor de ONOFF for 0, registra a data/hora como a de ONOFF=0
-        if onoff == 0:
-            if on_off_0_time is None:
-                on_off_0_time = timestamp
-        # Se o valor de ONOFF for 1, registra a diferença entre a data/hora atual e a de ONOFF=0
-        elif onoff == 1:
-            if on_off_0_time is not None and not on_off_1_found:
-                on_off_1_time = timestamp
-                on_off_time_difference = on_off_1_time - on_off_0_time
-                on_off_events.append((on_off_0_time, on_off_1_time, on_off_time_difference))
-                on_off_0_time = None
-                on_off_1_found = False
-    return on_off_events
 
-on_off_events = get_on_off_time_differences(files)
-for event in on_off_events:
-    on_off_0_time = event[0].strftime("%d-%m-%Y %H:%M:%S.%f")
-    on_off_1_time = event[1].strftime("%d-%m-%Y %H:%M:%S.%f")
-    on_off_time_difference = event[2]
-    print(f"ON/OFF event: {on_off_0_time} - {on_off_1_time} -> {on_off_time_difference}")
+            continue
+
+        if line_event_value == 1:
+            if time_0 is None:
+                time_0 = timestamp
+
+        elif line_event_value == 0:
+            if time_0 is not None and not found_1:
+                time_1 = timestamp
+                time_difference = time_1 - time_0
+                events.append((time_0, time_1, time_difference))
+                time_0 = None
+                found_1 = False
+    return events
+
+
+#-------------------------------- STATUSBIT ONOFF TIME DIFFERENCE --------------------
+def print_events(events, event_name):
+    for event in events:
+        time_0 = event[0].strftime("%d-%m-%Y %H:%M:%S.%f")
+        time_1 = event[1].strftime("%d-%m-%Y %H:%M:%S.%f")
+        time_difference = event[2]
+        print(f"{event_name} event: {time_0} - {time_1} -> {time_difference}")
+
+#print('Getting ON/OFF time differences')
+#on_off_events = get_time_differences(files, 'StatusBitLog', 'ONOFF =')
+#print('Getting DAC_SIGNAL time differences')
+#dac_signal_events = get_time_differences(files, 'StatusBitLog', 'DAC_SIGNAL =')
+#print_events(on_off_events, 'ON/OFF')
+#print_events(dac_signal_events, 'DAC SIGNAL')
 
 #-------------------------------- STATUSBIT ONOFF TIME DIFFERENCE --------------------
 
@@ -282,7 +290,16 @@ display_events_in_listbox(events, listbox)
 #------------------ BTRC LISTBOX ------------
 
 #------------------ STATUSBIT ONOFF LISTBOX ------------
+on_off_listbox = tk.Listbox(metrics_window, width=65, height=10, font=("Arial", 8))
+on_off_listbox.place(x=50, y=250)
 
+# BTRC Ocurrences text
+on_off_label = tk.Label(metrics_window, text="ONOFF Time Differences", font=("Arial", 10, "bold"))
+on_off_label.place(x=160, y=200)
+
+# Events to the Listbox
+on_off_events = get_time_differences(files, 'StatusBitLog', 'ONOFF =')
+display_events_in_listbox(on_off_events, on_off_listbox)
 
 
 #------------------ STATUSBIT ONOFF LISTBOX ------------
