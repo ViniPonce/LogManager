@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147020c6-7209-4ca3-b747-96535e4bc90f" name="Changes" comment="Commit time difference StatusBit ONOFF Metrics">
+    <list default="true" id="147020c6-7209-4ca3-b747-96535e4bc90f" name="Changes" comment="Commit time difference StatusBit DAC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LogManager/LogsProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogManager/LogsProject.py" afterDir="false" />
     </list>
@@ -125,8 +125,26 @@
       <option name="project" value="LOCAL" />
       <updated>1677530186928</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit time difference StatusBit DAC">
+      <created>1677613436237</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677613436237</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -134,6 +152,18 @@
     <MESSAGE value="Commit time difference BTRC" />
     <MESSAGE value="Commit time difference StatusBit ONOFF" />
     <MESSAGE value="Commit time difference StatusBit ONOFF Metrics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit time difference StatusBit ONOFF Metrics" />
+    <MESSAGE value="Commit time difference StatusBit DAC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit time difference StatusBit DAC" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LogManager/LogsProject.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
