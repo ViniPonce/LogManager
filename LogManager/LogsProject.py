@@ -5,9 +5,6 @@ from tkinter import filedialog
 from tkinter import messagebox
 from datetime import datetime
 import csv
-from collections.abc import Iterable
-
-
 
 
 
@@ -224,26 +221,26 @@ metrics_window = tk.Tk()
 metrics_window.title("Files Metrics")
 metrics_window.geometry("1900x1500")
 
-OS_RST_label = tk.Label(metrics_window, text="OS_RST occurrences:", font=("Arial", 12, "bold"))
-OS_RST_count_label = tk.Label(metrics_window, text=OS_RST_count, font=("Arial", 12))
-OS_RST_dates_label = tk.Label(metrics_window, text="OS_RST occurrence dates:", font=("Arial", 12, "bold"))
+OS_RST_label = tk.Label(metrics_window, text="OS_RST occurrences:", font=("Arial", 10, "bold"))
+OS_RST_count_label = tk.Label(metrics_window, text=OS_RST_count, font=("Arial", 8))
+OS_RST_dates_label = tk.Label(metrics_window, text="OS_RST occurrence dates:", font=("Arial", 10, "bold"))
 
 OS_RST_scrollbar = tk.Scrollbar(metrics_window)
 OS_RST_dates_text = tk.Text(metrics_window, height=5, width=30, yscrollcommand=OS_RST_scrollbar.set)
 OS_RST_dates_text.insert(tk.END, '\n'.join(OS_RST_dates))
 OS_RST_scrollbar.config(command=OS_RST_dates_text.yview)
 
-MRST_label = tk.Label(metrics_window, text="MRST occurrences:", font=("Arial", 12, "bold"))
-MRST_count_label = tk.Label(metrics_window, text=MRST_count, font=("Arial", 12))
-MRST_dates_label = tk.Label(metrics_window, text="MRST occurrence dates:", font=("Arial", 12, "bold"))
+MRST_label = tk.Label(metrics_window, text="MRST occurrences:", font=("Arial", 10, "bold"))
+MRST_count_label = tk.Label(metrics_window, text=MRST_count, font=("Arial", 8))
+MRST_dates_label = tk.Label(metrics_window, text="MRST occurrence dates:", font=("Arial", 10, "bold"))
 
 MRST_scrollbar = tk.Scrollbar(metrics_window)
 MRST_dates_text = tk.Text(metrics_window, height=5, width=30, yscrollcommand=MRST_scrollbar.set)
 MRST_dates_text.insert(tk.END, '\n'.join(MRST_dates))
 MRST_scrollbar.config(command=MRST_dates_text.yview)
 
-summary_label = tk.Label(metrics_window, text="Summary:", font=("Arial", 12, "bold"))
-summary_text = tk.Label(metrics_window, text=f"PM7 had {OS_RST_count + MRST_count} resets, which {OS_RST_count} of them were from Operating System resets, {MRST_count} of them were from APP resets", font=("Arial", 12))
+summary_label = tk.Label(metrics_window, text="Summary:", font=("Arial", 10, "bold"))
+summary_text = tk.Label(metrics_window, text=f"PM7 had {OS_RST_count + MRST_count} resets, which {OS_RST_count} of them were from Operating System resets, {MRST_count} of them were from APP resets.", font=("Arial", 8))
 
 OS_RST_label.pack()
 OS_RST_count_label.pack()
