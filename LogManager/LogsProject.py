@@ -134,6 +134,7 @@ def display_events_in_listbox(events, listbox):
         listbox.insert(tk.END, text)
 #-------------------------- BTRC TIME DIFERENCE ----------------------------------
 
+#----------------------- STATUSBIT TIME DIFFERENCES -----------------
 def get_time_differences(files, status_log, event):
     events = []
     time_0 = None
@@ -177,27 +178,6 @@ def get_time_differences(files, status_log, event):
                 time_0 = None
                 found_1 = False
     return events
-
-
-#-------------------------------- STATUSBIT ONOFF TIME DIFFERENCE --------------------
-def print_events(events, event_name):
-    for event in events:
-        time_0 = event[0].strftime("%d-%m-%Y %H:%M:%S.%f")
-        time_1 = event[1].strftime("%d-%m-%Y %H:%M:%S.%f")
-        time_difference = event[2]
-        print(f"{event_name} event: {time_0} - {time_1} -> {time_difference}")
-
-#print('Getting ON/OFF time differences')
-#on_off_events = get_time_differences(files, 'StatusBitLog', 'ONOFF =')
-#print('Getting DAC_SIGNAL time differences')
-#dac_signal_events = get_time_differences(files, 'StatusBitLog', 'DAC_SIGNAL =')
-#print_events(on_off_events, 'ON/OFF')
-#print_events(dac_signal_events, 'DAC SIGNAL')
-
-#-------------------------------- STATUSBIT ONOFF TIME DIFFERENCE --------------------
-
-#----------------------- STATUSBIT DAC TIME DIFFERENCE -----------------
-
 def calculate_dac_signal_durations(new_file_path):
     disconnected_times = []
     connected_times = []
@@ -237,6 +217,8 @@ def calculate_dac_signal_durations(new_file_path):
                 time_differences.append(datetime.fromtimestamp(ct/1000) - datetime.fromtimestamp(dt/1000))
     return disconnected_times, time_differences, connected_times
 
+#----------------------- STATUSBIT TIME DIFFERENCES -----------------
+
 # --------------------- METRICS DISPLAY --------------
 metrics_window = tk.Tk()
 metrics_window.title("Files Metrics")
@@ -275,7 +257,6 @@ MRST_dates_text.pack()
 
 
 #------------------ BTRC LISTBOX ------------
-
 # Create Listbox
 listbox = tk.Listbox(metrics_window, width=65, height=10, font=("Arial", 8))
 listbox.place(x=50, y=30)
@@ -290,47 +271,34 @@ display_events_in_listbox(events, listbox)
 #------------------ BTRC LISTBOX ------------
 
 #------------------ STATUSBIT ONOFF LISTBOX ------------
+# Create Listbox
 on_off_listbox = tk.Listbox(metrics_window, width=65, height=10, font=("Arial", 8))
 on_off_listbox.place(x=50, y=250)
 
 # BTRC Ocurrences text
 on_off_label = tk.Label(metrics_window, text="ONOFF Time Differences", font=("Arial", 10, "bold"))
-on_off_label.place(x=160, y=200)
+on_off_label.place(x=140, y=225)
 
 # Events to the Listbox
 on_off_events = get_time_differences(files, 'StatusBitLog', 'ONOFF =')
 display_events_in_listbox(on_off_events, on_off_listbox)
-
-
 #------------------ STATUSBIT ONOFF LISTBOX ------------
 
-#----------------- dac
+#----------------- STATUSBIT DAC LISTBOX ---------------
 
-dac_signal_duration_label = tk.Label(metrics_window, text="Time between DAC_SIGNAL OFF and ON events:", font=("Arial", 12))
-dac_signal_duration_label.pack()
+# Create Listbox
+dac_signal_listbox = tk.Listbox(metrics_window, width=65, height=10, font=("Arial", 8))
+dac_signal_listbox.place(x=50, y=495)
 
-dac_signal_duration_listbox = tk.Listbox(metrics_window, height=10, width=65)
-dac_signal_duration_listbox.pack()
+# BTRC Ocurrences text
+dac_signal_label = tk.Label(metrics_window, text="DAC_SIGNAL Time Differences", font=("Arial", 10, "bold"))
+dac_signal_label.place(x=120, y=470)
 
-disconnected_times, time_differences, connected_times = calculate_dac_signal_durations(new_file_path)
+# Events to the Listbox
+dac_signal_events = get_time_differences(files, 'StatusBitLog', 'DAC_SIGNAL =')
+display_events_in_listbox(dac_signal_events, dac_signal_listbox)
 
-if len(disconnected_times) > 0:
-    events = sorted(list(zip(disconnected_times, time_differences, connected_times)))
-    dac_signal_duration_listbox.insert(tk.END, f"{'Disconnected Time':<30}{'Connected Time':<30}{'Time Difference (minutes:seconds:ms)':<40}")
-    for event in events:
-        disconnected_time = event[0].strftime('%d-%m-%Y %H:%M:%S.%f')[:-3] if event[0] else ''
-        connected_time = event[2].strftime('%d-%m-%Y %H:%M:%S.%f')[:-3] if event[2] else ''
-        time_diff = event[1]
-        time_str = ''
-        if time_diff:
-            seconds = abs(time_diff.total_seconds())
-            hours = int(seconds / 3600)
-            minutes = int((seconds % 3600) / 60)
-            seconds = int(seconds % 60)
-            time_str = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
-        dac_signal_duration_listbox.insert(tk.END, f"{disconnected_time:<30}{connected_time:<30}{time_str:<40}")
-else:
-    dac_signal_duration_listbox.insert(tk.END, "No DAC_SIGNAL OFF and ON events found.")
+#----------------- STATUSBIT DAC LISTBOX ---------------
 
 summary_label.pack(pady=20)
 summary_text.pack()
