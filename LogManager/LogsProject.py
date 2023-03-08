@@ -65,10 +65,7 @@ with zipfile.ZipFile(file_path, 'r') as zip_ref:
             with zip_ref.open(file_name) as file:
                 csv_list = read_file_as_csv(file.read().decode('utf-8'))
                 files.extend(csv_list)
-                    #files_dict[key].extend(csv_list)
-        #files.update(tuple(files_dict.values()))
 
-    #files = list(flatten(files))
     print('Please wait, the files are being sorted.')
     files.sort(key=sortByTimestamp)
 

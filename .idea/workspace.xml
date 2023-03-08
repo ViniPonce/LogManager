@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678075484375</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commit time difference logic/UI">
+      <created>1678076256883</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678076256883</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,21 +184,5 @@
     <MESSAGE value="Commit time difference logic" />
     <MESSAGE value="Commit time difference logic/UI" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit time difference logic/UI" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LogManager/LogsProject.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LogManager/LogsProject.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
