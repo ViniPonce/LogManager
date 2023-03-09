@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import ttk
 import zipfile
 import os
 from tkinter import filedialog
@@ -213,88 +214,85 @@ def calculate_dac_signal_durations(new_file_path):
 
 #----------------------- STATUSBIT TIME DIFFERENCES -----------------
 
-# --------------------- METRICS DISPLAY --------------
+# Crie a janela
 metrics_window = tk.Tk()
 metrics_window.title("Files Metrics")
 metrics_window.geometry("1900x1500")
 
-OS_RST_label = tk.Label(metrics_window, text="OS_RST occurrences:", font=("Arial", 10, "bold"))
-OS_RST_count_label = tk.Label(metrics_window, text=OS_RST_count, font=("Arial", 8))
-OS_RST_dates_label = tk.Label(metrics_window, text="OS_RST occurrence dates:", font=("Arial", 10, "bold"))
+# Crie o frame superior para as abas
+top_frame = tk.Frame(metrics_window)
+top_frame.pack(side="top", fill="x")
 
-OS_RST_scrollbar = tk.Scrollbar(metrics_window)
-OS_RST_dates_text = tk.Text(metrics_window, height=5, width=30, yscrollcommand=OS_RST_scrollbar.set)
-OS_RST_dates_text.insert(tk.END, '\n'.join(OS_RST_dates))
-OS_RST_scrollbar.config(command=OS_RST_dates_text.yview)
+# Crie as abas
+notebook = ttk.Notebook(top_frame, width=1780, height=1300)
 
-MRST_label = tk.Label(metrics_window, text="MRST occurrences:", font=("Arial", 10, "bold"))
-MRST_count_label = tk.Label(metrics_window, text=MRST_count, font=("Arial", 8))
-MRST_dates_label = tk.Label(metrics_window, text="MRST occurrence dates:", font=("Arial", 10, "bold"))
+summary_tab = tk.Frame(notebook)
+log_analysis_tab = tk.Frame(notebook)
+status_bit_analysis_tab = tk.Frame(notebook)
 
-MRST_scrollbar = tk.Scrollbar(metrics_window)
-MRST_dates_text = tk.Text(metrics_window, height=5, width=30, yscrollcommand=MRST_scrollbar.set)
-MRST_dates_text.insert(tk.END, '\n'.join(MRST_dates))
-MRST_scrollbar.config(command=MRST_dates_text.yview)
+notebook.add(summary_tab, text="Summary")
+notebook.add(log_analysis_tab, text="Log analysis")
+notebook.add(status_bit_analysis_tab, text="Status bit analysis")
 
-summary_label = tk.Label(metrics_window, text="Summary:", font=("Arial", 10, "bold"))
-summary_text = tk.Label(metrics_window, text=f"PM7 had {OS_RST_count + MRST_count} resets, which {OS_RST_count} of them were from Operating System resets, {MRST_count} of them were from APP resets.", font=("Arial", 8))
+notebook.pack(side="top")
 
-OS_RST_label.pack()
-OS_RST_count_label.pack()
-OS_RST_dates_label.pack()
-OS_RST_dates_text.pack()
+# Crie os widgets para a aba "Summary"
+summary_label = tk.Label(summary_tab, text="Summary:", font=("Arial", 10, "bold"))
+summary_label.pack(pady=20)
 
-MRST_label.pack()
-MRST_count_label.pack()
-MRST_dates_label.pack()
-MRST_dates_text.pack()
+summary_text = tk.Label(summary_tab, text=f"PM7 had {OS_RST_count + MRST_count} resets, which {OS_RST_count} of them were from Operating System resets, {MRST_count} of them were from APP resets.", font=("Arial", 8))
+summary_text.pack()
 
+# Crie os widgets para a aba "Log analysis"
+log_analysis_label = tk.Label(log_analysis_tab, text="BTRC Lost Connection Ocurrences:", font=("Arial", 10, "bold"))
+log_analysis_label.pack(pady=40)
 
-#------------------ BTRC LISTBOX ------------
-# Create Listbox
-listbox = tk.Listbox(metrics_window, width=65, height=10, font=("Arial", 8))
-listbox.place(x=50, y=30)
+log_listbox = tk.Listbox(log_analysis_tab, width=80, height=20, font=("Arial", 8))
+log_listbox.pack(pady=20, padx=20)
 
-# BTRC Ocurrences text
-label = tk.Label(metrics_window, text="BTRC Lost Connection Occurrences", font=("Arial", 10, "bold"))
-label.place(x=120, y=5)
-
-# Events to the Listbox
 events = calculate_time_differences(new_file_path)
-display_events_in_listbox(events, listbox)
-#------------------ BTRC LISTBOX ------------
+for event in events:
+    log_listbox.insert(tk.END, event)
 
-#------------------ STATUSBIT ONOFF LISTBOX ------------
-# Create Listbox
-on_off_listbox = tk.Listbox(metrics_window, width=65, height=10, font=("Arial", 8))
-on_off_listbox.place(x=50, y=250)
+os_rst_label = tk.Label(log_analysis_tab, text="OS_RST occurrences:", font=("Arial", 10, "bold"))
+os_rst_label.pack(pady=20)
 
-# BTRC Ocurrences text
-on_off_label = tk.Label(metrics_window, text="ONOFF Time Differences", font=("Arial", 10, "bold"))
-on_off_label.place(x=140, y=225)
+os_rst_listbox = tk.Listbox(log_analysis_tab, width=80, height=5, font=("Arial", 8))
+os_rst_listbox.pack(pady=10, padx=20)
 
-# Events to the Listbox
+for date in OS_RST_dates:
+    os_rst_listbox.insert(tk.END, date)
+
+mrst_label = tk.Label(log_analysis_tab, text="MRST occurrences:", font=("Arial", 10, "bold"))
+mrst_label.pack(pady=20)
+
+mrst_listbox = tk.Listbox(log_analysis_tab, width=80, height=5, font=("Arial", 8))
+mrst_listbox.pack(pady=10, padx=20)
+
+for date in MRST_dates:
+    mrst_listbox.insert(tk.END, date)
+
+# Crie os widgets para a aba "Status bit analysis"
+status_bit_analysis_label = tk.Label(status_bit_analysis_tab, text="Status Bit Analysis:", font=("Arial", 10, "bold"))
+status_bit_analysis_label.pack(pady=20)
+
+on_off_label = tk.Label(status_bit_analysis_tab, text="ONOFF occurrences:", font=("Arial", 10, "bold"))
+on_off_label.pack(pady=10)
+
+on_off_listbox = tk.Listbox(status_bit_analysis_tab, width=80, height=5, font=("Arial", 8))
+on_off_listbox.pack(pady=10, padx=20)
+
 on_off_events = get_time_differences(files, 'StatusBitLog', 'ONOFF =')
 display_events_in_listbox(on_off_events, on_off_listbox)
-#------------------ STATUSBIT ONOFF LISTBOX ------------
 
-#----------------- STATUSBIT DAC LISTBOX ---------------
+dac_signal_label = tk.Label(status_bit_analysis_tab, text="DAC_SIGNAL occurrences:", font=("Arial", 10, "bold"))
+dac_signal_label.pack(pady=10)
 
-# Create Listbox
-dac_signal_listbox = tk.Listbox(metrics_window, width=65, height=10, font=("Arial", 8))
-dac_signal_listbox.place(x=50, y=495)
+dac_signal_listbox = tk.Listbox(status_bit_analysis_tab, width=80, height=5, font=("Arial", 8))
+dac_signal_listbox.pack(pady=10, padx=20)
 
-# BTRC Ocurrences text
-dac_signal_label = tk.Label(metrics_window, text="DAC_SIGNAL Time Differences", font=("Arial", 10, "bold"))
-dac_signal_label.place(x=120, y=470)
-
-# Events to the Listbox
 dac_signal_events = get_time_differences(files, 'StatusBitLog', 'DAC_SIGNAL =')
 display_events_in_listbox(dac_signal_events, dac_signal_listbox)
 
-#----------------- STATUSBIT DAC LISTBOX ---------------
-
-summary_label.pack(pady=20)
-summary_text.pack()
-
+# Inicie a janela
 metrics_window.mainloop()
