@@ -1,0 +1,65 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"147020c6-7209-4ca3-b747-96535e4bc90f\" name=\"Changes\" comment=\"Commit UI Tabs change\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"logmanager1\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2LTJZ6Hi3jfN4b2W7Rq3pEVph0m\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"147020c6-7209-4ca3-b747-96535e4bc90f\" name=\"Changes\" comment=\"\" />\r\n      <created>1675889191567</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1675889191567</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"commit 1 to branch1\">\r\n      <created>1675889425986</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675889425986</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"commit 1 to branch1\">\r\n      <created>1675890095484</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675890095484</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Commit time difference BTRC\">\r\n      <created>1675975151954</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675975151954</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Commit time difference BTRC\">\r\n      <created>1675975347271</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675975347271</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Commit time difference BTRC\">\r\n      <created>1676070226414</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676070226414</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Commit time difference BTRC\">\r\n      <created>1676384829710</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676384829710</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Commit time difference BTRC\">\r\n      <created>1676413100378</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676413100378</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Commit time difference BTRC\">\r\n      <created>1676485327110</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676485327110</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Commit time difference StatusBit ONOFF\">\r\n      <created>1676573674989</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676573674989</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Commit time difference StatusBit ONOFF Metrics\">\r\n      <created>1677530186928</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1677530186928</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Commit time difference StatusBit DAC\">\r\n      <created>1677613436237</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1677613436237</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Commit time difference logic\">\r\n      <created>1677804291105</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1677804291105</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Commit time difference logic\">\r\n      <created>1677877495578</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1677877495578</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Commit time difference logic/UI\">\r\n      <created>1678075484375</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678075484375</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Commit time difference logic/UI\">\r\n      <created>1678076256883</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678076256883</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Commit time difference logic/UI\">\r\n      <created>1678278494619</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678278494619</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Commit time difference logic/UI\">\r\n      <created>1678391037955</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678391037955</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"18\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"commit 1 to branch1\" />\r\n    <MESSAGE value=\"Commit time difference BTRC\" />\r\n    <MESSAGE value=\"Commit time difference StatusBit ONOFF\" />\r\n    <MESSAGE value=\"Commit time difference StatusBit ONOFF Metrics\" />\r\n    <MESSAGE value=\"Commit time difference StatusBit DAC\" />\r\n    <MESSAGE value=\"Commit time difference logic\" />\r\n    <MESSAGE value=\"Commit time difference logic/UI\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Commit time difference logic/UI\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ae0a04953d54ea434d2e9888122f4f244130dd92)
++++ b/.idea/workspace.xml	(date 1678717969238)
+@@ -4,9 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="147020c6-7209-4ca3-b747-96535e4bc90f" name="Changes" comment="Commit UI Tabs change">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="147020c6-7209-4ca3-b747-96535e4bc90f" name="Changes" comment="Commit UI Tabs change" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -19,10 +17,16 @@
+       </list>
+     </option>
+   </component>
++  <component name="Git.Merge.Settings">
++    <option name="BRANCH" value="master" />
++  </component>
++  <component name="Git.Rebase.Settings">
++    <option name="NEW_BASE" value="master" />
++  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="logmanager1" />
++        <entry key="$PROJECT_DIR$" value="master" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -173,7 +177,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1678391037955</updated>
+     </task>
+-    <option name="localTasksCounter" value="18" />
++    <task id="LOCAL-00018" summary="Commit UI Tabs change">
++      <created>1678717117341</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1678717117341</updated>
++    </task>
++    <option name="localTasksCounter" value="19" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -196,6 +207,7 @@
+     <MESSAGE value="Commit time difference StatusBit DAC" />
+     <MESSAGE value="Commit time difference logic" />
+     <MESSAGE value="Commit time difference logic/UI" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Commit time difference logic/UI" />
++    <MESSAGE value="Commit UI Tabs change" />
++    <option name="LAST_COMMIT_MESSAGE" value="Commit UI Tabs change" />
+   </component>
+ </project>
+\ No newline at end of file
