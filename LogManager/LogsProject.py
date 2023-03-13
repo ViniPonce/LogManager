@@ -375,5 +375,5 @@ display_events_in_listbox(dac_signal_events, dac_signal_listbox)
 summary_label.pack(pady=20)
 summary_text.pack()
 
-
+#----------------
 metrics_window.mainloop()
