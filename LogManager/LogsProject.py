@@ -296,5 +296,5 @@ dac_signal_events = get_time_differences(files, 'StatusBitLog', 'DAC_SIGNAL =')
 display_events_in_listbox(dac_signal_events, dac_signal_listbox)
 #-------------- DAC_SIGNAL Listbox ----------------
 
-
+#---------------------LOOP--------------------
 metrics_window.mainloop()
