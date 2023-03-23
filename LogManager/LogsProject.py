@@ -1,28 +1,37 @@
 import tkinter as tk
 from tkinter import ttk
-import zipfile
 import os
 from tkinter import filedialog
 from tkinter import messagebox
 from datetime import datetime
 import csv
 
-
-
-#----------------- FILE SELECTION -----------------
+# ----------------- FILE SELECTION -----------------
 root = tk.Tk()
 root.withdraw()
+messagebox.showinfo("File selection", "Select your .zip file or .txt file.", parent=root)
+file_path = filedialog.askopenfilename(parent=root)
+if file_path == "":
+    messagebox.showwarning("File Selection", "Process cancelled", parent=root)
+    close(askopenfilename)
 
-messagebox.showinfo("File selection", "Select your .zip file.")
-file_path = filedialog.askopenfilename()
 file_name = os.path.basename(file_path)
-#----------------- FILE SELECTION -----------------
+file_extension = os.path.splitext(file_path)[1]
 
-#----------------- NEW FILE SELECTION --------------
-messagebox.showinfo("New file", "Select the name and the path to save the new file.")
+# ----------------- FILE SELECTION -----------------
 
-new_file_path = filedialog.asksaveasfilename(defaultextension=".txt")
-#----------------- NEW FILE SELECTION --------------
+# ----------------- NEW FILE SELECTION --------------
+if file_name.endswith('.zip'):
+    messagebox.showinfo("New file", "Select the name and the path to save the new file.")
+    new_file_path = filedialog.asksaveasfilename(defaultextension=".txt")
+
+    if new_file_path == "":
+        messagebox.showwarning(" New File ", "Process cancelled", parent=root)
+        close(asksaveasfilename)
+else:
+    new_file_path = file_path
+
+# ----------------- NEW FILE SELECTION --------------
 def flatten(xs):
     result = []
     if isinstance(xs, (list, tuple)):
@@ -32,55 +41,60 @@ def flatten(xs):
         result.append(xs)
     return result
 
+
 def read_file_as_csv(file):
     return list(csv.DictReader(file.splitlines(), delimiter=';', fieldnames=['timestamp', 'status', 'event']))
+
+
 def sortByTimestamp(e):
     time_format = "%d-%m-%Y %H:%M:%S.%f" if '.' in e['timestamp'] else "%d-%m-%Y %H:%M:%S"
     return datetime.strptime(e['timestamp'], time_format)
 
-#----------------- FILES MERGE --------------------
-with zipfile.ZipFile(file_path, 'r') as zip_ref:
-    txt_dir = ''
-    for file_name in zip_ref.namelist():
-        if file_name.endswith('.txt'):
-            txt_dir = os.path.dirname(file_name)
-            break
 
-    file_names = sorted(zip_ref.namelist())
-    unique_file_names = dict()
+# ----------------- FILES MERGE --------------------
+if file_name.endswith('.zip'):
+    with zipfile.ZipFile(file_path, 'r') as zip_ref:
+        txt_dir = ''
+        for file_name in zip_ref.namelist():
+            if file_name.endswith('.txt'):
+                txt_dir = os.path.dirname(file_name)
+                break
 
-    print('Getting File Names.')
-    for file_name in file_names:
-        fn = file_name.split('_')[0]
-        if fn not in unique_file_names:
-            unique_file_names[fn] = []
-        unique_file_names[fn].append(file_name)
+        file_names = sorted(zip_ref.namelist())
+        unique_file_names = dict()
 
-    files_dict = dict()
-    files = []
-    #for key in unique_file_names:
-    #    file_names = unique_file_names[key]
-    #    files_dict[key] = []
-    for file_name in file_names:
-        if file_name.endswith('.txt'):
-            with zip_ref.open(file_name) as file:
-                csv_list = read_file_as_csv(file.read().decode('utf-8'))
-                files.extend(csv_list)
+        print('Getting File Names.')
+        for file_name in file_names:
+            fn = file_name.split('_')[0]
+            if fn not in unique_file_names:
+                unique_file_names[fn] = []
+            unique_file_names[fn].append(file_name)
 
-    print('Please wait, the files are being sorted.')
-    files.sort(key=sortByTimestamp)
+        files_dict = dict()
+        files = []
+        # for key in unique_file_names:
+        #    file_names = unique_file_names[key]
+        #    files_dict[key] = []
+        for file_name in file_names:
+            if file_name.endswith('.txt'):
+                with zip_ref.open(file_name) as file:
+                    csv_list = read_file_as_csv(file.read().decode('utf-8'))
+                    files.extend(csv_list)
 
-    print('Writing to the final file.')
-    with open(new_file_path, 'w', newline='') as outfile:
-        writer = csv.writer(outfile, delimiter=';')
-        for file in files:
-            writer.writerow(flatten(list(file.values())))
+        print('Please wait, the files are being sorted.')
+        files.sort(key=sortByTimestamp)
 
-messagebox.showinfo("Merge Result", f"The contents of the text files have been merged into {new_file_path}.")
-#----------------- FILES MERGE --------------------
+        print('Writing to the final file.')
+        with open(new_file_path, 'w', newline='') as outfile:
+            writer = csv.writer(outfile, delimiter=';')
+            for file in files:
+                writer.writerow(flatten(list(file.values())))
 
+    messagebox.showinfo("Merge Result", f"The contents of the text files have been merged into {new_file_path}.")
 
-#--------------------- FILES METRICS --------------
+# ----------------- FILES MERGE --------------------
+
+# --------------------- FILES METRICS --------------
 with open(new_file_path) as f:
     content = f.readlines()
     OS_RST_dates = []
@@ -95,7 +109,9 @@ with open(new_file_path) as f:
 
     OS_RST_count = len(OS_RST_dates)
     MRST_count = len(MRST_dates)
-#-------------------------- BTRC TIME DIFERENCE ----------------------------------
+
+
+# -------------------------- BTRC TIME DIFERENCE ----------------------------------
 
 def calculate_time_differences(new_file_path):
     with open(new_file_path, 'r') as file:
@@ -114,6 +130,7 @@ def calculate_time_differences(new_file_path):
     events.sort()
     return events
 
+
 def display_events_in_listbox(events, listbox):
     listbox.delete(0, tk.END)
     listbox.insert(tk.END, "            Timestamp                      Time Difference(hours:minutes:seconds)")
@@ -127,23 +144,21 @@ def display_events_in_listbox(events, listbox):
         timestamp = disconnected_time.strftime('%d-%m-%Y %H:%M:%S')
         text = f'{timestamp.ljust(25)}           {hours:02d}:{minutes:02d}:{seconds:02d}'.ljust(20)
         listbox.insert(tk.END, text)
-#-------------------------- BTRC TIME DIFERENCE ----------------------------------
 
-#----------------------- STATUSBIT TIME DIFFERENCES -----------------
-def get_time_differences(files, status_log, event):
+
+# -------------------------- BTRC TIME DIFERENCE ----------------------------------
+
+# ----------------------- STATUSBIT TIME DIFFERENCES -----------------
+def get_time_differences(content, status_log, event):
     events = []
     time_0 = None
     found_1 = False
 
-    for line in files:
-
-        if len(line) < 3:
-            continue
-
+    lines = csv.DictReader(content, delimiter=';', fieldnames=['timestamp', 'status', 'event'])
+    for line in lines:
         try:
             timestamp = datetime.strptime(line['timestamp'], '%d-%m-%Y %H:%M:%S.%f')
         except ValueError:
-
             continue
 
         line_status_log = line['status']
@@ -158,7 +173,6 @@ def get_time_differences(files, status_log, event):
         try:
             line_event_value = int(line_event_value_str)
         except ValueError:
-
             continue
 
         if line_event_value == 1:
@@ -173,6 +187,7 @@ def get_time_differences(files, status_log, event):
                 time_0 = None
                 found_1 = False
     return events
+
 def calculate_dac_signal_durations(new_file_path):
     disconnected_times = []
     connected_times = []
@@ -209,10 +224,11 @@ def calculate_dac_signal_durations(new_file_path):
             if dt is None or ct is None:
                 time_differences.append(None)
             else:
-                time_differences.append(datetime.fromtimestamp(ct/1000) - datetime.fromtimestamp(dt/1000))
+                time_differences.append(datetime.fromtimestamp(ct / 1000) - datetime.fromtimestamp(dt / 1000))
     return disconnected_times, time_differences, connected_times
 
-#----------------------- STATUSBIT TIME DIFFERENCES -----------------
+
+# ----------------------- STATUSBIT TIME DIFFERENCES -----------------
 
 # --------------------- METRICS DISPLAY --------------
 
@@ -238,9 +254,11 @@ notebook.pack(side="top")
 summary_label = tk.Label(summary_tab, text="Summary:", font=("Arial", 10, "bold"))
 summary_label.pack(pady=20)
 
-summary_text = tk.Label(summary_tab, text=f"PM7 had {OS_RST_count + MRST_count} resets, which {OS_RST_count} of them were from Operating System resets, {MRST_count} of them were from APP resets.", font=("Arial", 8))
+summary_text = tk.Label(summary_tab,
+                        text=f"PM7 had {OS_RST_count + MRST_count} resets, which {OS_RST_count} of them were from Operating System resets, {MRST_count} of them were from APP resets.",
+                        font=("Arial", 8))
 summary_text.pack()
-#-------------- BTRC Listbox ----------------
+# -------------- BTRC Listbox ----------------
 btrc_label = tk.Label(log_analysis_tab, text="BTRC Lost Connection Occurrences:", font=("Arial", 10, "bold"))
 btrc_label.grid(row=0, column=0, pady=10, padx=20)
 
@@ -250,7 +268,7 @@ btrc_listbox.grid(row=1, column=0, pady=20, padx=20)
 events = calculate_time_differences(new_file_path)
 display_events_in_listbox(events, btrc_listbox)
 
-#-------------- OS_RST Listbox ----------------
+# -------------- OS_RST Listbox ----------------
 os_rst_label = tk.Label(log_analysis_tab, text="OS_RST Occurrences:", font=("Arial", 10, "bold"))
 os_rst_label.grid(row=0, column=1, pady=10, padx=20)
 
@@ -260,9 +278,9 @@ os_rst_listbox.insert(0, "                   Timestamp                      ")
 
 for date in OS_RST_dates:
     os_rst_listbox.insert(tk.END, date)
-#-------------- OS_RST Listbox ----------------
+# -------------- OS_RST Listbox ----------------
 
-#-------------- MRST Listbox ----------------
+# -------------- MRST Listbox ----------------
 mrst_label = tk.Label(log_analysis_tab, text="MRST Occurrences:", font=("Arial", 10, "bold"))
 mrst_label.grid(row=0, column=2, pady=10, padx=20)
 
@@ -272,29 +290,29 @@ mrst_listbox.insert(0, "                   Timestamp                      ")
 
 for date in MRST_dates:
     mrst_listbox.insert(tk.END, date)
-#-------------- MRST Listbox ----------------
+# -------------- MRST Listbox ----------------
 
-#-------------- ONOFF Listbox ----------------
+# -------------- ONOFF Listbox ----------------
 on_off_label = tk.Label(status_bit_analysis_tab, text="ONOFF Time Differences:", font=("Arial", 10, "bold"))
 on_off_label.pack(pady=10)
 
 on_off_listbox = tk.Listbox(status_bit_analysis_tab, width=80, height=20, font=("Arial", 8))
 on_off_listbox.pack(pady=10, padx=20)
 
-on_off_events = get_time_differences(files, 'StatusBitLog', 'ONOFF =')
+on_off_events = get_time_differences(content, 'StatusBitLog', 'ONOFF =')
 display_events_in_listbox(on_off_events, on_off_listbox)
-#-------------- ONOFF Listbox ----------------
+# -------------- ONOFF Listbox ----------------
 
-#-------------- DAC_SIGNAL Listbox ----------------
+# -------------- DAC_SIGNAL Listbox ----------------
 dac_signal_label = tk.Label(status_bit_analysis_tab, text="DAC_Signal Time Differences:", font=("Arial", 10, "bold"))
 dac_signal_label.pack(pady=10)
 
 dac_signal_listbox = tk.Listbox(status_bit_analysis_tab, width=80, height=20, font=("Arial", 8))
 dac_signal_listbox.pack(pady=10, padx=20)
 
-dac_signal_events = get_time_differences(files, 'StatusBitLog', 'DAC_SIGNAL =')
+dac_signal_events = get_time_differences(content, 'StatusBitLog', 'DAC_SIGNAL =')
 display_events_in_listbox(dac_signal_events, dac_signal_listbox)
-#-------------- DAC_SIGNAL Listbox ----------------
+# -------------- DAC_SIGNAL Listbox ----------------
 
-#---------------------LOOP--------------------
+# ---------------------LOOP--------------------
 metrics_window.mainloop()
