@@ -183,7 +183,7 @@ def get_time_differences(content, status_log, event):
             if time_0 is not None and not found_1:
                 time_1 = timestamp
                 time_difference = time_1 - time_0
-                events.append((time_0, time_1, time_difference))
+                events.append((time_0, time_difference))
                 time_0 = None
                 found_1 = False
     return events
