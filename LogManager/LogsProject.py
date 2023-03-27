@@ -5,6 +5,7 @@ from tkinter import filedialog
 from tkinter import messagebox
 from datetime import datetime
 import csv
+import pandas as pd
 
 # ----------------- FILE SELECTION -----------------
 root = tk.Tk()
@@ -183,10 +184,13 @@ def get_time_differences(content, status_log, event):
             if time_0 is not None and not found_1:
                 time_1 = timestamp
                 time_difference = time_1 - time_0
-                events.append((time_0, time_difference))
+                events.append({"Timestamp": time_0, "Time Difference": time_difference})
                 time_0 = None
                 found_1 = False
-    return events
+    return pd.DataFrame(events)
+
+dac_signal_events = get_time_differences(content, 'StatusBitLog', 'DAC_SIGNAL')
+on_off_events = get_time_differences(content, 'StatusBitLog', 'ONOFF')
 
 def calculate_dac_signal_durations(new_file_path):
     disconnected_times = []
@@ -292,27 +296,68 @@ for date in MRST_dates:
     mrst_listbox.insert(tk.END, date)
 # -------------- MRST Listbox ----------------
 
-# -------------- ONOFF Listbox ----------------
-on_off_label = tk.Label(status_bit_analysis_tab, text="ONOFF Time Differences:", font=("Arial", 10, "bold"))
-on_off_label.pack(pady=10)
+# Atualizar a função para lidar com DataFrames
+def display_events_in_treeview(events_df, treeview):
+    treeview.delete(*treeview.get_children())
+    for index, row in events_df.iterrows():
+        treeview.insert("", "end", values=(row["Timestamp"], row["Time Difference"]))
 
-on_off_listbox = tk.Listbox(status_bit_analysis_tab, width=80, height=20, font=("Arial", 8))
-on_off_listbox.pack(pady=10, padx=20)
+# Criar DataFrame para DAC_SIGNAL e ONOFF
+dac_signal_df = pd.DataFrame(dac_signal_events)
+on_off_df = pd.DataFrame(on_off_events)
 
-on_off_events = get_time_differences(content, 'StatusBitLog', 'ONOFF =')
-display_events_in_listbox(on_off_events, on_off_listbox)
-# -------------- ONOFF Listbox ----------------
+# Criar Treeview com colunas de Timestamp e Time Difference
+treeview = ttk.Treeview(status_bit_analysis_tab, columns=("Timestamp", "Time Difference"), show="headings")
+treeview.heading("Timestamp", text="Timestamp")
+treeview.heading("Time Difference", text="Time Difference(hours:minutes:seconds)")
+treeview.column("Timestamp", width=150)
+treeview.column("Time Difference", width=150)
+treeview.pack(pady=10, padx=20, fill="both", expand=True)
 
-# -------------- DAC_SIGNAL Listbox ----------------
-dac_signal_label = tk.Label(status_bit_analysis_tab, text="DAC_Signal Time Differences:", font=("Arial", 10, "bold"))
-dac_signal_label.pack(pady=10)
 
-dac_signal_listbox = tk.Listbox(status_bit_analysis_tab, width=80, height=20, font=("Arial", 8))
-dac_signal_listbox.pack(pady=10, padx=20)
+# Função para atualizar a Treeview com base nos checkboxes
+def update_treeview():
+    treeview.delete(*treeview.get_children())
+    merged_df = pd.DataFrame(columns=["Timestamp", "Time Difference"])
 
-dac_signal_events = get_time_differences(content, 'StatusBitLog', 'DAC_SIGNAL =')
-display_events_in_listbox(dac_signal_events, dac_signal_listbox)
-# -------------- DAC_SIGNAL Listbox ----------------
+    if dac_signal_var.get():
+        merged_df = merged_df.append(dac_signal_df, ignore_index=True)
+    if on_off_var.get():
+        merged_df = merged_df.append(on_off_df, ignore_index=True)
+
+    display_events_in_treeview(merged_df, treeview)
+
+# Função para lidar com o estado do checkbox e chamar update_treeview
+def on_checkbutton_click():
+    # Inverte o estado do checkbox
+    if dac_signal_var.get() == on_off_var.get():
+        dac_signal_var.set(not dac_signal_var.get())
+    else:
+        on_off_var.set(not on_off_var.get())
+
+    # Atualiza a Treeview
+    merged_df = pd.DataFrame(columns=["Timestamp", "Time Difference"])
+
+    if dac_signal_var.get():
+        merged_df = merged_df.append(dac_signal_df, ignore_index=True)
+
+    if on_off_var.get():
+        merged_df = merged_df.append(on_off_df, ignore_index=True)
+
+    display_events_in_treeview(merged_df, treeview)
+
+# Criar checkboxes para selecionar DAC_SIGNAL e ONOFF
+dac_signal_var = tk.BooleanVar(value=False)
+on_off_var = tk.BooleanVar(value=False)
+
+dac_signal_check = tk.Checkbutton(status_bit_analysis_tab, text="DAC_SIGNAL", variable=dac_signal_var, command=on_checkbutton_click)
+on_off_check = tk.Checkbutton(status_bit_analysis_tab, text="ONOFF", variable=on_off_var, command=on_checkbutton_click)
+
+dac_signal_check.pack(pady=10)
+on_off_check.pack(pady=10)
+
+# Inicializar a Treeview vazia
+update_treeview()
 
 # ---------------------LOOP--------------------
 metrics_window.mainloop()

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147020c6-7209-4ca3-b747-96535e4bc90f" name="Changes" comment="Commit Implement main window with tabbed navigation">
+    <list default="true" id="147020c6-7209-4ca3-b747-96535e4bc90f" name="Changes" comment="Commit Consolidated Logs Load">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LogManager/LogsProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogManager/LogsProject.py" afterDir="false" />
     </list>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679602270371</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Commit Consolidated Logs Load">
+      <created>1679917557869</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679917557869</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +243,7 @@
     <MESSAGE value="Commit time difference logic" />
     <MESSAGE value="Commit time difference logic/UI" />
     <MESSAGE value="Commit Implement main window with tabbed navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Implement main window with tabbed navigation" />
+    <MESSAGE value="Commit Consolidated Logs Load" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Consolidated Logs Load" />
   </component>
 </project>
