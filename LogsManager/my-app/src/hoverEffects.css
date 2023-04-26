@@ -1,0 +1,16 @@
+.button-hover {
+    transition: background-color 0.3s;
+  }
+  
+  .button-hover:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+  .scale-hover {
+    transition: transform 0.3s;
+  }
+  
+  .scale-hover:hover {
+    transform: scale(1.1);
+  }

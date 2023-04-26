@@ -3,9 +3,12 @@ from tkinter import ttk
 import os
 from tkinter import filedialog
 from tkinter import messagebox
-from datetime import datetime
+from tkinter import simpledialog
+from datetime import datetime, timedelta
 import csv
 import pandas as pd
+ 
+
 
 # ----------------- FILE SELECTION -----------------
 root = tk.Tk()
@@ -150,10 +153,12 @@ def display_events_in_listbox(events, listbox):
 # -------------------------- BTRC TIME DIFERENCE ----------------------------------
 
 # ----------------------- STATUSBIT TIME DIFFERENCES -----------------
+
 def get_time_differences(content, status_log, event):
     events = []
     time_0 = None
     found_1 = False
+    filter_date = None
 
     lines = csv.DictReader(content, delimiter=';', fieldnames=['timestamp', 'status', 'event'])
     for line in lines:
@@ -184,7 +189,12 @@ def get_time_differences(content, status_log, event):
             if time_0 is not None and not found_1:
                 time_1 = timestamp
                 time_difference = time_1 - time_0
-                events.append({"Timestamp": time_0, "Time Difference": time_difference})
+                #filter_date = datetime.strptime('20-01-2023 00:00:00.00', '%d-%m-%Y %H:%M:%S.%f')
+                if filter_date != None:
+                    if (time_0 - filter_date).days >= 0:
+                        events.append({"Timestamp": time_0, "Time Difference": time_difference})
+                else:
+                    events.append({"Timestamp": time_0, "Time Difference": time_difference})
                 time_0 = None
                 found_1 = False
     return pd.DataFrame(events)
@@ -234,130 +244,4 @@ def calculate_dac_signal_durations(new_file_path):
 
 # ----------------------- STATUSBIT TIME DIFFERENCES -----------------
 
-# --------------------- METRICS DISPLAY --------------
 
-metrics_window = tk.Tk()
-metrics_window.title("Files Metrics")
-metrics_window.geometry("1900x1500")
-
-top_frame = tk.Frame(metrics_window)
-top_frame.pack(side="top", fill="x")
-
-notebook = ttk.Notebook(top_frame, width=1780, height=1300)
-
-summary_tab = tk.Frame(notebook)
-log_analysis_tab = tk.Frame(notebook)
-status_bit_analysis_tab = tk.Frame(notebook)
-
-notebook.add(summary_tab, text="Summary")
-notebook.add(log_analysis_tab, text="Log analysis")
-notebook.add(status_bit_analysis_tab, text="Status bit analysis")
-
-notebook.pack(side="top")
-
-summary_label = tk.Label(summary_tab, text="Summary:", font=("Arial", 10, "bold"))
-summary_label.pack(pady=20)
-
-summary_text = tk.Label(summary_tab,
-                        text=f"PM7 had {OS_RST_count + MRST_count} resets, which {OS_RST_count} of them were from Operating System resets, {MRST_count} of them were from APP resets.",
-                        font=("Arial", 8))
-summary_text.pack()
-# -------------- BTRC Listbox ----------------
-btrc_label = tk.Label(log_analysis_tab, text="BTRC Lost Connection Occurrences:", font=("Arial", 10, "bold"))
-btrc_label.grid(row=0, column=0, pady=10, padx=20)
-
-btrc_listbox = tk.Listbox(log_analysis_tab, width=80, height=20, font=("Arial", 8))
-btrc_listbox.grid(row=1, column=0, pady=20, padx=20)
-
-events = calculate_time_differences(new_file_path)
-display_events_in_listbox(events, btrc_listbox)
-
-# -------------- OS_RST Listbox ----------------
-os_rst_label = tk.Label(log_analysis_tab, text="OS_RST Occurrences:", font=("Arial", 10, "bold"))
-os_rst_label.grid(row=0, column=1, pady=10, padx=20)
-
-os_rst_listbox = tk.Listbox(log_analysis_tab, width=80, height=20, font=("Arial", 8))
-os_rst_listbox.grid(row=1, column=1, pady=20, padx=20)
-os_rst_listbox.insert(0, "                   Timestamp                      ")
-
-for date in OS_RST_dates:
-    os_rst_listbox.insert(tk.END, date)
-# -------------- OS_RST Listbox ----------------
-
-# -------------- MRST Listbox ----------------
-mrst_label = tk.Label(log_analysis_tab, text="MRST Occurrences:", font=("Arial", 10, "bold"))
-mrst_label.grid(row=0, column=2, pady=10, padx=20)
-
-mrst_listbox = tk.Listbox(log_analysis_tab, width=80, height=20, font=("Arial", 8))
-mrst_listbox.grid(row=1, column=2, pady=20, padx=20)
-mrst_listbox.insert(0, "                   Timestamp                      ")
-
-for date in MRST_dates:
-    mrst_listbox.insert(tk.END, date)
-# -------------- MRST Listbox ----------------
-
-# Atualizar a função para lidar com DataFrames
-def display_events_in_treeview(events_df, treeview):
-    treeview.delete(*treeview.get_children())
-    for index, row in events_df.iterrows():
-        treeview.insert("", "end", values=(row["Timestamp"], row["Time Difference"]))
-
-# Criar DataFrame para DAC_SIGNAL e ONOFF
-dac_signal_df = pd.DataFrame(dac_signal_events)
-on_off_df = pd.DataFrame(on_off_events)
-
-# Criar Treeview com colunas de Timestamp e Time Difference
-treeview = ttk.Treeview(status_bit_analysis_tab, columns=("Timestamp", "Time Difference"), show="headings")
-treeview.heading("Timestamp", text="Timestamp")
-treeview.heading("Time Difference", text="Time Difference(hours:minutes:seconds)")
-treeview.column("Timestamp", width=150)
-treeview.column("Time Difference", width=150)
-treeview.pack(pady=10, padx=20, fill="both", expand=True)
-
-
-# Função para atualizar a Treeview com base nos checkboxes
-def update_treeview():
-    treeview.delete(*treeview.get_children())
-    merged_df = pd.DataFrame(columns=["Timestamp", "Time Difference"])
-
-    if dac_signal_var.get():
-        merged_df = merged_df.append(dac_signal_df, ignore_index=True)
-    if on_off_var.get():
-        merged_df = merged_df.append(on_off_df, ignore_index=True)
-
-    display_events_in_treeview(merged_df, treeview)
-
-# Função para lidar com o estado do checkbox e chamar update_treeview
-def on_checkbutton_click():
-    # Inverte o estado do checkbox
-    if dac_signal_var.get() == on_off_var.get():
-        dac_signal_var.set(not dac_signal_var.get())
-    else:
-        on_off_var.set(not on_off_var.get())
-
-    # Atualiza a Treeview
-    merged_df = pd.DataFrame(columns=["Timestamp", "Time Difference"])
-
-    if dac_signal_var.get():
-        merged_df = merged_df.append(dac_signal_df, ignore_index=True)
-
-    if on_off_var.get():
-        merged_df = merged_df.append(on_off_df, ignore_index=True)
-
-    display_events_in_treeview(merged_df, treeview)
-
-# Criar checkboxes para selecionar DAC_SIGNAL e ONOFF
-dac_signal_var = tk.BooleanVar(value=False)
-on_off_var = tk.BooleanVar(value=False)
-
-dac_signal_check = tk.Checkbutton(status_bit_analysis_tab, text="DAC_SIGNAL", variable=dac_signal_var, command=on_checkbutton_click)
-on_off_check = tk.Checkbutton(status_bit_analysis_tab, text="ONOFF", variable=on_off_var, command=on_checkbutton_click)
-
-dac_signal_check.pack(pady=10)
-on_off_check.pack(pady=10)
-
-# Inicializar a Treeview vazia
-update_treeview()
-
-# ---------------------LOOP--------------------
-metrics_window.mainloop()
