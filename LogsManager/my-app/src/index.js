@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -11,7 +11,11 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 import './App.css';
 
-
+const lightTheme = createTheme({
+  palette: {
+    mode: 'light',
+  },
+});
 
 const darkTheme = createTheme({
   palette: {
@@ -19,31 +23,38 @@ const darkTheme = createTheme({
   },
 });
 
-
-
 function App() {
+  const [isDarkMode, setIsDarkMode] = React.useState(true);
+
+  const handleThemeToggle = () => {
+    setIsDarkMode(!isDarkMode);
+    console.log('Theme toggled!');
+  };
+
+  const theme = isDarkMode ? darkTheme : lightTheme;
+
   return (
     <div className="container">
-      <Router>
-        <NavigationBar />
-        <div className="content">
-          <Routes>
-            <Route path="/" element={<Summary />} />
-            <Route path="/status-bit-analysis" element={<StatusBitAnalysis />} />
-            <Route path="/log-analysis" element={<LogAnalysis />} />
-          </Routes>
-        </div>
-      </Router>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Router>
+          <NavigationBar onThemeToggle={handleThemeToggle} theme={theme} />
+          <div className="content">
+            <Routes>
+              <Route path="/" element={<Summary />} />
+              <Route path="/status-bit-analysis" element={<StatusBitAnalysis />} />
+              <Route path="/log-analysis" element={<LogAnalysis />} />
+            </Routes>
+          </div>
+        </Router>
+      </ThemeProvider>
     </div>
   );
 }
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      <App />
-    </ThemeProvider>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

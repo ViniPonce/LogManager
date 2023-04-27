@@ -5,18 +5,22 @@ import {
   Card,
   CardContent,
   Grid,
+  Button
 } from '@mui/material';
 
 function Summary() {
   const [file, setFile] = useState(null);
+  const [fileLoaded, setFileLoaded] = useState(false);
 
   const handleFileChange = (event) => {
     const uploadedFile = event.target.files[0];
-    if (uploadedFile && (uploadedFile.type === 'text/plain' || uploadedFile.type === 'application/zip')) {
+    if (uploadedFile && (uploadedFile.type === 'text/plain' || uploadedFile.name.endsWith('.zip'))) {
       setFile(uploadedFile);
+      setFileLoaded(true);
     } else {
       setFile(null);
-      alert('Por favor, carregue um arquivo .txt ou .zip');
+      setFileLoaded(false);
+      alert('Please, select a .txt or .zip file.');
     }
   };
 
@@ -24,41 +28,47 @@ function Summary() {
     if (file) {
       // Processar o arquivo carregado
       console.log('Arquivo carregado:', file);
+      setFileLoaded(true);
     } else {
-      alert('Por favor, selecione um arquivo .txt ou .zip válido');
+      alert('Please, select a valid .txt or .zip file.');
     }
   };
+
+  const handleFileDrop = (event) => {
+    event.preventDefault();
+    const uploadedFile = event.dataTransfer.files[0];
+    if (uploadedFile && (uploadedFile.type === 'text/plain' || uploadedFile.name.endsWith('.zip'))) {
+      setFile(uploadedFile);
+      setFileLoaded(true);
+    } else {
+      setFile(null);
+      setFileLoaded(false);
+      alert('Please, select a .txt or .zip file.');
+    }
+  };
+
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
-      <Typography variant="h4" align="center" gutterBottom>Log Analysis Application</Typography>
-      <Typography variant="h6" align="center" gutterBottom>Welcome</Typography>
+      <Typography variant="h4" align="center" gutterBottom>Welcome to the Log Manager!</Typography>
       
       <Grid container spacing={2} sx={{ marginTop: 2 }}>
-        <Grid item xs={12} sm={6} md={4}>
-          <Card>
-            <CardContent>
-              <Typography variant="h5">Estatística 1</Typography>
-              <Typography variant="body1">Descrição da Estatística 1</Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Card>
-            <CardContent>
-              <Typography variant="h5">Estatística 2</Typography>
-              <Typography variant="body1">Descrição da Estatística 2</Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Card>
-            <CardContent>
-              <Typography variant="h5">Estatística 3</Typography>
-              <Typography variant="body1">Descrição da Estatística 3</Typography>
-            </CardContent>
-          </Card>
-        </Grid>
+        {/* ... */}
       </Grid>
+
+      
+<Box sx={{ marginTop: 2 }}>
+  <Typography variant="h5" align="center" gutterBottom>Please, select or drop your .zip or .txt file below.</Typography>
+  <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+    <label htmlFor="upload-file" onDrop={handleFileDrop} onDragOver={(event) => event.preventDefault()} style={{ border: '4px dashed #aaa', padding: '2rem', borderRadius: '10px', height: '16rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative', width: '80%', maxWidth: '40rem' }}>
+      <input type="file" accept=".txt,.zip" id="upload-file" onChange={handleFileChange} style={{ display: 'none' }} />
+      {fileLoaded ? (
+        <Typography variant="body1" align="center" style={{ marginTop: '1rem' }}>File loaded successfully!</Typography>
+      ) : (
+        <Button variant="contained" component="span" style={{ position: 'absolute', left: '50%', transform: 'translate(-50%, -50%)', top: '50%', width: '90%', maxWidth: '20rem' }}>Select or drop your file here.</Button>
+      )}
+    </label>
+  </Box>
+</Box>
 
       <Box sx={{ marginTop: 4 }}>
         <Typography variant="h5" align="center" gutterBottom>Functionalities</Typography>
@@ -66,8 +76,8 @@ function Summary() {
         <Typography variant="body1">2. Log Analysis - Analyze the logs, filter by date and also see the time difference between the status.</Typography>
         <Typography variant="body1">3. Function XYZ - XYZ.</Typography>
       </Box>
-      
-      {/* Você pode adicionar gráficos, tabelas ou feeds de notícias aqui */}
+
+      {/* Adicione gráficos, tabelas ou feeds de notícias aqui */}
 
     </Box>
   );

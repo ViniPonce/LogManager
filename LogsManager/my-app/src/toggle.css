@@ -1,0 +1,79 @@
+
+.toggle-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+    flex-direction: row-reverse;
+  }
+  
+  .toggle-button-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 34px;
+    background-color: #bdbdbd;
+    transition: .4s;
+  }
+  
+  .toggle-button-slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    border-radius: 50%;
+    background-color: white;
+    transition: .4s;
+  }
+  
+  .toggle-button-slider span {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+  }
+  
+  .toggle-button-slider span:first-child {
+    left: 4px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3431/3431431.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .toggle-button-slider span:last-child {
+    right: 4px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3431/3431473.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .toggle-button-on .toggle-button-slider:before {
+    transform: translateX(24px);
+  }
+  
+  .toggle-button-off .toggle-button-slider:before {
+    transform: translateX(0);
+  }
+  
+  .toggle-button-off .toggle-button-slider {
+    background-color: #f5f5f5;
+  }
+  
+  .toggle-button-on .toggle-button-slider {
+    background-color: #2196f3;
+  }
+  
