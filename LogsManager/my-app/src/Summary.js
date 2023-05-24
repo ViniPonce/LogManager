@@ -7,6 +7,7 @@ import {
   Grid,
   Button
 } from '@mui/material';
+import axios from 'axios';
 
 function Summary() {
   const [file, setFile] = useState(null);
@@ -26,9 +27,17 @@ function Summary() {
 
   const handleFileUpload = () => {
     if (file) {
-      // Processar o arquivo carregado
-      console.log('Arquivo carregado:', file);
-      setFileLoaded(true);
+      const formData = new FormData();
+      formData.append('file', file);
+
+      axios.post('http://localhost:5000/processar', formData) // Ajuste o URL para a porta correta (5000)
+        .then(response => {
+          console.log('Dados processados:', response.data);
+          setFileLoaded(true);
+        })
+        .catch(error => {
+          console.error('Erro ao enviar arquivo:', error);
+        });
     } else {
       alert('Please, select a valid .txt or .zip file.');
     }
@@ -48,37 +57,49 @@ function Summary() {
   };
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
-      <Typography variant="h4" align="center" gutterBottom>Welcome to the Log Manager!</Typography>
-      
-      <Grid container spacing={2} sx={{ marginTop: 2 }}>
-        {/* ... */}
-      </Grid>
+    <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: '80px' }}>
+      <Typography variant="h4" align="center" gutterBottom>Welcome to the Logs Manager!</Typography>
 
-      
-<Box sx={{ marginTop: 2 }}>
-  <Typography variant="h5" align="center" gutterBottom>Please, select or drop your .zip or .txt file below.</Typography>
-  <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-    <label htmlFor="upload-file" onDrop={handleFileDrop} onDragOver={(event) => event.preventDefault()} style={{ border: '4px dashed #aaa', padding: '2rem', borderRadius: '10px', height: '16rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative', width: '80%', maxWidth: '40rem' }}>
-      <input type="file" accept=".txt,.zip" id="upload-file" onChange={handleFileChange} style={{ display: 'none' }} />
-      {fileLoaded ? (
-        <Typography variant="body1" align="center" style={{ marginTop: '1rem' }}>File loaded successfully!</Typography>
-      ) : (
-        <Button variant="contained" component="span" style={{ position: 'absolute', left: '50%', transform: 'translate(-50%, -50%)', top: '50%', width: '90%', maxWidth: '20rem' }}>Select or drop your file here.</Button>
-      )}
-    </label>
-  </Box>
-</Box>
-
-      <Box sx={{ marginTop: 4 }}>
-        <Typography variant="h5" align="center" gutterBottom>Functionalities</Typography>
-        <Typography variant="body1">1. Status Bit Analysis - Analyze a status bits and compare with other status bits.</Typography>
-        <Typography variant="body1">2. Log Analysis - Analyze the logs, filter by date and also see the time difference between the status.</Typography>
-        <Typography variant="body1">3. Function XYZ - XYZ.</Typography>
+      <Box sx={{ marginTop: 2 }}>
+        <Typography variant="h5" align="center" gutterBottom>Please, select or drop your .zip or .txt file below.</Typography>
+        <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+          <label htmlFor="upload-file" onDrop={handleFileDrop} onDragOver={(event) => event.preventDefault()} style={{ border: '4px dashed #aaa', padding: '2rem', borderRadius: '10px', height: '16rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative', width: '80%', maxWidth: '40rem' }}>
+            <input type="file" accept=".txt,.zip" id="upload-file" onChange={handleFileChange} style={{ display: 'none' }} />
+            {fileLoaded ? (
+              <Typography variant="body1" align="center" style={{ marginTop: '1rem' }}>File loaded successfully!</Typography>
+            ) : (
+              <Button variant="contained" component="span" style={{ position: 'absolute', left: '50%', transform: 'translate(-50%, -50%)', top: '50%', width: '90%', maxWidth: '20rem' }}>Select or drop your file here.</Button>
+            )}
+          </label>
+        </Box>
       </Box>
 
-      {/* Adicione gráficos, tabelas ou feeds de notícias aqui */}
-
+      {fileLoaded && (
+        <Box sx={{ marginTop: 2 }}>
+          <Typography variant="h5" align="center" gutterBottom>File Details:</Typography>
+          <Card>
+            <CardContent>
+              <Typography variant="body1">
+                <strong>File Name:</strong> {file.name}
+              </Typography>
+              <Typography variant="body1">
+                <strong>File Size:</strong> {file.size} bytes
+              </Typography>
+              <Typography variant="body1">
+                <strong>File Type:</strong> {file.type}
+              </Typography>
+            </CardContent>
+          </Card>
+          <Grid container spacing={2} justifyContent="center" sx={{ marginTop: 2 }}>
+            <Grid item>
+              <Button variant="contained" onClick={handleFileUpload}>Upload</Button>
+            </Grid>
+            <Grid item>
+              <Button variant="contained" onClick={() => setFileLoaded(false)}>Clear</Button>
+            </Grid>
+          </Grid>
+        </Box>
+      )}
     </Box>
   );
 }

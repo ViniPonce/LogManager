@@ -15,7 +15,7 @@ import {
   TextField,
   Button,
 } from '@mui/material';
-import { DateRangePicker } from '@mui/x-date-pickers-pro';
+import { DatePicker } from '@mui/x-date-pickers';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { LocalizationProvider } from '@mui/x-date-pickers';
 
@@ -36,19 +36,24 @@ function LogAnalysis() {
     DAC_SIGNAL: false,
   });
 
-  const [selectedDateRange, setSelectedDateRange] = useState([null, null]);
+  const [selectedStartDate, setSelectedStartDate] = useState(null);
+  const [selectedEndDate, setSelectedEndDate] = useState(null);
   const [filteredRows, setFilteredRows] = useState(rows);
 
   const handleChange = (event) => {
     setCheckboxes({ ...checkboxes, [event.target.name]: event.target.checked });
   };
 
-  const [openFilter, setOpenFilter] = useState(false);
-
   const filterRows = () => {
-    if (selectedDateRange[0] && selectedDateRange[1]) {
-      const startDate = new Date(selectedDateRange[0]).getTime();
-      const endDate = new Date(selectedDateRange[1]).getTime();
+    if (selectedStartDate && selectedEndDate) {
+      const startDateTime = new Date(selectedStartDate);
+      startDateTime.setHours(0, 0, 0, 0);
+
+      const endDateTime = new Date(selectedEndDate);
+      endDateTime.setHours(23, 59, 59, 999);
+
+      const startDate = startDateTime.getTime();
+      const endDate = endDateTime.getTime();
 
       const filteredData = rows.filter((row) => {
         const rowDate = new Date(row.timestamp).getTime();
@@ -63,94 +68,82 @@ function LogAnalysis() {
 
   const handleFilterClick = () => {
     filterRows();
-    setOpenFilter(false);
   };
 
-  const handleDateRangeChange = (newValue) => {
-    setSelectedDateRange(newValue);
+  const handleStartDateChange = (date) => {
+    setSelectedStartDate(date);
+  };
+
+  const handleEndDateChange = (date) => {
+    setSelectedEndDate(date);
   };
 
   useEffect(() => {
     filterRows();
-  }, [selectedDateRange]);
+  }, [selectedStartDate, selectedEndDate]);
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
-      <Typography variant="h5" align="center" gutterBottom>Log Analysis</Typography>
-      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', width: '100%', marginTop: 2 }}>
-        <Box
-          sx={{
-            border: '1px solid white',
-            borderRadius: 1,
-            padding: 2,
-            marginRight: 2,
-          }}
-        >
+    <Box sx={{ marginTop: '80px' }}>
+      <Typography variant="h5" align="center" gutterBottom>
+        Log Analysis
+      </Typography>
+      <Box sx={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start', width: '100%' }}>
+        <Box sx={{ border: '1px solid white', borderRadius: 1, padding: 2, marginRight: 2 }}>
           <Typography variant="h6" sx={{ marginBottom: 1 }}>
             Logs
           </Typography>
           <FormGroup>
             <FormControlLabel
               control={<Checkbox checked={checkboxes.OnOff} onChange={handleChange} name="OnOff" />}
-              label={<Typography variant="body1">BTRC Lost Connection</Typography>}/>
-              <FormControlLabel
-                control={
-                  <Checkbox checked={checkboxes.DAC_SIGNAL} onChange={handleChange} name="DAC_SIGNAL" />
-                }
-                label={<Typography variant="body1">OS_RST</Typography>}
-              />
-            </FormGroup>
-          </Box>
-          <TableContainer component={Paper} sx={{ width: '75%', minWidth: 600 }}>
-            <Table>
-              <TableHead>
-                <TableRow>
-                  <TableCell>Timestamp</TableCell>
-                  <TableCell>Time Difference</TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {filteredRows.map((row) => (
-                  <TableRow key={row.timestamp}>
-                    <TableCell>{row.timestamp}</TableCell>
-                    <TableCell>{row.timeDifference}</TableCell>
-                </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
+              label={<Typography variant="body1">BTRC Lost Connection</Typography>}
+            />
+            <FormControlLabel
+              control={<Checkbox checked={checkboxes.DAC_SIGNAL} onChange={handleChange} name="DAC_SIGNAL" />}
+              label={<Typography variant="body1">OS_RST</Typography>}
+            />
+          </FormGroup>
         </Box>
-        <Box sx={{ display: 'flex', alignItems: 'center', marginTop: 2 }}>
-          <Typography variant="body1" sx={{ marginRight: 1 }}>  
-            Date Filter:
-          </Typography>
+        <TableContainer component={Paper} sx={{ width: '75%', minWidth: 600 }}>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell>Timestamp</TableCell>
+                <TableCell>Time Difference</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {filteredRows.map((row) => (
+                <TableRow key={row.timestamp}>
+                  <TableCell>{row.timestamp}</TableCell>
+                  <TableCell>{row.timeDifference}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </Box>
+      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: 2 }}>
+        <Typography variant="body1" sx={{ marginRight: 1 }}>
+          Date Filter:
+        </Typography>
         <LocalizationProvider dateAdapter={AdapterDateFns}>
-          <DateRangePicker 
-            onDateRangeChange={handleDateRangeChange}
-            label="Selecione um intervalo de datas"
-            value={selectedDateRange}
-            startText="Data de início"
-            endText="Data de fim"
-            mask="//____"
-            renderInput={(startProps, endProps) => (
-              <React.Fragment>
-                <TextField {...startProps} size="small" />
-                <Box sx={{ mx: 2 }}> até </Box>
-                <TextField {...endProps} size="small" />
-                <Button variant="contained" size="small" sx={{ ml: 2 }} onClick={handleFilterClick}>
-                  Filtrar
-                </Button>
-              </React.Fragment>
-            )}
-            open={openFilter}
-            onClose={() => setOpenFilter(false)}
-            onOpen={() => setOpenFilter(true)}
-            calendars={2}
+          <DatePicker
+            label="Start Date"
+            value={selectedStartDate}
+            onChange={handleStartDateChange}
+            renderInput={(params) => <TextField {...params} size="small" />}
+          />
+          <Box sx={{ mx: 2 }} />
+          <DatePicker
+            label="End Date"
+            value={selectedEndDate}
+            onChange={handleEndDateChange}
+            renderInput={(params) => <TextField {...params} size="small" />}
           />
         </LocalizationProvider>
-        </Box>
       </Box>
-    );
-  }
-  
-  export default LogAnalysis;
+    </Box>
+  );
+}
+
+export default LogAnalysis;

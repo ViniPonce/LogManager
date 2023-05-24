@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import NavigationBar from './NavigationBar';
 import Summary from './Summary';
 import StatusBitAnalysis from './StatusBitAnalysis';
 import LogAnalysis from './LogAnalysis';
+import Sidebar from './Sidebar';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import './App.css';
@@ -15,11 +15,31 @@ const lightTheme = createTheme({
   palette: {
     mode: 'light',
   },
+  sidebar: {
+    width: '300px',
+    backgroundColor: 'white',
+    color: 'black',
+  },
+  tabBar: {
+    selectedTab: {
+      borderBottom: '2px solid #2196f3',
+    },
+  },
 });
 
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
+  },
+  sidebar: {
+    width: '300px',
+    backgroundColor: '#212121',
+    color: 'white',
+  },
+  tabBar: {
+    selectedTab: {
+      borderBottom: '2px solid #2196f3',
+    },
   },
 });
 
@@ -34,17 +54,19 @@ function App() {
   const theme = isDarkMode ? darkTheme : lightTheme;
 
   return (
-    <div className="container">
+    <div>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Router>
-          <NavigationBar onThemeToggle={handleThemeToggle} theme={theme} />
-          <div className="content">
-            <Routes>
-              <Route path="/" element={<Summary />} />
-              <Route path="/status-bit-analysis" element={<StatusBitAnalysis />} />
-              <Route path="/log-analysis" element={<LogAnalysis />} />
-            </Routes>
+          <div style={{ display: 'flex' }}>
+            <Sidebar theme={theme} />
+            <div className="content" style={{ marginLeft: '300px', flexGrow: 1 }}>
+              <Routes>
+                <Route path="/" element={<Summary />} />
+                <Route path="/status-bit-analysis" element={<StatusBitAnalysis />} />
+                <Route path="/log-analysis" element={<LogAnalysis />} />
+              </Routes>
+            </div>
           </div>
         </Router>
       </ThemeProvider>
