@@ -1,13 +1,38 @@
 import React, { useState } from 'react';
-import {
-  Box,
-  Typography,
-  Card,
-  CardContent,
-  Grid,
-  Button
-} from '@mui/material';
+import { Box, Typography, Card, CardContent, Grid, Button } from '@mui/material';
+import { styled } from '@mui/system';
 import axios from 'axios';
+import CloudUploadIcon from '@mui/icons-material/CloudUpload';
+
+const UploadContainer = styled('div')(({ theme }) => ({
+  border: `2px dashed ${theme.palette.grey[900]}`,
+  borderRadius: theme.shape.borderRadius,
+  backgroundColor: '#dcdcdc',
+  height: '170px',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  width: '100%',
+  maxWidth: '1700px',
+  margin: '0 auto',
+  marginBottom: theme.spacing(2),
+  '&:hover': {
+    cursor: 'pointer',
+  },
+}));
+
+const UploadText = styled(Typography)(({ theme }) => ({
+  color: theme.palette.common.black,
+  marginBottom: theme.spacing(1),
+  fontFamily: 'Istok Web',
+  fontWeight: 'normal',
+  fontSize: '1.6rem',
+  '& .opacity-text': {
+    opacity: 0.7,
+  },
+  textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)'
+}));
 
 function Summary() {
   const [file, setFile] = useState(null);
@@ -30,12 +55,13 @@ function Summary() {
       const formData = new FormData();
       formData.append('file', file);
 
-      axios.post('http://localhost:5000/processar', formData) // Ajuste o URL para a porta correta (5000)
-        .then(response => {
+      axios
+        .post('http://localhost:5000/processar', formData)
+        .then((response) => {
           console.log('Dados processados:', response.data);
           setFileLoaded(true);
         })
-        .catch(error => {
+        .catch((error) => {
           console.error('Erro ao enviar arquivo:', error);
         });
     } else {
@@ -57,26 +83,34 @@ function Summary() {
   };
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: '80px' }}>
-      <Typography variant="h4" align="center" gutterBottom>Welcome to the Logs Manager!</Typography>
+    <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', width: '100%', margin: '80px 0' }}>
+      <Typography variant="h4" align="left" gutterBottom>
+        Welcome to the Logs Manager!
+      </Typography>
 
-      <Box sx={{ marginTop: 2 }}>
-        <Typography variant="h5" align="center" gutterBottom>Please, select or drop your .zip or .txt file below.</Typography>
-        <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-          <label htmlFor="upload-file" onDrop={handleFileDrop} onDragOver={(event) => event.preventDefault()} style={{ border: '4px dashed #aaa', padding: '2rem', borderRadius: '10px', height: '16rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'relative', width: '80%', maxWidth: '40rem' }}>
-            <input type="file" accept=".txt,.zip" id="upload-file" onChange={handleFileChange} style={{ display: 'none' }} />
-            {fileLoaded ? (
-              <Typography variant="body1" align="center" style={{ marginTop: '1rem' }}>File loaded successfully!</Typography>
-            ) : (
-              <Button variant="contained" component="span" style={{ position: 'absolute', left: '50%', transform: 'translate(-50%, -50%)', top: '50%', width: '90%', maxWidth: '20rem' }}>Select or drop your file here.</Button>
-            )}
-          </label>
-        </Box>
-      </Box>
+      <UploadContainer onDrop={handleFileDrop} onDragOver={(event) => event.preventDefault()}>
+        <input type="file" accept=".txt,.zip" id="upload-file" onChange={handleFileChange} style={{ display: 'none' }} />
+        {fileLoaded ? (
+          <Typography variant="body1" align="center" style={{ marginTop: '1rem' }}>
+            File loaded successfully!
+          </Typography>
+        ) : (
+          <React.Fragment>
+            <CloudUploadIcon fontSize="large" color="primary" />
+            <UploadText variant="body1" align="center">
+              Click to upload or drag and drop
+              <br />
+              <span className="opacity-text">*.zip or txt*</span>
+            </UploadText>
+          </React.Fragment>
+        )}
+      </UploadContainer>
 
       {fileLoaded && (
         <Box sx={{ marginTop: 2 }}>
-          <Typography variant="h5" align="center" gutterBottom>File Details:</Typography>
+          <Typography variant="h5" align="center" gutterBottom>
+            File Details:
+          </Typography>
           <Card>
             <CardContent>
               <Typography variant="body1">
@@ -92,10 +126,14 @@ function Summary() {
           </Card>
           <Grid container spacing={2} justifyContent="center" sx={{ marginTop: 2 }}>
             <Grid item>
-              <Button variant="contained" onClick={handleFileUpload}>Upload</Button>
+              <Button variant="contained" onClick={handleFileUpload}>
+                Upload
+              </Button>
             </Grid>
             <Grid item>
-              <Button variant="contained" onClick={() => setFileLoaded(false)}>Clear</Button>
+              <Button variant="contained" onClick={() => setFileLoaded(false)}>
+                Clear
+              </Button>
             </Grid>
           </Grid>
         </Box>

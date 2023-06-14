@@ -11,30 +11,16 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 import './App.css';
 
-const lightTheme = createTheme({
+const theme = createTheme({
   palette: {
-    mode: 'light',
+    background: {
+      default: '#f5f5f5',
+    },
   },
   sidebar: {
     width: '300px',
     backgroundColor: 'white',
     color: 'black',
-  },
-  tabBar: {
-    selectedTab: {
-      borderBottom: '2px solid #2196f3',
-    },
-  },
-});
-
-const darkTheme = createTheme({
-  palette: {
-    mode: 'dark',
-  },
-  sidebar: {
-    width: '300px',
-    backgroundColor: '#212121',
-    color: 'white',
   },
   tabBar: {
     selectedTab: {
@@ -50,8 +36,6 @@ function App() {
     setIsDarkMode(!isDarkMode);
     console.log('Theme toggled!');
   };
-
-  const theme = isDarkMode ? darkTheme : lightTheme;
 
   return (
     <div>

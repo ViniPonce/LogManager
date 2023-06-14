@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   header: {
-    backgroundColor: '#b0c4de',
+    backgroundColor: '#1976D2',
     color: '#FFFFFF',
     padding: theme.spacing(-2),
     display: 'flex',
@@ -14,18 +14,20 @@ const useStyles = makeStyles((theme) => ({
     position: 'fixed',
     top: 0,
     left: 0,
+    borderBottom: '1px solid #a9a9a9'
   },
   logo: {
     marginLeft: theme.spacing(3),
-    marginRight: theme.spacing(5),
-    width: '170px',
-    height: 'auto',
+    marginRight: theme.spacing(0),
+    width: '190px',
+    height: '26px',
   },
   title: {
-    fontSize: '24px',
-    fontWeight: 'bold',
+    fontSize: '32px',
+    fontWeight: '600',
     flexGrow: 1,
     marginLeft: theme.spacing(2),
+    fontFamily: 'Tsukimi Rounded, sans-serif',
   },
   content: {
     marginTop: theme.spacing(8),
@@ -38,7 +40,7 @@ const Header = () => {
 
   return (
     <div className={classes.header}>
-      <img className={classes.logo} src="https://kantaribopemedia.com/wp-content/uploads/2022/09/KANTAR_IBOPE_MEDIA_Large_Logo_Black_RGB.png" alt="Logo" />
+      <img className={classes.logo} src="https://upload.wikimedia.org/wikipedia/commons/1/17/Logo_Kantar_noir.png" alt="Logo" />
       <h1 className={classes.title}>Logs Manager</h1>
     </div>
   );
