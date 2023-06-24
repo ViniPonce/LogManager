@@ -13,10 +13,14 @@ import {
   TableRow,
   Paper,
   TextField,
+  Button,
 } from '@mui/material';
-import { DatePicker } from '@mui/x-date-pickers';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { LocalizationProvider } from '@mui/x-date-pickers';
+import axios from 'axios';
+import { startOfDay, endOfDay, parseISO, toDate } from 'date-fns';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
 function StatusBitAnalysis() {
   const [checkboxes, setCheckboxes] = useState({
@@ -28,24 +32,64 @@ function StatusBitAnalysis() {
   const [selectedEndDate, setSelectedEndDate] = useState(null);
   const [data, setData] = useState([]);
   const [filteredRows, setFilteredRows] = useState([]);
+  const [tableColumns, setTableColumns] = useState([]);
+  const [filterClicked, setFilterClicked] = useState(false);
 
   const handleChange = (event) => {
-    setCheckboxes({ ...checkboxes, [event.target.name]: event.target.checked });
+    const { name, checked } = event.target;
+
+    if (checked) {
+      setCheckboxes((prevCheckboxes) => ({
+        ...prevCheckboxes,
+        [name]: checked,
+      }));
+
+      setFilteredRows([]);
+      fetchLogs(name);
+    } else {
+      setCheckboxes((prevCheckboxes) => ({
+        ...prevCheckboxes,
+        [name]: checked,
+      }));
+
+      clearCheckboxes();
+    }
+  };
+
+  const clearCheckboxes = () => {
+    setCheckboxes((prevCheckboxes) => {
+      const clearedCheckboxes = { ...prevCheckboxes };
+      Object.keys(clearedCheckboxes).forEach((checkbox) => {
+        clearedCheckboxes[checkbox] = false;
+      });
+      return clearedCheckboxes;
+    });
+    setFilteredRows([]);
+  };
+
+  const fetchLogs = async (logType) => {
+    try {
+      const response = await axios.get('http://localhost:3000/api/logs', {
+        params: {
+          logType: logType,
+        },
+      });
+      const logs = response.data;
+      setData(logs);
+      setFilteredRows(logs);
+      setTableColumns(Object.keys(logs[0]));
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   const filterRows = () => {
     if (selectedStartDate && selectedEndDate) {
-      const startDateTime = new Date(selectedStartDate);
-      startDateTime.setHours(0, 0, 0, 0);
-
-      const endDateTime = new Date(selectedEndDate);
-      endDateTime.setHours(23, 59, 59, 999);
-
-      const startDate = startDateTime.getTime();
-      const endDate = endDateTime.getTime();
+      const startDate = startOfDay(selectedStartDate);
+      const endDate = endOfDay(selectedEndDate);
 
       const filteredData = data.filter((row) => {
-        const rowDate = new Date(row.timestamp).getTime();
+        const rowDate = parseISO(row.timestamp);
         return rowDate >= startDate && rowDate <= endDate;
       });
 
@@ -55,22 +99,13 @@ function StatusBitAnalysis() {
     }
   };
 
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  const fetchData = async () => {
-    try {
-      const response = await fetch('http://localhost:5000', {
-        method: 'GET',
-      });
-      const jsonData = await response.json();
-      setData(jsonData);
-      setFilteredRows(jsonData);
-    } catch (error) {
-      console.log('Erro ao buscar os dados da API:', error);
-    }
+  const handleFilterClick = () => {
+    setFilterClicked(true);
   };
+
+  useEffect(() => {
+    filterRows();
+  }, [filterClicked, selectedStartDate, selectedEndDate]);
 
   return (
     <Box
@@ -111,24 +146,30 @@ function StatusBitAnalysis() {
               control={
                 <Checkbox
                   sx={{ color: 'primary.main' }}
-                  checked={checkboxes.OnOff}
+                  checked={checkboxes.deliveryservicememoryusage}
                   onChange={handleChange}
-                  name="OnOff"
+                  name="deliveryservicememoryusage"
+                  value="deliveryservicememoryusage"
                 />
               }
-              label={<Typography variant="body1">On Off</Typography>}
-            />
-            <FormControlLabel
-              control={
-                <Checkbox
-                  sx={{ color: 'primary.main' }}
-                  checked={checkboxes.DAC_SIGNAL}
-                  onChange={handleChange}
-                  name="DAC_SIGNAL"
-                />
+              label={
+                <Typography variant="body1">
+                  Delivery Service Memory Usage
+                </Typography>
               }
-              label={<Typography variant="body1">DAC Signal</Typography>}
             />
+<FormControlLabel
+  control={
+    <Checkbox
+      sx={{ color: 'primary.main' }}
+      checked={checkboxes.awmdetectionlog}
+      onChange={handleChange}
+      name="awmdetectionlog"
+      value="awmdetectionlog"
+    />
+  }
+  label={<Typography variant="body1">AWM Detection Log</Typography>}
+/>
           </FormGroup>
         </Box>
         <Box
@@ -142,15 +183,23 @@ function StatusBitAnalysis() {
             <Table sx={{ minWidth: 650 }} size="small">
               <TableHead>
                 <TableRow>
-                  <TableCell>Timestamp</TableCell>
-                  <TableCell>Time Difference</TableCell>
+                  {tableColumns.map((columnName) => (
+                    <TableCell key={columnName}>{columnName}</TableCell>
+                  ))}
                 </TableRow>
               </TableHead>
               <TableBody>
                 {filteredRows.map((row) => (
                   <TableRow key={row.id}>
-                    <TableCell>{row.timestamp}</TableCell>
-                    <TableCell>{row.timeDifference}</TableCell>
+                    {tableColumns.map((columnName) => (
+                      <TableCell key={columnName}>
+                        {columnName === 'timestamp' ? (
+                          <span>{row[columnName]}</span>
+                        ) : (
+                          row[columnName]
+                        )}
+                      </TableCell>
+                    ))}
                   </TableRow>
                 ))}
               </TableBody>
@@ -171,11 +220,11 @@ function StatusBitAnalysis() {
         </Typography>
         <LocalizationProvider dateAdapter={AdapterDateFns}>
           <DatePicker
-            label="Start Date"
-            value={selectedStartDate}
+            selected={selectedStartDate}
             onChange={(date) => setSelectedStartDate(date)}
-            renderInput={(params) => <TextField {...params} />}
-            clearable
+            dateFormat="dd/MM/yyyy"
+            placeholderText="Start Date"
+            isClearable
           />
         </LocalizationProvider>
         <Typography variant="h6" sx={{ margin: '0px 16px' }}>
@@ -183,11 +232,11 @@ function StatusBitAnalysis() {
         </Typography>
         <LocalizationProvider dateAdapter={AdapterDateFns}>
           <DatePicker
-            label="End Date"
-            value={selectedEndDate}
+            selected={selectedEndDate}
             onChange={(date) => setSelectedEndDate(date)}
-            renderInput={(params) => <TextField {...params} />}
-            clearable
+            dateFormat="dd/MM/yyyy"
+            placeholderText="End Date"
+            isClearable
           />
         </LocalizationProvider>
       </Box>

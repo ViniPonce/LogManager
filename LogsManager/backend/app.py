@@ -6,7 +6,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 
-# Configurar a pasta de build do React
+
 build_folder = os.path.join(os.getcwd(), 'my-app/build')
 
 CORS(app, resources={r"/*": {"origins": "http://localhost:3002"}})
@@ -20,10 +20,10 @@ def serve(path):
     else:
         return send_from_directory(build_folder, 'index.html')
 
-# Rota para processar o arquivo enviado pelo frontend
+
 @app.route('/processar', methods=['POST'])
 def processar():
-    # Lógica para processar o arquivo enviado pelo frontend
+    
     file = request.files['file']
 
     file_name = secure_filename(file.filename)
@@ -31,15 +31,15 @@ def processar():
 
     # ----------------- NEW FILE SELECTION --------------
     if file_name.endswith('.zip'):
-        # Verifica se a solicitação contém o nome para salvar o novo arquivo
+        
         if 'new_file_name' in request.form:
             new_file_name = request.form['new_file_name']
             new_file_path = os.path.join(os.getcwd(), new_file_name)
 
-            # Salva o novo arquivo no caminho escolhido pelo usuário
+            
             file.save(new_file_path)
 
-            # Retorna o caminho do novo arquivo para que o frontend possa fazer o download
+            
             response = {
                 'message': 'Arquivo processado com sucesso!',
                 'file_path': new_file_path
@@ -51,7 +51,7 @@ def processar():
     else:
         return jsonify({'message': 'Invalid file format'})
 
-# Rota para fazer o download do arquivo
+
 @app.route('/download', methods=['GET'])
 def download():
     file_path = request.args.get('file_path')
@@ -60,7 +60,7 @@ def download():
     else:
         return jsonify({'message': 'File path not provided'})
 
-# Configurar o cabeçalho Access-Control-Allow-Origin
+
 @app.after_request
 def after_request(response):
     response.headers.add('Access-Control-Allow-Origin', 'http://localhost:3002')
