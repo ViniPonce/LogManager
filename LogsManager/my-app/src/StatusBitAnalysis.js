@@ -5,241 +5,239 @@ import {
   FormGroup,
   FormControlLabel,
   Checkbox,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Paper,
-  TextField,
-  Button,
+  Grid,
 } from '@mui/material';
-import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
-import { LocalizationProvider } from '@mui/x-date-pickers';
+import ApexCharts from 'apexcharts';
 import axios from 'axios';
-import { startOfDay, endOfDay, parseISO, toDate } from 'date-fns';
-import DatePicker from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css';
 
 function StatusBitAnalysis() {
   const [checkboxes, setCheckboxes] = useState({
-    OnOff: false,
+    BTRC_BIT: false,
+    MRST_BIT: false,
+    ONOFF: false,
+    DAC: false,
+    XPS: false,
+    SPS: false,
+    INET: false,
+    RTM: false,
+    KMBE: false,
+    LOG: false,
+    BAT: false,
+    DATA: false,
+    CMODE: false,
+    SIM: false,
+    SYNC: false,
+    RSU: false,
+    DAC_JACK: false,
+    PRF_JACK: false,
+    DAC_NCSD: false,
+    PRF_NCSD: false,
+    AWM: false,
+    BAD_MNET: false,
+    LINEIN_JACK: false,
     DAC_SIGNAL: false,
   });
 
-  const [selectedStartDate, setSelectedStartDate] = useState(null);
-  const [selectedEndDate, setSelectedEndDate] = useState(null);
   const [data, setData] = useState([]);
-  const [filteredRows, setFilteredRows] = useState([]);
-  const [tableColumns, setTableColumns] = useState([]);
-  const [filterClicked, setFilterClicked] = useState(false);
+  const [chart, setChart] = useState(null);
+  const [lastBitValues, setLastBitValues] = useState({});
 
-  const handleChange = (event) => {
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('http://localhost:3000/api/logs', {
+          params: {
+            logType: 'statusbitlog',
+          },
+        });
+        const logs = response.data;
+        setData(logs);
+        createChart(logs);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const createChart = (logs) => {
+    const checkedBoxes = Object.entries(checkboxes)
+      .filter(([key, value]) => value)
+      .map(([key]) => key);
+
+    const series = checkedBoxes.map((key) => {
+      const bitRegex = new RegExp(`${key}\\s*=\\s*(\\d)`, 'i');
+      return {
+        name: key,
+        data: logs.map((row) => {
+          const match = row.bit_status.match(bitRegex);
+          const bitValue = match ? parseInt(match[1]) : 0;
+          return {
+            x: new Date(row.timestamp).getTime(),
+            y: bitValue,
+          };
+        }),
+      };
+    });
+
+    const options = {
+      chart: {
+        type: 'line',
+        height: 400,
+      },
+      series,
+      xaxis: {
+        type: 'datetime',
+      },
+      yaxis: {
+        tickAmount: 2,
+        min: 0.0,
+        max: 2.5,
+        labels: {
+          show: false,
+        },
+      },
+      dataLabels: {
+        enabled: false,
+      },
+      markers: {
+        size: 0,
+        style: 'hollow',
+      },
+      stroke: {
+        curve: 'stepline',
+        fill: {
+          type: 'solid',
+          colors: ['transparent', 'rgba(0, 0, 0, 0.1)'],
+        },
+      },
+      grid: {
+        borderColor: '#f1f1f1',
+      },
+      tooltip: {
+        x: {
+          format: 'dd/MM/yyyy HH:mm:ss',
+        },
+        y: {
+          formatter: (value) => (value === 1 ? '1' : '0'),
+        },
+      },
+    };
+
+    const chart = new ApexCharts(document.querySelector('#chart'), options);
+    chart.render();
+    setChart(chart);
+
+    chart.w.globals.markers.forEach((marker, index) => {
+      marker.addEventListener('mouseenter', () => {
+        const seriesIndex = Math.floor(index / 2);
+        const dataPointIndex = index % 2 === 0 ? 0 : 1;
+        const seriesName = chart.w.globals.seriesNames[seriesIndex];
+        const seriesData = chart.w.globals.series[seriesIndex].data;
+        const dataPoint = seriesData[dataPointIndex];
+        const timestamp = new Date(dataPoint.x);
+        const tooltipContent = `<div>Bit: ${seriesName}</div><div>Valor: ${
+          dataPoint.y
+        }</div><div>Horário: ${timestamp.toLocaleString()}</div>`;
+        chart.showTooltip(
+          { seriesIndex, dataPointIndex, y: dataPoint.y },
+          marker,
+          false,
+          tooltipContent
+        );
+      });
+
+      marker.addEventListener('mouseleave', () => {
+        chart.hideTooltip();
+      });
+    });
+  };
+
+  const handleCheckboxChange = (event) => {
     const { name, checked } = event.target;
 
-    if (checked) {
-      setCheckboxes((prevCheckboxes) => ({
-        ...prevCheckboxes,
-        [name]: checked,
-      }));
-
-      setFilteredRows([]);
-      fetchLogs(name);
-    } else {
-      setCheckboxes((prevCheckboxes) => ({
-        ...prevCheckboxes,
-        [name]: checked,
-      }));
-
-      clearCheckboxes();
-    }
-  };
-
-  const clearCheckboxes = () => {
-    setCheckboxes((prevCheckboxes) => {
-      const clearedCheckboxes = { ...prevCheckboxes };
-      Object.keys(clearedCheckboxes).forEach((checkbox) => {
-        clearedCheckboxes[checkbox] = false;
-      });
-      return clearedCheckboxes;
-    });
-    setFilteredRows([]);
-  };
-
-  const fetchLogs = async (logType) => {
-    try {
-      const response = await axios.get('http://localhost:3000/api/logs', {
-        params: {
-          logType: logType,
-        },
-      });
-      const logs = response.data;
-      setData(logs);
-      setFilteredRows(logs);
-      setTableColumns(Object.keys(logs[0]));
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  const filterRows = () => {
-    if (selectedStartDate && selectedEndDate) {
-      const startDate = startOfDay(selectedStartDate);
-      const endDate = endOfDay(selectedEndDate);
-
-      const filteredData = data.filter((row) => {
-        const rowDate = parseISO(row.timestamp);
-        return rowDate >= startDate && rowDate <= endDate;
-      });
-
-      setFilteredRows(filteredData);
-    } else {
-      setFilteredRows(data);
-    }
-  };
-
-  const handleFilterClick = () => {
-    setFilterClicked(true);
+    setCheckboxes((prevState) => ({
+      ...prevState,
+      [name]: checked,
+    }));
   };
 
   useEffect(() => {
-    filterRows();
-  }, [filterClicked, selectedStartDate, selectedEndDate]);
+    if (chart) {
+      const checkedBoxes = Object.entries(checkboxes)
+        .filter(([key, value]) => value)
+        .map(([key]) => key);
+
+      const updatedSeries = checkedBoxes.map((key) => {
+        const bitRegex = new RegExp(`${key}\\s*=\\s*(\\d)`, 'i');
+        return {
+          name: key,
+          data: data.map((row) => {
+            const match = row.bit_status.match(bitRegex);
+            const bitValue = match ? parseInt(match[1]) : 0;
+            return {
+              x: new Date(row.timestamp).getTime(),
+              y: bitValue,
+            };
+          }),
+        };
+      });
+
+      chart.updateSeries(updatedSeries);
+    }
+  }, [checkboxes, data]);
+
+  useEffect(() => {
+    const updatedLastBitValues = {};
+    data.forEach((row) => {
+      Object.entries(checkboxes).forEach(([key, value]) => {
+        if (value) {
+          const bitRegex = new RegExp(`${key}\\s*=\\s*(\\d)`, 'i');
+          const match = row.bit_status.match(bitRegex);
+          const bitValue = match ? parseInt(match[1]) : 0;
+          updatedLastBitValues[key] = bitValue;
+        }
+      });
+    });
+    setLastBitValues(updatedLastBitValues);
+  }, [data, checkboxes]);
 
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        width: '100%',
-        padding: '16px',
-        marginTop: '80px',
-      }}
-    >
+    <Box>
       <Typography variant="h5" align="center" gutterBottom>
         Status Bit Analysis
       </Typography>
-      <Box
-        sx={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'flex-start',
-          width: '100%',
-          marginTop: '16px',
-        }}
-      >
-        <Box
-          sx={{
-            border: '1px solid white',
-            borderRadius: '4px',
-            padding: '16px',
-            marginRight: '16px',
-          }}
-        >
-          <Typography variant="h6" sx={{ marginBottom: '8px' }}>
-            Logs
-          </Typography>
-          <FormGroup>
-            <FormControlLabel
-              control={
-                <Checkbox
-                  sx={{ color: 'primary.main' }}
-                  checked={checkboxes.deliveryservicememoryusage}
-                  onChange={handleChange}
-                  name="deliveryservicememoryusage"
-                  value="deliveryservicememoryusage"
+
+      <Grid container spacing={2} style={{ marginTop: '20px' }}>
+        <Grid item xs={3}>
+          <Box sx={{ border: '1px solid white', borderRadius: '4px', padding: '8px' }}>
+            <Typography variant="h6" align="left" gutterBottom>
+              Bits
+            </Typography>
+            <FormGroup>
+              {Object.entries(checkboxes).map(([name, checked]) => (
+                <FormControlLabel
+                  key={name}
+                  control={
+                    <Checkbox
+                      checked={checked}
+                      onChange={handleCheckboxChange}
+                      name={name}
+                      color="primary"
+                    />
+                  }
+                  label={`${name} Bit`}
                 />
-              }
-              label={
-                <Typography variant="body1">
-                  Delivery Service Memory Usage
-                </Typography>
-              }
-            />
-<FormControlLabel
-  control={
-    <Checkbox
-      sx={{ color: 'primary.main' }}
-      checked={checkboxes.awmdetectionlog}
-      onChange={handleChange}
-      name="awmdetectionlog"
-      value="awmdetectionlog"
-    />
-  }
-  label={<Typography variant="body1">AWM Detection Log</Typography>}
-/>
-          </FormGroup>
-        </Box>
-        <Box
-          sx={{
-            flexGrow: 1,
-            minWidth: '650px',
-            marginRight: '16px',
-          }}
-        >
-          <TableContainer component={Paper}>
-            <Table sx={{ minWidth: 650 }} size="small">
-              <TableHead>
-                <TableRow>
-                  {tableColumns.map((columnName) => (
-                    <TableCell key={columnName}>{columnName}</TableCell>
-                  ))}
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {filteredRows.map((row) => (
-                  <TableRow key={row.id}>
-                    {tableColumns.map((columnName) => (
-                      <TableCell key={columnName}>
-                        {columnName === 'timestamp' ? (
-                          <span>{row[columnName]}</span>
-                        ) : (
-                          row[columnName]
-                        )}
-                      </TableCell>
-                    ))}
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        </Box>
-      </Box>
-      <Box
-        sx={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          marginTop: '16px',
-        }}
-      >
-        <Typography variant="h6" sx={{ marginRight: '16px' }}>
-          Date Filter:
-        </Typography>
-        <LocalizationProvider dateAdapter={AdapterDateFns}>
-          <DatePicker
-            selected={selectedStartDate}
-            onChange={(date) => setSelectedStartDate(date)}
-            dateFormat="dd/MM/yyyy"
-            placeholderText="Start Date"
-            isClearable
-          />
-        </LocalizationProvider>
-        <Typography variant="h6" sx={{ margin: '0px 16px' }}>
-          -
-        </Typography>
-        <LocalizationProvider dateAdapter={AdapterDateFns}>
-          <DatePicker
-            selected={selectedEndDate}
-            onChange={(date) => setSelectedEndDate(date)}
-            dateFormat="dd/MM/yyyy"
-            placeholderText="End Date"
-            isClearable
-          />
-        </LocalizationProvider>
-      </Box>
+              ))}
+            </FormGroup>
+          </Box>
+        </Grid>
+
+        <Grid item xs={9}>
+          <Box id="chart" sx={{ height: '200px', marginTop: '16px' }} />
+        </Grid>
+      </Grid>
     </Box>
   );
 }
