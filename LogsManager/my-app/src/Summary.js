@@ -56,14 +56,15 @@ function Summary() {
       formData.append('file', file);
 
       axios
-        .post('http://localhost:5000/processar', formData)
-        .then((response) => {
-          console.log('Dados processados:', response.data);
-          setFileLoaded(true);
-        })
-        .catch((error) => {
-          console.error('Erro ao enviar arquivo:', error);
-        });
+      .post('http://localhost:3000/api/processar', formData)
+      .then((response) => {
+        console.log('Dados processados:', response.data);
+        setFileLoaded(true);
+      })
+      .catch((error) => {
+        console.error('Erro ao enviar arquivo:', error);
+      });
+    
     } else {
       alert('Please, select a valid .txt or .zip file.');
     }
