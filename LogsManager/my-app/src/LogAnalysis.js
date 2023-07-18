@@ -69,7 +69,7 @@ function LogAnalysis() {
 
   const fetchLogs = async (logType) => {
     try {
-      const response = await axios.get('http://localhost:3000/api/logs', {
+      const response = await axios.get('https://logsmanager.eastus.cloudapp.azure.com/api/logs', {
         params: {
           logType: logType,
         },

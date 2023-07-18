@@ -56,7 +56,7 @@ function Summary() {
       formData.append('file', file);
 
       axios
-      .post('http://localhost:3000/api/processar', formData)
+      .post('https://logsmanager.eastus.cloudapp.azure.com/api/processar', formData)
       .then((response) => {
         console.log('Dados processados:', response.data);
         setFileLoaded(true);
