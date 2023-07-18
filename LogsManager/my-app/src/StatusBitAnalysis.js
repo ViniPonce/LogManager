@@ -45,7 +45,7 @@ function StatusBitAnalysis() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/api/logs', {
+        const response = await axios.get('http://logsmanager.eastus.cloudapp.azure.com/api/logs', {
           params: {
             logType: 'statusbitlog',
           },
@@ -243,3 +243,4 @@ function StatusBitAnalysis() {
 }
 
 export default StatusBitAnalysis;
+
