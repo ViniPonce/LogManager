@@ -1,7 +1,7 @@
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
-  host: 'logsmanager.eastus.cloudapp.azure.com',
+  host: 'localhost',
   user: 'desenvpm7',
   password: 'desenvpm7',
   database: 'pm7_logs',

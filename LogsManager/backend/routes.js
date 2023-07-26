@@ -167,8 +167,6 @@ router.get('/logs', (req, res) => {
 
 
 
-const router = express.Router();
-
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, 'uploads');
@@ -183,28 +181,18 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-// Route to get the list of files in the 'uploads' folder
-router.get('/files', (req, res) => {
-  const uploadDir = path.join(__dirname, 'uploads');
-  fs.readdir(uploadDir, (err, files) => {
-    if (err) {
-      console.error('Error reading directory:', err);
-      return res.status(500).json({ error: 'Error listing files' });
-    }
-    res.status(200).json({ files });
-  });
-});
 
-// Route to process the selected file
-router.post('/process', (req, res) => {
-  const { fileName } = req.body;
+router.post('/processar', upload.single('file'), (req, res) => {
+  req.setTimeout(12 * 60 * 1000);
 
-  if (!fileName) {
-    return res.status(400).json({ error: 'No file selected' });
+  const file = req.file;
+
+  if (!file) {
+    return res.status(400).json({ error: 'No file received' });
   }
 
-  const filePath = path.join(__dirname, 'uploads', fileName);
-  const targetDir = path.join(__dirname, 'uploads', path.parse(fileName).name);
+  const filePath = file.path;
+  const targetDir = path.join(__dirname, 'uploads', path.parse(file.filename).name);
 
   fs.mkdirSync(targetDir, { recursive: true });
 
@@ -212,9 +200,8 @@ router.post('/process', (req, res) => {
     .pipe(unzipper.Extract({ path: targetDir }))
     .on('close', () => {
       const command = `/usr/bin/python3 ${path.join(__dirname, 'process.py')} "${targetDir}"`;
-      const time = {
-        timeout: 10 * 60 * 1000,
-      };
+	const time = {
+ 	   timeout: 10 * 60 * 1000, };
       exec(command, time, (error, stdout, stderr) => {
         if (error) {
           console.error(`Error executing script: ${error}`);
@@ -233,3 +220,4 @@ router.post('/process', (req, res) => {
 });
 
 module.exports = router;
+
