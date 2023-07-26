@@ -1,17 +1,17 @@
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'nbhrn84k',
+  host: 'logsmanager.eastus.cloudapp.azure.com',
+  user: 'desenvpm7',
+  password: 'desenvpm7',
   database: 'pm7_logs',
 });
 
 connection.connect((error) => {
   if (error) {
-    console.error('Erro ao conectar ao banco de dados:', error);
+    console.error('Error connecting to database.', error);
   } else {
-    console.log('Conexão com o banco de dados estabelecida com sucesso!');
+    console.log('Successfully connected with database.');
   }
 });
 

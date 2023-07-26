@@ -8,8 +8,6 @@ const path = require('path');
 const fs = require('fs');
 const unzipper = require('unzipper');
 
-const upload = multer({ dest: 'uploads/' });
-
 
 router.get('/logs', (req, res) => {
   const { logType, selectedBits } = req.query;
@@ -167,48 +165,70 @@ router.get('/logs', (req, res) => {
   });
 });
 
-router.post('/processar', upload.single('file'), (req, res) => {
-  const file = req.file;
 
-  if (!file) {
-    return res.status(400).json({ error: 'No file received' });
+
+const router = express.Router();
+
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, 'uploads');
+  },
+  filename: (req, file, cb) => {
+    const timestamp = Date.now();
+    const fileNameWithoutExtension = path.parse(file.originalname).name;
+    const fileName = `${fileNameWithoutExtension}_${timestamp}.zip`;
+    cb(null, fileName);
+  },
+});
+
+const upload = multer({ storage });
+
+// Route to get the list of files in the 'uploads' folder
+router.get('/files', (req, res) => {
+  const uploadDir = path.join(__dirname, 'uploads');
+  fs.readdir(uploadDir, (err, files) => {
+    if (err) {
+      console.error('Error reading directory:', err);
+      return res.status(500).json({ error: 'Error listing files' });
+    }
+    res.status(200).json({ files });
+  });
+});
+
+// Route to process the selected file
+router.post('/process', (req, res) => {
+  const { fileName } = req.body;
+
+  if (!fileName) {
+    return res.status(400).json({ error: 'No file selected' });
   }
 
-  const filePath = file.path;
-  const timestamp = Date.now(); // Obtém o timestamp atual
-  const targetDir = path.join(__dirname, 'uploads', `${file.filename}_${timestamp}`, file.filename);
-  if (fs.existsSync(targetDir)) {
-    return res.status(400).json({ error: 'Destination directory already exists' });
-  }
-  
-  // Cria o diretório de destino para extrair o arquivo ZIP
+  const filePath = path.join(__dirname, 'uploads', fileName);
+  const targetDir = path.join(__dirname, 'uploads', path.parse(fileName).name);
+
   fs.mkdirSync(targetDir, { recursive: true });
-  
 
-  // Extrai o arquivo ZIP para o diretório de destino
   fs.createReadStream(filePath)
     .pipe(unzipper.Extract({ path: targetDir }))
     .on('close', () => {
-      // Agora você pode percorrer os arquivos extraídos e fazer as operações necessárias no banco de dados
-      // Use o caminho `targetDir` para acessar os arquivos extraídos
-
-      // Comando para executar o script Python de processamento
-      const command = `python ${path.join(__dirname, 'process.py')} "${filePath}"`;
-
-      exec(command, (error, stdout, stderr) => {
+      const command = `/usr/bin/python3 ${path.join(__dirname, 'process.py')} "${targetDir}"`;
+      const time = {
+        timeout: 10 * 60 * 1000,
+      };
+      exec(command, time, (error, stdout, stderr) => {
         if (error) {
           console.error(`Error executing script: ${error}`);
-          return res.status(500).json({ error: 'Error processing file' });
+          return res.status(501).json({ error: 'Error processing file' });
         }
 
         console.log(stdout);
-        
+
         res.status(200).json({ message: 'File processed successfully' });
       });
     })
     .on('error', (error) => {
       console.error(`Error extracting ZIP file: ${error}`);
-      res.status(500).json({ error: 'Error processing file' });
+      res.status(502).json({ error: 'Error processing file' });
     });
 });
 

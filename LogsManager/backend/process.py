@@ -9,59 +9,31 @@ from datetime import datetime
 import re
 
 
+
 try:
-    # Estabelece a conexão com o MySQL
-    connection = mysql.connector.connect(user='root', password='nbhrn84k', host='localhost', database='pm7_logs')
+    connection = mysql.connector.connect(
+        host='localhost',
+        database='pm7_logs',
+        user='desenvpm7',
+        password='desenvpm7'
+    )
 
     if connection.is_connected():
-        db_Info = connection.get_server_info()
-        print('Conectado ao servidor MySQL versão', db_Info)
+        print('Successful connection to MySQL')
 
-        # Obtém o cursor
-        cursor = connection.cursor()
-        cursor.execute('select database();')
-        record = cursor.fetchone()
-        print('Conectado ao banco de dados', record)
+    # Desativa os índices temporariamente
+    disable_indexes_query = "ALTER TABLE audiocapturememoryusage DISABLE KEYS"
+    cursor = connection.cursor()
+    cursor.execute(disable_indexes_query)
 
-        # Desabilita o autocommit para iniciar uma transação
-        connection.autocommit = False
+    start_time = time.time()
 
-        # Caminho do arquivo zip
-        file_path = sys.argv[1]
-        print('Caminho do arquivo ZIP:', file_path)
+    # Definição da variável targetDir
+    targetDir = sys.argv[1]
 
-        # Extraindo o arquivo
-        extracted_dir = file_path.replace('.zip', '')
-        with zipfile.ZipFile(file_path, 'r') as zip_ref:
-            zip_ref.extractall(extracted_dir)
-
-        # Início da contagem de tempo
-        start_time = time.time()
-
-        # Coleta os nomes dos arquivos extraídos
-        extracted_files = os.listdir(extracted_dir)
-
-        # Insere o ID do medidor (Meter ID)
-        meter_id = None
-        for file_name in extracted_files:
-            if file_name.endswith('.id'):
-                with open(os.path.join(extracted_dir, file_name), 'r') as file:
-                    meter_id = file.read().strip()
-                    break
-
-        if not meter_id:
-            print('ID do medidor não encontrado')
-            sys.exit(1)
-
-        insert_query = "INSERT INTO meter (id) VALUES (%s)"
-        cursor.execute(insert_query, (meter_id,))
-
-        # Desabilita os índices para inserção em massa
-        disable_indexes_query = "ALTER TABLE audiocapturememoryusage DISABLE KEYS"
-        cursor.execute(disable_indexes_query)
-
+    try:
         # Extrai o nome da pasta do diretório do arquivo
-        folder_name = os.path.basename(extracted_dir)
+        folder_name = os.path.basename(sys.argv[1])
         # Extrai o nome desejado usando regex
         match = re.search(r'^(.*?)(?:_\d{2}-\d{2}-\d{4}_\d{2}_\d{2}_\d{2})?$', folder_name)
         if match:
@@ -84,13 +56,16 @@ try:
 
             print(f'O ID do meter no banco de dados é: {meter_id}')
 
+        extracted_files = os.listdir(targetDir)
+
+
         # Grupo 0: Processamento dos arquivos: statusbitlog
         for file_name in extracted_files:
-            file_path = os.path.join(extracted_dir, file_name)
+            file_path = os.path.join(targetDir, file_name)
             if file_name.startswith("StatusBitLog"):
                 # Processamento do arquivo StatusBitLog
                 with open(file_path, 'r') as file:
-                    lines = file.readlines()
+                    lines = file.readlines()                   
                     for line in lines:
                         values = line.strip().split(';')
                         timestamp_str = values[0]
@@ -104,10 +79,9 @@ try:
                         cursor.execute(insert_query)
                         print(f'Dados do arquivo {file_name} inseridos com sucesso')
 
-
         # Grupo 1: Processamento dos arquivos:bluetoothcommslog,connectionmanagementlog,onofflog,statuslog
         for file_name in extracted_files:
-            file_path = os.path.join(extracted_dir, file_name)
+            file_path = os.path.join(targetDir, file_name)
             if file_name.startswith("BluetoothCommsLog"):
                 with open(file_path, 'r') as file:
                     lines = file.readlines()
@@ -206,7 +180,7 @@ try:
 
         # Grupo 2: Processamento dos arquivos: dmbelog,lamlog,watchdoglog,ntpserverlog, sensorsprocesslog
         for file_name in extracted_files:
-            file_path = os.path.join(extracted_dir, file_name)
+            file_path = os.path.join(targetDir, file_name)
             if file_name.startswith("DMBELog"):
                 with open(file_path, 'r') as file:
                     lines = file.readlines()
@@ -217,7 +191,7 @@ try:
                             '%Y-%m-%d %H:%M:%S')
                         logname = values[1]
                         communication_status = values[2]
-                        insert_query = f"INSERT IGNORE INTO dmbelog \
+                        insert_query = f"INSERT IGNORE INTO dmbeLog \
                                            (timestamp, logname, communication_status,fk_dmbelog_id) \
                                            VALUES ('{timestamp}', '{logname}', '{communication_status}','{meter_id}')"
                         cursor = connection.cursor()
@@ -330,7 +304,7 @@ try:
         # Grupo 3: Processamento dos arquivos: mainlog,rtmdeliverylog,btrclog,batterychargecontrollog\
         # ,batterylifemonitorlog
         for file_name in extracted_files:
-            file_path = os.path.join(extracted_dir, file_name)
+            file_path = os.path.join(targetDir, file_name)
             if file_name.startswith("BTRCLog"):
                 with open(file_path, 'r') as file:
                     lines = file.readlines()
@@ -443,7 +417,7 @@ try:
 
         # Grupo 4: Processamento dos arquivos: awmdetectionlog,awmdetectorlog,filerotationcontrol,storagestats
         for file_name in extracted_files:
-            file_path = os.path.join(extracted_dir, file_name)
+            file_path = os.path.join(targetDir, file_name)
             if file_name.startswith("AwmDetectionLog"):
                 with open(file_path, 'r') as file:
                     lines = file.readlines()
@@ -545,7 +519,7 @@ try:
         # Grupo 5: Processamento dos arquivos: dashboardcommunication,bootlog,daclog,sensorspointerlog
 
         for file_name in extracted_files:
-            file_path = os.path.join(extracted_dir, file_name)
+            file_path = os.path.join(targetDir, file_name)
             if file_name.startswith("DashBoard_Communication"):
                 with open(file_path, 'r') as file:
                     lines = file.readlines()
@@ -637,7 +611,7 @@ try:
             # mainprocessmemoryusage,watchdogmemoryusage,internetdataconsumptionlog,workflowstepmanager
 
         for file_name in extracted_files:
-            file_path = os.path.join(extracted_dir, file_name)
+            file_path = os.path.join(targetDir, file_name)
             if file_name.startswith("AudioCaptureMemoryUsage"):
                 with open(file_path, 'r') as file:
                     lines = file.readlines()
@@ -840,26 +814,47 @@ try:
                 connection.commit()
                 print(f'Dados do arquivo {file_name} inseridos com sucesso')
 
-        # Reativa os índices após a inserção em massa
+
+    except Exception as e:
+        # Reverte a transação em caso de erro
+        connection.rollback()
+        print('Erro durante a inserção de dados:', str(e))
+
+    finally:
+        # Recria os índices
         enable_indexes_query = "ALTER TABLE audiocapturememoryusage ENABLE KEYS"
         cursor.execute(enable_indexes_query)
 
-        # Fim da contagem de tempo
-        end_time = time.time()
-        elapsed_time = end_time - start_time
-        print('Elapsed time: ', elapsed_time)
+        # Calcula o tempo decorrido
+        elapsed_time = time.time() - start_time
+        minutes = int(elapsed_time // 60)
+        seconds = int(elapsed_time % 60)
 
+        if minutes == 1:
+            minutes_text = 'minute'
+        else:
+            minutes_text = 'minutes'
 
-except mysql.connector.Error as error:
-    # Reverte a transação em caso de erro
-    connection.rollback()
-    print(f'Erro ao conectar ao servidor MySQL: {error}')
+        if seconds == 1:
+            seconds_text = 'second'
+        else:
+            seconds_text = 'seconds'
 
-except Exception as e:
-    print(f'Erro não tratado: {e}')
+        output = f'Elapsed Time: {minutes} {minutes_text} e {seconds} {seconds_text}'
+        print(output)
+
+except Error as e:
+    print('Error connecting to MySQL:', str(e))
+
+except Error as e:
+    print('Erro na inserção do ID do medidor:', str(e))
+
 
 finally:
-    if connection.is_connected():
-        cursor.close()
+    # Fecha a conexão com o banco de dados
+    if connection and connection.is_connected():
+        if cursor:
+            cursor.close()
         connection.close()
-    print('Conexão MySQL fechada')
+        print('MySQL connection closed')
+

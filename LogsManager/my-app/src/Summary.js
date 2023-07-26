@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Box, Typography, Card, CardContent, Grid, Button } from '@mui/material';
 import { styled } from '@mui/system';
 import axios from 'axios';
@@ -37,6 +37,7 @@ const UploadText = styled(Typography)(({ theme }) => ({
 function Summary() {
   const [file, setFile] = useState(null);
   const [fileLoaded, setFileLoaded] = useState(false);
+  const [fileList, setFileList] = useState([]);
 
   const handleFileChange = (event) => {
     const uploadedFile = event.target.files[0];
@@ -46,7 +47,7 @@ function Summary() {
     } else {
       setFile(null);
       setFileLoaded(false);
-      alert('Please, select a .txt or .zip file.');
+      alert('Please, select a .zip file.');
     }
   };
 
@@ -56,17 +57,16 @@ function Summary() {
       formData.append('file', file);
 
       axios
-      .post('https://logsmanager.eastus.cloudapp.azure.com/api/processar', formData)
-      .then((response) => {
-        console.log('Dados processados:', response.data);
-        setFileLoaded(true);
-      })
-      .catch((error) => {
-        console.error('Erro ao enviar arquivo:', error);
-      });
-    
+        .post('https://logsmanager.eastus.cloudapp.azure.com/api/processar', formData)
+        .then((response) => {
+          console.log('Data processed:', response.data);
+          setFileLoaded(true);
+        })
+        .catch((error) => {
+          console.error('Error sending the file:', error);
+        });
     } else {
-      alert('Please, select a valid .txt or .zip file.');
+      alert('Please, select a valid .zip file.');
     }
   };
 
@@ -79,7 +79,32 @@ function Summary() {
     } else {
       setFile(null);
       setFileLoaded(false);
-      alert('Please, select a .txt or .zip file.');
+      alert('Please, select a .zip file.');
+    }
+  };
+
+  const fetchFileList = () => {
+    axios
+      .get('https://logsmanager.eastus.cloudapp.azure.com/api/files')
+      .then((response) => {
+        setFileList(response.data.files);
+      })
+      .catch((error) => {
+        console.error('Error when searching the file list:', error);
+      });
+  };
+
+  useEffect(() => {
+    fetchFileList();
+  }, []);
+
+  const handleFileSelection = (fileName) => {
+    const selectedFile = fileList.find((file) => file === fileName);
+    if (selectedFile) {
+      setFile(selectedFile);
+      setFileLoaded(true);
+    } else {
+      console.error('Selected file not found on the file list.');
     }
   };
 
@@ -93,24 +118,41 @@ function Summary() {
         <input type="file" accept=".txt,.zip" id="upload-file" onChange={handleFileChange} style={{ display: 'none' }} />
         {fileLoaded ? (
           <Typography variant="body1" align="center" style={{ marginTop: '1rem' }}>
-            File loaded successfully!
+            File uploaded successfully!
           </Typography>
         ) : (
           <React.Fragment>
             <CloudUploadIcon fontSize="large" color="primary" />
             <UploadText variant="body1" align="center">
-              Click to upload or drag and drop
+              Drag and drop your file
               <br />
-              <span className="opacity-text">*.zip or txt*</span>
+              <span className="opacity-text">*.zip ou txt*</span>
             </UploadText>
           </React.Fragment>
         )}
       </UploadContainer>
 
+      {fileList.length > 0 && (
+        <Box sx={{ marginTop: 2 }}>
+          <Typography variant="h5" align="center" gutterBottom>
+            Available files:
+          </Typography>
+          <Grid container spacing={2} justifyContent="center">
+            {fileList.map((file) => (
+              <Grid item key={file}>
+                <Button variant="outlined" onClick={() => handleFileSelection(file)}>
+                  {file}
+                </Button>
+              </Grid>
+            ))}
+          </Grid>
+        </Box>
+      )}
+
       {fileLoaded && (
         <Box sx={{ marginTop: 2 }}>
           <Typography variant="h5" align="center" gutterBottom>
-            File Details:
+            Files Details:
           </Typography>
           <Card>
             <CardContent>
@@ -133,7 +175,7 @@ function Summary() {
             </Grid>
             <Grid item>
               <Button variant="contained" onClick={() => setFileLoaded(false)}>
-                Clear
+                Clean
               </Button>
             </Grid>
           </Grid>
