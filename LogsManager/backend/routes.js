@@ -208,13 +208,18 @@ router.get('/files', (req, res) => {
 // Route to execute the process of the selected file
 router.post('/execute', (req, res) => {
   const { fileName } = req.body;
+  const file = req.file;
 
-  if (!fileName) {
-    return res.status(400).json({ error: 'No file selected' });
+  const file = req.file;
+
+  if (!file) {
+    return res.status(400).json({ error: 'No file received' });
   }
 
   const filePath = path.join(__dirname, 'uploads', fileName);
   const command = `/usr/bin/python3 ${path.join(__dirname, 'process.py')} "${filePath}"`;
+  const filePath = file.path;
+  const targetDir = path.join(__dirname, 'uploads', path.parse(file.filename).name);
 
   exec(command, (error, stdout, stderr) => {
     if (error) {
@@ -224,7 +229,31 @@ router.post('/execute', (req, res) => {
     console.log(stdout);
     res.status(200).json({ message: 'File processed successfully' });
   });
+  fs.mkdirSync(targetDir, { recursive: true });
+
+  fs.createReadStream(filePath)
+    .pipe(unzipper.Extract({ path: targetDir }))
+    .on('close', () => {
+      const command = `/usr/bin/python3 ${path.join(__dirname, 'process.py')} "${targetDir}"`;
+	const time = {
+ 	   timeout: 10 * 60 * 1000, };
+      exec(command, time, (error, stdout, stderr) => {
+        if (error) {
+          console.error(`Error executing script: ${error}`);
+          return res.status(501).json({ error: 'Error processing file' });
+        }
+
+        console.log(stdout);
+
+        res.status(200).json({ message: 'File processed successfully' });
+      });
+    })
+    .on('error', (error) => {
+      console.error(`Error extracting ZIP file: ${error}`);
+      res.status(502).json({ error: 'Error processing file' });
+    });
 });
 
 
 module.exports = router;
+

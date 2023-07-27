@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Box, Typography, Card, CardContent, Grid, Button } from '@mui/material';
 import { styled } from '@mui/system';
 import axios from 'axios';
@@ -48,7 +48,7 @@ function Summary() {
     } else {
       setFile(null);
       setFileLoaded(false);
-      alert('Please, select a .zip file.');
+      alert('Please, select a .txt or .zip file.');
     }
   };
 
@@ -58,16 +58,17 @@ function Summary() {
       formData.append('file', file);
 
       axios
-        .post('https://logsmanager.eastus.cloudapp.azure.com/api/processar', formData)
-        .then((response) => {
-          console.log('Data processed:', response.data);
-          setFileLoaded(true);
-        })
-        .catch((error) => {
-          console.error('Error sending the file:', error);
-        });
+      .post('http://logsmanager.eastus.cloudapp.azure.com/api/processar', formData)
+      .then((response) => {
+        console.log('Dados processados:', response.data);
+        setFileLoaded(true);
+      })
+      .catch((error) => {
+        console.error('Erro ao enviar arquivo:', error);
+      });
+    
     } else {
-      alert('Please, select a valid .zip file.');
+      alert('Please, select a valid .txt or .zip file.');
     }
   };
 
@@ -80,32 +81,7 @@ function Summary() {
     } else {
       setFile(null);
       setFileLoaded(false);
-      alert('Please, select a .zip file.');
-    }
-  };
-
-  const fetchFileList = () => {
-    axios
-      .get('https://logsmanager.eastus.cloudapp.azure.com/api/files')
-      .then((response) => {
-        setFileList(response.data.files);
-      })
-      .catch((error) => {
-        console.error('Error when searching the file list:', error);
-      });
-  };
-
-  useEffect(() => {
-    fetchFileList();
-  }, []);
-
-  const handleFileSelection = (fileName) => {
-    const selectedFile = fileList.find((file) => file === fileName);
-    if (selectedFile) {
-      setFile(selectedFile);
-      setFileLoaded(true);
-    } else {
-      console.error('Selected file not found on the file list.');
+      alert('Please, select a .txt or .zip file.');
     }
   };
 
@@ -130,7 +106,7 @@ function Summary() {
         />
         {fileLoaded ? (
           <Typography variant="body1" align="center" style={{ marginTop: '1rem' }}>
-            File uploaded successfully!
+            File loaded successfully!
           </Typography>
         ) : (
           <React.Fragment>
@@ -143,23 +119,6 @@ function Summary() {
           </React.Fragment>
         )}
       </UploadContainer>
-
-      {fileList.length > 0 && (
-        <Box sx={{ marginTop: 2 }}>
-          <Typography variant="h5" align="center" gutterBottom>
-            Available files:
-          </Typography>
-          <Grid container spacing={2} justifyContent="center">
-            {fileList.map((file) => (
-              <Grid item key={file}>
-                <Button variant="outlined" onClick={() => handleFileSelection(file)}>
-                  {file}
-                </Button>
-              </Grid>
-            ))}
-          </Grid>
-        </Box>
-      )}
 
 {fileLoaded && (
   <Box 
