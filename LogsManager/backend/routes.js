@@ -167,8 +167,6 @@ router.get('/logs', (req, res) => {
 
 
 
-const router = express.Router();
-
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, 'uploads');
@@ -181,7 +179,19 @@ const storage = multer.diskStorage({
   },
 });
 
+
+
+
 const upload = multer({ storage });
+
+// Upload process
+router.post('/upload', upload.single('file'), (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ error: 'No file uploaded' });
+  }
+  res.status(200).json({ message: 'File selected sucessfully!', file: req.file.filename });
+});
+
 
 // Route to get the list of files in the 'uploads' folder
 router.get('/files', (req, res) => {
@@ -195,8 +205,8 @@ router.get('/files', (req, res) => {
   });
 });
 
-// Route to process the selected file
-router.post('/process', (req, res) => {
+// Route to execute the process of the selected file
+router.post('/execute', (req, res) => {
   const { fileName } = req.body;
 
   if (!fileName) {
@@ -204,32 +214,17 @@ router.post('/process', (req, res) => {
   }
 
   const filePath = path.join(__dirname, 'uploads', fileName);
-  const targetDir = path.join(__dirname, 'uploads', path.parse(fileName).name);
+  const command = `/usr/bin/python3 ${path.join(__dirname, 'process.py')} "${filePath}"`;
 
-  fs.mkdirSync(targetDir, { recursive: true });
-
-  fs.createReadStream(filePath)
-    .pipe(unzipper.Extract({ path: targetDir }))
-    .on('close', () => {
-      const command = `/usr/bin/python3 ${path.join(__dirname, 'process.py')} "${targetDir}"`;
-      const time = {
-        timeout: 10 * 60 * 1000,
-      };
-      exec(command, time, (error, stdout, stderr) => {
-        if (error) {
-          console.error(`Error executing script: ${error}`);
-          return res.status(501).json({ error: 'Error processing file' });
-        }
-
-        console.log(stdout);
-
-        res.status(200).json({ message: 'File processed successfully' });
-      });
-    })
-    .on('error', (error) => {
-      console.error(`Error extracting ZIP file: ${error}`);
-      res.status(502).json({ error: 'Error processing file' });
-    });
+  exec(command, (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error executing script: ${error}`);
+      return res.status(500).json({ error: 'Error processing file' });
+    }
+    console.log(stdout);
+    res.status(200).json({ message: 'File processed successfully' });
+  });
 });
+
 
 module.exports = router;

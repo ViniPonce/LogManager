@@ -38,6 +38,7 @@ function Summary() {
   const [file, setFile] = useState(null);
   const [fileLoaded, setFileLoaded] = useState(false);
   const [fileList, setFileList] = useState([]);
+  const fileInputRef = React.useRef();
 
   const handleFileChange = (event) => {
     const uploadedFile = event.target.files[0];
@@ -114,8 +115,19 @@ function Summary() {
         Welcome to the Logs Manager!
       </Typography>
 
-      <UploadContainer onDrop={handleFileDrop} onDragOver={(event) => event.preventDefault()}>
-        <input type="file" accept=".txt,.zip" id="upload-file" onChange={handleFileChange} style={{ display: 'none' }} />
+      <UploadContainer 
+        onDrop={handleFileDrop} 
+        onDragOver={(event) => event.preventDefault()} 
+        onClick={() => fileInputRef.current.click()}   // Add the onClick event here
+      >
+        <input 
+          type="file" 
+          accept=".txt,.zip" 
+          id="upload-file" 
+          onChange={handleFileChange} 
+          style={{ display: 'none' }} 
+          ref={fileInputRef}  // Use the file input ref here
+        />
         {fileLoaded ? (
           <Typography variant="body1" align="center" style={{ marginTop: '1rem' }}>
             File uploaded successfully!
@@ -124,9 +136,9 @@ function Summary() {
           <React.Fragment>
             <CloudUploadIcon fontSize="large" color="primary" />
             <UploadText variant="body1" align="center">
-              Drag and drop your file
+              Drag and drop or select your file.
               <br />
-              <span className="opacity-text">*.zip ou txt*</span>
+              <span className="opacity-text">*.zip*</span>
             </UploadText>
           </React.Fragment>
         )}
@@ -149,39 +161,53 @@ function Summary() {
         </Box>
       )}
 
-      {fileLoaded && (
-        <Box sx={{ marginTop: 2 }}>
-          <Typography variant="h5" align="center" gutterBottom>
-            Files Details:
-          </Typography>
-          <Card>
-            <CardContent>
-              <Typography variant="body1">
-                <strong>File Name:</strong> {file.name}
-              </Typography>
-              <Typography variant="body1">
-                <strong>File Size:</strong> {file.size} bytes
-              </Typography>
-              <Typography variant="body1">
-                <strong>File Type:</strong> {file.type}
-              </Typography>
-            </CardContent>
-          </Card>
-          <Grid container spacing={2} justifyContent="center" sx={{ marginTop: 2 }}>
-            <Grid item>
-              <Button variant="contained" onClick={handleFileUpload}>
-                Upload
-              </Button>
-            </Grid>
-            <Grid item>
-              <Button variant="contained" onClick={() => setFileLoaded(false)}>
-                Clean
-              </Button>
-            </Grid>
-          </Grid>
-        </Box>
-      )}
-    </Box>
+{fileLoaded && (
+  <Box 
+    sx={{ 
+      marginTop: 2,
+      display: 'flex', 
+      flexDirection: 'column',
+      alignItems: 'center',  // Add this property to center the elements
+      width: '100%', 
+    }}
+  >
+    <Typography variant="h5" align="center" gutterBottom>
+      File Details:
+    </Typography>
+    <Card>
+      <CardContent>
+        <Typography variant="body1">
+          <strong>File Name:</strong> {file.name}
+        </Typography>
+        <Typography variant="body1">
+          <strong>File Size:</strong> {file.size} bytes
+        </Typography>
+        <Typography variant="body1">
+          <strong>File Type:</strong> {file.type}
+        </Typography>
+      </CardContent>
+    </Card>
+    <Grid 
+      container 
+      spacing={2} 
+      justifyContent="center" 
+      sx={{ marginTop: 2 }}
+    >
+      <Grid item>
+        <Button variant="contained" onClick={handleFileUpload}>
+          Upload
+        </Button>
+      </Grid>
+      <Grid item>
+        <Button variant="contained" onClick={() => setFileLoaded(false)}>
+          Clean
+        </Button>
+      </Grid>
+    </Grid>
+  </Box>
+)}
+</Box>
+
   );
 }
 
