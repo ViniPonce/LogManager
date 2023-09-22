@@ -1,0 +1,30 @@
+02-03-2023 03:49:12.131;FileRotationControl;Current date minus 7 days is equals: 1677124152131
+02-03-2023 03:49:12.135;FileRotationControl;OnOffLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.137;FileRotationControl;MainLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.139;FileRotationControl;BTRCLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.142;FileRotationControl;AwmDetectorLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.145;FileRotationControl;StatusLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.149;FileRotationControl;LAMLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.154;FileRotationControl;SensorsPointerLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.156;FileRotationControl;StatusBitLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.159;FileRotationControl;RTMDeliveryLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.191;FileRotationControl;SensorsProcessLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.193;FileRotationControl;AwmDetectionLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.195;FileRotationControl;DashBoard_Communication_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.197;FileRotationControl;LcmMemoryUsage_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.200;FileRotationControl;DeliveryServiceMemoryUsage_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.202;FileRotationControl;AudioMatchingMemoryUsage_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.204;FileRotationControl;StorageStats_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.208;FileRotationControl;AudioWatermarkingMemoryUsage_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.210;FileRotationControl;MainProcessMemoryUsage_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.212;FileRotationControl;BatteryChargeControlLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.214;FileRotationControl;BatteryLifeMonitorLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.216;FileRotationControl;AudioCaptureMemoryUsage_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.218;FileRotationControl;WatchdogMemoryUsage_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.220;FileRotationControl;BackendMemoryUsage_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.222;FileRotationControl;NTPServerLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 03:49:12.224;FileRotationControl;InternetDataConsumptionLog_22_02_2023.txt delete file from 7 days 
+02-03-2023 11:50:00.969;FileRotationControl;Current date minus 7 days is equals: 1677153000968
+02-03-2023 11:50:00.971;FileRotationControl;DMBELog_23_02_2023.txt delete file from 7 days 
+02-03-2023 19:51:39.193;FileRotationControl;Current date minus 7 days is equals: 1677181899192
+02-03-2023 19:51:39.199;FileRotationControl;FileRotationControl_23_02_2023.txt delete file from 7 days 

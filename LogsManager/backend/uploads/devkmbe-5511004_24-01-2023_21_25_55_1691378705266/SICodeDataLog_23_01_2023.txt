@@ -1,0 +1,1 @@
+23-01-2023 20:55:48.546;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData

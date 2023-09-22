@@ -1,0 +1,5 @@
+23-01-2023 19:39:52.334;CloudMessaging;Initializing PushReceiver process. Listening 606352810011
+23-01-2023 19:39:52.378;CloudMessaging;Scheduled push receiver check
+23-01-2023 19:49:52.434;CloudMessaging;Restarting push notification module
+23-01-2023 19:49:54.818;CloudMessaging;Initializing PushReceiver process. Listening 606352810011
+23-01-2023 19:50:02.237;CloudMessaging;token;4h5+Rh2XdQhsLRHdV3mHhjAqtuPDvp42VZFmWFWZOsWX+iwyJlJ51JPLZz1eTZtwYBkWnj22/7CoyGy0SEpwwte2Or+eCLViIXqOpwmy5Ne+txP31kJGidBHZY_E0rnLmHDxyl50kSpH9VlXGO/V4hfdk1Pz1FwDavOphU2HDufB8ENsdn+iMzdS8y0itKixZCWAX4UaWcLbTHagXFQ4Dm6Pe8hC81eCQHKoqg==

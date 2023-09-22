@@ -1,0 +1,11 @@
+21-01-2023 08:03:06.042;ConnectionManagementLog;Internet available
+21-01-2023 11:03:06.448;ConnectionManagementLog;Internet available
+21-01-2023 11:04:06.542;ConnectionManagementLog;Internet available
+21-01-2023 11:05:06.610;ConnectionManagementLog;Internet available
+21-01-2023 11:06:06.656;ConnectionManagementLog;Internet available
+21-01-2023 11:08:06.712;ConnectionManagementLog;Internet available
+21-01-2023 11:09:06.776;ConnectionManagementLog;Internet available
+21-01-2023 11:18:06.842;ConnectionManagementLog;Internet available
+21-01-2023 11:19:06.923;ConnectionManagementLog;Internet available
+21-01-2023 11:20:06.972;ConnectionManagementLog;Internet available
+21-01-2023 11:21:07.040;ConnectionManagementLog;Internet available

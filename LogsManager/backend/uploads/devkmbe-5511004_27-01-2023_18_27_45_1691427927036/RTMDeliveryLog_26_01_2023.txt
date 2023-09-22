@@ -1,0 +1,1093 @@
+26-01-2023 19:03:19.313;RTMDeliveryLog;Data delivery started
+26-01-2023 19:03:19.324;RTMDeliveryLog;RT mode
+26-01-2023 19:03:19.328;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 19:04:00.407;RTMDeliveryLog;Data collect started
+26-01-2023 19:04:00.411;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:04:00.808;RTMDeliveryLog;MQTT connected
+26-01-2023 19:04:01.011;RTMDeliveryLog;Data collect finished
+26-01-2023 19:04:01.026;RTMDeliveryLog;Process sleeping
+26-01-2023 19:05:00.407;RTMDeliveryLog;Data collect started
+26-01-2023 19:05:00.409;RTMDeliveryLog;Data collect finished
+26-01-2023 19:05:00.412;RTMDeliveryLog;Process sleeping
+26-01-2023 19:06:00.408;RTMDeliveryLog;Data collect started
+26-01-2023 19:06:00.410;RTMDeliveryLog;Data collect finished
+26-01-2023 19:06:00.413;RTMDeliveryLog;Process sleeping
+26-01-2023 19:07:00.408;RTMDeliveryLog;Data collect started
+26-01-2023 19:07:00.410;RTMDeliveryLog;Data collect finished
+26-01-2023 19:07:00.412;RTMDeliveryLog;Process sleeping
+26-01-2023 19:08:00.408;RTMDeliveryLog;Data collect started
+26-01-2023 19:08:00.411;RTMDeliveryLog;Data collect finished
+26-01-2023 19:08:00.413;RTMDeliveryLog;Process sleeping
+26-01-2023 19:09:00.408;RTMDeliveryLog;Data collect started
+26-01-2023 19:09:00.411;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:09:00.899;RTMDeliveryLog;MQTT connected
+26-01-2023 19:09:01.105;RTMDeliveryLog;Data collect finished
+26-01-2023 19:09:01.107;RTMDeliveryLog;Process sleeping
+26-01-2023 19:10:00.409;RTMDeliveryLog;Data collect started
+26-01-2023 19:10:00.411;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:10:00.854;RTMDeliveryLog;MQTT connected
+26-01-2023 19:10:01.149;RTMDeliveryLog;Data collect finished
+26-01-2023 19:10:01.151;RTMDeliveryLog;Process sleeping
+26-01-2023 19:11:00.410;RTMDeliveryLog;Data collect started
+26-01-2023 19:11:00.412;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:11:00.824;RTMDeliveryLog;MQTT connected
+26-01-2023 19:11:01.112;RTMDeliveryLog;Data collect finished
+26-01-2023 19:11:01.114;RTMDeliveryLog;Process sleeping
+26-01-2023 19:13:37.156;RTMDeliveryLog;Data delivery started
+26-01-2023 19:13:37.174;RTMDeliveryLog;RT mode
+26-01-2023 19:13:37.176;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 19:14:00.469;RTMDeliveryLog;Data collect started
+26-01-2023 19:14:00.474;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:14:00.882;RTMDeliveryLog;MQTT connected
+26-01-2023 19:14:01.491;RTMDeliveryLog;Data collect finished
+26-01-2023 19:14:01.506;RTMDeliveryLog;Process sleeping
+26-01-2023 19:15:00.469;RTMDeliveryLog;Data collect started
+26-01-2023 19:15:00.471;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:15:00.884;RTMDeliveryLog;MQTT connected
+26-01-2023 19:15:01.108;RTMDeliveryLog;Data collect finished
+26-01-2023 19:15:01.111;RTMDeliveryLog;Process sleeping
+26-01-2023 19:16:00.469;RTMDeliveryLog;Data collect started
+26-01-2023 19:16:00.471;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:16:00.909;RTMDeliveryLog;MQTT connected
+26-01-2023 19:16:01.180;RTMDeliveryLog;Data collect finished
+26-01-2023 19:16:01.183;RTMDeliveryLog;Process sleeping
+26-01-2023 19:17:00.469;RTMDeliveryLog;Data collect started
+26-01-2023 19:17:00.471;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:17:00.844;RTMDeliveryLog;MQTT connected
+26-01-2023 19:17:01.103;RTMDeliveryLog;Data collect finished
+26-01-2023 19:17:01.105;RTMDeliveryLog;Process sleeping
+26-01-2023 19:18:00.469;RTMDeliveryLog;Data collect started
+26-01-2023 19:18:00.471;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:18:01.184;RTMDeliveryLog;MQTT connected
+26-01-2023 19:18:01.460;RTMDeliveryLog;Data collect finished
+26-01-2023 19:18:01.463;RTMDeliveryLog;Process sleeping
+26-01-2023 19:19:00.470;RTMDeliveryLog;Data collect started
+26-01-2023 19:19:00.473;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:19:00.866;RTMDeliveryLog;MQTT connected
+26-01-2023 19:19:01.121;RTMDeliveryLog;Data collect finished
+26-01-2023 19:19:01.123;RTMDeliveryLog;Process sleeping
+26-01-2023 19:19:26.321;RTMDeliveryLog;Data delivery started
+26-01-2023 19:19:26.332;RTMDeliveryLog;RT mode
+26-01-2023 19:19:26.335;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 19:20:00.394;RTMDeliveryLog;Data collect started
+26-01-2023 19:20:00.396;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:20:00.810;RTMDeliveryLog;MQTT connected
+26-01-2023 19:20:01.020;RTMDeliveryLog;Data collect finished
+26-01-2023 19:20:01.022;RTMDeliveryLog;Process sleeping
+26-01-2023 19:21:00.394;RTMDeliveryLog;Data collect started
+26-01-2023 19:21:00.397;RTMDeliveryLog;Data collect finished
+26-01-2023 19:21:00.398;RTMDeliveryLog;Process sleeping
+26-01-2023 19:22:00.395;RTMDeliveryLog;Data collect started
+26-01-2023 19:22:00.397;RTMDeliveryLog;Data collect finished
+26-01-2023 19:22:00.399;RTMDeliveryLog;Process sleeping
+26-01-2023 19:23:00.395;RTMDeliveryLog;Data collect started
+26-01-2023 19:23:00.397;RTMDeliveryLog;Data collect finished
+26-01-2023 19:23:00.399;RTMDeliveryLog;Process sleeping
+26-01-2023 19:24:00.396;RTMDeliveryLog;Data collect started
+26-01-2023 19:24:00.398;RTMDeliveryLog;Data collect finished
+26-01-2023 19:24:00.400;RTMDeliveryLog;Process sleeping
+26-01-2023 19:25:00.397;RTMDeliveryLog;Data collect started
+26-01-2023 19:25:00.399;RTMDeliveryLog;Data collect finished
+26-01-2023 19:25:00.401;RTMDeliveryLog;Process sleeping
+26-01-2023 19:26:00.397;RTMDeliveryLog;Data collect started
+26-01-2023 19:26:00.399;RTMDeliveryLog;Data collect finished
+26-01-2023 19:26:00.401;RTMDeliveryLog;Process sleeping
+26-01-2023 19:27:00.399;RTMDeliveryLog;Data collect started
+26-01-2023 19:27:00.401;RTMDeliveryLog;Data collect finished
+26-01-2023 19:27:00.404;RTMDeliveryLog;Process sleeping
+26-01-2023 19:28:00.399;RTMDeliveryLog;Data collect started
+26-01-2023 19:28:00.402;RTMDeliveryLog;Data collect finished
+26-01-2023 19:28:00.404;RTMDeliveryLog;Process sleeping
+26-01-2023 19:29:00.400;RTMDeliveryLog;Data collect started
+26-01-2023 19:29:00.402;RTMDeliveryLog;Data collect finished
+26-01-2023 19:29:00.404;RTMDeliveryLog;Process sleeping
+26-01-2023 19:30:00.400;RTMDeliveryLog;Data collect started
+26-01-2023 19:30:00.402;RTMDeliveryLog;Data collect finished
+26-01-2023 19:30:00.404;RTMDeliveryLog;Process sleeping
+26-01-2023 19:31:00.400;RTMDeliveryLog;Data collect started
+26-01-2023 19:31:00.402;RTMDeliveryLog;Data collect finished
+26-01-2023 19:31:00.404;RTMDeliveryLog;Process sleeping
+26-01-2023 19:32:00.400;RTMDeliveryLog;Data collect started
+26-01-2023 19:32:00.403;RTMDeliveryLog;Data collect finished
+26-01-2023 19:32:00.405;RTMDeliveryLog;Process sleeping
+26-01-2023 19:33:00.401;RTMDeliveryLog;Data collect started
+26-01-2023 19:33:00.404;RTMDeliveryLog;Data collect finished
+26-01-2023 19:33:00.405;RTMDeliveryLog;Process sleeping
+26-01-2023 19:34:00.402;RTMDeliveryLog;Data collect started
+26-01-2023 19:34:00.404;RTMDeliveryLog;Data collect finished
+26-01-2023 19:34:00.406;RTMDeliveryLog;Process sleeping
+26-01-2023 19:35:00.403;RTMDeliveryLog;Data collect started
+26-01-2023 19:35:00.405;RTMDeliveryLog;Data collect finished
+26-01-2023 19:35:00.407;RTMDeliveryLog;Process sleeping
+26-01-2023 19:36:00.403;RTMDeliveryLog;Data collect started
+26-01-2023 19:36:00.405;RTMDeliveryLog;Data collect finished
+26-01-2023 19:36:00.406;RTMDeliveryLog;Process sleeping
+26-01-2023 19:37:00.403;RTMDeliveryLog;Data collect started
+26-01-2023 19:37:00.406;RTMDeliveryLog;Data collect finished
+26-01-2023 19:37:00.408;RTMDeliveryLog;Process sleeping
+26-01-2023 19:38:00.404;RTMDeliveryLog;Data collect started
+26-01-2023 19:38:00.406;RTMDeliveryLog;Data collect finished
+26-01-2023 19:38:00.409;RTMDeliveryLog;Process sleeping
+26-01-2023 19:39:00.404;RTMDeliveryLog;Data collect started
+26-01-2023 19:39:00.406;RTMDeliveryLog;Data collect finished
+26-01-2023 19:39:00.409;RTMDeliveryLog;Process sleeping
+26-01-2023 19:40:00.405;RTMDeliveryLog;Data collect started
+26-01-2023 19:40:00.407;RTMDeliveryLog;Data collect finished
+26-01-2023 19:40:00.409;RTMDeliveryLog;Process sleeping
+26-01-2023 19:41:00.405;RTMDeliveryLog;Data collect started
+26-01-2023 19:41:00.407;RTMDeliveryLog;Data collect finished
+26-01-2023 19:41:00.409;RTMDeliveryLog;Process sleeping
+26-01-2023 19:42:00.406;RTMDeliveryLog;Data collect started
+26-01-2023 19:42:00.408;RTMDeliveryLog;Data collect finished
+26-01-2023 19:42:00.409;RTMDeliveryLog;Process sleeping
+26-01-2023 19:43:00.406;RTMDeliveryLog;Data collect started
+26-01-2023 19:43:00.408;RTMDeliveryLog;Data collect finished
+26-01-2023 19:43:00.410;RTMDeliveryLog;Process sleeping
+26-01-2023 19:44:00.408;RTMDeliveryLog;Data collect started
+26-01-2023 19:44:00.410;RTMDeliveryLog;Data collect finished
+26-01-2023 19:44:00.412;RTMDeliveryLog;Process sleeping
+26-01-2023 19:45:19.821;RTMDeliveryLog;Data delivery started
+26-01-2023 19:45:19.835;RTMDeliveryLog;RT mode
+26-01-2023 19:45:19.837;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 19:46:00.392;RTMDeliveryLog;Data collect started
+26-01-2023 19:46:00.394;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:46:02.135;RTMDeliveryLog;MQTT connected
+26-01-2023 19:46:02.624;RTMDeliveryLog;Data collect finished
+26-01-2023 19:46:02.626;RTMDeliveryLog;Process sleeping
+26-01-2023 19:47:00.392;RTMDeliveryLog;Data collect started
+26-01-2023 19:47:00.394;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:47:01.834;RTMDeliveryLog;MQTT connected
+26-01-2023 19:47:02.040;RTMDeliveryLog;Data collect finished
+26-01-2023 19:47:02.042;RTMDeliveryLog;Process sleeping
+26-01-2023 19:48:00.392;RTMDeliveryLog;Data collect started
+26-01-2023 19:48:00.394;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:48:00.806;RTMDeliveryLog;MQTT connected
+26-01-2023 19:48:01.053;RTMDeliveryLog;Data collect finished
+26-01-2023 19:48:01.055;RTMDeliveryLog;Process sleeping
+26-01-2023 19:49:00.392;RTMDeliveryLog;Data collect started
+26-01-2023 19:49:00.394;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:49:00.841;RTMDeliveryLog;MQTT connected
+26-01-2023 19:49:01.099;RTMDeliveryLog;Data collect finished
+26-01-2023 19:49:01.101;RTMDeliveryLog;Process sleeping
+26-01-2023 19:50:00.393;RTMDeliveryLog;Data collect started
+26-01-2023 19:50:00.394;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:50:00.782;RTMDeliveryLog;MQTT connected
+26-01-2023 19:50:01.259;RTMDeliveryLog;Data collect finished
+26-01-2023 19:50:01.261;RTMDeliveryLog;Process sleeping
+26-01-2023 19:51:00.393;RTMDeliveryLog;Data collect started
+26-01-2023 19:51:00.395;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:51:00.919;RTMDeliveryLog;MQTT connected
+26-01-2023 19:51:01.199;RTMDeliveryLog;Data collect finished
+26-01-2023 19:51:01.202;RTMDeliveryLog;Process sleeping
+26-01-2023 19:52:00.393;RTMDeliveryLog;Data collect started
+26-01-2023 19:52:00.395;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:52:00.838;RTMDeliveryLog;MQTT connected
+26-01-2023 19:52:01.105;RTMDeliveryLog;Data collect finished
+26-01-2023 19:52:01.107;RTMDeliveryLog;Process sleeping
+26-01-2023 19:53:00.393;RTMDeliveryLog;Data collect started
+26-01-2023 19:53:00.395;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:53:00.812;RTMDeliveryLog;MQTT connected
+26-01-2023 19:53:01.076;RTMDeliveryLog;Data collect finished
+26-01-2023 19:53:01.078;RTMDeliveryLog;Process sleeping
+26-01-2023 19:54:00.393;RTMDeliveryLog;Data collect started
+26-01-2023 19:54:00.395;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:54:00.786;RTMDeliveryLog;MQTT connected
+26-01-2023 19:54:01.073;RTMDeliveryLog;Data collect finished
+26-01-2023 19:54:01.075;RTMDeliveryLog;Process sleeping
+26-01-2023 19:55:00.393;RTMDeliveryLog;Data collect started
+26-01-2023 19:55:00.395;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:55:00.784;RTMDeliveryLog;MQTT connected
+26-01-2023 19:55:01.038;RTMDeliveryLog;Data collect finished
+26-01-2023 19:55:01.039;RTMDeliveryLog;Process sleeping
+26-01-2023 19:56:00.395;RTMDeliveryLog;Data collect started
+26-01-2023 19:56:00.396;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:56:00.777;RTMDeliveryLog;MQTT connected
+26-01-2023 19:56:01.038;RTMDeliveryLog;Data collect finished
+26-01-2023 19:56:01.040;RTMDeliveryLog;Process sleeping
+26-01-2023 19:57:00.395;RTMDeliveryLog;Data collect started
+26-01-2023 19:57:00.397;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:57:00.781;RTMDeliveryLog;MQTT connected
+26-01-2023 19:57:01.035;RTMDeliveryLog;Data collect finished
+26-01-2023 19:57:01.037;RTMDeliveryLog;Process sleeping
+26-01-2023 19:58:00.395;RTMDeliveryLog;Data collect started
+26-01-2023 19:58:00.397;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:58:00.812;RTMDeliveryLog;MQTT connected
+26-01-2023 19:58:01.119;RTMDeliveryLog;Data collect finished
+26-01-2023 19:58:01.121;RTMDeliveryLog;Process sleeping
+26-01-2023 19:59:00.395;RTMDeliveryLog;Data collect started
+26-01-2023 19:59:00.397;RTMDeliveryLog;MQTT connecting
+26-01-2023 19:59:00.832;RTMDeliveryLog;MQTT connected
+26-01-2023 19:59:01.085;RTMDeliveryLog;Data collect finished
+26-01-2023 19:59:01.087;RTMDeliveryLog;Process sleeping
+26-01-2023 20:00:00.395;RTMDeliveryLog;Data collect started
+26-01-2023 20:00:00.397;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:00:00.785;RTMDeliveryLog;MQTT connected
+26-01-2023 20:00:01.084;RTMDeliveryLog;Data collect finished
+26-01-2023 20:00:01.085;RTMDeliveryLog;Process sleeping
+26-01-2023 20:01:00.396;RTMDeliveryLog;Data collect started
+26-01-2023 20:01:00.397;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:01:00.784;RTMDeliveryLog;MQTT connected
+26-01-2023 20:01:01.041;RTMDeliveryLog;Data collect finished
+26-01-2023 20:01:01.043;RTMDeliveryLog;Process sleeping
+26-01-2023 20:02:00.396;RTMDeliveryLog;Data collect started
+26-01-2023 20:02:00.398;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:02:00.788;RTMDeliveryLog;MQTT connected
+26-01-2023 20:02:01.046;RTMDeliveryLog;Data collect finished
+26-01-2023 20:02:01.048;RTMDeliveryLog;Process sleeping
+26-01-2023 20:03:00.397;RTMDeliveryLog;Data collect started
+26-01-2023 20:03:00.399;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:03:00.806;RTMDeliveryLog;MQTT connected
+26-01-2023 20:03:01.070;RTMDeliveryLog;Data collect finished
+26-01-2023 20:03:01.072;RTMDeliveryLog;Process sleeping
+26-01-2023 20:04:00.398;RTMDeliveryLog;Data collect started
+26-01-2023 20:04:00.400;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:04:00.812;RTMDeliveryLog;MQTT connected
+26-01-2023 20:04:01.067;RTMDeliveryLog;Data collect finished
+26-01-2023 20:04:01.069;RTMDeliveryLog;Process sleeping
+26-01-2023 20:05:00.398;RTMDeliveryLog;Data collect started
+26-01-2023 20:05:00.400;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:05:00.807;RTMDeliveryLog;MQTT connected
+26-01-2023 20:05:01.036;RTMDeliveryLog;Data collect finished
+26-01-2023 20:05:01.038;RTMDeliveryLog;Process sleeping
+26-01-2023 20:06:00.398;RTMDeliveryLog;Data collect started
+26-01-2023 20:06:00.400;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:06:00.792;RTMDeliveryLog;MQTT connected
+26-01-2023 20:06:01.028;RTMDeliveryLog;Data collect finished
+26-01-2023 20:06:01.030;RTMDeliveryLog;Process sleeping
+26-01-2023 20:07:00.399;RTMDeliveryLog;Data collect started
+26-01-2023 20:07:00.401;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:07:00.807;RTMDeliveryLog;MQTT connected
+26-01-2023 20:07:01.047;RTMDeliveryLog;Data collect finished
+26-01-2023 20:07:01.049;RTMDeliveryLog;Process sleeping
+26-01-2023 20:08:00.399;RTMDeliveryLog;Data collect started
+26-01-2023 20:08:00.401;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:08:00.815;RTMDeliveryLog;MQTT connected
+26-01-2023 20:08:01.043;RTMDeliveryLog;Data collect finished
+26-01-2023 20:08:01.044;RTMDeliveryLog;Process sleeping
+26-01-2023 20:08:16.986;RTMDeliveryLog;Data delivery started
+26-01-2023 20:08:16.998;RTMDeliveryLog;RT mode
+26-01-2023 20:08:17.000;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 20:09:00.315;RTMDeliveryLog;Data collect started
+26-01-2023 20:09:00.317;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:09:00.705;RTMDeliveryLog;MQTT connected
+26-01-2023 20:09:00.909;RTMDeliveryLog;Data collect finished
+26-01-2023 20:09:00.911;RTMDeliveryLog;Process sleeping
+26-01-2023 20:10:00.315;RTMDeliveryLog;Data collect started
+26-01-2023 20:10:00.317;RTMDeliveryLog;Data collect finished
+26-01-2023 20:10:00.318;RTMDeliveryLog;Process sleeping
+26-01-2023 20:11:00.315;RTMDeliveryLog;Data collect started
+26-01-2023 20:11:00.317;RTMDeliveryLog;Data collect finished
+26-01-2023 20:11:00.319;RTMDeliveryLog;Process sleeping
+26-01-2023 20:12:00.316;RTMDeliveryLog;Data collect started
+26-01-2023 20:12:00.318;RTMDeliveryLog;Data collect finished
+26-01-2023 20:12:00.319;RTMDeliveryLog;Process sleeping
+26-01-2023 20:13:00.317;RTMDeliveryLog;Data collect started
+26-01-2023 20:13:00.318;RTMDeliveryLog;Data collect finished
+26-01-2023 20:13:00.320;RTMDeliveryLog;Process sleeping
+26-01-2023 20:14:00.317;RTMDeliveryLog;Data collect started
+26-01-2023 20:14:00.319;RTMDeliveryLog;Data collect finished
+26-01-2023 20:14:00.320;RTMDeliveryLog;Process sleeping
+26-01-2023 20:15:00.317;RTMDeliveryLog;Data collect started
+26-01-2023 20:15:00.319;RTMDeliveryLog;Data collect finished
+26-01-2023 20:15:00.321;RTMDeliveryLog;Process sleeping
+26-01-2023 20:16:05.029;RTMDeliveryLog;Data delivery started
+26-01-2023 20:16:05.041;RTMDeliveryLog;RT mode
+26-01-2023 20:16:05.043;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 20:17:00.373;RTMDeliveryLog;Data collect started
+26-01-2023 20:17:00.375;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:17:00.777;RTMDeliveryLog;MQTT connected
+26-01-2023 20:17:01.028;RTMDeliveryLog;Data collect finished
+26-01-2023 20:17:01.030;RTMDeliveryLog;Process sleeping
+26-01-2023 20:18:00.373;RTMDeliveryLog;Data collect started
+26-01-2023 20:18:00.375;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:18:00.755;RTMDeliveryLog;MQTT connected
+26-01-2023 20:18:00.983;RTMDeliveryLog;Data collect finished
+26-01-2023 20:18:00.985;RTMDeliveryLog;Process sleeping
+26-01-2023 20:19:00.373;RTMDeliveryLog;Data collect started
+26-01-2023 20:19:00.375;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:19:00.795;RTMDeliveryLog;MQTT connected
+26-01-2023 20:19:01.038;RTMDeliveryLog;Data collect finished
+26-01-2023 20:19:01.040;RTMDeliveryLog;Process sleeping
+26-01-2023 20:19:47.896;RTMDeliveryLog;Data delivery started
+26-01-2023 20:19:47.905;RTMDeliveryLog;RT mode
+26-01-2023 20:19:47.908;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 20:20:00.425;RTMDeliveryLog;Data collect started
+26-01-2023 20:20:00.429;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:20:00.993;RTMDeliveryLog;MQTT connected
+26-01-2023 20:20:01.357;RTMDeliveryLog;Data collect finished
+26-01-2023 20:20:01.360;RTMDeliveryLog;Process sleeping
+26-01-2023 20:21:00.425;RTMDeliveryLog;Data collect started
+26-01-2023 20:21:00.427;RTMDeliveryLog;Data collect finished
+26-01-2023 20:21:00.428;RTMDeliveryLog;Process sleeping
+26-01-2023 20:22:00.426;RTMDeliveryLog;Data collect started
+26-01-2023 20:22:00.428;RTMDeliveryLog;Data collect finished
+26-01-2023 20:22:00.429;RTMDeliveryLog;Process sleeping
+26-01-2023 20:23:00.427;RTMDeliveryLog;Data collect started
+26-01-2023 20:23:00.429;RTMDeliveryLog;Data collect finished
+26-01-2023 20:23:00.430;RTMDeliveryLog;Process sleeping
+26-01-2023 20:24:00.427;RTMDeliveryLog;Data collect started
+26-01-2023 20:24:00.429;RTMDeliveryLog;Data collect finished
+26-01-2023 20:24:00.430;RTMDeliveryLog;Process sleeping
+26-01-2023 20:25:00.427;RTMDeliveryLog;Data collect started
+26-01-2023 20:25:00.429;RTMDeliveryLog;Data collect finished
+26-01-2023 20:25:00.431;RTMDeliveryLog;Process sleeping
+26-01-2023 20:26:00.428;RTMDeliveryLog;Data collect started
+26-01-2023 20:26:00.429;RTMDeliveryLog;Data collect finished
+26-01-2023 20:26:00.434;RTMDeliveryLog;Process sleeping
+26-01-2023 20:27:00.428;RTMDeliveryLog;Data collect started
+26-01-2023 20:27:00.430;RTMDeliveryLog;Data collect finished
+26-01-2023 20:27:00.432;RTMDeliveryLog;Process sleeping
+26-01-2023 20:28:28.645;RTMDeliveryLog;Data delivery started
+26-01-2023 20:28:28.657;RTMDeliveryLog;RT mode
+26-01-2023 20:28:28.659;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 20:29:00.448;RTMDeliveryLog;Data collect started
+26-01-2023 20:29:00.450;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:29:00.837;RTMDeliveryLog;MQTT connected
+26-01-2023 20:29:01.061;RTMDeliveryLog;Data collect finished
+26-01-2023 20:29:01.063;RTMDeliveryLog;Process sleeping
+26-01-2023 20:30:00.449;RTMDeliveryLog;Data collect started
+26-01-2023 20:30:00.451;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:30:01.028;RTMDeliveryLog;MQTT connected
+26-01-2023 20:30:01.279;RTMDeliveryLog;Data collect finished
+26-01-2023 20:30:01.281;RTMDeliveryLog;Process sleeping
+26-01-2023 20:31:00.450;RTMDeliveryLog;Data collect started
+26-01-2023 20:31:00.452;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:31:00.834;RTMDeliveryLog;MQTT connected
+26-01-2023 20:31:01.064;RTMDeliveryLog;Data collect finished
+26-01-2023 20:31:01.066;RTMDeliveryLog;Process sleeping
+26-01-2023 20:32:00.450;RTMDeliveryLog;Data collect started
+26-01-2023 20:32:00.452;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:32:01.224;RTMDeliveryLog;MQTT connected
+26-01-2023 20:32:01.549;RTMDeliveryLog;Data collect finished
+26-01-2023 20:32:01.551;RTMDeliveryLog;Process sleeping
+26-01-2023 20:33:00.450;RTMDeliveryLog;Data collect started
+26-01-2023 20:33:00.452;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:33:00.846;RTMDeliveryLog;MQTT connected
+26-01-2023 20:33:01.067;RTMDeliveryLog;Data collect finished
+26-01-2023 20:33:01.069;RTMDeliveryLog;Process sleeping
+26-01-2023 20:33:28.834;RTMDeliveryLog;Data delivery started
+26-01-2023 20:33:28.847;RTMDeliveryLog;RT mode
+26-01-2023 20:33:28.849;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 20:34:00.390;RTMDeliveryLog;Data collect started
+26-01-2023 20:34:00.392;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:34:00.798;RTMDeliveryLog;MQTT connected
+26-01-2023 20:34:01.018;RTMDeliveryLog;Data collect finished
+26-01-2023 20:34:01.020;RTMDeliveryLog;Process sleeping
+26-01-2023 20:35:00.390;RTMDeliveryLog;Data collect started
+26-01-2023 20:35:00.392;RTMDeliveryLog;Data collect finished
+26-01-2023 20:35:00.393;RTMDeliveryLog;Process sleeping
+26-01-2023 20:35:47.406;RTMDeliveryLog;Data delivery started
+26-01-2023 20:35:47.416;RTMDeliveryLog;RT mode
+26-01-2023 20:35:47.432;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 20:36:00.449;RTMDeliveryLog;Data collect started
+26-01-2023 20:36:00.450;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:36:01.007;RTMDeliveryLog;MQTT connected
+26-01-2023 20:36:01.377;RTMDeliveryLog;Data collect finished
+26-01-2023 20:36:01.379;RTMDeliveryLog;Process sleeping
+26-01-2023 20:37:00.449;RTMDeliveryLog;Data collect started
+26-01-2023 20:37:00.451;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:37:00.897;RTMDeliveryLog;MQTT connected
+26-01-2023 20:37:01.132;RTMDeliveryLog;Data collect finished
+26-01-2023 20:37:01.135;RTMDeliveryLog;Process sleeping
+26-01-2023 20:40:09.500;RTMDeliveryLog;Data delivery started
+26-01-2023 20:40:09.513;RTMDeliveryLog;RT mode
+26-01-2023 20:40:09.515;RTMDeliveryLog;Syncing with the second: 0
+26-01-2023 20:41:00.322;RTMDeliveryLog;Data collect started
+26-01-2023 20:41:00.324;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:41:00.912;RTMDeliveryLog;MQTT connected
+26-01-2023 20:41:01.150;RTMDeliveryLog;Data collect finished
+26-01-2023 20:41:01.152;RTMDeliveryLog;Process sleeping
+26-01-2023 20:42:00.323;RTMDeliveryLog;Data collect started
+26-01-2023 20:42:00.325;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:42:00.915;RTMDeliveryLog;MQTT connected
+26-01-2023 20:42:01.134;RTMDeliveryLog;Data collect finished
+26-01-2023 20:42:01.136;RTMDeliveryLog;Process sleeping
+26-01-2023 20:43:00.323;RTMDeliveryLog;Data collect started
+26-01-2023 20:43:00.325;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:43:00.715;RTMDeliveryLog;MQTT connected
+26-01-2023 20:43:00.983;RTMDeliveryLog;Data collect finished
+26-01-2023 20:43:00.985;RTMDeliveryLog;Process sleeping
+26-01-2023 20:44:00.324;RTMDeliveryLog;Data collect started
+26-01-2023 20:44:00.326;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:44:00.735;RTMDeliveryLog;MQTT connected
+26-01-2023 20:44:00.983;RTMDeliveryLog;Data collect finished
+26-01-2023 20:44:00.985;RTMDeliveryLog;Process sleeping
+26-01-2023 20:45:00.324;RTMDeliveryLog;Data collect started
+26-01-2023 20:45:00.326;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:45:00.713;RTMDeliveryLog;MQTT connected
+26-01-2023 20:45:00.941;RTMDeliveryLog;Data collect finished
+26-01-2023 20:45:00.943;RTMDeliveryLog;Process sleeping
+26-01-2023 20:46:00.324;RTMDeliveryLog;Data collect started
+26-01-2023 20:46:00.326;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:46:00.725;RTMDeliveryLog;MQTT connected
+26-01-2023 20:46:00.967;RTMDeliveryLog;Data collect finished
+26-01-2023 20:46:00.969;RTMDeliveryLog;Process sleeping
+26-01-2023 20:47:00.324;RTMDeliveryLog;Data collect started
+26-01-2023 20:47:00.326;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:47:00.744;RTMDeliveryLog;MQTT connected
+26-01-2023 20:47:00.978;RTMDeliveryLog;Data collect finished
+26-01-2023 20:47:00.979;RTMDeliveryLog;Process sleeping
+26-01-2023 20:48:00.325;RTMDeliveryLog;Data collect started
+26-01-2023 20:48:00.326;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:48:00.908;RTMDeliveryLog;MQTT connected
+26-01-2023 20:48:01.247;RTMDeliveryLog;Data collect finished
+26-01-2023 20:48:01.249;RTMDeliveryLog;Process sleeping
+26-01-2023 20:49:00.325;RTMDeliveryLog;Data collect started
+26-01-2023 20:49:00.327;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:49:00.736;RTMDeliveryLog;MQTT connected
+26-01-2023 20:49:00.960;RTMDeliveryLog;Data collect finished
+26-01-2023 20:49:00.962;RTMDeliveryLog;Process sleeping
+26-01-2023 20:50:00.325;RTMDeliveryLog;Data collect started
+26-01-2023 20:50:00.327;RTMDeliveryLog;Data collect finished
+26-01-2023 20:50:00.329;RTMDeliveryLog;Process sleeping
+26-01-2023 20:51:00.325;RTMDeliveryLog;Data collect started
+26-01-2023 20:51:00.327;RTMDeliveryLog;Data collect finished
+26-01-2023 20:51:00.328;RTMDeliveryLog;Process sleeping
+26-01-2023 20:52:00.325;RTMDeliveryLog;Data collect started
+26-01-2023 20:52:00.327;RTMDeliveryLog;Data collect finished
+26-01-2023 20:52:00.328;RTMDeliveryLog;Process sleeping
+26-01-2023 20:53:00.325;RTMDeliveryLog;Data collect started
+26-01-2023 20:53:00.327;RTMDeliveryLog;Data collect finished
+26-01-2023 20:53:00.328;RTMDeliveryLog;Process sleeping
+26-01-2023 20:54:00.326;RTMDeliveryLog;Data collect started
+26-01-2023 20:54:00.327;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:54:00.740;RTMDeliveryLog;MQTT connected
+26-01-2023 20:54:00.933;RTMDeliveryLog;Data collect finished
+26-01-2023 20:54:00.935;RTMDeliveryLog;Process sleeping
+26-01-2023 20:55:00.326;RTMDeliveryLog;Data collect started
+26-01-2023 20:55:00.327;RTMDeliveryLog;Data collect finished
+26-01-2023 20:55:00.329;RTMDeliveryLog;Process sleeping
+26-01-2023 20:56:00.326;RTMDeliveryLog;Data collect started
+26-01-2023 20:56:00.327;RTMDeliveryLog;Data collect finished
+26-01-2023 20:56:00.329;RTMDeliveryLog;Process sleeping
+26-01-2023 20:57:00.326;RTMDeliveryLog;Data collect started
+26-01-2023 20:57:00.327;RTMDeliveryLog;Data collect finished
+26-01-2023 20:57:00.329;RTMDeliveryLog;Process sleeping
+26-01-2023 20:58:00.326;RTMDeliveryLog;Data collect started
+26-01-2023 20:58:00.328;RTMDeliveryLog;Data collect finished
+26-01-2023 20:58:00.329;RTMDeliveryLog;Process sleeping
+26-01-2023 20:59:00.326;RTMDeliveryLog;Data collect started
+26-01-2023 20:59:00.328;RTMDeliveryLog;MQTT connecting
+26-01-2023 20:59:00.747;RTMDeliveryLog;MQTT connected
+26-01-2023 20:59:01.269;RTMDeliveryLog;Data collect finished
+26-01-2023 20:59:01.271;RTMDeliveryLog;Process sleeping
+26-01-2023 21:00:00.326;RTMDeliveryLog;Data collect started
+26-01-2023 21:00:00.328;RTMDeliveryLog;Data collect finished
+26-01-2023 21:00:00.330;RTMDeliveryLog;Process sleeping
+26-01-2023 21:01:00.326;RTMDeliveryLog;Data collect started
+26-01-2023 21:01:00.327;RTMDeliveryLog;Data collect finished
+26-01-2023 21:01:00.329;RTMDeliveryLog;Process sleeping
+26-01-2023 21:02:00.326;RTMDeliveryLog;Data collect started
+26-01-2023 21:02:00.328;RTMDeliveryLog;Data collect finished
+26-01-2023 21:02:00.329;RTMDeliveryLog;Process sleeping
+26-01-2023 21:03:00.326;RTMDeliveryLog;Data collect started
+26-01-2023 21:03:00.327;RTMDeliveryLog;Data collect finished
+26-01-2023 21:03:00.329;RTMDeliveryLog;Process sleeping
+26-01-2023 21:04:00.327;RTMDeliveryLog;Data collect started
+26-01-2023 21:04:00.328;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:04:01.078;RTMDeliveryLog;MQTT connected
+26-01-2023 21:04:01.270;RTMDeliveryLog;Data collect finished
+26-01-2023 21:04:01.272;RTMDeliveryLog;Process sleeping
+26-01-2023 21:05:00.328;RTMDeliveryLog;Data collect started
+26-01-2023 21:05:00.329;RTMDeliveryLog;Data collect finished
+26-01-2023 21:05:00.331;RTMDeliveryLog;Process sleeping
+26-01-2023 21:06:00.328;RTMDeliveryLog;Data collect started
+26-01-2023 21:06:00.330;RTMDeliveryLog;Data collect finished
+26-01-2023 21:06:00.331;RTMDeliveryLog;Process sleeping
+26-01-2023 21:07:00.329;RTMDeliveryLog;Data collect started
+26-01-2023 21:07:00.330;RTMDeliveryLog;Data collect finished
+26-01-2023 21:07:00.332;RTMDeliveryLog;Process sleeping
+26-01-2023 21:08:00.329;RTMDeliveryLog;Data collect started
+26-01-2023 21:08:00.331;RTMDeliveryLog;Data collect finished
+26-01-2023 21:08:00.333;RTMDeliveryLog;Process sleeping
+26-01-2023 21:09:00.329;RTMDeliveryLog;Data collect started
+26-01-2023 21:09:00.333;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:09:00.714;RTMDeliveryLog;MQTT connected
+26-01-2023 21:09:01.119;RTMDeliveryLog;Data collect finished
+26-01-2023 21:09:01.123;RTMDeliveryLog;Process sleeping
+26-01-2023 21:10:00.329;RTMDeliveryLog;Data collect started
+26-01-2023 21:10:00.331;RTMDeliveryLog;Data collect finished
+26-01-2023 21:10:00.333;RTMDeliveryLog;Process sleeping
+26-01-2023 21:11:00.329;RTMDeliveryLog;Data collect started
+26-01-2023 21:11:00.331;RTMDeliveryLog;Data collect finished
+26-01-2023 21:11:00.332;RTMDeliveryLog;Process sleeping
+26-01-2023 21:12:00.329;RTMDeliveryLog;Data collect started
+26-01-2023 21:12:00.330;RTMDeliveryLog;Data collect finished
+26-01-2023 21:12:00.332;RTMDeliveryLog;Process sleeping
+26-01-2023 21:13:00.329;RTMDeliveryLog;Data collect started
+26-01-2023 21:13:00.331;RTMDeliveryLog;Data collect finished
+26-01-2023 21:13:00.333;RTMDeliveryLog;Process sleeping
+26-01-2023 21:14:00.330;RTMDeliveryLog;Data collect started
+26-01-2023 21:14:00.332;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:14:00.736;RTMDeliveryLog;MQTT connected
+26-01-2023 21:14:00.933;RTMDeliveryLog;Data collect finished
+26-01-2023 21:14:00.935;RTMDeliveryLog;Process sleeping
+26-01-2023 21:15:00.330;RTMDeliveryLog;Data collect started
+26-01-2023 21:15:00.332;RTMDeliveryLog;Data collect finished
+26-01-2023 21:15:00.334;RTMDeliveryLog;Process sleeping
+26-01-2023 21:16:00.332;RTMDeliveryLog;Data collect started
+26-01-2023 21:16:00.334;RTMDeliveryLog;Data collect finished
+26-01-2023 21:16:00.335;RTMDeliveryLog;Process sleeping
+26-01-2023 21:17:00.333;RTMDeliveryLog;Data collect started
+26-01-2023 21:17:00.334;RTMDeliveryLog;Data collect finished
+26-01-2023 21:17:00.336;RTMDeliveryLog;Process sleeping
+26-01-2023 21:18:00.333;RTMDeliveryLog;Data collect started
+26-01-2023 21:18:00.335;RTMDeliveryLog;Data collect finished
+26-01-2023 21:18:00.337;RTMDeliveryLog;Process sleeping
+26-01-2023 21:19:00.333;RTMDeliveryLog;Data collect started
+26-01-2023 21:19:00.335;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:19:00.753;RTMDeliveryLog;MQTT connected
+26-01-2023 21:19:01.302;RTMDeliveryLog;Data collect finished
+26-01-2023 21:19:01.304;RTMDeliveryLog;Process sleeping
+26-01-2023 21:20:00.333;RTMDeliveryLog;Data collect started
+26-01-2023 21:20:00.335;RTMDeliveryLog;Data collect finished
+26-01-2023 21:20:00.336;RTMDeliveryLog;Process sleeping
+26-01-2023 21:21:00.334;RTMDeliveryLog;Data collect started
+26-01-2023 21:21:00.336;RTMDeliveryLog;Data collect finished
+26-01-2023 21:21:00.338;RTMDeliveryLog;Process sleeping
+26-01-2023 21:22:00.335;RTMDeliveryLog;Data collect started
+26-01-2023 21:22:00.337;RTMDeliveryLog;Data collect finished
+26-01-2023 21:22:00.338;RTMDeliveryLog;Process sleeping
+26-01-2023 21:23:00.335;RTMDeliveryLog;Data collect started
+26-01-2023 21:23:00.337;RTMDeliveryLog;Data collect finished
+26-01-2023 21:23:00.339;RTMDeliveryLog;Process sleeping
+26-01-2023 21:24:00.335;RTMDeliveryLog;Data collect started
+26-01-2023 21:24:00.337;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:24:00.764;RTMDeliveryLog;MQTT connected
+26-01-2023 21:24:00.968;RTMDeliveryLog;Data collect finished
+26-01-2023 21:24:00.969;RTMDeliveryLog;Process sleeping
+26-01-2023 21:25:00.335;RTMDeliveryLog;Data collect started
+26-01-2023 21:25:00.337;RTMDeliveryLog;Data collect finished
+26-01-2023 21:25:00.338;RTMDeliveryLog;Process sleeping
+26-01-2023 21:26:00.335;RTMDeliveryLog;Data collect started
+26-01-2023 21:26:00.337;RTMDeliveryLog;Data collect finished
+26-01-2023 21:26:00.339;RTMDeliveryLog;Process sleeping
+26-01-2023 21:27:00.335;RTMDeliveryLog;Data collect started
+26-01-2023 21:27:00.337;RTMDeliveryLog;Data collect finished
+26-01-2023 21:27:00.338;RTMDeliveryLog;Process sleeping
+26-01-2023 21:28:00.335;RTMDeliveryLog;Data collect started
+26-01-2023 21:28:00.337;RTMDeliveryLog;Data collect finished
+26-01-2023 21:28:00.338;RTMDeliveryLog;Process sleeping
+26-01-2023 21:29:00.335;RTMDeliveryLog;Data collect started
+26-01-2023 21:29:00.337;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:29:00.721;RTMDeliveryLog;MQTT connected
+26-01-2023 21:29:00.908;RTMDeliveryLog;Data collect finished
+26-01-2023 21:29:00.912;RTMDeliveryLog;Process sleeping
+26-01-2023 21:30:00.335;RTMDeliveryLog;Data collect started
+26-01-2023 21:30:00.337;RTMDeliveryLog;Data collect finished
+26-01-2023 21:30:00.339;RTMDeliveryLog;Process sleeping
+26-01-2023 21:31:00.335;RTMDeliveryLog;Data collect started
+26-01-2023 21:31:00.337;RTMDeliveryLog;Data collect finished
+26-01-2023 21:31:00.338;RTMDeliveryLog;Process sleeping
+26-01-2023 21:32:00.336;RTMDeliveryLog;Data collect started
+26-01-2023 21:32:00.337;RTMDeliveryLog;Data collect finished
+26-01-2023 21:32:00.339;RTMDeliveryLog;Process sleeping
+26-01-2023 21:33:00.336;RTMDeliveryLog;Data collect started
+26-01-2023 21:33:00.338;RTMDeliveryLog;Data collect finished
+26-01-2023 21:33:00.340;RTMDeliveryLog;Process sleeping
+26-01-2023 21:34:00.337;RTMDeliveryLog;Data collect started
+26-01-2023 21:34:00.339;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:34:00.722;RTMDeliveryLog;MQTT connected
+26-01-2023 21:34:00.908;RTMDeliveryLog;Data collect finished
+26-01-2023 21:34:00.910;RTMDeliveryLog;Process sleeping
+26-01-2023 21:35:00.337;RTMDeliveryLog;Data collect started
+26-01-2023 21:35:00.338;RTMDeliveryLog;Data collect finished
+26-01-2023 21:35:00.340;RTMDeliveryLog;Process sleeping
+26-01-2023 21:36:00.337;RTMDeliveryLog;Data collect started
+26-01-2023 21:36:00.339;RTMDeliveryLog;Data collect finished
+26-01-2023 21:36:00.340;RTMDeliveryLog;Process sleeping
+26-01-2023 21:37:00.337;RTMDeliveryLog;Data collect started
+26-01-2023 21:37:00.339;RTMDeliveryLog;Data collect finished
+26-01-2023 21:37:00.341;RTMDeliveryLog;Process sleeping
+26-01-2023 21:38:00.338;RTMDeliveryLog;Data collect started
+26-01-2023 21:38:00.340;RTMDeliveryLog;Data collect finished
+26-01-2023 21:38:00.341;RTMDeliveryLog;Process sleeping
+26-01-2023 21:39:00.338;RTMDeliveryLog;Data collect started
+26-01-2023 21:39:00.340;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:39:00.728;RTMDeliveryLog;MQTT connected
+26-01-2023 21:39:01.339;RTMDeliveryLog;Data collect finished
+26-01-2023 21:39:01.341;RTMDeliveryLog;Process sleeping
+26-01-2023 21:40:00.338;RTMDeliveryLog;Data collect started
+26-01-2023 21:40:00.340;RTMDeliveryLog;Data collect finished
+26-01-2023 21:40:00.341;RTMDeliveryLog;Process sleeping
+26-01-2023 21:41:00.339;RTMDeliveryLog;Data collect started
+26-01-2023 21:41:00.341;RTMDeliveryLog;Data collect finished
+26-01-2023 21:41:00.343;RTMDeliveryLog;Process sleeping
+26-01-2023 21:42:00.340;RTMDeliveryLog;Data collect started
+26-01-2023 21:42:00.343;RTMDeliveryLog;Data collect finished
+26-01-2023 21:42:00.344;RTMDeliveryLog;Process sleeping
+26-01-2023 21:43:00.340;RTMDeliveryLog;Data collect started
+26-01-2023 21:43:00.342;RTMDeliveryLog;Data collect finished
+26-01-2023 21:43:00.344;RTMDeliveryLog;Process sleeping
+26-01-2023 21:44:00.341;RTMDeliveryLog;Data collect started
+26-01-2023 21:44:00.343;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:44:00.730;RTMDeliveryLog;MQTT connected
+26-01-2023 21:44:00.920;RTMDeliveryLog;Data collect finished
+26-01-2023 21:44:00.922;RTMDeliveryLog;Process sleeping
+26-01-2023 21:45:00.341;RTMDeliveryLog;Data collect started
+26-01-2023 21:45:00.343;RTMDeliveryLog;Data collect finished
+26-01-2023 21:45:00.344;RTMDeliveryLog;Process sleeping
+26-01-2023 21:46:00.341;RTMDeliveryLog;Data collect started
+26-01-2023 21:46:00.343;RTMDeliveryLog;Data collect finished
+26-01-2023 21:46:00.345;RTMDeliveryLog;Process sleeping
+26-01-2023 21:47:00.342;RTMDeliveryLog;Data collect started
+26-01-2023 21:47:00.344;RTMDeliveryLog;Data collect finished
+26-01-2023 21:47:00.345;RTMDeliveryLog;Process sleeping
+26-01-2023 21:48:00.342;RTMDeliveryLog;Data collect started
+26-01-2023 21:48:00.344;RTMDeliveryLog;Data collect finished
+26-01-2023 21:48:00.345;RTMDeliveryLog;Process sleeping
+26-01-2023 21:49:00.342;RTMDeliveryLog;Data collect started
+26-01-2023 21:49:00.344;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:49:00.734;RTMDeliveryLog;MQTT connected
+26-01-2023 21:49:00.931;RTMDeliveryLog;Data collect finished
+26-01-2023 21:49:00.933;RTMDeliveryLog;Process sleeping
+26-01-2023 21:50:00.343;RTMDeliveryLog;Data collect started
+26-01-2023 21:50:00.345;RTMDeliveryLog;Data collect finished
+26-01-2023 21:50:00.347;RTMDeliveryLog;Process sleeping
+26-01-2023 21:51:00.344;RTMDeliveryLog;Data collect started
+26-01-2023 21:51:00.346;RTMDeliveryLog;Data collect finished
+26-01-2023 21:51:00.348;RTMDeliveryLog;Process sleeping
+26-01-2023 21:52:00.344;RTMDeliveryLog;Data collect started
+26-01-2023 21:52:00.346;RTMDeliveryLog;Data collect finished
+26-01-2023 21:52:00.348;RTMDeliveryLog;Process sleeping
+26-01-2023 21:53:00.345;RTMDeliveryLog;Data collect started
+26-01-2023 21:53:00.347;RTMDeliveryLog;Data collect finished
+26-01-2023 21:53:00.349;RTMDeliveryLog;Process sleeping
+26-01-2023 21:54:00.345;RTMDeliveryLog;Data collect started
+26-01-2023 21:54:00.347;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:54:00.726;RTMDeliveryLog;MQTT connected
+26-01-2023 21:54:00.922;RTMDeliveryLog;Data collect finished
+26-01-2023 21:54:00.924;RTMDeliveryLog;Process sleeping
+26-01-2023 21:55:00.346;RTMDeliveryLog;Data collect started
+26-01-2023 21:55:00.348;RTMDeliveryLog;Data collect finished
+26-01-2023 21:55:00.349;RTMDeliveryLog;Process sleeping
+26-01-2023 21:56:00.347;RTMDeliveryLog;Data collect started
+26-01-2023 21:56:00.348;RTMDeliveryLog;Data collect finished
+26-01-2023 21:56:00.350;RTMDeliveryLog;Process sleeping
+26-01-2023 21:57:00.346;RTMDeliveryLog;Data collect started
+26-01-2023 21:57:00.348;RTMDeliveryLog;Data collect finished
+26-01-2023 21:57:00.350;RTMDeliveryLog;Process sleeping
+26-01-2023 21:58:00.347;RTMDeliveryLog;Data collect started
+26-01-2023 21:58:00.348;RTMDeliveryLog;Data collect finished
+26-01-2023 21:58:00.350;RTMDeliveryLog;Process sleeping
+26-01-2023 21:59:00.347;RTMDeliveryLog;Data collect started
+26-01-2023 21:59:00.349;RTMDeliveryLog;MQTT connecting
+26-01-2023 21:59:05.753;RTMDeliveryLog;MQTT connected
+26-01-2023 21:59:05.956;RTMDeliveryLog;Data collect finished
+26-01-2023 21:59:05.958;RTMDeliveryLog;Process sleeping
+26-01-2023 22:00:00.347;RTMDeliveryLog;Data collect started
+26-01-2023 22:00:00.349;RTMDeliveryLog;Data collect finished
+26-01-2023 22:00:00.351;RTMDeliveryLog;Process sleeping
+26-01-2023 22:01:00.348;RTMDeliveryLog;Data collect started
+26-01-2023 22:01:00.349;RTMDeliveryLog;Data collect finished
+26-01-2023 22:01:00.351;RTMDeliveryLog;Process sleeping
+26-01-2023 22:02:00.348;RTMDeliveryLog;Data collect started
+26-01-2023 22:02:00.349;RTMDeliveryLog;Data collect finished
+26-01-2023 22:02:00.351;RTMDeliveryLog;Process sleeping
+26-01-2023 22:03:00.348;RTMDeliveryLog;Data collect started
+26-01-2023 22:03:00.349;RTMDeliveryLog;Data collect finished
+26-01-2023 22:03:00.351;RTMDeliveryLog;Process sleeping
+26-01-2023 22:04:00.348;RTMDeliveryLog;Data collect started
+26-01-2023 22:04:00.350;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:04:00.741;RTMDeliveryLog;MQTT connected
+26-01-2023 22:04:00.937;RTMDeliveryLog;Data collect finished
+26-01-2023 22:04:00.939;RTMDeliveryLog;Process sleeping
+26-01-2023 22:05:00.348;RTMDeliveryLog;Data collect started
+26-01-2023 22:05:00.349;RTMDeliveryLog;Data collect finished
+26-01-2023 22:05:00.351;RTMDeliveryLog;Process sleeping
+26-01-2023 22:06:00.348;RTMDeliveryLog;Data collect started
+26-01-2023 22:06:00.350;RTMDeliveryLog;Data collect finished
+26-01-2023 22:06:00.353;RTMDeliveryLog;Process sleeping
+26-01-2023 22:07:00.348;RTMDeliveryLog;Data collect started
+26-01-2023 22:07:00.350;RTMDeliveryLog;Data collect finished
+26-01-2023 22:07:00.351;RTMDeliveryLog;Process sleeping
+26-01-2023 22:08:00.348;RTMDeliveryLog;Data collect started
+26-01-2023 22:08:00.350;RTMDeliveryLog;Data collect finished
+26-01-2023 22:08:00.351;RTMDeliveryLog;Process sleeping
+26-01-2023 22:09:00.348;RTMDeliveryLog;Data collect started
+26-01-2023 22:09:00.349;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:09:00.731;RTMDeliveryLog;MQTT connected
+26-01-2023 22:09:00.947;RTMDeliveryLog;Data collect finished
+26-01-2023 22:09:00.949;RTMDeliveryLog;Process sleeping
+26-01-2023 22:10:00.348;RTMDeliveryLog;Data collect started
+26-01-2023 22:10:00.349;RTMDeliveryLog;Data collect finished
+26-01-2023 22:10:00.351;RTMDeliveryLog;Process sleeping
+26-01-2023 22:11:00.349;RTMDeliveryLog;Data collect started
+26-01-2023 22:11:00.350;RTMDeliveryLog;Data collect finished
+26-01-2023 22:11:00.352;RTMDeliveryLog;Process sleeping
+26-01-2023 22:12:00.349;RTMDeliveryLog;Data collect started
+26-01-2023 22:12:00.351;RTMDeliveryLog;Data collect finished
+26-01-2023 22:12:00.352;RTMDeliveryLog;Process sleeping
+26-01-2023 22:13:00.349;RTMDeliveryLog;Data collect started
+26-01-2023 22:13:00.351;RTMDeliveryLog;Data collect finished
+26-01-2023 22:13:00.353;RTMDeliveryLog;Process sleeping
+26-01-2023 22:14:00.350;RTMDeliveryLog;Data collect started
+26-01-2023 22:14:00.352;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:14:00.755;RTMDeliveryLog;MQTT connected
+26-01-2023 22:14:00.945;RTMDeliveryLog;Data collect finished
+26-01-2023 22:14:00.947;RTMDeliveryLog;Process sleeping
+26-01-2023 22:15:00.350;RTMDeliveryLog;Data collect started
+26-01-2023 22:15:00.352;RTMDeliveryLog;Data collect finished
+26-01-2023 22:15:00.354;RTMDeliveryLog;Process sleeping
+26-01-2023 22:16:00.350;RTMDeliveryLog;Data collect started
+26-01-2023 22:16:00.351;RTMDeliveryLog;Data collect finished
+26-01-2023 22:16:00.352;RTMDeliveryLog;Process sleeping
+26-01-2023 22:17:00.350;RTMDeliveryLog;Data collect started
+26-01-2023 22:17:00.352;RTMDeliveryLog;Data collect finished
+26-01-2023 22:17:00.354;RTMDeliveryLog;Process sleeping
+26-01-2023 22:18:00.350;RTMDeliveryLog;Data collect started
+26-01-2023 22:18:00.352;RTMDeliveryLog;Data collect finished
+26-01-2023 22:18:00.353;RTMDeliveryLog;Process sleeping
+26-01-2023 22:19:00.351;RTMDeliveryLog;Data collect started
+26-01-2023 22:19:00.353;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:19:00.748;RTMDeliveryLog;MQTT connected
+26-01-2023 22:19:00.953;RTMDeliveryLog;Data collect finished
+26-01-2023 22:19:00.955;RTMDeliveryLog;Process sleeping
+26-01-2023 22:20:00.351;RTMDeliveryLog;Data collect started
+26-01-2023 22:20:00.353;RTMDeliveryLog;Data collect finished
+26-01-2023 22:20:00.355;RTMDeliveryLog;Process sleeping
+26-01-2023 22:21:00.351;RTMDeliveryLog;Data collect started
+26-01-2023 22:21:00.353;RTMDeliveryLog;Data collect finished
+26-01-2023 22:21:00.355;RTMDeliveryLog;Process sleeping
+26-01-2023 22:22:00.352;RTMDeliveryLog;Data collect started
+26-01-2023 22:22:00.354;RTMDeliveryLog;Data collect finished
+26-01-2023 22:22:00.355;RTMDeliveryLog;Process sleeping
+26-01-2023 22:23:00.352;RTMDeliveryLog;Data collect started
+26-01-2023 22:23:00.354;RTMDeliveryLog;Data collect finished
+26-01-2023 22:23:00.355;RTMDeliveryLog;Process sleeping
+26-01-2023 22:24:00.352;RTMDeliveryLog;Data collect started
+26-01-2023 22:24:00.354;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:24:00.785;RTMDeliveryLog;MQTT connected
+26-01-2023 22:24:00.979;RTMDeliveryLog;Data collect finished
+26-01-2023 22:24:00.982;RTMDeliveryLog;Process sleeping
+26-01-2023 22:25:00.353;RTMDeliveryLog;Data collect started
+26-01-2023 22:25:00.355;RTMDeliveryLog;Data collect finished
+26-01-2023 22:25:00.357;RTMDeliveryLog;Process sleeping
+26-01-2023 22:26:00.353;RTMDeliveryLog;Data collect started
+26-01-2023 22:26:00.355;RTMDeliveryLog;Data collect finished
+26-01-2023 22:26:00.357;RTMDeliveryLog;Process sleeping
+26-01-2023 22:27:00.354;RTMDeliveryLog;Data collect started
+26-01-2023 22:27:00.356;RTMDeliveryLog;Data collect finished
+26-01-2023 22:27:00.358;RTMDeliveryLog;Process sleeping
+26-01-2023 22:28:00.355;RTMDeliveryLog;Data collect started
+26-01-2023 22:28:00.357;RTMDeliveryLog;Data collect finished
+26-01-2023 22:28:00.359;RTMDeliveryLog;Process sleeping
+26-01-2023 22:29:00.356;RTMDeliveryLog;Data collect started
+26-01-2023 22:29:00.357;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:29:00.753;RTMDeliveryLog;MQTT connected
+26-01-2023 22:29:00.951;RTMDeliveryLog;Data collect finished
+26-01-2023 22:29:00.953;RTMDeliveryLog;Process sleeping
+26-01-2023 22:30:00.357;RTMDeliveryLog;Data collect started
+26-01-2023 22:30:00.358;RTMDeliveryLog;Data collect finished
+26-01-2023 22:30:00.360;RTMDeliveryLog;Process sleeping
+26-01-2023 22:31:00.357;RTMDeliveryLog;Data collect started
+26-01-2023 22:31:00.358;RTMDeliveryLog;Data collect finished
+26-01-2023 22:31:00.360;RTMDeliveryLog;Process sleeping
+26-01-2023 22:32:00.357;RTMDeliveryLog;Data collect started
+26-01-2023 22:32:00.359;RTMDeliveryLog;Data collect finished
+26-01-2023 22:32:00.360;RTMDeliveryLog;Process sleeping
+26-01-2023 22:33:00.357;RTMDeliveryLog;Data collect started
+26-01-2023 22:33:00.359;RTMDeliveryLog;Data collect finished
+26-01-2023 22:33:00.360;RTMDeliveryLog;Process sleeping
+26-01-2023 22:34:00.357;RTMDeliveryLog;Data collect started
+26-01-2023 22:34:00.359;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:34:00.746;RTMDeliveryLog;MQTT connected
+26-01-2023 22:34:00.943;RTMDeliveryLog;Data collect finished
+26-01-2023 22:34:00.945;RTMDeliveryLog;Process sleeping
+26-01-2023 22:35:00.358;RTMDeliveryLog;Data collect started
+26-01-2023 22:35:00.360;RTMDeliveryLog;Data collect finished
+26-01-2023 22:35:00.361;RTMDeliveryLog;Process sleeping
+26-01-2023 22:36:00.358;RTMDeliveryLog;Data collect started
+26-01-2023 22:36:00.359;RTMDeliveryLog;Data collect finished
+26-01-2023 22:36:00.361;RTMDeliveryLog;Process sleeping
+26-01-2023 22:37:00.358;RTMDeliveryLog;Data collect started
+26-01-2023 22:37:00.359;RTMDeliveryLog;Data collect finished
+26-01-2023 22:37:00.361;RTMDeliveryLog;Process sleeping
+26-01-2023 22:38:00.358;RTMDeliveryLog;Data collect started
+26-01-2023 22:38:00.360;RTMDeliveryLog;Data collect finished
+26-01-2023 22:38:00.361;RTMDeliveryLog;Process sleeping
+26-01-2023 22:39:00.359;RTMDeliveryLog;Data collect started
+26-01-2023 22:39:00.360;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:39:00.746;RTMDeliveryLog;MQTT connected
+26-01-2023 22:39:00.961;RTMDeliveryLog;Data collect finished
+26-01-2023 22:39:00.964;RTMDeliveryLog;Process sleeping
+26-01-2023 22:40:00.360;RTMDeliveryLog;Data collect started
+26-01-2023 22:40:00.362;RTMDeliveryLog;Data collect finished
+26-01-2023 22:40:00.364;RTMDeliveryLog;Process sleeping
+26-01-2023 22:41:00.360;RTMDeliveryLog;Data collect started
+26-01-2023 22:41:00.362;RTMDeliveryLog;Data collect finished
+26-01-2023 22:41:00.364;RTMDeliveryLog;Process sleeping
+26-01-2023 22:42:00.360;RTMDeliveryLog;Data collect started
+26-01-2023 22:42:00.361;RTMDeliveryLog;Data collect finished
+26-01-2023 22:42:00.363;RTMDeliveryLog;Process sleeping
+26-01-2023 22:43:00.360;RTMDeliveryLog;Data collect started
+26-01-2023 22:43:00.362;RTMDeliveryLog;Data collect finished
+26-01-2023 22:43:00.364;RTMDeliveryLog;Process sleeping
+26-01-2023 22:44:00.361;RTMDeliveryLog;Data collect started
+26-01-2023 22:44:00.363;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:44:00.754;RTMDeliveryLog;MQTT connected
+26-01-2023 22:44:00.948;RTMDeliveryLog;Data collect finished
+26-01-2023 22:44:00.951;RTMDeliveryLog;Process sleeping
+26-01-2023 22:45:00.362;RTMDeliveryLog;Data collect started
+26-01-2023 22:45:00.364;RTMDeliveryLog;Data collect finished
+26-01-2023 22:45:00.366;RTMDeliveryLog;Process sleeping
+26-01-2023 22:46:00.362;RTMDeliveryLog;Data collect started
+26-01-2023 22:46:00.364;RTMDeliveryLog;Data collect finished
+26-01-2023 22:46:00.365;RTMDeliveryLog;Process sleeping
+26-01-2023 22:47:00.362;RTMDeliveryLog;Data collect started
+26-01-2023 22:47:00.364;RTMDeliveryLog;Data collect finished
+26-01-2023 22:47:00.365;RTMDeliveryLog;Process sleeping
+26-01-2023 22:48:00.362;RTMDeliveryLog;Data collect started
+26-01-2023 22:48:00.364;RTMDeliveryLog;Data collect finished
+26-01-2023 22:48:00.366;RTMDeliveryLog;Process sleeping
+26-01-2023 22:49:00.363;RTMDeliveryLog;Data collect started
+26-01-2023 22:49:00.365;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:49:00.771;RTMDeliveryLog;MQTT connected
+26-01-2023 22:49:00.968;RTMDeliveryLog;Data collect finished
+26-01-2023 22:49:00.970;RTMDeliveryLog;Process sleeping
+26-01-2023 22:50:00.364;RTMDeliveryLog;Data collect started
+26-01-2023 22:50:00.365;RTMDeliveryLog;Data collect finished
+26-01-2023 22:50:00.367;RTMDeliveryLog;Process sleeping
+26-01-2023 22:51:00.365;RTMDeliveryLog;Data collect started
+26-01-2023 22:51:00.366;RTMDeliveryLog;Data collect finished
+26-01-2023 22:51:00.368;RTMDeliveryLog;Process sleeping
+26-01-2023 22:52:00.365;RTMDeliveryLog;Data collect started
+26-01-2023 22:52:00.367;RTMDeliveryLog;Data collect finished
+26-01-2023 22:52:00.368;RTMDeliveryLog;Process sleeping
+26-01-2023 22:53:00.365;RTMDeliveryLog;Data collect started
+26-01-2023 22:53:00.367;RTMDeliveryLog;Data collect finished
+26-01-2023 22:53:00.369;RTMDeliveryLog;Process sleeping
+26-01-2023 22:54:00.365;RTMDeliveryLog;Data collect started
+26-01-2023 22:54:00.367;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:54:00.749;RTMDeliveryLog;MQTT connected
+26-01-2023 22:54:00.946;RTMDeliveryLog;Data collect finished
+26-01-2023 22:54:00.948;RTMDeliveryLog;Process sleeping
+26-01-2023 22:55:00.365;RTMDeliveryLog;Data collect started
+26-01-2023 22:55:00.367;RTMDeliveryLog;Data collect finished
+26-01-2023 22:55:00.369;RTMDeliveryLog;Process sleeping
+26-01-2023 22:56:00.366;RTMDeliveryLog;Data collect started
+26-01-2023 22:56:00.368;RTMDeliveryLog;Data collect finished
+26-01-2023 22:56:00.369;RTMDeliveryLog;Process sleeping
+26-01-2023 22:57:00.366;RTMDeliveryLog;Data collect started
+26-01-2023 22:57:00.368;RTMDeliveryLog;Data collect finished
+26-01-2023 22:57:00.369;RTMDeliveryLog;Process sleeping
+26-01-2023 22:58:00.366;RTMDeliveryLog;Data collect started
+26-01-2023 22:58:00.368;RTMDeliveryLog;Data collect finished
+26-01-2023 22:58:00.369;RTMDeliveryLog;Process sleeping
+26-01-2023 22:59:00.367;RTMDeliveryLog;Data collect started
+26-01-2023 22:59:00.369;RTMDeliveryLog;MQTT connecting
+26-01-2023 22:59:00.755;RTMDeliveryLog;MQTT connected
+26-01-2023 22:59:00.976;RTMDeliveryLog;Data collect finished
+26-01-2023 22:59:00.978;RTMDeliveryLog;Process sleeping
+26-01-2023 23:00:00.367;RTMDeliveryLog;Data collect started
+26-01-2023 23:00:00.369;RTMDeliveryLog;Data collect finished
+26-01-2023 23:00:00.370;RTMDeliveryLog;Process sleeping
+26-01-2023 23:01:00.368;RTMDeliveryLog;Data collect started
+26-01-2023 23:01:00.370;RTMDeliveryLog;Data collect finished
+26-01-2023 23:01:00.371;RTMDeliveryLog;Process sleeping
+26-01-2023 23:02:00.369;RTMDeliveryLog;Data collect started
+26-01-2023 23:02:00.370;RTMDeliveryLog;Data collect finished
+26-01-2023 23:02:00.372;RTMDeliveryLog;Process sleeping
+26-01-2023 23:03:00.369;RTMDeliveryLog;Data collect started
+26-01-2023 23:03:00.371;RTMDeliveryLog;Data collect finished
+26-01-2023 23:03:00.372;RTMDeliveryLog;Process sleeping
+26-01-2023 23:04:00.369;RTMDeliveryLog;Data collect started
+26-01-2023 23:04:00.371;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:04:00.757;RTMDeliveryLog;MQTT connected
+26-01-2023 23:04:00.944;RTMDeliveryLog;Data collect finished
+26-01-2023 23:04:00.946;RTMDeliveryLog;Process sleeping
+26-01-2023 23:05:00.370;RTMDeliveryLog;Data collect started
+26-01-2023 23:05:00.371;RTMDeliveryLog;Data collect finished
+26-01-2023 23:05:00.373;RTMDeliveryLog;Process sleeping
+26-01-2023 23:06:00.370;RTMDeliveryLog;Data collect started
+26-01-2023 23:06:00.372;RTMDeliveryLog;Data collect finished
+26-01-2023 23:06:00.374;RTMDeliveryLog;Process sleeping
+26-01-2023 23:07:00.370;RTMDeliveryLog;Data collect started
+26-01-2023 23:07:00.372;RTMDeliveryLog;Data collect finished
+26-01-2023 23:07:00.374;RTMDeliveryLog;Process sleeping
+26-01-2023 23:08:00.371;RTMDeliveryLog;Data collect started
+26-01-2023 23:08:00.372;RTMDeliveryLog;Data collect finished
+26-01-2023 23:08:00.374;RTMDeliveryLog;Process sleeping
+26-01-2023 23:09:00.371;RTMDeliveryLog;Data collect started
+26-01-2023 23:09:00.373;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:09:00.772;RTMDeliveryLog;MQTT connected
+26-01-2023 23:09:00.958;RTMDeliveryLog;Data collect finished
+26-01-2023 23:09:00.960;RTMDeliveryLog;Process sleeping
+26-01-2023 23:10:00.371;RTMDeliveryLog;Data collect started
+26-01-2023 23:10:00.373;RTMDeliveryLog;Data collect finished
+26-01-2023 23:10:00.374;RTMDeliveryLog;Process sleeping
+26-01-2023 23:11:00.371;RTMDeliveryLog;Data collect started
+26-01-2023 23:11:00.373;RTMDeliveryLog;Data collect finished
+26-01-2023 23:11:00.375;RTMDeliveryLog;Process sleeping
+26-01-2023 23:12:00.371;RTMDeliveryLog;Data collect started
+26-01-2023 23:12:00.373;RTMDeliveryLog;Data collect finished
+26-01-2023 23:12:00.374;RTMDeliveryLog;Process sleeping
+26-01-2023 23:13:00.371;RTMDeliveryLog;Data collect started
+26-01-2023 23:13:00.373;RTMDeliveryLog;Data collect finished
+26-01-2023 23:13:00.375;RTMDeliveryLog;Process sleeping
+26-01-2023 23:14:00.371;RTMDeliveryLog;Data collect started
+26-01-2023 23:14:00.373;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:14:00.747;RTMDeliveryLog;MQTT connected
+26-01-2023 23:14:00.933;RTMDeliveryLog;Data collect finished
+26-01-2023 23:14:00.935;RTMDeliveryLog;Process sleeping
+26-01-2023 23:15:00.371;RTMDeliveryLog;Data collect started
+26-01-2023 23:15:00.373;RTMDeliveryLog;Data collect finished
+26-01-2023 23:15:00.375;RTMDeliveryLog;Process sleeping
+26-01-2023 23:16:00.371;RTMDeliveryLog;Data collect started
+26-01-2023 23:16:00.373;RTMDeliveryLog;Data collect finished
+26-01-2023 23:16:00.375;RTMDeliveryLog;Process sleeping
+26-01-2023 23:17:00.372;RTMDeliveryLog;Data collect started
+26-01-2023 23:17:00.373;RTMDeliveryLog;Data collect finished
+26-01-2023 23:17:00.375;RTMDeliveryLog;Process sleeping
+26-01-2023 23:18:00.372;RTMDeliveryLog;Data collect started
+26-01-2023 23:18:00.374;RTMDeliveryLog;Data collect finished
+26-01-2023 23:18:00.376;RTMDeliveryLog;Process sleeping
+26-01-2023 23:19:00.372;RTMDeliveryLog;Data collect started
+26-01-2023 23:19:00.374;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:19:00.774;RTMDeliveryLog;MQTT connected
+26-01-2023 23:19:00.973;RTMDeliveryLog;Data collect finished
+26-01-2023 23:19:00.976;RTMDeliveryLog;Process sleeping
+26-01-2023 23:20:00.373;RTMDeliveryLog;Data collect started
+26-01-2023 23:20:00.375;RTMDeliveryLog;Data collect finished
+26-01-2023 23:20:00.376;RTMDeliveryLog;Process sleeping
+26-01-2023 23:21:00.373;RTMDeliveryLog;Data collect started
+26-01-2023 23:21:00.375;RTMDeliveryLog;Data collect finished
+26-01-2023 23:21:00.377;RTMDeliveryLog;Process sleeping
+26-01-2023 23:22:00.374;RTMDeliveryLog;Data collect started
+26-01-2023 23:22:00.376;RTMDeliveryLog;Data collect finished
+26-01-2023 23:22:00.378;RTMDeliveryLog;Process sleeping
+26-01-2023 23:23:00.375;RTMDeliveryLog;Data collect started
+26-01-2023 23:23:00.377;RTMDeliveryLog;Data collect finished
+26-01-2023 23:23:00.379;RTMDeliveryLog;Process sleeping
+26-01-2023 23:24:00.376;RTMDeliveryLog;Data collect started
+26-01-2023 23:24:00.378;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:24:00.784;RTMDeliveryLog;MQTT connected
+26-01-2023 23:24:00.971;RTMDeliveryLog;Data collect finished
+26-01-2023 23:24:00.974;RTMDeliveryLog;Process sleeping
+26-01-2023 23:25:00.377;RTMDeliveryLog;Data collect started
+26-01-2023 23:25:00.379;RTMDeliveryLog;Data collect finished
+26-01-2023 23:25:00.380;RTMDeliveryLog;Process sleeping
+26-01-2023 23:26:00.377;RTMDeliveryLog;Data collect started
+26-01-2023 23:26:00.379;RTMDeliveryLog;Data collect finished
+26-01-2023 23:26:00.380;RTMDeliveryLog;Process sleeping
+26-01-2023 23:27:00.377;RTMDeliveryLog;Data collect started
+26-01-2023 23:27:00.379;RTMDeliveryLog;Data collect finished
+26-01-2023 23:27:00.380;RTMDeliveryLog;Process sleeping
+26-01-2023 23:28:00.378;RTMDeliveryLog;Data collect started
+26-01-2023 23:28:00.379;RTMDeliveryLog;Data collect finished
+26-01-2023 23:28:00.381;RTMDeliveryLog;Process sleeping
+26-01-2023 23:29:00.378;RTMDeliveryLog;Data collect started
+26-01-2023 23:29:00.379;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:29:00.778;RTMDeliveryLog;MQTT connected
+26-01-2023 23:29:00.965;RTMDeliveryLog;Data collect finished
+26-01-2023 23:29:00.967;RTMDeliveryLog;Process sleeping
+26-01-2023 23:30:00.378;RTMDeliveryLog;Data collect started
+26-01-2023 23:30:00.379;RTMDeliveryLog;Data collect finished
+26-01-2023 23:30:00.381;RTMDeliveryLog;Process sleeping
+26-01-2023 23:31:00.378;RTMDeliveryLog;Data collect started
+26-01-2023 23:31:00.380;RTMDeliveryLog;Data collect finished
+26-01-2023 23:31:00.381;RTMDeliveryLog;Process sleeping
+26-01-2023 23:32:00.379;RTMDeliveryLog;Data collect started
+26-01-2023 23:32:00.380;RTMDeliveryLog;Data collect finished
+26-01-2023 23:32:00.383;RTMDeliveryLog;Process sleeping
+26-01-2023 23:33:00.379;RTMDeliveryLog;Data collect started
+26-01-2023 23:33:00.381;RTMDeliveryLog;Data collect finished
+26-01-2023 23:33:00.383;RTMDeliveryLog;Process sleeping
+26-01-2023 23:34:00.379;RTMDeliveryLog;Data collect started
+26-01-2023 23:34:00.380;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:34:00.753;RTMDeliveryLog;MQTT connected
+26-01-2023 23:34:00.975;RTMDeliveryLog;Data collect finished
+26-01-2023 23:34:00.977;RTMDeliveryLog;Process sleeping
+26-01-2023 23:35:00.379;RTMDeliveryLog;Data collect started
+26-01-2023 23:35:00.380;RTMDeliveryLog;Data collect finished
+26-01-2023 23:35:00.382;RTMDeliveryLog;Process sleeping
+26-01-2023 23:36:00.379;RTMDeliveryLog;Data collect started
+26-01-2023 23:36:00.381;RTMDeliveryLog;Data collect finished
+26-01-2023 23:36:00.382;RTMDeliveryLog;Process sleeping
+26-01-2023 23:37:00.379;RTMDeliveryLog;Data collect started
+26-01-2023 23:37:00.381;RTMDeliveryLog;Data collect finished
+26-01-2023 23:37:00.383;RTMDeliveryLog;Process sleeping
+26-01-2023 23:38:00.380;RTMDeliveryLog;Data collect started
+26-01-2023 23:38:00.382;RTMDeliveryLog;Data collect finished
+26-01-2023 23:38:00.384;RTMDeliveryLog;Process sleeping
+26-01-2023 23:39:00.380;RTMDeliveryLog;Data collect started
+26-01-2023 23:39:00.381;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:39:00.779;RTMDeliveryLog;MQTT connected
+26-01-2023 23:39:00.972;RTMDeliveryLog;Data collect finished
+26-01-2023 23:39:00.974;RTMDeliveryLog;Process sleeping
+26-01-2023 23:40:00.380;RTMDeliveryLog;Data collect started
+26-01-2023 23:40:00.382;RTMDeliveryLog;Data collect finished
+26-01-2023 23:40:00.384;RTMDeliveryLog;Process sleeping
+26-01-2023 23:41:00.381;RTMDeliveryLog;Data collect started
+26-01-2023 23:41:00.383;RTMDeliveryLog;Data collect finished
+26-01-2023 23:41:00.384;RTMDeliveryLog;Process sleeping
+26-01-2023 23:42:00.381;RTMDeliveryLog;Data collect started
+26-01-2023 23:42:00.383;RTMDeliveryLog;Data collect finished
+26-01-2023 23:42:00.385;RTMDeliveryLog;Process sleeping
+26-01-2023 23:43:00.382;RTMDeliveryLog;Data collect started
+26-01-2023 23:43:00.383;RTMDeliveryLog;Data collect finished
+26-01-2023 23:43:00.385;RTMDeliveryLog;Process sleeping
+26-01-2023 23:44:00.382;RTMDeliveryLog;Data collect started
+26-01-2023 23:44:00.384;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:44:00.974;RTMDeliveryLog;MQTT connected
+26-01-2023 23:44:01.166;RTMDeliveryLog;Data collect finished
+26-01-2023 23:44:01.167;RTMDeliveryLog;Process sleeping
+26-01-2023 23:45:00.382;RTMDeliveryLog;Data collect started
+26-01-2023 23:45:00.384;RTMDeliveryLog;Data collect finished
+26-01-2023 23:45:00.385;RTMDeliveryLog;Process sleeping
+26-01-2023 23:46:00.382;RTMDeliveryLog;Data collect started
+26-01-2023 23:46:00.385;RTMDeliveryLog;Data collect finished
+26-01-2023 23:46:00.387;RTMDeliveryLog;Process sleeping
+26-01-2023 23:47:00.382;RTMDeliveryLog;Data collect started
+26-01-2023 23:47:00.384;RTMDeliveryLog;Data collect finished
+26-01-2023 23:47:00.385;RTMDeliveryLog;Process sleeping
+26-01-2023 23:48:00.382;RTMDeliveryLog;Data collect started
+26-01-2023 23:48:00.384;RTMDeliveryLog;Data collect finished
+26-01-2023 23:48:00.386;RTMDeliveryLog;Process sleeping
+26-01-2023 23:49:00.383;RTMDeliveryLog;Data collect started
+26-01-2023 23:49:00.385;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:49:00.755;RTMDeliveryLog;MQTT connected
+26-01-2023 23:49:00.946;RTMDeliveryLog;Data collect finished
+26-01-2023 23:49:00.948;RTMDeliveryLog;Process sleeping
+26-01-2023 23:50:00.385;RTMDeliveryLog;Data collect started
+26-01-2023 23:50:00.387;RTMDeliveryLog;Data collect finished
+26-01-2023 23:50:00.388;RTMDeliveryLog;Process sleeping
+26-01-2023 23:51:00.385;RTMDeliveryLog;Data collect started
+26-01-2023 23:51:00.387;RTMDeliveryLog;Data collect finished
+26-01-2023 23:51:00.388;RTMDeliveryLog;Process sleeping
+26-01-2023 23:52:00.385;RTMDeliveryLog;Data collect started
+26-01-2023 23:52:00.387;RTMDeliveryLog;Data collect finished
+26-01-2023 23:52:00.388;RTMDeliveryLog;Process sleeping
+26-01-2023 23:53:00.385;RTMDeliveryLog;Data collect started
+26-01-2023 23:53:00.387;RTMDeliveryLog;Data collect finished
+26-01-2023 23:53:00.389;RTMDeliveryLog;Process sleeping
+26-01-2023 23:54:00.387;RTMDeliveryLog;Data collect started
+26-01-2023 23:54:00.389;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:54:00.784;RTMDeliveryLog;MQTT connected
+26-01-2023 23:54:00.997;RTMDeliveryLog;Data collect finished
+26-01-2023 23:54:00.999;RTMDeliveryLog;Process sleeping
+26-01-2023 23:55:00.387;RTMDeliveryLog;Data collect started
+26-01-2023 23:55:00.389;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:55:00.802;RTMDeliveryLog;MQTT connected
+26-01-2023 23:55:01.061;RTMDeliveryLog;Data collect finished
+26-01-2023 23:55:01.063;RTMDeliveryLog;Process sleeping
+26-01-2023 23:56:00.388;RTMDeliveryLog;Data collect started
+26-01-2023 23:56:00.389;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:56:01.127;RTMDeliveryLog;MQTT connected
+26-01-2023 23:56:01.358;RTMDeliveryLog;Data collect finished
+26-01-2023 23:56:01.360;RTMDeliveryLog;Process sleeping
+26-01-2023 23:57:00.388;RTMDeliveryLog;Data collect started
+26-01-2023 23:57:00.389;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:57:00.762;RTMDeliveryLog;MQTT connected
+26-01-2023 23:57:00.997;RTMDeliveryLog;Data collect finished
+26-01-2023 23:57:00.999;RTMDeliveryLog;Process sleeping
+26-01-2023 23:58:00.388;RTMDeliveryLog;Data collect started
+26-01-2023 23:58:00.390;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:58:00.802;RTMDeliveryLog;MQTT connected
+26-01-2023 23:58:01.033;RTMDeliveryLog;Data collect finished
+26-01-2023 23:58:01.035;RTMDeliveryLog;Process sleeping
+26-01-2023 23:59:00.389;RTMDeliveryLog;Data collect started
+26-01-2023 23:59:00.391;RTMDeliveryLog;MQTT connecting
+26-01-2023 23:59:00.767;RTMDeliveryLog;MQTT connected
+26-01-2023 23:59:01.013;RTMDeliveryLog;Data collect finished
+26-01-2023 23:59:01.015;RTMDeliveryLog;Process sleeping

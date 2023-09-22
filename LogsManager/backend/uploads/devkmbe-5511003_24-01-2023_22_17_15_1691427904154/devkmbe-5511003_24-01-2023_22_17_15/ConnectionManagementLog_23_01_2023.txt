@@ -1,0 +1,14 @@
+23-01-2023 19:37:22.616;ConnectionManagementLog;Start communication management
+23-01-2023 19:37:22.699;ConnectionManagementLog;Communication script
+23-01-2023 19:37:22.701;ConnectionManagementLog;Wi-Fi;NA;NA;NA
+23-01-2023 19:37:22.703;ConnectionManagementLog;GSM;1;Automatic;TIM MMS
+23-01-2023 19:37:22.704;ConnectionManagementLog;GSM;2;Automatic;Claro Internet
+23-01-2023 19:37:32.848;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+23-01-2023 19:37:32.878;ConnectionManagementLog;Checking if network available
+23-01-2023 19:37:33.883;ConnectionManagementLog;Network connected
+23-01-2023 19:37:33.884;ConnectionManagementLog;Checking internet access
+23-01-2023 19:37:33.937;ConnectionManagementLog;Internet available
+23-01-2023 19:37:33.939;ConnectionManagementLog;Communication management started successfully
+23-01-2023 19:37:34.632;ConnectionManagementLog;Checking internet access
+23-01-2023 19:37:34.844;ConnectionManagementLog;Internet available
+23-01-2023 19:40:12.995;ConnectionManagementLog;Sending Network status to KMBE

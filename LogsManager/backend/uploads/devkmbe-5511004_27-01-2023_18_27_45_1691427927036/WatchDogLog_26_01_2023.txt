@@ -1,0 +1,55 @@
+26-01-2023 19:03:18.993;WatchDogLog;Requested to watch service com.kantaribope.lcm.LcmService
+26-01-2023 19:03:19.008;WatchDogLog;Starting com.kantaribope.lcm.LcmService (boot)
+26-01-2023 19:13:36.829;WatchDogLog;Requested to watch service com.kantaribope.lcm.LcmService
+26-01-2023 19:13:36.843;WatchDogLog;Starting com.kantaribope.lcm.LcmService (boot)
+26-01-2023 19:19:26.254;WatchDogLog;Service destroy requested com.kantaribope.services.watchdog.WatchdogService
+26-01-2023 19:19:26.259;WatchDogLog;Starting com.kantaribope.lcm.LcmService (wdog)
+26-01-2023 19:44:49.282;WatchDogLog;Requested to watch service com.kantaribope.lcm.LcmService
+26-01-2023 19:44:49.307;WatchDogLog;Starting com.kantaribope.lcm.LcmService (boot)
+26-01-2023 19:44:54.533;WatchDogLog;backend health issues
+26-01-2023 19:44:59.577;WatchDogLog;backend health issues
+26-01-2023 19:45:04.620;WatchDogLog;backend health issues
+26-01-2023 19:45:09.663;WatchDogLog;backend health issues
+26-01-2023 19:45:14.707;WatchDogLog;backend health issues
+26-01-2023 19:45:19.750;WatchDogLog;backend health issues
+26-01-2023 19:45:19.752;WatchDogLog;Service expired! Restart com.kantaribope.lcm.LcmService
+26-01-2023 19:45:19.755;WatchDogLog;Starting com.kantaribope.lcm.LcmService (wdog)
+26-01-2023 20:08:16.864;WatchDogLog;Service destroy requested com.kantaribope.services.watchdog.WatchdogService
+26-01-2023 20:08:16.877;WatchDogLog;Starting com.kantaribope.lcm.LcmService (wdog)
+26-01-2023 20:15:34.616;WatchDogLog;Requested to watch service com.kantaribope.lcm.LcmService
+26-01-2023 20:15:34.635;WatchDogLog;Starting com.kantaribope.lcm.LcmService (boot)
+26-01-2023 20:15:39.773;WatchDogLog;backend health issues
+26-01-2023 20:15:44.816;WatchDogLog;backend health issues
+26-01-2023 20:15:49.846;WatchDogLog;backend health issues
+26-01-2023 20:15:54.888;WatchDogLog;backend health issues
+26-01-2023 20:15:59.893;WatchDogLog;backend health issues
+26-01-2023 20:16:04.933;WatchDogLog;backend health issues
+26-01-2023 20:16:04.936;WatchDogLog;Service expired! Restart com.kantaribope.lcm.LcmService
+26-01-2023 20:16:04.939;WatchDogLog;Starting com.kantaribope.lcm.LcmService (wdog)
+26-01-2023 20:19:47.783;WatchDogLog;Service destroy requested com.kantaribope.services.watchdog.WatchdogService
+26-01-2023 20:19:47.788;WatchDogLog;Starting com.kantaribope.lcm.LcmService (wdog)
+26-01-2023 20:27:58.197;WatchDogLog;Requested to watch service com.kantaribope.lcm.LcmService
+26-01-2023 20:27:58.214;WatchDogLog;Starting com.kantaribope.lcm.LcmService (boot)
+26-01-2023 20:28:03.393;WatchDogLog;backend health issues
+26-01-2023 20:28:08.404;WatchDogLog;backend health issues
+26-01-2023 20:28:13.443;WatchDogLog;backend health issues
+26-01-2023 20:28:18.486;WatchDogLog;backend health issues
+26-01-2023 20:28:23.513;WatchDogLog;backend health issues
+26-01-2023 20:28:28.556;WatchDogLog;backend health issues
+26-01-2023 20:28:28.559;WatchDogLog;Service expired! Restart com.kantaribope.lcm.LcmService
+26-01-2023 20:28:28.562;WatchDogLog;Starting com.kantaribope.lcm.LcmService (wdog)
+26-01-2023 20:33:28.730;WatchDogLog;Service destroy requested com.kantaribope.services.watchdog.WatchdogService
+26-01-2023 20:33:28.736;WatchDogLog;Starting com.kantaribope.lcm.LcmService (wdog)
+26-01-2023 20:35:16.878;WatchDogLog;Requested to watch service com.kantaribope.lcm.LcmService
+26-01-2023 20:35:16.903;WatchDogLog;Starting com.kantaribope.lcm.LcmService (boot)
+26-01-2023 20:35:22.103;WatchDogLog;backend health issues
+26-01-2023 20:35:27.146;WatchDogLog;backend health issues
+26-01-2023 20:35:32.194;WatchDogLog;backend health issues
+26-01-2023 20:35:37.237;WatchDogLog;backend health issues
+26-01-2023 20:35:42.280;WatchDogLog;backend health issues
+26-01-2023 20:35:47.323;WatchDogLog;backend health issues
+26-01-2023 20:35:47.326;WatchDogLog;Service expired! Restart com.kantaribope.lcm.LcmService
+26-01-2023 20:35:47.328;WatchDogLog;Starting com.kantaribope.lcm.LcmService (wdog)
+26-01-2023 20:37:16.498;WatchDogLog;Service destroy requested com.kantaribope.services.watchdog.WatchdogService
+26-01-2023 20:40:09.398;WatchDogLog;Requested to watch service com.kantaribope.lcm.LcmService
+26-01-2023 20:40:09.421;WatchDogLog;Starting com.kantaribope.lcm.LcmService (boot)

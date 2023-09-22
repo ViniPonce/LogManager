@@ -1,0 +1,178 @@
+26-01-2023 19:03:30.942;MainLog;Initializing MainLoop Service
+26-01-2023 19:03:30.960;MainLog;Dac Sensor is configure, no microphone should be selected
+26-01-2023 19:03:30.963;MainLog;Checking if some XPS sensor is already connected
+26-01-2023 19:03:30.970;MainLog;No sensors are currently connected
+26-01-2023 19:03:31.128;MainLog;Initializing DMBE service
+26-01-2023 19:03:45.987;MainLog;Starting the services of sensors configured as DAC
+26-01-2023 19:03:46.011;MainLog;Starting a DAC service for the sensor APS_8CC8
+26-01-2023 19:03:49.262;MainLog;TV OFF
+26-01-2023 19:09:16.625;MainLog;TV ON
+26-01-2023 19:09:16.744;MainLog;Remove handlers
+26-01-2023 19:13:48.784;MainLog;Initializing MainLoop Service
+26-01-2023 19:13:48.807;MainLog;Dac Sensor is configure, no microphone should be selected
+26-01-2023 19:13:48.809;MainLog;Checking if some XPS sensor is already connected
+26-01-2023 19:13:48.817;MainLog;No sensors are currently connected
+26-01-2023 19:13:48.957;MainLog;Initializing DMBE service
+26-01-2023 19:14:02.824;MainLog;Starting the services of sensors configured as DAC
+26-01-2023 19:14:02.854;MainLog;Starting a DAC service for the sensor APS_8CC8
+26-01-2023 19:14:06.100;MainLog;TV ON
+26-01-2023 19:14:06.225;MainLog;Remove handlers
+26-01-2023 19:19:26.247;MainLog;Remove handlers
+26-01-2023 19:19:26.254;MainLog;Services Stopped
+26-01-2023 19:19:26.255;MainLog;Service destroyed
+26-01-2023 19:19:26.329;MainLog;Remove handlers
+26-01-2023 19:19:26.330;MainLog;MainLoop Service Stopped
+26-01-2023 19:45:01.342;MainLog;Initializing MainLoop Service
+26-01-2023 19:45:01.345;MainLog;backend health issues
+26-01-2023 19:45:01.507;MainLog;Initializing DMBE service
+26-01-2023 19:45:02.348;MainLog;backend health issues
+26-01-2023 19:45:03.351;MainLog;backend health issues
+26-01-2023 19:45:04.353;MainLog;backend health issues
+26-01-2023 19:45:05.357;MainLog;backend health issues
+26-01-2023 19:45:06.359;MainLog;backend health issues
+26-01-2023 19:45:07.361;MainLog;backend health issues
+26-01-2023 19:45:08.364;MainLog;backend health issues
+26-01-2023 19:45:09.367;MainLog;backend health issues
+26-01-2023 19:45:10.369;MainLog;backend health issues
+26-01-2023 19:45:11.371;MainLog;backend health issues
+26-01-2023 19:45:12.374;MainLog;backend health issues
+26-01-2023 19:45:13.376;MainLog;backend health issues
+26-01-2023 19:45:14.379;MainLog;backend health issues
+26-01-2023 19:45:15.382;MainLog;backend health issues
+26-01-2023 19:45:16.385;MainLog;backend health issues
+26-01-2023 19:45:17.387;MainLog;backend health issues
+26-01-2023 19:45:18.390;MainLog;backend health issues
+26-01-2023 19:45:19.393;MainLog;backend health issues
+26-01-2023 19:45:20.401;MainLog;Dac Sensor is configure, no microphone should be selected
+26-01-2023 19:45:20.402;MainLog;Checking if some XPS sensor is already connected
+26-01-2023 19:45:20.409;MainLog;XPS sensor already connected
+26-01-2023 19:45:20.412;MainLog;Sensor: VEMITER-1
+26-01-2023 19:45:30.415;MainLog;Bluetooth adapter restarted
+26-01-2023 19:46:00.428;MainLog;Starting the services of sensors configured as DAC
+26-01-2023 19:46:00.449;MainLog;Starting a DAC service for the sensor APS_8CC8
+26-01-2023 19:46:03.667;MainLog;TV ON
+26-01-2023 19:46:03.794;MainLog;Remove handlers
+26-01-2023 20:08:16.859;MainLog;Remove handlers
+26-01-2023 20:08:16.865;MainLog;Services Stopped
+26-01-2023 20:08:16.867;MainLog;Service destroyed
+26-01-2023 20:08:17.255;MainLog;Remove handlers
+26-01-2023 20:08:17.258;MainLog;MainLoop Service Stopped
+26-01-2023 20:15:46.670;MainLog;Initializing MainLoop Service
+26-01-2023 20:15:46.673;MainLog;backend health issues
+26-01-2023 20:15:46.837;MainLog;Initializing DMBE service
+26-01-2023 20:15:47.676;MainLog;backend health issues
+26-01-2023 20:15:48.678;MainLog;backend health issues
+26-01-2023 20:15:49.681;MainLog;backend health issues
+26-01-2023 20:15:50.683;MainLog;backend health issues
+26-01-2023 20:15:51.685;MainLog;backend health issues
+26-01-2023 20:15:52.688;MainLog;backend health issues
+26-01-2023 20:15:53.690;MainLog;backend health issues
+26-01-2023 20:15:54.692;MainLog;backend health issues
+26-01-2023 20:15:55.695;MainLog;backend health issues
+26-01-2023 20:15:56.697;MainLog;backend health issues
+26-01-2023 20:15:57.699;MainLog;backend health issues
+26-01-2023 20:15:58.702;MainLog;backend health issues
+26-01-2023 20:15:59.705;MainLog;backend health issues
+26-01-2023 20:16:00.707;MainLog;backend health issues
+26-01-2023 20:16:01.710;MainLog;backend health issues
+26-01-2023 20:16:02.713;MainLog;backend health issues
+26-01-2023 20:16:03.715;MainLog;backend health issues
+26-01-2023 20:16:04.718;MainLog;backend health issues
+26-01-2023 20:16:05.729;MainLog;Audio capture method set to: RIGHT_MIC
+26-01-2023 20:16:05.734;MainLog;Right mic was turned on
+26-01-2023 20:16:05.736;MainLog;Checking if some XPS sensor is already connected
+26-01-2023 20:16:05.740;MainLog;XPS sensor already connected
+26-01-2023 20:16:05.744;MainLog;Sensor: VEMITER-1
+26-01-2023 20:16:15.746;MainLog;Bluetooth adapter restarted
+26-01-2023 20:16:15.929;MainLog;TV OFF
+26-01-2023 20:16:43.168;MainLog;TV ON
+26-01-2023 20:16:43.290;MainLog;Remove handlers
+26-01-2023 20:19:47.776;MainLog;Remove handlers
+26-01-2023 20:19:47.785;MainLog;Services Stopped
+26-01-2023 20:19:47.794;MainLog;Service destroyed
+26-01-2023 20:19:48.349;MainLog;Remove handlers
+26-01-2023 20:19:48.350;MainLog;MainLoop Service Stopped
+26-01-2023 20:28:10.256;MainLog;Initializing MainLoop Service
+26-01-2023 20:28:10.259;MainLog;backend health issues
+26-01-2023 20:28:10.424;MainLog;Initializing DMBE service
+26-01-2023 20:28:11.261;MainLog;backend health issues
+26-01-2023 20:28:12.264;MainLog;backend health issues
+26-01-2023 20:28:13.266;MainLog;backend health issues
+26-01-2023 20:28:14.269;MainLog;backend health issues
+26-01-2023 20:28:15.271;MainLog;backend health issues
+26-01-2023 20:28:16.273;MainLog;backend health issues
+26-01-2023 20:28:17.276;MainLog;backend health issues
+26-01-2023 20:28:18.278;MainLog;backend health issues
+26-01-2023 20:28:19.281;MainLog;backend health issues
+26-01-2023 20:28:20.283;MainLog;backend health issues
+26-01-2023 20:28:21.285;MainLog;backend health issues
+26-01-2023 20:28:22.287;MainLog;backend health issues
+26-01-2023 20:28:23.290;MainLog;backend health issues
+26-01-2023 20:28:24.292;MainLog;backend health issues
+26-01-2023 20:28:25.295;MainLog;backend health issues
+26-01-2023 20:28:26.298;MainLog;backend health issues
+26-01-2023 20:28:27.300;MainLog;backend health issues
+26-01-2023 20:28:28.303;MainLog;backend health issues
+26-01-2023 20:28:29.306;MainLog;service health issues com.kantaribope.services.am.AudioMatchingService com.kantaribope.lcm.demo.AmServiceClient@26f7cf8
+26-01-2023 20:28:30.323;MainLog;Audio capture method set to: RIGHT_MIC
+26-01-2023 20:28:30.326;MainLog;Right mic is already turned on
+26-01-2023 20:28:30.328;MainLog;Checking if some XPS sensor is already connected
+26-01-2023 20:28:30.344;MainLog;XPS sensor already connected
+26-01-2023 20:28:30.349;MainLog;Sensor: VEMITER-1
+26-01-2023 20:28:40.351;MainLog;Bluetooth adapter restarted
+26-01-2023 20:28:40.472;MainLog;TV OFF
+26-01-2023 20:29:06.714;MainLog;TV ON
+26-01-2023 20:29:06.844;MainLog;Remove handlers
+26-01-2023 20:33:28.722;MainLog;Remove handlers
+26-01-2023 20:33:28.729;MainLog;Services Stopped
+26-01-2023 20:33:28.730;MainLog;Service destroyed
+26-01-2023 20:33:28.931;MainLog;Remove handlers
+26-01-2023 20:33:28.933;MainLog;MainLoop Service Stopped
+26-01-2023 20:35:28.937;MainLog;Initializing MainLoop Service
+26-01-2023 20:35:28.940;MainLog;backend health issues
+26-01-2023 20:35:29.104;MainLog;Initializing DMBE service
+26-01-2023 20:35:29.943;MainLog;backend health issues
+26-01-2023 20:35:30.945;MainLog;backend health issues
+26-01-2023 20:35:31.947;MainLog;backend health issues
+26-01-2023 20:35:32.950;MainLog;backend health issues
+26-01-2023 20:35:33.953;MainLog;backend health issues
+26-01-2023 20:35:34.955;MainLog;backend health issues
+26-01-2023 20:35:35.958;MainLog;backend health issues
+26-01-2023 20:35:36.960;MainLog;backend health issues
+26-01-2023 20:35:37.962;MainLog;backend health issues
+26-01-2023 20:35:38.965;MainLog;backend health issues
+26-01-2023 20:35:39.967;MainLog;backend health issues
+26-01-2023 20:35:40.970;MainLog;backend health issues
+26-01-2023 20:35:41.973;MainLog;backend health issues
+26-01-2023 20:35:42.975;MainLog;backend health issues
+26-01-2023 20:35:43.978;MainLog;backend health issues
+26-01-2023 20:35:44.980;MainLog;backend health issues
+26-01-2023 20:35:45.983;MainLog;backend health issues
+26-01-2023 20:35:46.986;MainLog;backend health issues
+26-01-2023 20:35:47.996;MainLog;Dac Sensor is configure, no microphone should be selected
+26-01-2023 20:35:47.997;MainLog;Checking if some XPS sensor is already connected
+26-01-2023 20:35:48.005;MainLog;XPS sensor already connected
+26-01-2023 20:35:48.009;MainLog;Sensor: VEMITER-1
+26-01-2023 20:35:58.012;MainLog;Bluetooth adapter restarted
+26-01-2023 20:35:58.015;MainLog;Starting the services of sensors configured as DAC
+26-01-2023 20:35:58.039;MainLog;Starting a DAC service for the sensor APS_8CC8
+26-01-2023 20:35:59.163;MainLog;TV OFF
+26-01-2023 20:36:25.409;MainLog;TV ON
+26-01-2023 20:36:25.529;MainLog;Remove handlers
+26-01-2023 20:37:16.493;MainLog;Remove handlers
+26-01-2023 20:37:16.499;MainLog;Services Stopped
+26-01-2023 20:37:16.500;MainLog;Service destroyed
+26-01-2023 20:37:16.544;MainLog;Remove handlers
+26-01-2023 20:37:16.546;MainLog;MainLoop Service Stopped
+26-01-2023 20:40:21.455;MainLog;Initializing MainLoop Service
+26-01-2023 20:40:21.470;MainLog;Dac Sensor is configure, no microphone should be selected
+26-01-2023 20:40:21.473;MainLog;Checking if some XPS sensor is already connected
+26-01-2023 20:40:21.479;MainLog;No sensors are currently connected
+26-01-2023 20:40:21.604;MainLog;Initializing DMBE service
+26-01-2023 20:40:35.486;MainLog;Starting the services of sensors configured as DAC
+26-01-2023 20:40:35.509;MainLog;Starting a DAC service for the sensor APS_8CC8
+26-01-2023 20:40:38.741;MainLog;TV ON
+26-01-2023 20:40:38.874;MainLog;Remove handlers
+26-01-2023 20:48:37.027;MainLog;TV OFF
+26-01-2023 23:53:54.349;MainLog;TV ON
+26-01-2023 23:53:54.482;MainLog;Remove handlers

@@ -1,0 +1,20 @@
+27-01-2023 13:38:26.265;DACLog;Starting the services of sensors configured as DAC
+27-01-2023 13:38:26.290;DACLog;APS_8CC8 - Highest priority sensor
+27-01-2023 13:53:58.844;DACLog;Starting the services of sensors configured as DAC
+27-01-2023 13:53:58.870;DACLog;OPS_A707 - Highest priority sensor
+27-01-2023 13:54:01.488;DACLog;All sensors are disconnected
+27-01-2023 13:54:01.506;DACLog;DAC selected: OPS_A707
+27-01-2023 14:53:40.892;DACLog;Starting the services of sensors configured as DAC
+27-01-2023 14:53:40.924;DACLog;OPS_A707 - Highest priority sensor
+27-01-2023 15:00:52.834;DACLog;Starting the services of sensors configured as DAC
+27-01-2023 15:00:52.864;DACLog;OPS_A707 - Highest priority sensor
+27-01-2023 15:07:48.084;DACLog;Starting the services of sensors configured as DAC
+27-01-2023 15:07:48.116;DACLog;OPS_A707 - Highest priority sensor
+27-01-2023 15:15:08.921;DACLog;Starting the services of sensors configured as DAC
+27-01-2023 15:15:08.950;DACLog;OPS_A707 - Highest priority sensor
+27-01-2023 17:17:11.074;DACLog;Priority sensor with audio, immediate switching
+27-01-2023 17:17:11.087;DACLog;DAC selected: OPS_A707
+27-01-2023 17:50:22.780;DACLog;Starting the services of sensors configured as DAC
+27-01-2023 17:50:22.812;DACLog;OPS_A707 - Highest priority sensor
+27-01-2023 17:50:25.444;DACLog;All sensors are disconnected
+27-01-2023 17:50:25.462;DACLog;DAC selected: OPS_A707

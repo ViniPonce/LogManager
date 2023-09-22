@@ -1,0 +1,6 @@
+01-03-2023 06:13:21.653;DMBELog;Synchronizing parameters with KMBE
+01-03-2023 06:13:21.660;DMBELog;Requesting parameters
+01-03-2023 06:13:22.952;DMBELog;Parameters received
+01-03-2023 06:13:23.543;DMBELog;Sending parameters
+01-03-2023 06:13:24.622;DMBELog;Parameters synchronization finished
+01-03-2023 06:13:24.625;DMBELog;Application Parameters Received Successfully

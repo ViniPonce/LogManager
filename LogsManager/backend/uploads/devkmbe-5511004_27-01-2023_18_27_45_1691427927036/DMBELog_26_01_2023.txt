@@ -1,0 +1,85 @@
+26-01-2023 18:58:48.027;DMBELog;Connecting to server: https://dmbe-kmbe.kantarmedia.fr/
+26-01-2023 18:58:48.030;DMBELog;Trying authentication with DMBE wrapper, calling GetToken API
+26-01-2023 18:58:48.032;DMBELog;Authentication data: devkmbe-5511004 - mt8766-tb8766p1_bsp-955779951796 - PM7 API 1.0
+26-01-2023 18:58:49.896;DMBELog;GetToken successfully
+26-01-2023 18:58:49.915;DMBELog;Trying read parameters in DMBE wrapper, calling RequestParameters API
+26-01-2023 18:58:49.919;DMBELog;Reading parameters from KMBE
+26-01-2023 18:58:50.970;DMBELog;Parameter list size: 125
+26-01-2023 18:58:50.986;DMBELog;RequestParameters successfully
+26-01-2023 18:58:51.550;DMBELog;Trying authentication with KMBE, calling GetFMBEToken API
+26-01-2023 18:58:51.551;DMBELog;Authentication data: devkmbe-5511004 - mt8766-tb8766p1_bsp-955779951796 - PM7 API 1.0
+26-01-2023 18:58:52.856;DMBELog;GetFMBEToken successfully
+26-01-2023 19:03:10.853;DMBELog;Synchronizing parameters with KMBE
+26-01-2023 19:03:10.866;DMBELog;Requesting parameters
+26-01-2023 19:03:12.139;DMBELog;Parameters received
+26-01-2023 19:03:12.645;DMBELog;Sending parameters
+26-01-2023 19:03:13.767;DMBELog;Custom parameters pending, sending data to KMBE
+26-01-2023 19:03:13.863;DMBELog;Sending custom parameters
+26-01-2023 19:03:14.888;DMBELog;Success sending parameters
+26-01-2023 19:03:14.969;DMBELog;Parameters synchronization finished
+26-01-2023 19:03:14.972;DMBELog;Application Parameters Received Successfully
+26-01-2023 19:03:29.977;DMBELog;Sending Network status to KMBE
+26-01-2023 19:03:30.978;DMBELog;6:10:42
+26-01-2023 19:03:41.656;DMBELog;Success sending parameters
+26-01-2023 19:13:28.695;DMBELog;Synchronizing parameters with KMBE
+26-01-2023 19:13:28.725;DMBELog;Requesting parameters
+26-01-2023 19:13:30.206;DMBELog;Parameters received
+26-01-2023 19:13:30.702;DMBELog;Sending parameters
+26-01-2023 19:13:31.969;DMBELog;Custom parameters pending, sending data to KMBE
+26-01-2023 19:13:32.054;DMBELog;Sending custom parameters
+26-01-2023 19:13:33.095;DMBELog;Success sending parameters
+26-01-2023 19:13:33.175;DMBELog;Parameters synchronization finished
+26-01-2023 19:13:33.178;DMBELog;Application Parameters Received Successfully
+26-01-2023 19:13:47.738;DMBELog;Sending Network status to KMBE
+26-01-2023 19:13:48.826;DMBELog;6:7:53
+26-01-2023 19:13:51.731;DMBELog;Success sending parameters
+26-01-2023 19:44:41.264;DMBELog;Synchronizing parameters with KMBE
+26-01-2023 19:44:41.275;DMBELog;Requesting parameters
+26-01-2023 19:44:42.854;DMBELog;Parameters received
+26-01-2023 19:44:43.392;DMBELog;Sending parameters
+26-01-2023 19:44:44.472;DMBELog;Custom parameters pending, sending data to KMBE
+26-01-2023 19:44:44.549;DMBELog;Sending custom parameters
+26-01-2023 19:44:45.535;DMBELog;Success sending parameters
+26-01-2023 19:44:45.612;DMBELog;Parameters synchronization finished
+26-01-2023 19:44:45.614;DMBELog;Application Parameters Received Successfully
+26-01-2023 19:45:01.378;DMBELog;6:4:11
+26-01-2023 20:15:25.589;DMBELog;Synchronizing parameters with KMBE
+26-01-2023 20:15:25.604;DMBELog;Requesting parameters
+26-01-2023 20:15:26.926;DMBELog;Parameters received
+26-01-2023 20:15:27.451;DMBELog;Sending parameters
+26-01-2023 20:15:28.624;DMBELog;Custom parameters pending, sending data to KMBE
+26-01-2023 20:15:28.694;DMBELog;Sending custom parameters
+26-01-2023 20:15:30.970;DMBELog;Success sending parameters
+26-01-2023 20:15:30.998;DMBELog;Parameters synchronization finished
+26-01-2023 20:15:31.001;DMBELog;Application Parameters Received Successfully
+26-01-2023 20:15:46.706;DMBELog;6:7:2
+26-01-2023 20:27:50.178;DMBELog;Synchronizing parameters with KMBE
+26-01-2023 20:27:50.191;DMBELog;Requesting parameters
+26-01-2023 20:27:51.547;DMBELog;Parameters received
+26-01-2023 20:27:52.077;DMBELog;Sending parameters
+26-01-2023 20:27:53.169;DMBELog;Custom parameters pending, sending data to KMBE
+26-01-2023 20:27:53.240;DMBELog;Sending custom parameters
+26-01-2023 20:27:54.397;DMBELog;Success sending parameters
+26-01-2023 20:27:54.425;DMBELog;Parameters synchronization finished
+26-01-2023 20:27:54.427;DMBELog;Application Parameters Received Successfully
+26-01-2023 20:28:10.290;DMBELog;6:7:28
+26-01-2023 20:35:08.856;DMBELog;Synchronizing parameters with KMBE
+26-01-2023 20:35:08.870;DMBELog;Requesting parameters
+26-01-2023 20:35:10.208;DMBELog;Parameters received
+26-01-2023 20:35:10.741;DMBELog;Sending parameters
+26-01-2023 20:35:11.851;DMBELog;Custom parameters pending, sending data to KMBE
+26-01-2023 20:35:11.925;DMBELog;Sending custom parameters
+26-01-2023 20:35:12.977;DMBELog;Success sending parameters
+26-01-2023 20:35:13.002;DMBELog;Parameters synchronization finished
+26-01-2023 20:35:13.004;DMBELog;Application Parameters Received Successfully
+26-01-2023 20:35:28.972;DMBELog;6:9:40
+26-01-2023 20:40:01.379;DMBELog;Synchronizing parameters with KMBE
+26-01-2023 20:40:01.392;DMBELog;Requesting parameters
+26-01-2023 20:40:03.567;DMBELog;Parameters received
+26-01-2023 20:40:04.090;DMBELog;Sending parameters
+26-01-2023 20:40:05.083;DMBELog;Custom parameters pending, sending data to KMBE
+26-01-2023 20:40:05.159;DMBELog;Sending custom parameters
+26-01-2023 20:40:06.167;DMBELog;Success sending parameters
+26-01-2023 20:40:06.195;DMBELog;Parameters synchronization finished
+26-01-2023 20:40:06.198;DMBELog;Application Parameters Received Successfully
+26-01-2023 20:40:21.492;DMBELog;6:7:16

@@ -1,0 +1,313 @@
+24-01-2023 12:47:58.096;BootLog;onCreated
+24-01-2023 12:47:58.098;BootLog;Boot prepared
+24-01-2023 12:47:58.111;BootLog;Checking if old services are running
+24-01-2023 12:48:03.125;BootLog;onStart
+24-01-2023 12:48:03.189;BootLog;onResume
+24-01-2023 12:48:04.070;BootLog;onCreated
+24-01-2023 12:48:04.071;BootLog;Boot prepared
+24-01-2023 12:48:04.075;BootLog;Checking if old services are running
+24-01-2023 12:48:09.092;BootLog;onStart
+24-01-2023 12:48:09.355;BootLog;onResume
+24-01-2023 12:49:01.729;BootLog;onCreated
+24-01-2023 12:49:01.733;BootLog;Boot prepared
+24-01-2023 12:49:01.757;BootLog;Checking if old services are running
+24-01-2023 12:49:06.772;BootLog;onStart
+24-01-2023 12:49:06.820;BootLog;onResume
+24-01-2023 12:49:12.833;BootLog;Start meter process
+24-01-2023 12:49:15.840;BootLog;Communication management started
+24-01-2023 12:50:12.872;BootLog;onCreated
+24-01-2023 12:50:12.874;BootLog;Boot prepared
+24-01-2023 12:50:12.879;BootLog;Checking if old services are running
+24-01-2023 12:50:17.894;BootLog;onStart
+24-01-2023 12:50:17.936;BootLog;onResume
+24-01-2023 12:50:23.948;BootLog;Start meter process
+24-01-2023 12:50:26.954;BootLog;Communication management started
+24-01-2023 12:50:39.179;BootLog;Communication management started successfully
+24-01-2023 12:50:54.186;BootLog;NTP service starting
+24-01-2023 12:50:59.230;BootLog;Communication management started successfully
+24-01-2023 12:50:59.233;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 12:50:59.236;BootLog;DMBE service starting
+24-01-2023 12:51:24.928;BootLog;DMBE service started successfully
+24-01-2023 12:51:24.932;BootLog;Initializing audio services
+24-01-2023 12:51:27.938;BootLog;Audio services started
+24-01-2023 12:51:27.947;BootLog;Initializing on-off sensor service
+24-01-2023 12:51:30.952;BootLog;On-off sensor service started
+24-01-2023 12:51:30.960;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 12:51:33.964;BootLog;Initializing Peripheral sensors service
+24-01-2023 12:51:36.968;BootLog;Peripheral sensors service started
+24-01-2023 12:51:36.971;BootLog;Initializing SI code sensor service
+24-01-2023 12:51:39.996;BootLog;SI code sensor service started
+24-01-2023 12:51:40.002;BootLog;Initializing Mainloop service
+24-01-2023 12:51:40.009;BootLog;MainLoop service started
+24-01-2023 12:52:44.250;BootLog;onStop
+24-01-2023 13:28:27.136;BootLog;onCreated
+24-01-2023 13:28:27.139;BootLog;Boot prepared
+24-01-2023 13:28:27.146;BootLog;Checking if old services are running
+24-01-2023 13:28:32.160;BootLog;onStart
+24-01-2023 13:28:32.203;BootLog;onResume
+24-01-2023 13:28:38.214;BootLog;Start meter process
+24-01-2023 13:28:41.222;BootLog;Communication management started
+24-01-2023 13:28:53.477;BootLog;Communication management started successfully
+24-01-2023 13:29:08.484;BootLog;NTP service starting
+24-01-2023 13:29:13.527;BootLog;Communication management started successfully
+24-01-2023 13:29:13.530;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 13:29:13.532;BootLog;DMBE service starting
+24-01-2023 13:29:16.546;BootLog;DMBE service started successfully
+24-01-2023 13:29:16.551;BootLog;Initializing audio services
+24-01-2023 13:29:19.557;BootLog;Audio services started
+24-01-2023 13:29:19.564;BootLog;Initializing on-off sensor service
+24-01-2023 13:29:22.569;BootLog;On-off sensor service started
+24-01-2023 13:29:22.576;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 13:29:25.580;BootLog;Initializing Peripheral sensors service
+24-01-2023 13:29:28.590;BootLog;Peripheral sensors service started
+24-01-2023 13:29:28.593;BootLog;Initializing SI code sensor service
+24-01-2023 13:29:31.630;BootLog;SI code sensor service started
+24-01-2023 13:29:31.637;BootLog;Initializing Mainloop service
+24-01-2023 13:29:31.644;BootLog;MainLoop service started
+24-01-2023 13:29:49.892;BootLog;onStop
+24-01-2023 13:48:46.315;BootLog;onCreated
+24-01-2023 13:48:46.317;BootLog;Boot prepared
+24-01-2023 13:48:46.323;BootLog;Checking if old services are running
+24-01-2023 13:48:51.337;BootLog;onStart
+24-01-2023 13:48:51.383;BootLog;onResume
+24-01-2023 13:48:57.395;BootLog;Start meter process
+24-01-2023 13:49:00.402;BootLog;Communication management started
+24-01-2023 13:49:12.660;BootLog;Communication management started successfully
+24-01-2023 13:49:27.668;BootLog;NTP service starting
+24-01-2023 13:49:32.712;BootLog;Communication management started successfully
+24-01-2023 13:49:32.715;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 13:49:32.718;BootLog;DMBE service starting
+24-01-2023 13:49:35.729;BootLog;DMBE service started successfully
+24-01-2023 13:49:35.734;BootLog;Initializing audio services
+24-01-2023 13:49:38.742;BootLog;Audio services started
+24-01-2023 13:49:38.750;BootLog;Initializing on-off sensor service
+24-01-2023 13:49:41.756;BootLog;On-off sensor service started
+24-01-2023 13:49:41.762;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 13:49:44.767;BootLog;Initializing Peripheral sensors service
+24-01-2023 13:49:47.770;BootLog;Peripheral sensors service started
+24-01-2023 13:49:47.773;BootLog;Initializing SI code sensor service
+24-01-2023 13:49:50.793;BootLog;SI code sensor service started
+24-01-2023 13:49:50.801;BootLog;Initializing Mainloop service
+24-01-2023 13:49:50.808;BootLog;MainLoop service started
+24-01-2023 13:50:08.016;BootLog;onStop
+24-01-2023 14:54:52.407;BootLog;onCreated
+24-01-2023 14:54:52.411;BootLog;Boot prepared
+24-01-2023 14:54:52.416;BootLog;Checking if old services are running
+24-01-2023 14:54:57.430;BootLog;onStart
+24-01-2023 14:54:57.479;BootLog;onResume
+24-01-2023 14:55:03.489;BootLog;Start meter process
+24-01-2023 14:55:06.495;BootLog;Communication management started
+24-01-2023 14:55:18.601;BootLog;Communication management started successfully
+24-01-2023 14:55:33.608;BootLog;NTP service starting
+24-01-2023 14:55:38.652;BootLog;Communication management started successfully
+24-01-2023 14:55:38.656;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 14:55:38.660;BootLog;DMBE service starting
+24-01-2023 14:55:41.669;BootLog;DMBE service started successfully
+24-01-2023 14:55:41.675;BootLog;Initializing audio services
+24-01-2023 14:55:44.681;BootLog;Audio services started
+24-01-2023 14:55:44.690;BootLog;Initializing on-off sensor service
+24-01-2023 14:55:47.695;BootLog;On-off sensor service started
+24-01-2023 14:55:47.702;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 14:55:50.707;BootLog;Initializing Peripheral sensors service
+24-01-2023 14:55:53.709;BootLog;Peripheral sensors service started
+24-01-2023 14:55:53.712;BootLog;Initializing SI code sensor service
+24-01-2023 14:55:56.736;BootLog;SI code sensor service started
+24-01-2023 14:55:56.743;BootLog;Initializing Mainloop service
+24-01-2023 14:55:56.750;BootLog;MainLoop service started
+24-01-2023 14:56:14.229;BootLog;onStop
+24-01-2023 16:59:14.646;BootLog;onCreated
+24-01-2023 16:59:14.649;BootLog;Boot prepared
+24-01-2023 16:59:14.657;BootLog;Checking if old services are running
+24-01-2023 16:59:19.673;BootLog;onStart
+24-01-2023 16:59:19.716;BootLog;onResume
+24-01-2023 16:59:25.728;BootLog;Start meter process
+24-01-2023 16:59:28.734;BootLog;Communication management started
+24-01-2023 16:59:40.999;BootLog;Communication management started successfully
+24-01-2023 16:59:56.006;BootLog;NTP service starting
+24-01-2023 17:00:01.049;BootLog;Communication management started successfully
+24-01-2023 17:00:01.052;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 17:00:01.055;BootLog;DMBE service starting
+24-01-2023 17:01:03.187;BootLog;DMBE service started successfully
+24-01-2023 17:01:03.192;BootLog;Initializing audio services
+24-01-2023 17:01:06.198;BootLog;Audio services started
+24-01-2023 17:01:06.207;BootLog;Initializing on-off sensor service
+24-01-2023 17:01:09.212;BootLog;On-off sensor service started
+24-01-2023 17:01:09.219;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 17:01:12.225;BootLog;Initializing Peripheral sensors service
+24-01-2023 17:01:15.228;BootLog;Peripheral sensors service started
+24-01-2023 17:01:15.231;BootLog;Initializing SI code sensor service
+24-01-2023 17:01:18.257;BootLog;SI code sensor service started
+24-01-2023 17:01:18.264;BootLog;Initializing Mainloop service
+24-01-2023 17:01:18.271;BootLog;MainLoop service started
+24-01-2023 17:01:35.433;BootLog;onStop
+24-01-2023 18:09:52.188;BootLog;onCreated
+24-01-2023 18:09:52.192;BootLog;Boot prepared
+24-01-2023 18:09:52.197;BootLog;Checking if old services are running
+24-01-2023 18:09:57.212;BootLog;onStart
+24-01-2023 18:09:57.256;BootLog;onResume
+24-01-2023 18:10:03.266;BootLog;Start meter process
+24-01-2023 18:10:06.271;BootLog;Communication management started
+24-01-2023 18:10:18.540;BootLog;Communication management started successfully
+24-01-2023 18:10:33.546;BootLog;NTP service starting
+24-01-2023 18:10:38.589;BootLog;Communication management started successfully
+24-01-2023 18:10:38.592;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 18:10:38.595;BootLog;DMBE service starting
+24-01-2023 18:10:41.607;BootLog;DMBE service started successfully
+24-01-2023 18:10:41.613;BootLog;Initializing audio services
+24-01-2023 18:10:44.620;BootLog;Audio services started
+24-01-2023 18:10:44.628;BootLog;Initializing on-off sensor service
+24-01-2023 18:10:47.634;BootLog;On-off sensor service started
+24-01-2023 18:10:47.641;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 18:10:50.646;BootLog;Initializing Peripheral sensors service
+24-01-2023 18:10:53.649;BootLog;Peripheral sensors service started
+24-01-2023 18:10:53.652;BootLog;Initializing SI code sensor service
+24-01-2023 18:10:56.682;BootLog;SI code sensor service started
+24-01-2023 18:10:56.689;BootLog;Initializing Mainloop service
+24-01-2023 18:10:56.697;BootLog;MainLoop service started
+24-01-2023 18:11:59.881;BootLog;onStop
+24-01-2023 18:24:56.772;BootLog;onCreated
+24-01-2023 18:24:56.775;BootLog;Boot prepared
+24-01-2023 18:24:56.782;BootLog;Checking if old services are running
+24-01-2023 18:25:01.796;BootLog;onStart
+24-01-2023 18:25:01.844;BootLog;onResume
+24-01-2023 18:25:07.855;BootLog;Start meter process
+24-01-2023 18:25:10.861;BootLog;Communication management started
+24-01-2023 18:25:23.161;BootLog;Communication management started successfully
+24-01-2023 18:25:38.168;BootLog;NTP service starting
+24-01-2023 18:25:43.212;BootLog;Communication management started successfully
+24-01-2023 18:25:43.217;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 18:25:43.221;BootLog;DMBE service starting
+24-01-2023 18:25:48.235;BootLog;DMBE service started successfully
+24-01-2023 18:25:48.240;BootLog;Initializing audio services
+24-01-2023 18:25:51.244;BootLog;Audio services started
+24-01-2023 18:25:51.252;BootLog;Initializing on-off sensor service
+24-01-2023 18:25:54.259;BootLog;On-off sensor service started
+24-01-2023 18:25:54.266;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 18:25:57.270;BootLog;Initializing Peripheral sensors service
+24-01-2023 18:26:00.272;BootLog;Peripheral sensors service started
+24-01-2023 18:26:00.275;BootLog;Initializing SI code sensor service
+24-01-2023 18:26:03.304;BootLog;SI code sensor service started
+24-01-2023 18:26:03.311;BootLog;Initializing Mainloop service
+24-01-2023 18:26:03.319;BootLog;MainLoop service started
+24-01-2023 18:27:06.566;BootLog;onStop
+24-01-2023 18:31:12.252;BootLog;onCreated
+24-01-2023 18:31:12.255;BootLog;Boot prepared
+24-01-2023 18:31:12.260;BootLog;Checking if old services are running
+24-01-2023 18:31:17.276;BootLog;onStart
+24-01-2023 18:31:17.321;BootLog;onResume
+24-01-2023 18:31:23.332;BootLog;Start meter process
+24-01-2023 18:31:26.339;BootLog;Communication management started
+24-01-2023 18:31:38.623;BootLog;Communication management started successfully
+24-01-2023 18:31:53.630;BootLog;NTP service starting
+24-01-2023 18:31:58.672;BootLog;Communication management started successfully
+24-01-2023 18:31:58.675;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 18:31:58.679;BootLog;DMBE service starting
+24-01-2023 18:32:02.691;BootLog;DMBE service started successfully
+24-01-2023 18:32:02.696;BootLog;Initializing audio services
+24-01-2023 18:32:05.703;BootLog;Audio services started
+24-01-2023 18:32:05.712;BootLog;Initializing on-off sensor service
+24-01-2023 18:32:08.718;BootLog;On-off sensor service started
+24-01-2023 18:32:08.726;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 18:32:11.730;BootLog;Initializing Peripheral sensors service
+24-01-2023 18:32:14.732;BootLog;Peripheral sensors service started
+24-01-2023 18:32:14.735;BootLog;Initializing SI code sensor service
+24-01-2023 18:32:17.764;BootLog;SI code sensor service started
+24-01-2023 18:32:17.771;BootLog;Initializing Mainloop service
+24-01-2023 18:32:17.779;BootLog;MainLoop service started
+24-01-2023 18:32:34.999;BootLog;onStop
+24-01-2023 18:36:55.343;BootLog;onRestart
+24-01-2023 18:36:55.346;BootLog;onStart
+24-01-2023 18:36:55.388;BootLog;onResume
+24-01-2023 18:37:01.403;BootLog;Start meter process
+24-01-2023 18:37:04.408;BootLog;Communication management started
+24-01-2023 18:37:04.431;BootLog;Communication management is already started successfully
+24-01-2023 18:37:19.435;BootLog;NTP service starting
+24-01-2023 18:37:24.477;BootLog;Communication management started successfully
+24-01-2023 18:37:24.480;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 18:37:24.484;BootLog;DMBE service starting
+24-01-2023 18:37:27.497;BootLog;DMBE service started successfully
+24-01-2023 18:37:27.502;BootLog;Initializing audio services
+24-01-2023 18:37:30.510;BootLog;Audio services started
+24-01-2023 18:37:30.518;BootLog;Initializing on-off sensor service
+24-01-2023 18:37:33.524;BootLog;On-off sensor service started
+24-01-2023 18:37:33.532;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 18:37:36.536;BootLog;Initializing Peripheral sensors service
+24-01-2023 18:37:39.537;BootLog;Peripheral sensors service started
+24-01-2023 18:37:39.540;BootLog;Initializing SI code sensor service
+24-01-2023 18:37:42.562;BootLog;SI code sensor service started
+24-01-2023 18:37:42.568;BootLog;Initializing Mainloop service
+24-01-2023 18:37:42.575;BootLog;MainLoop service started
+24-01-2023 18:38:14.610;BootLog;onStop
+24-01-2023 19:34:20.005;BootLog;onCreated
+24-01-2023 19:34:20.008;BootLog;Boot prepared
+24-01-2023 19:34:20.014;BootLog;Checking if old services are running
+24-01-2023 19:34:25.029;BootLog;onStart
+24-01-2023 19:34:25.077;BootLog;onResume
+24-01-2023 19:34:31.088;BootLog;Start meter process
+24-01-2023 19:34:34.095;BootLog;Communication management started
+24-01-2023 19:34:51.217;BootLog;Communication management started successfully
+24-01-2023 19:35:06.223;BootLog;NTP service starting
+24-01-2023 19:35:11.266;BootLog;Communication management started successfully
+24-01-2023 19:35:11.269;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 19:35:11.273;BootLog;DMBE service starting
+24-01-2023 19:36:13.383;BootLog;DMBE service started successfully
+24-01-2023 19:36:13.389;BootLog;Initializing audio services
+24-01-2023 19:36:16.395;BootLog;Audio services started
+24-01-2023 19:36:16.403;BootLog;Initializing on-off sensor service
+24-01-2023 19:36:19.409;BootLog;On-off sensor service started
+24-01-2023 19:36:19.416;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 19:36:22.420;BootLog;Initializing Peripheral sensors service
+24-01-2023 19:36:25.423;BootLog;Peripheral sensors service started
+24-01-2023 19:36:25.426;BootLog;Initializing SI code sensor service
+24-01-2023 19:36:28.453;BootLog;SI code sensor service started
+24-01-2023 19:36:28.460;BootLog;Initializing Mainloop service
+24-01-2023 19:36:28.468;BootLog;MainLoop service started
+24-01-2023 19:36:45.889;BootLog;onStop
+24-01-2023 19:41:35.906;BootLog;onCreated
+24-01-2023 19:41:35.909;BootLog;Boot prepared
+24-01-2023 19:41:35.914;BootLog;Checking if old services are running
+24-01-2023 19:41:40.929;BootLog;onStart
+24-01-2023 19:41:40.974;BootLog;onResume
+24-01-2023 19:41:46.986;BootLog;Start meter process
+24-01-2023 19:41:49.993;BootLog;Communication management started
+24-01-2023 19:42:02.277;BootLog;Communication management started successfully
+24-01-2023 19:42:17.284;BootLog;NTP service starting
+24-01-2023 19:42:22.327;BootLog;Communication management started successfully
+24-01-2023 19:42:22.331;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 19:42:22.334;BootLog;DMBE service starting
+24-01-2023 19:42:25.344;BootLog;DMBE service started successfully
+24-01-2023 19:42:25.349;BootLog;Initializing audio services
+24-01-2023 19:42:28.358;BootLog;Audio services started
+24-01-2023 19:42:28.366;BootLog;Initializing on-off sensor service
+24-01-2023 19:42:31.372;BootLog;On-off sensor service started
+24-01-2023 19:42:31.379;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 19:42:34.383;BootLog;Initializing Peripheral sensors service
+24-01-2023 19:42:37.385;BootLog;Peripheral sensors service started
+24-01-2023 19:42:37.389;BootLog;Initializing SI code sensor service
+24-01-2023 19:42:40.413;BootLog;SI code sensor service started
+24-01-2023 19:42:40.420;BootLog;Initializing Mainloop service
+24-01-2023 19:42:40.427;BootLog;MainLoop service started
+24-01-2023 19:42:57.906;BootLog;onStop
+24-01-2023 20:01:37.948;BootLog;onRestart
+24-01-2023 20:01:37.950;BootLog;onStart
+24-01-2023 20:01:37.994;BootLog;onResume
+24-01-2023 20:01:44.010;BootLog;Start meter process
+24-01-2023 20:01:47.013;BootLog;Communication management started
+24-01-2023 20:01:47.035;BootLog;Communication management is already started successfully
+24-01-2023 20:02:02.038;BootLog;NTP service starting
+24-01-2023 20:02:07.079;BootLog;Communication management started successfully
+24-01-2023 20:02:07.081;BootLog;Please, wait for the communication with the KMBE
+24-01-2023 20:02:07.085;BootLog;DMBE service starting
+24-01-2023 20:02:10.095;BootLog;DMBE service started successfully
+24-01-2023 20:02:10.099;BootLog;Initializing audio services
+24-01-2023 20:02:13.107;BootLog;Audio services started
+24-01-2023 20:02:13.115;BootLog;Initializing on-off sensor service
+24-01-2023 20:02:16.123;BootLog;On-off sensor service started
+24-01-2023 20:02:16.129;BootLog;Initializing Direct Audio Capture sensor service
+24-01-2023 20:02:19.133;BootLog;Initializing Peripheral sensors service
+24-01-2023 20:02:22.135;BootLog;Peripheral sensors service started
+24-01-2023 20:02:22.138;BootLog;Initializing SI code sensor service
+24-01-2023 20:02:25.159;BootLog;SI code sensor service started
+24-01-2023 20:02:25.165;BootLog;Initializing Mainloop service
+24-01-2023 20:02:25.172;BootLog;MainLoop service started
+24-01-2023 20:02:42.301;BootLog;onStop

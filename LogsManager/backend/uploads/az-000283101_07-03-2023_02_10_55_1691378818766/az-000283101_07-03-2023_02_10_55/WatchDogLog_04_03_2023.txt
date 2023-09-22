@@ -1,0 +1,2 @@
+04-03-2023 02:15:18.461;WatchDogLog;Requested to watch service com.kantaribope.lcm.LcmService
+04-03-2023 02:15:18.475;WatchDogLog;Starting com.kantaribope.lcm.LcmService (boot)

@@ -1,0 +1,33 @@
+18-01-2023 07:07:13.025;FileRotationControl;Current date minus 7 days is equals: 1673420833024
+18-01-2023 07:07:13.051;FileRotationControl;SensorsProcessLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.055;FileRotationControl;SensorsPointerLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.058;FileRotationControl;OnOffLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.061;FileRotationControl;RTMDeliveryLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.063;FileRotationControl;AwmDetectorLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.065;FileRotationControl;DashBoard_Communication_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.068;FileRotationControl;LAMLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.070;FileRotationControl;StatusLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.072;FileRotationControl;StorageStats_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.074;FileRotationControl;BatteryChargeControlLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.077;FileRotationControl;BatteryLifeMonitorLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.079;FileRotationControl;WatchdogMemoryUsage_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.082;FileRotationControl;LcmMemoryUsage_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.084;FileRotationControl;BackendMemoryUsage_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.087;FileRotationControl;StatusBitLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.089;FileRotationControl;BluetoothCommsLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.091;FileRotationControl;DeliveryServiceMemoryUsage_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.094;FileRotationControl;AudioMatchingMemoryUsage_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.096;FileRotationControl;AudioWatermarkingMemoryUsage_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.098;FileRotationControl;MainLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.100;FileRotationControl;BTRCLog_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.103;FileRotationControl;AudioCaptureMemoryUsage_10_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.105;FileRotationControl;BluetoothCommsLog_11_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.109;FileRotationControl;DMBELog_11_01_2023.txt delete file from 7 days 
+18-01-2023 07:07:13.112;FileRotationControl;MainProcessMemoryUsage_10_01_2023.txt delete file from 7 days 
+18-01-2023 15:07:14.178;FileRotationControl;Current date minus 7 days is equals: 1673449634177
+18-01-2023 15:07:14.184;FileRotationControl;StatusBitLog_11_01_2023.txt delete file from 7 days 
+18-01-2023 23:07:45.231;FileRotationControl;Current date minus 7 days is equals: 1673478465230
+18-01-2023 23:07:45.234;FileRotationControl;MainLog_11_01_2023.txt delete file from 7 days 
+18-01-2023 23:07:45.236;FileRotationControl;BTRCLog_11_01_2023.txt delete file from 7 days 
+18-01-2023 23:07:45.242;FileRotationControl;FileRotationControl_11_01_2023.txt delete file from 7 days 
+18-01-2023 23:07:45.246;FileRotationControl;NTPServerLog_11_01_2023.txt delete file from 7 days 

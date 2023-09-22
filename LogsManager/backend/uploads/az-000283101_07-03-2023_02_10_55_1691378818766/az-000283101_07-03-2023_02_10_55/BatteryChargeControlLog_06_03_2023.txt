@@ -1,0 +1,288 @@
+06-03-2023 00:14:19.130;BatteryChargeControlLog;Checking battery
+06-03-2023 00:14:19.133;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 00:14:19.135;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 00:29:19.158;BatteryChargeControlLog;Checking battery
+06-03-2023 00:29:19.160;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 00:29:19.162;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 00:44:19.189;BatteryChargeControlLog;Checking battery
+06-03-2023 00:44:19.191;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 00:44:19.193;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 00:59:19.216;BatteryChargeControlLog;Checking battery
+06-03-2023 00:59:19.219;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 00:59:19.221;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 01:14:19.253;BatteryChargeControlLog;Checking battery
+06-03-2023 01:14:19.260;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 01:14:19.262;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 01:29:19.289;BatteryChargeControlLog;Checking battery
+06-03-2023 01:29:19.292;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 01:29:19.293;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 01:44:19.316;BatteryChargeControlLog;Checking battery
+06-03-2023 01:44:19.319;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 01:44:19.320;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 01:59:19.342;BatteryChargeControlLog;Checking battery
+06-03-2023 01:59:19.345;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 01:59:19.346;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 02:14:19.412;BatteryChargeControlLog;Checking battery
+06-03-2023 02:14:19.415;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 02:14:19.417;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 02:29:19.447;BatteryChargeControlLog;Checking battery
+06-03-2023 02:29:19.450;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 02:29:19.451;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 02:44:19.477;BatteryChargeControlLog;Checking battery
+06-03-2023 02:44:19.480;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 02:44:19.482;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 02:59:19.505;BatteryChargeControlLog;Checking battery
+06-03-2023 02:59:19.507;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 02:59:19.509;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 03:14:19.541;BatteryChargeControlLog;Checking battery
+06-03-2023 03:14:19.551;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 03:14:19.553;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 03:29:19.579;BatteryChargeControlLog;Checking battery
+06-03-2023 03:29:19.582;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 03:29:19.583;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 03:44:19.609;BatteryChargeControlLog;Checking battery
+06-03-2023 03:44:19.612;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 03:44:19.613;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 03:59:19.636;BatteryChargeControlLog;Checking battery
+06-03-2023 03:59:19.639;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 03:59:19.641;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 04:14:19.671;BatteryChargeControlLog;Checking battery
+06-03-2023 04:14:19.673;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 04:14:19.675;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 04:29:19.724;BatteryChargeControlLog;Checking battery
+06-03-2023 04:29:19.727;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 04:29:19.728;BatteryChargeControlLog;Voltage: 4.122 volts
+06-03-2023 04:44:19.752;BatteryChargeControlLog;Checking battery
+06-03-2023 04:44:19.754;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 04:44:19.755;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 04:59:19.778;BatteryChargeControlLog;Checking battery
+06-03-2023 04:59:19.781;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 04:59:19.782;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 05:14:19.819;BatteryChargeControlLog;Checking battery
+06-03-2023 05:14:19.822;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 05:14:19.824;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 05:29:19.849;BatteryChargeControlLog;Checking battery
+06-03-2023 05:29:19.852;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 05:29:19.853;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 05:44:19.878;BatteryChargeControlLog;Checking battery
+06-03-2023 05:44:19.881;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 05:44:19.882;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 05:59:19.905;BatteryChargeControlLog;Checking battery
+06-03-2023 05:59:19.908;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 05:59:19.909;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 06:14:19.940;BatteryChargeControlLog;Checking battery
+06-03-2023 06:14:19.943;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 06:14:19.944;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 06:29:19.981;BatteryChargeControlLog;Checking battery
+06-03-2023 06:29:19.983;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 06:29:19.984;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 06:44:20.009;BatteryChargeControlLog;Checking battery
+06-03-2023 06:44:20.012;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 06:44:20.013;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 06:59:20.036;BatteryChargeControlLog;Checking battery
+06-03-2023 06:59:20.038;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 06:59:20.040;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 07:14:20.077;BatteryChargeControlLog;Checking battery
+06-03-2023 07:14:20.079;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 07:14:20.090;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 07:29:20.115;BatteryChargeControlLog;Checking battery
+06-03-2023 07:29:20.117;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 07:29:20.119;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 07:44:20.143;BatteryChargeControlLog;Checking battery
+06-03-2023 07:44:20.145;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 07:44:20.146;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 07:59:20.169;BatteryChargeControlLog;Checking battery
+06-03-2023 07:59:20.172;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 07:59:20.173;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 08:14:20.216;BatteryChargeControlLog;Checking battery
+06-03-2023 08:14:20.221;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 08:14:20.223;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 08:29:20.255;BatteryChargeControlLog;Checking battery
+06-03-2023 08:29:20.258;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 08:29:20.259;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 08:44:20.285;BatteryChargeControlLog;Checking battery
+06-03-2023 08:44:20.287;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 08:44:20.288;BatteryChargeControlLog;Voltage: 4.121 volts
+06-03-2023 08:59:20.310;BatteryChargeControlLog;Checking battery
+06-03-2023 08:59:20.313;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 08:59:20.314;BatteryChargeControlLog;Voltage: 4.12 volts
+06-03-2023 09:14:20.379;BatteryChargeControlLog;Checking battery
+06-03-2023 09:14:20.382;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 09:14:20.384;BatteryChargeControlLog;Voltage: 4.12 volts
+06-03-2023 09:29:20.407;BatteryChargeControlLog;Checking battery
+06-03-2023 09:29:20.410;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 09:29:20.411;BatteryChargeControlLog;Voltage: 4.12 volts
+06-03-2023 09:44:20.436;BatteryChargeControlLog;Checking battery
+06-03-2023 09:44:20.439;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 09:44:20.440;BatteryChargeControlLog;Voltage: 4.12 volts
+06-03-2023 09:59:20.464;BatteryChargeControlLog;Checking battery
+06-03-2023 09:59:20.467;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 09:59:20.468;BatteryChargeControlLog;Voltage: 4.119 volts
+06-03-2023 10:14:20.527;BatteryChargeControlLog;Checking battery
+06-03-2023 10:14:20.531;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 10:14:20.532;BatteryChargeControlLog;Voltage: 4.119 volts
+06-03-2023 10:29:20.559;BatteryChargeControlLog;Checking battery
+06-03-2023 10:29:20.562;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 10:29:20.563;BatteryChargeControlLog;Voltage: 4.119 volts
+06-03-2023 10:44:20.589;BatteryChargeControlLog;Checking battery
+06-03-2023 10:44:20.592;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 10:44:20.593;BatteryChargeControlLog;Voltage: 4.119 volts
+06-03-2023 10:59:20.616;BatteryChargeControlLog;Checking battery
+06-03-2023 10:59:20.619;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 10:59:20.620;BatteryChargeControlLog;Voltage: 4.119 volts
+06-03-2023 11:14:20.659;BatteryChargeControlLog;Checking battery
+06-03-2023 11:14:20.668;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 11:14:20.669;BatteryChargeControlLog;Voltage: 4.119 volts
+06-03-2023 11:29:20.698;BatteryChargeControlLog;Checking battery
+06-03-2023 11:29:20.701;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 11:29:20.703;BatteryChargeControlLog;Voltage: 4.119 volts
+06-03-2023 11:44:20.728;BatteryChargeControlLog;Checking battery
+06-03-2023 11:44:20.731;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 11:44:20.732;BatteryChargeControlLog;Voltage: 4.119 volts
+06-03-2023 11:59:20.757;BatteryChargeControlLog;Checking battery
+06-03-2023 11:59:20.760;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 11:59:20.761;BatteryChargeControlLog;Voltage: 4.119 volts
+06-03-2023 12:14:20.805;BatteryChargeControlLog;Checking battery
+06-03-2023 12:14:20.809;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 12:14:20.811;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 12:29:20.836;BatteryChargeControlLog;Checking battery
+06-03-2023 12:29:20.838;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 12:29:20.840;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 12:44:20.865;BatteryChargeControlLog;Checking battery
+06-03-2023 12:44:20.868;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 12:44:20.870;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 12:59:20.893;BatteryChargeControlLog;Checking battery
+06-03-2023 12:59:20.896;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 12:59:20.897;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 13:14:20.935;BatteryChargeControlLog;Checking battery
+06-03-2023 13:14:20.939;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 13:14:20.940;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 13:29:20.972;BatteryChargeControlLog;Checking battery
+06-03-2023 13:29:20.975;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 13:29:20.976;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 13:44:21.002;BatteryChargeControlLog;Checking battery
+06-03-2023 13:44:21.005;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 13:44:21.007;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 13:59:21.029;BatteryChargeControlLog;Checking battery
+06-03-2023 13:59:21.032;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 13:59:21.033;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 14:14:21.092;BatteryChargeControlLog;Checking battery
+06-03-2023 14:14:21.094;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 14:14:21.098;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 14:29:21.121;BatteryChargeControlLog;Checking battery
+06-03-2023 14:29:21.124;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 14:29:21.125;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 14:44:21.151;BatteryChargeControlLog;Checking battery
+06-03-2023 14:44:21.153;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 14:44:21.154;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 14:59:21.177;BatteryChargeControlLog;Checking battery
+06-03-2023 14:59:21.180;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 14:59:21.181;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 15:14:21.217;BatteryChargeControlLog;Checking battery
+06-03-2023 15:14:21.220;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 15:14:21.221;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 15:29:21.245;BatteryChargeControlLog;Checking battery
+06-03-2023 15:29:21.248;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 15:29:21.249;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 15:44:21.277;BatteryChargeControlLog;Checking battery
+06-03-2023 15:44:21.280;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 15:44:21.281;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 15:59:21.304;BatteryChargeControlLog;Checking battery
+06-03-2023 15:59:21.307;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 15:59:21.308;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 16:14:21.350;BatteryChargeControlLog;Checking battery
+06-03-2023 16:14:21.353;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 16:14:21.355;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 16:29:21.378;BatteryChargeControlLog;Checking battery
+06-03-2023 16:29:21.381;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 16:29:21.382;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 16:44:21.407;BatteryChargeControlLog;Checking battery
+06-03-2023 16:44:21.410;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 16:44:21.411;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 16:59:21.434;BatteryChargeControlLog;Checking battery
+06-03-2023 16:59:21.436;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 16:59:21.438;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 17:14:21.497;BatteryChargeControlLog;Checking battery
+06-03-2023 17:14:21.499;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 17:14:21.501;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 17:29:21.528;BatteryChargeControlLog;Checking battery
+06-03-2023 17:29:21.530;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 17:29:21.532;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 17:44:21.558;BatteryChargeControlLog;Checking battery
+06-03-2023 17:44:21.561;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 17:44:21.562;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 17:59:21.586;BatteryChargeControlLog;Checking battery
+06-03-2023 17:59:21.588;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 17:59:21.590;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 18:14:21.652;BatteryChargeControlLog;Checking battery
+06-03-2023 18:14:21.654;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 18:14:21.656;BatteryChargeControlLog;Voltage: 4.118 volts
+06-03-2023 18:29:21.683;BatteryChargeControlLog;Checking battery
+06-03-2023 18:29:21.685;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 18:29:21.687;BatteryChargeControlLog;Voltage: 4.117 volts
+06-03-2023 18:44:21.712;BatteryChargeControlLog;Checking battery
+06-03-2023 18:44:21.714;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 18:44:21.715;BatteryChargeControlLog;Voltage: 4.117 volts
+06-03-2023 18:59:21.738;BatteryChargeControlLog;Checking battery
+06-03-2023 18:59:21.741;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 18:59:21.742;BatteryChargeControlLog;Voltage: 4.117 volts
+06-03-2023 19:14:21.774;BatteryChargeControlLog;Checking battery
+06-03-2023 19:14:21.782;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 19:14:21.783;BatteryChargeControlLog;Voltage: 4.116 volts
+06-03-2023 19:29:21.807;BatteryChargeControlLog;Checking battery
+06-03-2023 19:29:21.810;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 19:29:21.811;BatteryChargeControlLog;Voltage: 4.116 volts
+06-03-2023 19:44:21.835;BatteryChargeControlLog;Checking battery
+06-03-2023 19:44:21.837;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 19:44:21.838;BatteryChargeControlLog;Voltage: 4.116 volts
+06-03-2023 19:59:21.861;BatteryChargeControlLog;Checking battery
+06-03-2023 19:59:21.864;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 19:59:21.865;BatteryChargeControlLog;Voltage: 4.116 volts
+06-03-2023 20:14:21.902;BatteryChargeControlLog;Checking battery
+06-03-2023 20:14:21.904;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 20:14:21.906;BatteryChargeControlLog;Voltage: 4.116 volts
+06-03-2023 20:29:21.931;BatteryChargeControlLog;Checking battery
+06-03-2023 20:29:21.933;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 20:29:21.935;BatteryChargeControlLog;Voltage: 4.116 volts
+06-03-2023 20:44:21.960;BatteryChargeControlLog;Checking battery
+06-03-2023 20:44:21.963;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 20:44:21.964;BatteryChargeControlLog;Voltage: 4.116 volts
+06-03-2023 20:59:21.986;BatteryChargeControlLog;Checking battery
+06-03-2023 20:59:21.989;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 20:59:21.991;BatteryChargeControlLog;Voltage: 4.116 volts
+06-03-2023 21:14:22.032;BatteryChargeControlLog;Checking battery
+06-03-2023 21:14:22.039;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 21:14:22.041;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 21:29:22.064;BatteryChargeControlLog;Checking battery
+06-03-2023 21:29:22.067;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 21:29:22.068;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 21:44:22.093;BatteryChargeControlLog;Checking battery
+06-03-2023 21:44:22.095;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 21:44:22.096;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 21:59:22.119;BatteryChargeControlLog;Checking battery
+06-03-2023 21:59:22.122;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 21:59:22.123;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 22:14:22.157;BatteryChargeControlLog;Checking battery
+06-03-2023 22:14:22.159;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 22:14:22.163;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 22:29:22.189;BatteryChargeControlLog;Checking battery
+06-03-2023 22:29:22.192;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 22:29:22.193;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 22:44:22.217;BatteryChargeControlLog;Checking battery
+06-03-2023 22:44:22.220;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 22:44:22.221;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 22:59:22.245;BatteryChargeControlLog;Checking battery
+06-03-2023 22:59:22.247;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 22:59:22.248;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 23:14:22.296;BatteryChargeControlLog;Checking battery
+06-03-2023 23:14:22.302;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 23:14:22.303;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 23:29:22.326;BatteryChargeControlLog;Checking battery
+06-03-2023 23:29:22.328;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 23:29:22.330;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 23:44:22.355;BatteryChargeControlLog;Checking battery
+06-03-2023 23:44:22.358;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 23:44:22.360;BatteryChargeControlLog;Voltage: 4.115 volts
+06-03-2023 23:59:22.383;BatteryChargeControlLog;Checking battery
+06-03-2023 23:59:22.386;BatteryChargeControlLog;Battery charging disabled
+06-03-2023 23:59:22.387;BatteryChargeControlLog;Voltage: 4.115 volts

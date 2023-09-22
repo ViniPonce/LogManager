@@ -1,0 +1,6 @@
+23-01-2023 19:40:07.088;DACLog;Starting the services of sensors configured as DAC
+23-01-2023 19:40:07.109;DACLog;OPS_82FF - Highest priority sensor
+23-01-2023 19:40:08.516;DACLog;All sensors are disconnected
+23-01-2023 19:40:08.534;DACLog;DAC selected: OPS_82FF
+23-01-2023 22:08:13.823;DACLog;All sensors are disconnected
+23-01-2023 22:08:13.828;DACLog;DAC selected: OPS_82FF

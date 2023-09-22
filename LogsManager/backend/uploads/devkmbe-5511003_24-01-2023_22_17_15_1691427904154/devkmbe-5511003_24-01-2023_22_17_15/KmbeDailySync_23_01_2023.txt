@@ -1,0 +1,5 @@
+23-01-2023 19:39:33.989;KmbeDailySync;KMBE daily sync started
+23-01-2023 19:39:33.991;KmbeDailySync;Checking new settings in the KMBE
+23-01-2023 19:39:36.683;KmbeDailySync;No change in settings
+23-01-2023 19:39:36.684;KmbeDailySync;Sending the PM7 information and status
+23-01-2023 19:39:36.752;KmbeDailySync;KMBE daily sync finished

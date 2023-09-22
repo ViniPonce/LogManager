@@ -1,0 +1,50 @@
+26-01-2023 19:02:37.087;ConnectionManagementLog;Start communication management
+26-01-2023 19:02:37.151;ConnectionManagementLog;Communication script
+26-01-2023 19:02:37.153;ConnectionManagementLog;Wi-Fi;NA;NA;NA
+26-01-2023 19:02:47.283;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+26-01-2023 19:02:47.295;ConnectionManagementLog;Checking if network available
+26-01-2023 19:02:48.299;ConnectionManagementLog;Network connected
+26-01-2023 19:02:48.301;ConnectionManagementLog;Checking internet access
+26-01-2023 19:02:48.356;ConnectionManagementLog;Internet available
+26-01-2023 19:02:48.358;ConnectionManagementLog;Communication management started successfully
+26-01-2023 19:02:49.118;ConnectionManagementLog;Checking internet access
+26-01-2023 19:02:49.155;ConnectionManagementLog;Internet available
+26-01-2023 19:03:29.974;ConnectionManagementLog;Sending Network status to KMBE
+26-01-2023 19:03:41.669;ConnectionManagementLog;Network status sent successfully
+26-01-2023 19:03:50.054;ConnectionManagementLog;Internet available
+26-01-2023 19:12:56.423;ConnectionManagementLog;Start communication management
+26-01-2023 19:12:56.524;ConnectionManagementLog;Communication script
+26-01-2023 19:12:56.526;ConnectionManagementLog;Wi-Fi;NA;NA;NA
+26-01-2023 19:13:06.628;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+26-01-2023 19:13:06.655;ConnectionManagementLog;Checking if network available
+26-01-2023 19:13:07.661;ConnectionManagementLog;Network connected
+26-01-2023 19:13:07.663;ConnectionManagementLog;Checking internet access
+26-01-2023 19:13:07.733;ConnectionManagementLog;Internet available
+26-01-2023 19:13:07.734;ConnectionManagementLog;Communication management started successfully
+26-01-2023 19:13:08.454;ConnectionManagementLog;Checking internet access
+26-01-2023 19:13:08.610;ConnectionManagementLog;Internet available
+26-01-2023 19:13:47.735;ConnectionManagementLog;Sending Network status to KMBE
+26-01-2023 19:13:51.745;ConnectionManagementLog;Network status sent successfully
+26-01-2023 19:25:07.829;ConnectionManagementLog;Internet available
+26-01-2023 19:26:07.895;ConnectionManagementLog;Internet available
+26-01-2023 19:27:07.967;ConnectionManagementLog;Internet available
+26-01-2023 19:29:08.175;ConnectionManagementLog;Internet available
+26-01-2023 19:30:08.235;ConnectionManagementLog;Internet available
+26-01-2023 19:31:08.279;ConnectionManagementLog;Internet available
+26-01-2023 19:32:08.343;ConnectionManagementLog;Internet available
+26-01-2023 19:34:08.412;ConnectionManagementLog;Internet available
+26-01-2023 19:35:08.468;ConnectionManagementLog;Internet available
+26-01-2023 19:36:08.517;ConnectionManagementLog;Internet available
+26-01-2023 19:37:08.562;ConnectionManagementLog;Internet available
+26-01-2023 19:39:08.656;ConnectionManagementLog;Internet available
+26-01-2023 19:40:08.717;ConnectionManagementLog;Internet available
+26-01-2023 19:41:08.759;ConnectionManagementLog;Internet available
+26-01-2023 19:42:08.824;ConnectionManagementLog;Internet available
+26-01-2023 19:44:08.876;ConnectionManagementLog;Internet available
+26-01-2023 19:45:13.955;ConnectionManagementLog;Internet available
+26-01-2023 20:14:14.069;ConnectionManagementLog;Internet available
+26-01-2023 20:15:14.151;ConnectionManagementLog;Internet available
+26-01-2023 20:16:14.203;ConnectionManagementLog;Internet available
+26-01-2023 20:25:14.325;ConnectionManagementLog;Internet available
+26-01-2023 20:26:14.393;ConnectionManagementLog;Internet available
+26-01-2023 20:27:14.466;ConnectionManagementLog;Internet available

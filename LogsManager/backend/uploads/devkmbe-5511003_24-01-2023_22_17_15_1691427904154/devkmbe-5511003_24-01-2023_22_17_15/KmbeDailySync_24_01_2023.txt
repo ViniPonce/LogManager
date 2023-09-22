@@ -1,0 +1,12 @@
+24-01-2023 06:00:54.247;KmbeDailySync;KMBE daily sync started
+24-01-2023 06:00:54.249;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 06:00:56.934;KmbeDailySync;No change in settings
+24-01-2023 06:00:56.935;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 06:00:56.998;KmbeDailySync;RSU status bits have been restarted
+24-01-2023 06:00:57.092;KmbeDailySync;KMBE daily sync finished
+24-01-2023 21:12:03.393;KmbeDailySync;KMBE daily sync started
+24-01-2023 21:12:03.395;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 21:12:06.074;KmbeDailySync;No change in settings
+24-01-2023 21:12:06.075;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 21:12:06.126;KmbeDailySync;RSU status bits have been restarted
+24-01-2023 21:12:06.158;KmbeDailySync;KMBE daily sync finished

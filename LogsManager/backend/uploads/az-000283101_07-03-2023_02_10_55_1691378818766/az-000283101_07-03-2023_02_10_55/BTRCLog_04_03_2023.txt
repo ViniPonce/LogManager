@@ -1,0 +1,2 @@
+04-03-2023 02:15:43.729;BTRCLog;Sleep mode screen open
+04-03-2023 02:15:43.730;BTRCLog;BTRC disconnected

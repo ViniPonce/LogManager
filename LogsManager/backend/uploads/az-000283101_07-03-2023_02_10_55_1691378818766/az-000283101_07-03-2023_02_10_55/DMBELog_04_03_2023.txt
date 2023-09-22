@@ -1,0 +1,16 @@
+04-03-2023 02:08:40.964;DMBELog;Synchronizing parameters with KMBE
+04-03-2023 02:08:40.978;DMBELog;Requesting parameters
+04-03-2023 02:08:41.735;DMBELog;Parameters received
+04-03-2023 02:08:42.112;DMBELog;Parameter log.file.transmission.enable have changed from 0 to 1
+04-03-2023 02:08:42.320;DMBELog;Parameters changed. Will reboot meter on next TV off.
+04-03-2023 02:08:42.331;DMBELog;Sending parameters
+04-03-2023 02:08:42.973;DMBELog;Parameters synchronization finished
+04-03-2023 02:08:42.976;DMBELog;Application Parameters Received Successfully
+04-03-2023 02:15:11.257;DMBELog;Sending Network status to KMBE
+04-03-2023 02:15:12.317;DMBELog;Synchronizing parameters with KMBE
+04-03-2023 02:15:12.333;DMBELog;Requesting parameters
+04-03-2023 02:15:13.089;DMBELog;Parameters received
+04-03-2023 02:15:13.686;DMBELog;Sending parameters
+04-03-2023 02:15:14.484;DMBELog;Parameters synchronization finished
+04-03-2023 02:15:14.488;DMBELog;Application Parameters Received Successfully
+04-03-2023 02:15:30.442;DMBELog;2:11:28

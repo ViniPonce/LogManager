@@ -13,6 +13,7 @@
     "@mui/system": "^5.11.16",
     "@mui/x-date-pickers": "^6.1.0",
     "@mui/x-date-pickers-pro": "^6.1.0",
+    "@syncfusion/ej2-react-filemanager": "^22.2.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

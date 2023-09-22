@@ -1,0 +1,144 @@
+05-03-2023 08:00:05.541;BTRCLog;Sleep mode screen closed
+05-03-2023 08:00:05.645;BTRCLog;Viewers screen open
+05-03-2023 08:00:05.646;BTRCLog;BTRC connected
+05-03-2023 08:02:20.713;BTRCLog;Viewers screen closed
+05-03-2023 08:02:20.777;BTRCLog;Sleep mode screen open
+05-03-2023 08:02:20.778;BTRCLog;BTRC connected
+05-03-2023 08:03:07.567;BTRCLog;Sleep mode screen closed
+05-03-2023 08:03:07.664;BTRCLog;Viewers screen open
+05-03-2023 08:03:07.665;BTRCLog;BTRC connected
+05-03-2023 08:07:20.773;BTRCLog;Viewers screen closed
+05-03-2023 08:07:20.826;BTRCLog;Sleep mode screen open
+05-03-2023 08:07:20.828;BTRCLog;BTRC connected
+05-03-2023 08:08:07.618;BTRCLog;Sleep mode screen closed
+05-03-2023 08:08:07.725;BTRCLog;Viewers screen open
+05-03-2023 08:08:07.726;BTRCLog;BTRC connected
+05-03-2023 08:16:24.894;BTRCLog;Viewers screen closed
+05-03-2023 08:16:24.953;BTRCLog;Sleep mode screen open
+05-03-2023 08:16:24.954;BTRCLog;BTRC connected
+05-03-2023 08:20:06.684;BTRCLog;Sleep mode screen closed
+05-03-2023 08:20:06.787;BTRCLog;Viewers screen open
+05-03-2023 08:20:06.789;BTRCLog;BTRC connected
+05-03-2023 09:00:15.481;BTRCLog;Viewers screen closed
+05-03-2023 09:00:15.536;BTRCLog;Sleep mode screen open
+05-03-2023 09:00:15.537;BTRCLog;BTRC connected
+05-03-2023 09:01:06.718;BTRCLog;Sleep mode screen closed
+05-03-2023 09:01:06.817;BTRCLog;Viewers screen open
+05-03-2023 09:01:06.818;BTRCLog;BTRC connected
+05-03-2023 14:00:22.689;BTRCLog;Sleep mode screen open
+05-03-2023 14:00:22.690;BTRCLog;BTRC connected
+05-03-2023 15:00:08.824;BTRCLog;Sleep mode screen closed
+05-03-2023 15:15:09.242;BTRCLog;Sleep mode screen open
+05-03-2023 15:15:09.244;BTRCLog;BTRC connected
+05-03-2023 15:20:05.008;BTRCLog;Sleep mode screen closed
+05-03-2023 15:23:06.194;BTRCLog;Viewers screen closed
+05-03-2023 15:23:06.252;BTRCLog;Sleep mode screen open
+05-03-2023 15:23:06.253;BTRCLog;BTRC connected
+05-03-2023 15:30:05.535;BTRCLog;Sleep mode screen closed
+05-03-2023 15:30:05.644;BTRCLog;Viewers screen open
+05-03-2023 15:30:05.645;BTRCLog;BTRC connected
+05-03-2023 15:40:05.832;BTRCLog;Viewers screen closed
+05-03-2023 15:40:05.888;BTRCLog;Sleep mode screen open
+05-03-2023 15:40:05.889;BTRCLog;BTRC connected
+05-03-2023 16:00:06.359;BTRCLog;Sleep mode screen closed
+05-03-2023 16:00:06.456;BTRCLog;Viewers screen open
+05-03-2023 16:00:06.457;BTRCLog;BTRC connected
+05-03-2023 16:01:08.518;BTRCLog;Viewers screen closed
+05-03-2023 16:01:08.587;BTRCLog;Sleep mode screen open
+05-03-2023 16:01:08.589;BTRCLog;BTRC connected
+05-03-2023 16:02:04.866;BTRCLog;Sleep mode screen closed
+05-03-2023 16:02:04.964;BTRCLog;Viewers screen open
+05-03-2023 16:02:04.965;BTRCLog;BTRC connected
+05-03-2023 16:03:07.031;BTRCLog;Viewers screen closed
+05-03-2023 16:03:07.085;BTRCLog;Sleep mode screen open
+05-03-2023 16:03:07.086;BTRCLog;BTRC connected
+05-03-2023 16:04:09.684;BTRCLog;Sleep mode screen closed
+05-03-2023 16:04:09.789;BTRCLog;Viewers screen open
+05-03-2023 16:04:09.790;BTRCLog;BTRC connected
+05-03-2023 16:05:06.861;BTRCLog;Viewers screen closed
+05-03-2023 16:05:06.915;BTRCLog;Sleep mode screen open
+05-03-2023 16:05:06.916;BTRCLog;BTRC connected
+05-03-2023 16:06:03.116;BTRCLog;Sleep mode screen closed
+05-03-2023 16:06:03.212;BTRCLog;Viewers screen open
+05-03-2023 16:06:03.214;BTRCLog;BTRC connected
+05-03-2023 16:07:05.266;BTRCLog;Viewers screen closed
+05-03-2023 16:07:05.321;BTRCLog;Sleep mode screen open
+05-03-2023 16:07:05.322;BTRCLog;BTRC connected
+05-03-2023 16:08:07.243;BTRCLog;Sleep mode screen closed
+05-03-2023 16:08:07.325;BTRCLog;Viewers screen open
+05-03-2023 16:08:07.326;BTRCLog;BTRC connected
+05-03-2023 16:09:09.382;BTRCLog;Viewers screen closed
+05-03-2023 16:09:09.436;BTRCLog;Sleep mode screen open
+05-03-2023 16:09:09.437;BTRCLog;BTRC connected
+05-03-2023 16:10:06.926;BTRCLog;Sleep mode screen closed
+05-03-2023 16:10:07.031;BTRCLog;Viewers screen open
+05-03-2023 16:10:07.032;BTRCLog;BTRC connected
+05-03-2023 16:11:09.091;BTRCLog;Viewers screen closed
+05-03-2023 16:11:09.145;BTRCLog;Sleep mode screen open
+05-03-2023 16:11:09.146;BTRCLog;BTRC connected
+05-03-2023 16:12:05.734;BTRCLog;Sleep mode screen closed
+05-03-2023 16:12:05.832;BTRCLog;Viewers screen open
+05-03-2023 16:12:05.833;BTRCLog;BTRC connected
+05-03-2023 16:13:07.904;BTRCLog;Viewers screen closed
+05-03-2023 16:13:07.964;BTRCLog;Sleep mode screen open
+05-03-2023 16:13:07.965;BTRCLog;BTRC connected
+05-03-2023 16:14:05.252;BTRCLog;Sleep mode screen closed
+05-03-2023 16:14:05.372;BTRCLog;Viewers screen open
+05-03-2023 16:14:05.374;BTRCLog;BTRC connected
+05-03-2023 16:15:07.419;BTRCLog;Viewers screen closed
+05-03-2023 16:15:07.476;BTRCLog;Sleep mode screen open
+05-03-2023 16:15:07.477;BTRCLog;BTRC connected
+05-03-2023 16:16:04.271;BTRCLog;Sleep mode screen closed
+05-03-2023 16:16:04.397;BTRCLog;Viewers screen open
+05-03-2023 16:16:04.398;BTRCLog;BTRC connected
+05-03-2023 16:17:06.432;BTRCLog;Viewers screen closed
+05-03-2023 16:17:06.498;BTRCLog;Sleep mode screen open
+05-03-2023 16:17:06.500;BTRCLog;BTRC connected
+05-03-2023 16:18:08.693;BTRCLog;Sleep mode screen closed
+05-03-2023 16:18:08.796;BTRCLog;Viewers screen open
+05-03-2023 16:18:08.797;BTRCLog;BTRC connected
+05-03-2023 16:19:04.864;BTRCLog;Viewers screen closed
+05-03-2023 16:19:04.922;BTRCLog;Sleep mode screen open
+05-03-2023 16:19:04.923;BTRCLog;BTRC connected
+05-03-2023 16:20:06.912;BTRCLog;Sleep mode screen closed
+05-03-2023 16:20:07.015;BTRCLog;Viewers screen open
+05-03-2023 16:20:07.016;BTRCLog;BTRC connected
+05-03-2023 16:21:09.077;BTRCLog;Viewers screen closed
+05-03-2023 16:21:09.130;BTRCLog;Sleep mode screen open
+05-03-2023 16:21:09.131;BTRCLog;BTRC connected
+05-03-2023 16:22:06.831;BTRCLog;Sleep mode screen closed
+05-03-2023 16:22:06.940;BTRCLog;Viewers screen open
+05-03-2023 16:22:06.941;BTRCLog;BTRC connected
+05-03-2023 16:23:08.992;BTRCLog;Viewers screen closed
+05-03-2023 16:23:09.049;BTRCLog;Sleep mode screen open
+05-03-2023 16:23:09.050;BTRCLog;BTRC connected
+05-03-2023 16:24:05.932;BTRCLog;Sleep mode screen closed
+05-03-2023 16:24:06.041;BTRCLog;Viewers screen open
+05-03-2023 16:24:06.042;BTRCLog;BTRC connected
+05-03-2023 16:25:08.114;BTRCLog;Viewers screen closed
+05-03-2023 16:25:08.165;BTRCLog;Sleep mode screen open
+05-03-2023 16:25:08.166;BTRCLog;BTRC connected
+05-03-2023 16:26:04.864;BTRCLog;Sleep mode screen closed
+05-03-2023 16:26:04.961;BTRCLog;Viewers screen open
+05-03-2023 16:26:04.962;BTRCLog;BTRC connected
+05-03-2023 16:27:07.013;BTRCLog;Viewers screen closed
+05-03-2023 16:27:07.065;BTRCLog;Sleep mode screen open
+05-03-2023 16:27:07.066;BTRCLog;BTRC connected
+05-03-2023 16:28:08.780;BTRCLog;Sleep mode screen closed
+05-03-2023 16:28:08.873;BTRCLog;Viewers screen open
+05-03-2023 16:28:08.874;BTRCLog;BTRC connected
+05-03-2023 16:29:05.929;BTRCLog;Viewers screen closed
+05-03-2023 16:29:05.987;BTRCLog;Sleep mode screen open
+05-03-2023 16:29:05.989;BTRCLog;BTRC connected
+05-03-2023 16:30:08.171;BTRCLog;Sleep mode screen closed
+05-03-2023 16:30:08.274;BTRCLog;Viewers screen open
+05-03-2023 16:30:08.275;BTRCLog;BTRC connected
+05-03-2023 16:59:07.763;BTRCLog;Viewers screen closed
+05-03-2023 16:59:07.817;BTRCLog;Sleep mode screen open
+05-03-2023 16:59:07.818;BTRCLog;BTRC connected
+05-03-2023 19:00:06.578;BTRCLog;Sleep mode screen closed
+05-03-2023 19:00:06.678;BTRCLog;Viewers screen open
+05-03-2023 19:00:06.679;BTRCLog;BTRC connected
+05-03-2023 23:55:10.389;BTRCLog;Viewers screen closed
+05-03-2023 23:55:10.443;BTRCLog;Sleep mode screen open
+05-03-2023 23:55:10.445;BTRCLog;BTRC connected

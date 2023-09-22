@@ -1,0 +1,19 @@
+16-07-2023 00:45:40.616;BTRCLog;BTRC battery level: 58
+16-07-2023 01:45:40.624;BTRCLog;BTRC battery level: 58
+16-07-2023 02:45:40.628;BTRCLog;BTRC battery level: 58
+16-07-2023 03:45:40.633;BTRCLog;BTRC battery level: 58
+16-07-2023 04:45:40.635;BTRCLog;BTRC battery level: 58
+16-07-2023 05:45:40.641;BTRCLog;BTRC battery level: 58
+16-07-2023 06:45:40.646;BTRCLog;BTRC battery level: 58
+16-07-2023 07:45:40.650;BTRCLog;BTRC battery level: 58
+16-07-2023 08:45:40.654;BTRCLog;BTRC battery level: 58
+16-07-2023 09:45:40.660;BTRCLog;BTRC battery level: 58
+16-07-2023 10:45:40.664;BTRCLog;BTRC battery level: 58
+16-07-2023 11:45:40.669;BTRCLog;BTRC battery level: 58
+16-07-2023 12:31:48.051;BTRCLog;BTRC lost connection
+16-07-2023 12:32:48.090;BTRCLog;BTRC connected
+16-07-2023 12:45:40.673;BTRCLog;BTRC battery level: 58
+16-07-2023 13:45:40.677;BTRCLog;BTRC battery level: 58
+16-07-2023 14:45:40.681;BTRCLog;BTRC battery level: 58
+16-07-2023 15:45:40.684;BTRCLog;BTRC battery level: 58
+16-07-2023 16:45:40.689;BTRCLog;BTRC battery level: 58

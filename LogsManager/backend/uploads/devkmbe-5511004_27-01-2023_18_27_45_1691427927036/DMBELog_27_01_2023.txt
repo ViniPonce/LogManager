@@ -1,0 +1,88 @@
+27-01-2023 06:07:16.629;DMBELog;Synchronizing parameters with KMBE
+27-01-2023 06:07:16.636;DMBELog;Requesting parameters
+27-01-2023 06:07:18.168;DMBELog;Parameters received
+27-01-2023 06:07:18.744;DMBELog;Sending parameters
+27-01-2023 06:07:19.808;DMBELog;Parameters synchronization finished
+27-01-2023 06:07:19.812;DMBELog;Application Parameters Received Successfully
+27-01-2023 13:37:26.234;DMBELog;6:2:19
+27-01-2023 13:38:29.756;DMBELog;Unable to resolve host "dmbe-kmbe.kantarmedia.fr": No address associated with hostname
+27-01-2023 13:53:37.833;DMBELog;6:11:3
+27-01-2023 13:53:58.048;DMBELog;Unable to resolve host "dmbe-kmbe.kantarmedia.fr": No address associated with hostname
+27-01-2023 13:54:58.084;DMBELog;Unable to resolve host "dmbe-kmbe.kantarmedia.fr": No address associated with hostname
+27-01-2023 13:56:01.881;DMBELog;Sending Network status to KMBE
+27-01-2023 13:56:02.873;DMBELog;Success sending parameters
+27-01-2023 14:53:06.747;DMBELog;Synchronizing parameters with KMBE
+27-01-2023 14:53:06.770;DMBELog;Requesting parameters
+27-01-2023 14:53:08.338;DMBELog;Parameters received
+27-01-2023 14:53:08.358;DMBELog;Parameter mic.audio.sample_rate have changed from null to 24000
+27-01-2023 14:53:08.373;DMBELog;Parameter mic.audio.channels have changed from null to 1
+27-01-2023 14:53:08.387;DMBELog;Parameter mic.audio.encoding_bits have changed from null to 16
+27-01-2023 14:53:08.436;DMBELog;Parameter rtmsiggen.override_special_fgps have changed from -1 to 40
+27-01-2023 14:53:08.485;DMBELog;Parameter fgp.settings have changed from  to [
+  {
+    "sensorType": 0,
+    "service": 1,
+    "license": "UAHuQabvxJIEIbR/KEXyW4nTBWyyVEb+9wdWfWWPYHgU2ohH+JEftzPLEIor6v2fxMqhXwOqMIy7WT3GAZAs8hMv46CdXOMORoAq+dFsirwcnX3TNyADpVW2IpXGYiecCxnIo3NUVon0qYmOVofchpS6KawwIeg9BcUlBP+2LA2ucDdyORHWdoYIHuxnbvBS3j2lYOFEYy4JzrqtHxx3uyWS3qsUfj6OJLJp8/r2hkx9ymN0kcstNRUFVpAHzNE+BiRFAEwNJVtnxTryezyRVLpYMOEXwZQP1RxR5YlfmSaSnCwJbClJg/+atWyqLLZMc3bhxnlip/0J2Dzd0udctTNYaL5jUAyVJfydmYyxGUEkslU5HZIOOizJd73BN3i7uIEYRqyIbGu/SsnwPs4yetyc4YvgreYL+jMpsSWus+QY12PymgyOpZ6WSLMnAnDbOAVAAE1DMENGUUN5U091bmhqbXlMNHdRd2JSY0k1dE50R05IVUFJVWVnZk8xdExpMkZhUzE1ODYySGR5U1dwY3lrND0="
+  }
+]
+27-01-2023 14:53:08.679;DMBELog;Parameter sis.poll.request have changed from 60000 to 20000
+27-01-2023 14:53:08.927;DMBELog;Parameter familyMembersAvatarId have changed from null to {}
+27-01-2023 14:53:08.938;DMBELog;Parameter metersLoggedViewers have changed from null to {"":["3"],"LivingRoomTV":[]}
+27-01-2023 14:53:09.006;DMBELog;Parameters changed. Will reboot meter on next TV off.
+27-01-2023 14:53:09.017;DMBELog;Sending parameters
+27-01-2023 14:53:10.058;DMBELog;Custom parameters pending, sending data to KMBE
+27-01-2023 14:53:10.148;DMBELog;Sending custom parameters
+27-01-2023 14:53:11.209;DMBELog;Success sending parameters
+27-01-2023 14:53:11.354;DMBELog;Parameters synchronization finished
+27-01-2023 14:53:11.357;DMBELog;Application Parameters Received Successfully
+27-01-2023 14:53:26.108;DMBELog;Sending Network status to KMBE
+27-01-2023 14:53:26.890;DMBELog;6:11:41
+27-01-2023 14:53:27.362;DMBELog;Success sending parameters
+27-01-2023 15:00:19.670;DMBELog;Synchronizing parameters with KMBE
+27-01-2023 15:00:19.703;DMBELog;Requesting parameters
+27-01-2023 15:00:21.237;DMBELog;Parameters received
+27-01-2023 15:00:21.828;DMBELog;Sending parameters
+27-01-2023 15:00:22.999;DMBELog;Parameters synchronization finished
+27-01-2023 15:00:23.003;DMBELog;Application Parameters Received Successfully
+27-01-2023 15:00:38.745;DMBELog;Sending Network status to KMBE
+27-01-2023 15:00:38.814;DMBELog;6:4:49
+27-01-2023 15:00:40.160;DMBELog;Success sending parameters
+27-01-2023 15:07:14.928;DMBELog;Synchronizing parameters with KMBE
+27-01-2023 15:07:14.954;DMBELog;Requesting parameters
+27-01-2023 15:07:16.650;DMBELog;Parameters received
+27-01-2023 15:07:16.728;DMBELog;Parameter rtmsiggen.override_special_fgps have changed from 40 to -1
+27-01-2023 15:07:16.773;DMBELog;Parameter fgp.settings have changed from [
+  {
+    "sensorType": 0,
+    "service": 1,
+    "license": "UAHuQabvxJIEIbR/KEXyW4nTBWyyVEb+9wdWfWWPYHgU2ohH+JEftzPLEIor6v2fxMqhXwOqMIy7WT3GAZAs8hMv46CdXOMORoAq+dFsirwcnX3TNyADpVW2IpXGYiecCxnIo3NUVon0qYmOVofchpS6KawwIeg9BcUlBP+2LA2ucDdyORHWdoYIHuxnbvBS3j2lYOFEYy4JzrqtHxx3uyWS3qsUfj6OJLJp8/r2hkx9ymN0kcstNRUFVpAHzNE+BiRFAEwNJVtnxTryezyRVLpYMOEXwZQP1RxR5YlfmSaSnCwJbClJg/+atWyqLLZMc3bhxnlip/0J2Dzd0udctTNYaL5jUAyVJfydmYyxGUEkslU5HZIOOizJd73BN3i7uIEYRqyIbGu/SsnwPs4yetyc4YvgreYL+jMpsSWus+QY12PymgyOpZ6WSLMnAnDbOAVAAE1DMENGUUN5U091bmhqbXlMNHdRd2JSY0k1dE50R05IVUFJVWVnZk8xdExpMkZhUzE1ODYySGR5U1dwY3lrND0="
+  }
+] to 
+27-01-2023 15:07:16.945;DMBELog;Parameter sis.poll.request have changed from 20000 to 60000
+27-01-2023 15:07:17.227;DMBELog;Parameters changed. Will reboot meter on next TV off.
+27-01-2023 15:07:17.238;DMBELog;Sending parameters
+27-01-2023 15:07:18.338;DMBELog;Parameters synchronization finished
+27-01-2023 15:07:18.341;DMBELog;Application Parameters Received Successfully
+27-01-2023 15:07:34.021;DMBELog;Sending Network status to KMBE
+27-01-2023 15:07:34.084;DMBELog;6:10:58
+27-01-2023 15:07:35.336;DMBELog;Success sending parameters
+27-01-2023 15:14:24.792;DMBELog;Synchronizing parameters with KMBE
+27-01-2023 15:14:24.829;DMBELog;Requesting parameters
+27-01-2023 15:14:26.696;DMBELog;Parameters received
+27-01-2023 15:14:27.233;DMBELog;Sending parameters
+27-01-2023 15:14:28.602;DMBELog;Parameters synchronization finished
+27-01-2023 15:14:28.606;DMBELog;Application Parameters Received Successfully
+27-01-2023 15:14:43.910;DMBELog;6:0:47
+27-01-2023 15:14:44.041;DMBELog;Sending Network status to KMBE
+27-01-2023 15:14:45.335;DMBELog;Success sending parameters
+27-01-2023 17:49:49.640;DMBELog;Synchronizing parameters with KMBE
+27-01-2023 17:49:49.665;DMBELog;Requesting parameters
+27-01-2023 17:49:51.147;DMBELog;Parameters received
+27-01-2023 17:49:51.632;DMBELog;Sending parameters
+27-01-2023 17:49:52.840;DMBELog;Parameters synchronization finished
+27-01-2023 17:49:52.843;DMBELog;Application Parameters Received Successfully
+27-01-2023 17:50:08.785;DMBELog;6:3:57
+27-01-2023 17:50:08.928;DMBELog;Sending Network status to KMBE
+27-01-2023 17:50:10.552;DMBELog;Success sending parameters
+27-01-2023 18:27:44.413;DMBELog;Sending default parameters
+27-01-2023 18:27:45.845;DMBELog;Success sending parameters

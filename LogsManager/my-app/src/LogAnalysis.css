@@ -1,0 +1,39 @@
+
+
+/* Cores alternadas para as linhas */
+.even-row {
+    background-color: #cdcecf48; /* Cor de fundo para linhas pares */
+  }
+  
+  .odd-row {
+    background-color: #ffffff; /* Cor de fundo para linhas ímpares */
+  }
+  
+  /* Destacar a linha selecionada */
+  .selected-row {
+    background-color: #55caf83a; /* Cor de destaque para a linha selecionada */
+    color: #fcf8f8; /* Cor do texto para a linha selecionada */
+  }
+  
+  
+/* Personalizar a largura das colunas e o tamanho das linhas */
+/* Ajuste a largura das colunas conforme necessário */
+.TableHead th {
+    /* Defina a largura mínima das colunas da cabeça da tabela */
+    width: 10px;
+    /* Ajuste outras propriedades de largura conforme necessário, por exemplo, width: 150px; */
+  }
+  
+  .TableBody td {
+    /* Defina a largura mínima das colunas do corpo da tabela */
+    width: 10px;
+    /* Ajuste outras propriedades de largura conforme necessário, por exemplo, width: 150px; */
+    padding: 8px; /* Espaçamento interno para células */
+  }
+  
+  /* Ajustar o tamanho das linhas */
+  .TableBody tr {
+    height: 40px; /* Altura das linhas */
+    /* Ajuste a altura conforme necessário */
+  }
+  

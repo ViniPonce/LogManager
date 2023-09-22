@@ -1,0 +1,16 @@
+03-03-2023 06:13:21.675;DMBELog;Synchronizing parameters with KMBE
+03-03-2023 06:13:21.689;DMBELog;Requesting parameters
+03-03-2023 06:13:22.836;DMBELog;Parameters received
+03-03-2023 06:13:23.427;DMBELog;Sending parameters
+03-03-2023 06:13:24.568;DMBELog;Parameters synchronization finished
+03-03-2023 06:13:24.571;DMBELog;Application Parameters Received Successfully
+03-03-2023 17:11:39.497;DMBELog;Unable to resolve host "dmbe-kmbe.kantarmedia.fr": No address associated with hostname
+03-03-2023 17:12:53.582;DMBELog;Sending Network status to KMBE
+03-03-2023 17:12:55.208;DMBELog;Success sending parameters
+03-03-2023 17:13:43.318;DMBELog;Unable to resolve host "dmbe-kmbe.kantarmedia.fr": No address associated with hostname
+03-03-2023 17:14:43.346;DMBELog;Unable to resolve host "dmbe-kmbe.kantarmedia.fr": No address associated with hostname
+03-03-2023 17:16:04.048;DMBELog;Sending Network status to KMBE
+03-03-2023 17:16:05.590;DMBELog;Success sending parameters
+03-03-2023 17:20:25.020;DMBELog;Unable to resolve host "dmbe-kmbe.kantarmedia.fr": No address associated with hostname
+03-03-2023 17:21:11.321;DMBELog;Sending Network status to KMBE
+03-03-2023 17:21:12.681;DMBELog;Success sending parameters

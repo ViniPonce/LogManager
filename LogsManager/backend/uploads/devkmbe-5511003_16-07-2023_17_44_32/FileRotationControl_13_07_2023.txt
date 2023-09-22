@@ -1,0 +1,29 @@
+13-07-2023 02:17:37.066;FileRotationControl;Current date minus 3 days is equals: 1688955457065
+13-07-2023 02:17:37.068;FileRotationControl;NTPServerLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.071;FileRotationControl;MainLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.073;FileRotationControl;AwmDetectorLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.075;FileRotationControl;LAMLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.078;FileRotationControl;SensorsPointerLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.100;FileRotationControl;SensorsProcessLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.103;FileRotationControl;RTMDeliveryLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.106;FileRotationControl;OnOffLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.108;FileRotationControl;StorageStats_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.111;FileRotationControl;StatusLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.113;FileRotationControl;BatteryChargeControlLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.116;FileRotationControl;DashBoard_Communication_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.118;FileRotationControl;AudioCaptureMemoryUsage_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.121;FileRotationControl;WatchdogMemoryUsage_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.123;FileRotationControl;DeliveryServiceMemoryUsage_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.125;FileRotationControl;AudioMatchingMemoryUsage_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.126;FileRotationControl;MainProcessMemoryUsage_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.128;FileRotationControl;BTRCLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.130;FileRotationControl;InternetDataConsumptionLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.133;FileRotationControl;BatteryLifeMonitorLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.135;FileRotationControl;LcmMemoryUsage_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.137;FileRotationControl;BackendMemoryUsage_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.139;FileRotationControl;AudioWatermarkingMemoryUsage_09_07_2023.txt delete file from 3 days 
+13-07-2023 02:17:37.142;FileRotationControl;StatusBitLog_09_07_2023.txt delete file from 3 days 
+13-07-2023 10:17:37.163;FileRotationControl;Current date minus 3 days is equals: 1688984257162
+13-07-2023 10:17:37.166;FileRotationControl;DMBELog_10_07_2023.txt delete file from 3 days 
+13-07-2023 18:17:37.189;FileRotationControl;Current date minus 3 days is equals: 1689013057189
+13-07-2023 18:17:37.193;FileRotationControl;FileRotationControl_10_07_2023.txt delete file from 3 days 

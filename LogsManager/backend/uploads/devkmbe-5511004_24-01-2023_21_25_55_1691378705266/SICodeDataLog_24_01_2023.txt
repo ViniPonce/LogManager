@@ -1,0 +1,12 @@
+24-01-2023 12:51:40.017;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 13:29:31.651;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 13:49:50.816;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 14:55:56.757;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 17:01:18.278;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 18:10:56.705;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 18:26:03.325;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 18:32:17.786;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 18:37:42.580;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 19:36:28.475;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 19:42:40.434;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData
+24-01-2023 20:02:25.177;SICodeDataLog;blockLengthBytes;dataBlockBytes;timeOffsetBytes;sensorStatusBytes;rawData

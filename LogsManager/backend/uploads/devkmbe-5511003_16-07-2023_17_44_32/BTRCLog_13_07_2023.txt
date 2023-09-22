@@ -1,0 +1,101 @@
+13-07-2023 00:16:06.882;BTRCLog;BTRC lost connection
+13-07-2023 00:17:32.014;BTRCLog;BTRC connected
+13-07-2023 00:19:30.744;BTRCLog;BTRC lost connection
+13-07-2023 00:21:09.963;BTRCLog;BTRC connected
+13-07-2023 00:21:47.102;BTRCLog;BTRC lost connection
+13-07-2023 00:24:12.296;BTRCLog;BTRC connected
+13-07-2023 00:35:42.079;BTRCLog;BTRC lost connection
+13-07-2023 00:37:07.118;BTRCLog;BTRC connected
+13-07-2023 00:45:40.355;BTRCLog;BTRC battery level: 58
+13-07-2023 00:51:56.763;BTRCLog;BTRC lost connection
+13-07-2023 00:53:16.677;BTRCLog;BTRC connected
+13-07-2023 01:01:37.997;BTRCLog;BTRC lost connection
+13-07-2023 01:03:03.036;BTRCLog;BTRC connected
+13-07-2023 01:05:19.658;BTRCLog;Viewers screen closed
+13-07-2023 01:05:19.736;BTRCLog;Sleep mode screen open
+13-07-2023 01:05:19.737;BTRCLog;BTRC disconnected
+13-07-2023 01:05:19.755;BTRCLog;BTRC lost connection
+13-07-2023 01:05:29.746;BTRCLog;BTRC connected
+13-07-2023 01:05:51.891;BTRCLog;Sleep mode screen closed
+13-07-2023 01:05:52.035;BTRCLog;Viewers screen open
+13-07-2023 01:05:52.036;BTRCLog;BTRC connected
+13-07-2023 01:21:38.946;BTRCLog;BTRC lost connection
+13-07-2023 01:28:44.764;BTRCLog;BTRC connected
+13-07-2023 01:35:43.991;BTRCLog;BTRC lost connection
+13-07-2023 01:38:23.333;BTRCLog;BTRC connected
+13-07-2023 01:41:31.717;BTRCLog;BTRC lost connection
+13-07-2023 01:42:56.817;BTRCLog;BTRC connected
+13-07-2023 01:45:40.358;BTRCLog;BTRC battery level: 58
+13-07-2023 01:55:54.678;BTRCLog;BTRC lost connection
+13-07-2023 01:57:19.796;BTRCLog;BTRC connected
+13-07-2023 02:02:11.774;BTRCLog;BTRC lost connection
+13-07-2023 02:04:37.020;BTRCLog;BTRC connected
+13-07-2023 02:08:35.698;BTRCLog;BTRC lost connection
+13-07-2023 02:11:00.974;BTRCLog;BTRC connected
+13-07-2023 02:15:14.682;BTRCLog;BTRC lost connection
+13-07-2023 02:16:39.701;BTRCLog;BTRC connected
+13-07-2023 02:19:03.824;BTRCLog;BTRC lost connection
+13-07-2023 02:19:42.767;BTRCLog;BTRC connected
+13-07-2023 02:31:11.089;BTRCLog;BTRC lost connection
+13-07-2023 02:31:50.024;BTRCLog;BTRC connected
+13-07-2023 02:36:56.461;BTRCLog;BTRC lost connection
+13-07-2023 02:37:21.334;BTRCLog;BTRC connected
+13-07-2023 02:40:54.719;BTRCLog;BTRC lost connection
+13-07-2023 02:42:05.787;BTRCLog;BTRC connected
+13-07-2023 02:44:57.761;BTRCLog;BTRC lost connection
+13-07-2023 02:45:22.904;BTRCLog;BTRC connected
+13-07-2023 02:45:40.360;BTRCLog;BTRC battery level: 58
+13-07-2023 02:47:20.076;BTRCLog;BTRC lost connection
+13-07-2023 02:49:21.199;BTRCLog;BTRC connected
+13-07-2023 02:57:29.862;BTRCLog;BTRC lost connection
+13-07-2023 02:57:35.927;BTRCLog;BTRC connected
+13-07-2023 03:05:29.505;BTRCLog;BTRC lost connection
+13-07-2023 03:06:40.448;BTRCLog;BTRC connected
+13-07-2023 03:33:19.324;BTRCLog;BTRC lost connection
+13-07-2023 03:34:44.368;BTRCLog;BTRC connected
+13-07-2023 03:45:40.363;BTRCLog;BTRC battery level: 58
+13-07-2023 04:45:40.366;BTRCLog;BTRC battery level: 58
+13-07-2023 04:54:18.650;BTRCLog;Viewers screen closed
+13-07-2023 04:54:18.711;BTRCLog;Sleep mode screen open
+13-07-2023 04:54:18.712;BTRCLog;BTRC connected
+13-07-2023 05:45:40.369;BTRCLog;BTRC battery level: 58
+13-07-2023 06:45:40.371;BTRCLog;BTRC battery level: 58
+13-07-2023 06:57:30.680;BTRCLog;BTRC lost connection
+13-07-2023 06:59:35.765;BTRCLog;BTRC connected
+13-07-2023 07:45:40.374;BTRCLog;BTRC battery level: 58
+13-07-2023 08:45:40.376;BTRCLog;BTRC battery level: 58
+13-07-2023 09:00:40.034;BTRCLog;Sleep mode screen closed
+13-07-2023 09:00:40.162;BTRCLog;Viewers screen open
+13-07-2023 09:00:40.163;BTRCLog;BTRC connected
+13-07-2023 09:45:40.378;BTRCLog;BTRC battery level: 58
+13-07-2023 09:46:22.879;BTRCLog;Viewers screen closed
+13-07-2023 09:46:22.938;BTRCLog;Sleep mode screen open
+13-07-2023 09:46:22.939;BTRCLog;BTRC connected
+13-07-2023 10:45:40.381;BTRCLog;BTRC battery level: 58
+13-07-2023 11:17:30.905;BTRCLog;Sleep mode screen closed
+13-07-2023 11:17:31.030;BTRCLog;Viewers screen open
+13-07-2023 11:17:31.031;BTRCLog;BTRC connected
+13-07-2023 11:37:42.189;BTRCLog;BTRC lost connection
+13-07-2023 11:38:01.981;BTRCLog;BTRC connected
+13-07-2023 11:45:40.383;BTRCLog;BTRC battery level: 58
+13-07-2023 12:44:36.571;BTRCLog;BTRC lost connection
+13-07-2023 12:45:01.421;BTRCLog;BTRC connected
+13-07-2023 12:45:40.386;BTRCLog;BTRC battery level: 58
+13-07-2023 13:45:40.389;BTRCLog;BTRC battery level: 58
+13-07-2023 14:22:37.246;BTRCLog;BTRC lost connection
+13-07-2023 14:23:16.228;BTRCLog;BTRC connected
+13-07-2023 14:36:02.982;BTRCLog;BTRC lost connection
+13-07-2023 14:37:27.995;BTRCLog;BTRC connected
+13-07-2023 14:45:40.392;BTRCLog;BTRC battery level: 58
+13-07-2023 15:45:40.395;BTRCLog;BTRC battery level: 58
+13-07-2023 16:14:10.726;BTRCLog;Viewers screen closed
+13-07-2023 16:14:10.797;BTRCLog;Sleep mode screen open
+13-07-2023 16:14:10.798;BTRCLog;BTRC connected
+13-07-2023 16:45:40.397;BTRCLog;BTRC battery level: 58
+13-07-2023 17:45:40.401;BTRCLog;BTRC battery level: 58
+13-07-2023 18:45:40.407;BTRCLog;BTRC battery level: 58
+13-07-2023 19:45:40.410;BTRCLog;BTRC battery level: 58
+13-07-2023 20:45:40.415;BTRCLog;BTRC battery level: 58
+13-07-2023 21:45:40.418;BTRCLog;BTRC battery level: 58
+13-07-2023 22:45:40.422;BTRCLog;BTRC battery level: 58
+13-07-2023 23:45:40.425;BTRCLog;BTRC battery level: 58

@@ -1,0 +1,190 @@
+20-01-2023 00:11:34.922;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 00:11:34.926;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 00:26:34.963;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 00:26:34.967;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 00:41:35.020;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 00:41:35.024;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 00:56:35.053;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 00:56:35.057;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 01:11:35.105;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 01:11:35.109;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 01:26:35.141;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 01:26:35.144;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 01:41:35.190;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 01:41:35.194;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 01:56:35.225;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 01:56:35.228;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 02:11:35.272;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 02:11:35.276;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 02:26:35.310;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 02:26:35.313;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 02:41:35.360;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 02:41:35.363;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 02:56:35.395;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 02:56:35.398;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 03:11:35.435;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 03:11:35.439;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 03:26:35.485;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 03:26:35.489;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 03:41:35.537;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 03:41:35.540;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 03:56:35.569;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 03:56:35.572;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 04:11:35.621;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 04:11:35.624;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 04:26:35.658;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 04:26:35.668;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 04:41:35.716;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 04:41:35.720;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 04:56:35.757;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 04:56:35.760;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 05:11:35.809;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 05:11:35.812;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 05:26:35.848;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 05:26:35.851;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 05:41:35.897;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 05:41:35.900;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 05:56:35.931;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 05:56:35.935;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 06:12:00.038;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 06:12:00.042;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 06:27:00.077;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 06:27:00.080;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 06:42:00.128;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 06:42:00.131;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 06:57:00.160;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 06:57:00.163;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 07:13:20.061;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 07:13:20.065;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 07:28:20.100;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 07:28:20.104;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 07:43:20.143;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 07:43:20.146;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 07:58:20.179;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 07:58:20.183;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 08:13:20.229;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 08:13:20.232;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 08:28:20.270;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 08:28:20.274;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 08:43:20.307;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 08:43:20.311;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 08:58:20.353;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 08:58:20.357;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 09:14:24.408;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 09:14:24.412;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 09:29:24.445;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 09:29:24.449;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 09:44:40.652;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 09:44:40.655;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 09:59:40.688;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 09:59:40.692;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 10:14:40.731;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 10:14:40.735;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 10:29:40.775;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 10:29:40.779;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 10:44:40.811;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 10:44:40.815;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 11:01:06.224;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 11:01:06.227;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 11:16:06.272;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 11:16:06.277;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 11:31:06.310;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 11:31:06.314;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 11:46:06.350;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 11:46:06.354;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 12:01:06.386;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 12:01:06.390;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 12:16:06.423;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 12:16:06.427;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 12:31:06.467;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 12:31:06.469;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 12:46:06.498;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 12:46:06.502;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 13:01:06.541;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 13:01:06.545;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 13:16:06.580;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 13:16:06.583;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 13:31:06.616;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 13:31:06.620;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 13:46:06.654;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 13:46:06.657;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 14:01:06.690;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 14:01:06.693;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 14:16:06.726;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 14:16:06.729;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 14:31:06.762;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 14:31:06.766;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 14:46:06.804;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 14:46:06.809;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 15:01:06.841;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 15:01:06.845;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 15:17:20.607;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 15:17:20.613;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 15:32:20.646;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 15:32:20.649;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 15:47:34.819;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 15:47:34.823;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 16:02:34.859;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 16:02:34.862;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 16:17:34.898;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 16:17:34.902;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 16:32:34.935;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 16:32:34.939;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 16:47:34.973;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 16:47:34.977;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 17:02:35.012;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 17:02:35.015;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 17:17:35.048;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 17:17:35.052;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 17:32:35.091;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 17:32:35.094;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 17:47:35.132;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 17:47:35.138;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 18:02:35.173;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 18:02:35.177;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 18:17:35.213;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 18:17:35.216;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 18:32:35.249;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 18:32:35.253;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 18:47:35.287;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 18:47:35.291;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 19:02:35.331;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 19:02:35.335;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 19:17:35.371;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 19:17:35.376;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 19:32:35.410;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 19:32:35.413;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 19:47:35.448;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 19:47:35.452;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 20:02:35.486;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 20:02:35.491;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 20:17:35.524;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 20:17:35.528;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 20:32:35.560;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 20:32:35.564;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 20:47:35.603;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 20:47:35.607;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 21:02:35.640;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 21:02:35.644;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 21:17:35.682;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 21:17:35.686;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 21:32:35.721;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 21:32:35.724;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 21:47:35.764;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 21:47:35.768;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 22:02:35.805;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 22:02:35.809;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 22:17:35.860;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 22:17:35.864;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 22:32:35.894;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 22:32:35.897;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 22:47:35.934;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 22:47:35.938;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 23:02:35.984;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 23:02:35.988;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 23:17:36.023;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 23:17:36.028;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 23:32:36.063;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 23:32:36.067;BatteryChargeControlLog;Connected to AC. Charging is disabled
+20-01-2023 23:47:36.115;BatteryChargeControlLog;Battery level: 85.0%. Max threshold: 70.0%. Min threshold: 40.0%
+20-01-2023 23:47:36.120;BatteryChargeControlLog;Connected to AC. Charging is disabled

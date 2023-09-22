@@ -1,0 +1,890 @@
+27-02-2023 00:01:13.692;NTPServerLog;Tablet clock update started
+27-02-2023 00:01:13.694;NTPServerLog;Checking NTP time and local time
+27-02-2023 00:01:13.695;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 00:01:43.860;NTPServerLog;Server connection failed
+27-02-2023 00:01:53.862;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 00:01:54.273;NTPServerLog;Server connected
+27-02-2023 00:01:54.274;NTPServerLog;NTP round trip time :134
+27-02-2023 00:01:54.275;NTPServerLog;NTP time: 2023-2-27 0:1:54
+27-02-2023 00:01:54.276;NTPServerLog;Tablet time: 2023-2-27 0:1:54
+27-02-2023 00:01:54.277;NTPServerLog;Time difference: 580
+27-02-2023 00:01:54.289;NTPServerLog;OS clock update not required
+27-02-2023 00:16:54.321;NTPServerLog;Tablet clock update started
+27-02-2023 00:16:54.323;NTPServerLog;Checking NTP time and local time
+27-02-2023 00:16:54.324;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 00:16:54.807;NTPServerLog;Server connected
+27-02-2023 00:16:54.808;NTPServerLog;NTP round trip time :167
+27-02-2023 00:16:54.810;NTPServerLog;NTP time: 2023-2-27 0:16:55
+27-02-2023 00:16:54.811;NTPServerLog;Tablet time: 2023-2-27 0:16:54
+27-02-2023 00:16:54.812;NTPServerLog;Time difference: 574
+27-02-2023 00:16:54.822;NTPServerLog;OS clock update not required
+27-02-2023 00:31:54.856;NTPServerLog;Tablet clock update started
+27-02-2023 00:31:54.857;NTPServerLog;Checking NTP time and local time
+27-02-2023 00:31:54.858;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 00:31:55.214;NTPServerLog;Server connected
+27-02-2023 00:31:55.216;NTPServerLog;NTP round trip time :107
+27-02-2023 00:31:55.217;NTPServerLog;NTP time: 2023-2-27 0:31:55
+27-02-2023 00:31:55.218;NTPServerLog;Tablet time: 2023-2-27 0:31:55
+27-02-2023 00:31:55.220;NTPServerLog;Time difference: 635
+27-02-2023 00:31:55.231;NTPServerLog;OS clock update not required
+27-02-2023 00:46:55.268;NTPServerLog;Tablet clock update started
+27-02-2023 00:46:55.269;NTPServerLog;Checking NTP time and local time
+27-02-2023 00:46:55.270;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 00:46:55.512;NTPServerLog;Server connected
+27-02-2023 00:46:55.513;NTPServerLog;NTP round trip time :48
+27-02-2023 00:46:55.514;NTPServerLog;NTP time: 2023-2-27 0:46:56
+27-02-2023 00:46:55.515;NTPServerLog;Tablet time: 2023-2-27 0:46:55
+27-02-2023 00:46:55.516;NTPServerLog;Time difference: 666
+27-02-2023 00:46:55.527;NTPServerLog;OS clock update not required
+27-02-2023 01:01:55.563;NTPServerLog;Tablet clock update started
+27-02-2023 01:01:55.564;NTPServerLog;Checking NTP time and local time
+27-02-2023 01:01:55.566;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 01:01:56.004;NTPServerLog;Server connected
+27-02-2023 01:01:56.006;NTPServerLog;NTP round trip time :151
+27-02-2023 01:01:56.007;NTPServerLog;NTP time: 2023-2-27 1:1:56
+27-02-2023 01:01:56.008;NTPServerLog;Tablet time: 2023-2-27 1:1:56
+27-02-2023 01:01:56.009;NTPServerLog;Time difference: 562
+27-02-2023 01:01:56.022;NTPServerLog;OS clock update not required
+27-02-2023 01:16:56.059;NTPServerLog;Tablet clock update started
+27-02-2023 01:16:56.061;NTPServerLog;Checking NTP time and local time
+27-02-2023 01:16:56.062;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 01:16:56.489;NTPServerLog;Server connected
+27-02-2023 01:16:56.490;NTPServerLog;NTP round trip time :144
+27-02-2023 01:16:56.491;NTPServerLog;NTP time: 2023-2-27 1:16:57
+27-02-2023 01:16:56.500;NTPServerLog;Tablet time: 2023-2-27 1:16:56
+27-02-2023 01:16:56.501;NTPServerLog;Time difference: 567
+27-02-2023 01:16:56.507;NTPServerLog;OS clock update not required
+27-02-2023 01:31:56.541;NTPServerLog;Tablet clock update started
+27-02-2023 01:31:56.542;NTPServerLog;Checking NTP time and local time
+27-02-2023 01:31:56.543;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 01:31:57.137;NTPServerLog;Server connected
+27-02-2023 01:31:57.138;NTPServerLog;NTP round trip time :228
+27-02-2023 01:31:57.140;NTPServerLog;NTP time: 2023-2-27 1:31:57
+27-02-2023 01:31:57.141;NTPServerLog;Tablet time: 2023-2-27 1:31:57
+27-02-2023 01:31:57.142;NTPServerLog;Time difference: 524
+27-02-2023 01:31:57.151;NTPServerLog;OS clock update not required
+27-02-2023 01:46:57.187;NTPServerLog;Tablet clock update started
+27-02-2023 01:46:57.188;NTPServerLog;Checking NTP time and local time
+27-02-2023 01:46:57.190;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 01:46:57.614;NTPServerLog;Server connected
+27-02-2023 01:46:57.615;NTPServerLog;NTP round trip time :140
+27-02-2023 01:46:57.617;NTPServerLog;NTP time: 2023-2-27 1:46:58
+27-02-2023 01:46:57.618;NTPServerLog;Tablet time: 2023-2-27 1:46:57
+27-02-2023 01:46:57.619;NTPServerLog;Time difference: 583
+27-02-2023 01:46:57.624;NTPServerLog;OS clock update not required
+27-02-2023 02:01:57.667;NTPServerLog;Tablet clock update started
+27-02-2023 02:01:57.668;NTPServerLog;Checking NTP time and local time
+27-02-2023 02:01:57.670;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 02:01:58.019;NTPServerLog;Server connected
+27-02-2023 02:01:58.020;NTPServerLog;NTP round trip time :101
+27-02-2023 02:01:58.021;NTPServerLog;NTP time: 2023-2-27 2:1:58
+27-02-2023 02:01:58.022;NTPServerLog;Tablet time: 2023-2-27 2:1:58
+27-02-2023 02:01:58.023;NTPServerLog;Time difference: 607
+27-02-2023 02:01:58.035;NTPServerLog;OS clock update not required
+27-02-2023 02:16:58.069;NTPServerLog;Tablet clock update started
+27-02-2023 02:16:58.071;NTPServerLog;Checking NTP time and local time
+27-02-2023 02:16:58.071;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 02:16:58.353;NTPServerLog;Server connected
+27-02-2023 02:16:58.354;NTPServerLog;NTP round trip time :69
+27-02-2023 02:16:58.355;NTPServerLog;NTP time: 2023-2-27 2:16:59
+27-02-2023 02:16:58.356;NTPServerLog;Tablet time: 2023-2-27 2:16:58
+27-02-2023 02:16:58.357;NTPServerLog;Time difference: 643
+27-02-2023 02:16:58.369;NTPServerLog;OS clock update not required
+27-02-2023 02:31:58.404;NTPServerLog;Tablet clock update started
+27-02-2023 02:31:58.405;NTPServerLog;Checking NTP time and local time
+27-02-2023 02:31:58.406;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 02:31:58.844;NTPServerLog;Server connected
+27-02-2023 02:31:58.845;NTPServerLog;NTP round trip time :144
+27-02-2023 02:31:58.846;NTPServerLog;NTP time: 2023-2-27 2:31:59
+27-02-2023 02:31:58.848;NTPServerLog;Tablet time: 2023-2-27 2:31:58
+27-02-2023 02:31:58.849;NTPServerLog;Time difference: 576
+27-02-2023 02:31:58.862;NTPServerLog;OS clock update not required
+27-02-2023 02:46:58.897;NTPServerLog;Tablet clock update started
+27-02-2023 02:46:58.898;NTPServerLog;Checking NTP time and local time
+27-02-2023 02:46:58.899;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 02:46:59.266;NTPServerLog;Server connected
+27-02-2023 02:46:59.268;NTPServerLog;NTP round trip time :110
+27-02-2023 02:46:59.270;NTPServerLog;NTP time: 2023-2-27 2:46:59
+27-02-2023 02:46:59.271;NTPServerLog;Tablet time: 2023-2-27 2:46:59
+27-02-2023 02:46:59.272;NTPServerLog;Time difference: 604
+27-02-2023 02:46:59.281;NTPServerLog;OS clock update not required
+27-02-2023 03:01:59.316;NTPServerLog;Tablet clock update started
+27-02-2023 03:01:59.317;NTPServerLog;Checking NTP time and local time
+27-02-2023 03:01:59.318;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 03:02:29.494;NTPServerLog;Server connection failed
+27-02-2023 03:02:39.497;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 03:02:39.926;NTPServerLog;Server connected
+27-02-2023 03:02:39.928;NTPServerLog;NTP round trip time :141
+27-02-2023 03:02:39.930;NTPServerLog;NTP time: 2023-2-27 3:2:40
+27-02-2023 03:02:39.931;NTPServerLog;Tablet time: 2023-2-27 3:2:39
+27-02-2023 03:02:39.932;NTPServerLog;Time difference: 574
+27-02-2023 03:02:39.944;NTPServerLog;OS clock update not required
+27-02-2023 03:17:39.981;NTPServerLog;Tablet clock update started
+27-02-2023 03:17:39.982;NTPServerLog;Checking NTP time and local time
+27-02-2023 03:17:39.983;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 03:17:40.215;NTPServerLog;Server connected
+27-02-2023 03:17:40.217;NTPServerLog;NTP round trip time :43
+27-02-2023 03:17:40.218;NTPServerLog;NTP time: 2023-2-27 3:17:40
+27-02-2023 03:17:40.220;NTPServerLog;Tablet time: 2023-2-27 3:17:40
+27-02-2023 03:17:40.221;NTPServerLog;Time difference: 676
+27-02-2023 03:17:40.232;NTPServerLog;OS clock update not required
+27-02-2023 03:32:40.272;NTPServerLog;Tablet clock update started
+27-02-2023 03:32:40.273;NTPServerLog;Checking NTP time and local time
+27-02-2023 03:32:40.273;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 03:32:40.731;NTPServerLog;Server connected
+27-02-2023 03:32:40.732;NTPServerLog;NTP round trip time :153
+27-02-2023 03:32:40.733;NTPServerLog;NTP time: 2023-2-27 3:32:41
+27-02-2023 03:32:40.734;NTPServerLog;Tablet time: 2023-2-27 3:32:40
+27-02-2023 03:32:40.735;NTPServerLog;Time difference: 567
+27-02-2023 03:32:40.748;NTPServerLog;OS clock update not required
+27-02-2023 03:47:40.785;NTPServerLog;Tablet clock update started
+27-02-2023 03:47:40.786;NTPServerLog;Checking NTP time and local time
+27-02-2023 03:47:40.786;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 03:47:41.222;NTPServerLog;Server connected
+27-02-2023 03:47:41.223;NTPServerLog;NTP round trip time :144
+27-02-2023 03:47:41.224;NTPServerLog;NTP time: 2023-2-27 3:47:41
+27-02-2023 03:47:41.225;NTPServerLog;Tablet time: 2023-2-27 3:47:41
+27-02-2023 03:47:41.226;NTPServerLog;Time difference: 575
+27-02-2023 03:47:41.238;NTPServerLog;OS clock update not required
+27-02-2023 04:02:41.271;NTPServerLog;Tablet clock update started
+27-02-2023 04:02:41.272;NTPServerLog;Checking NTP time and local time
+27-02-2023 04:02:41.273;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 04:03:11.440;NTPServerLog;Server connection failed
+27-02-2023 04:03:21.442;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 04:03:21.699;NTPServerLog;Server connected
+27-02-2023 04:03:21.700;NTPServerLog;NTP round trip time :53
+27-02-2023 04:03:21.702;NTPServerLog;NTP time: 2023-2-27 4:3:22
+27-02-2023 04:03:21.703;NTPServerLog;Tablet time: 2023-2-27 4:3:21
+27-02-2023 04:03:21.704;NTPServerLog;Time difference: 655
+27-02-2023 04:03:21.716;NTPServerLog;OS clock update not required
+27-02-2023 04:18:21.752;NTPServerLog;Tablet clock update started
+27-02-2023 04:18:21.753;NTPServerLog;Checking NTP time and local time
+27-02-2023 04:18:21.754;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 04:18:22.194;NTPServerLog;Server connected
+27-02-2023 04:18:22.196;NTPServerLog;NTP round trip time :147
+27-02-2023 04:18:22.197;NTPServerLog;NTP time: 2023-2-27 4:18:22
+27-02-2023 04:18:22.199;NTPServerLog;Tablet time: 2023-2-27 4:18:22
+27-02-2023 04:18:22.200;NTPServerLog;Time difference: 600
+27-02-2023 04:18:22.212;NTPServerLog;OS clock update not required
+27-02-2023 04:33:22.251;NTPServerLog;Tablet clock update started
+27-02-2023 04:33:22.253;NTPServerLog;Checking NTP time and local time
+27-02-2023 04:33:22.253;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 04:33:22.633;NTPServerLog;Server connected
+27-02-2023 04:33:22.634;NTPServerLog;NTP round trip time :115
+27-02-2023 04:33:22.635;NTPServerLog;NTP time: 2023-2-27 4:33:23
+27-02-2023 04:33:22.636;NTPServerLog;Tablet time: 2023-2-27 4:33:22
+27-02-2023 04:33:22.637;NTPServerLog;Time difference: 627
+27-02-2023 04:33:22.649;NTPServerLog;OS clock update not required
+27-02-2023 04:48:22.686;NTPServerLog;Tablet clock update started
+27-02-2023 04:48:22.687;NTPServerLog;Checking NTP time and local time
+27-02-2023 04:48:22.688;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 04:48:52.860;NTPServerLog;Server connection failed
+27-02-2023 04:49:02.862;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 04:49:03.101;NTPServerLog;Server connected
+27-02-2023 04:49:03.102;NTPServerLog;NTP round trip time :48
+27-02-2023 04:49:03.103;NTPServerLog;NTP time: 2023-2-27 4:49:3
+27-02-2023 04:49:03.104;NTPServerLog;Tablet time: 2023-2-27 4:49:3
+27-02-2023 04:49:03.105;NTPServerLog;Time difference: 658
+27-02-2023 04:49:03.117;NTPServerLog;OS clock update not required
+27-02-2023 05:04:03.152;NTPServerLog;Tablet clock update started
+27-02-2023 05:04:03.154;NTPServerLog;Checking NTP time and local time
+27-02-2023 05:04:03.154;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 05:04:03.398;NTPServerLog;Server connected
+27-02-2023 05:04:03.399;NTPServerLog;NTP round trip time :50
+27-02-2023 05:04:03.401;NTPServerLog;NTP time: 2023-2-27 5:4:4
+27-02-2023 05:04:03.402;NTPServerLog;Tablet time: 2023-2-27 5:4:3
+27-02-2023 05:04:03.403;NTPServerLog;Time difference: 661
+27-02-2023 05:04:03.415;NTPServerLog;OS clock update not required
+27-02-2023 05:19:03.450;NTPServerLog;Tablet clock update started
+27-02-2023 05:19:03.451;NTPServerLog;Checking NTP time and local time
+27-02-2023 05:19:03.452;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 05:19:03.890;NTPServerLog;Server connected
+27-02-2023 05:19:03.891;NTPServerLog;NTP round trip time :148
+27-02-2023 05:19:03.893;NTPServerLog;NTP time: 2023-2-27 5:19:4
+27-02-2023 05:19:03.894;NTPServerLog;Tablet time: 2023-2-27 5:19:3
+27-02-2023 05:19:03.895;NTPServerLog;Time difference: 598
+27-02-2023 05:19:03.907;NTPServerLog;OS clock update not required
+27-02-2023 05:34:03.946;NTPServerLog;Tablet clock update started
+27-02-2023 05:34:03.947;NTPServerLog;Checking NTP time and local time
+27-02-2023 05:34:03.948;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 05:34:34.110;NTPServerLog;Server connection failed
+27-02-2023 05:34:44.112;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 05:34:44.545;NTPServerLog;Server connected
+27-02-2023 05:34:44.546;NTPServerLog;NTP round trip time :148
+27-02-2023 05:34:44.547;NTPServerLog;NTP time: 2023-2-27 5:34:45
+27-02-2023 05:34:44.548;NTPServerLog;Tablet time: 2023-2-27 5:34:44
+27-02-2023 05:34:44.549;NTPServerLog;Time difference: 573
+27-02-2023 05:34:44.562;NTPServerLog;OS clock update not required
+27-02-2023 05:49:44.599;NTPServerLog;Tablet clock update started
+27-02-2023 05:49:44.600;NTPServerLog;Checking NTP time and local time
+27-02-2023 05:49:44.601;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 05:49:45.022;NTPServerLog;Server connected
+27-02-2023 05:49:45.024;NTPServerLog;NTP round trip time :143
+27-02-2023 05:49:45.025;NTPServerLog;NTP time: 2023-2-27 5:49:45
+27-02-2023 05:49:45.026;NTPServerLog;Tablet time: 2023-2-27 5:49:45
+27-02-2023 05:49:45.027;NTPServerLog;Time difference: 553
+27-02-2023 05:49:45.039;NTPServerLog;OS clock update not required
+27-02-2023 06:04:45.071;NTPServerLog;Tablet clock update started
+27-02-2023 06:04:45.073;NTPServerLog;Checking NTP time and local time
+27-02-2023 06:04:45.074;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 06:04:45.565;NTPServerLog;Server connected
+27-02-2023 06:04:45.566;NTPServerLog;NTP round trip time :170
+27-02-2023 06:04:45.567;NTPServerLog;NTP time: 2023-2-27 6:4:46
+27-02-2023 06:04:45.568;NTPServerLog;Tablet time: 2023-2-27 6:4:45
+27-02-2023 06:04:45.569;NTPServerLog;Time difference: 573
+27-02-2023 06:04:45.581;NTPServerLog;OS clock update not required
+27-02-2023 06:19:45.616;NTPServerLog;Tablet clock update started
+27-02-2023 06:19:45.617;NTPServerLog;Checking NTP time and local time
+27-02-2023 06:19:45.618;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 06:19:45.998;NTPServerLog;Server connected
+27-02-2023 06:19:45.999;NTPServerLog;NTP round trip time :119
+27-02-2023 06:19:46.000;NTPServerLog;NTP time: 2023-2-27 6:19:46
+27-02-2023 06:19:46.001;NTPServerLog;Tablet time: 2023-2-27 6:19:46
+27-02-2023 06:19:46.002;NTPServerLog;Time difference: 600
+27-02-2023 06:19:46.011;NTPServerLog;OS clock update not required
+27-02-2023 06:34:46.049;NTPServerLog;Tablet clock update started
+27-02-2023 06:34:46.051;NTPServerLog;Checking NTP time and local time
+27-02-2023 06:34:46.051;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 06:34:46.506;NTPServerLog;Server connected
+27-02-2023 06:34:46.507;NTPServerLog;NTP round trip time :156
+27-02-2023 06:34:46.508;NTPServerLog;NTP time: 2023-2-27 6:34:47
+27-02-2023 06:34:46.510;NTPServerLog;Tablet time: 2023-2-27 6:34:46
+27-02-2023 06:34:46.511;NTPServerLog;Time difference: 540
+27-02-2023 06:34:46.521;NTPServerLog;OS clock update not required
+27-02-2023 06:49:46.558;NTPServerLog;Tablet clock update started
+27-02-2023 06:49:46.559;NTPServerLog;Checking NTP time and local time
+27-02-2023 06:49:46.560;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 06:50:16.745;NTPServerLog;Server connection failed
+27-02-2023 06:50:26.747;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 06:50:27.165;NTPServerLog;Server connected
+27-02-2023 06:50:27.166;NTPServerLog;NTP round trip time :138
+27-02-2023 06:50:27.167;NTPServerLog;NTP time: 2023-2-27 6:50:27
+27-02-2023 06:50:27.168;NTPServerLog;Tablet time: 2023-2-27 6:50:27
+27-02-2023 06:50:27.169;NTPServerLog;Time difference: 582
+27-02-2023 06:50:27.182;NTPServerLog;OS clock update not required
+27-02-2023 07:05:27.214;NTPServerLog;Tablet clock update started
+27-02-2023 07:05:27.215;NTPServerLog;Checking NTP time and local time
+27-02-2023 07:05:27.216;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 07:05:27.460;NTPServerLog;Server connected
+27-02-2023 07:05:27.462;NTPServerLog;NTP round trip time :41
+27-02-2023 07:05:27.463;NTPServerLog;NTP time: 2023-2-27 7:5:28
+27-02-2023 07:05:27.464;NTPServerLog;Tablet time: 2023-2-27 7:5:27
+27-02-2023 07:05:27.465;NTPServerLog;Time difference: 675
+27-02-2023 07:05:27.477;NTPServerLog;OS clock update not required
+27-02-2023 07:20:27.511;NTPServerLog;Tablet clock update started
+27-02-2023 07:20:27.512;NTPServerLog;Checking NTP time and local time
+27-02-2023 07:20:27.513;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 07:20:28.016;NTPServerLog;Server connected
+27-02-2023 07:20:28.017;NTPServerLog;NTP round trip time :176
+27-02-2023 07:20:28.018;NTPServerLog;NTP time: 2023-2-27 7:20:28
+27-02-2023 07:20:28.019;NTPServerLog;Tablet time: 2023-2-27 7:20:28
+27-02-2023 07:20:28.021;NTPServerLog;Time difference: 496
+27-02-2023 07:20:28.033;NTPServerLog;OS clock update not required
+27-02-2023 07:35:28.071;NTPServerLog;Tablet clock update started
+27-02-2023 07:35:28.072;NTPServerLog;Checking NTP time and local time
+27-02-2023 07:35:28.073;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 07:35:28.302;NTPServerLog;Server connected
+27-02-2023 07:35:28.303;NTPServerLog;NTP round trip time :41
+27-02-2023 07:35:28.304;NTPServerLog;NTP time: 2023-2-27 7:35:29
+27-02-2023 07:35:28.305;NTPServerLog;Tablet time: 2023-2-27 7:35:28
+27-02-2023 07:35:28.306;NTPServerLog;Time difference: 673
+27-02-2023 07:35:28.312;NTPServerLog;OS clock update not required
+27-02-2023 07:50:28.351;NTPServerLog;Tablet clock update started
+27-02-2023 07:50:28.352;NTPServerLog;Checking NTP time and local time
+27-02-2023 07:50:28.353;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 07:50:28.797;NTPServerLog;Server connected
+27-02-2023 07:50:28.798;NTPServerLog;NTP round trip time :147
+27-02-2023 07:50:28.800;NTPServerLog;NTP time: 2023-2-27 7:50:29
+27-02-2023 07:50:28.801;NTPServerLog;Tablet time: 2023-2-27 7:50:28
+27-02-2023 07:50:28.802;NTPServerLog;Time difference: 556
+27-02-2023 07:50:28.811;NTPServerLog;OS clock update not required
+27-02-2023 08:05:28.849;NTPServerLog;Tablet clock update started
+27-02-2023 08:05:28.850;NTPServerLog;Checking NTP time and local time
+27-02-2023 08:05:28.851;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 08:05:29.365;NTPServerLog;Server connected
+27-02-2023 08:05:29.366;NTPServerLog;NTP round trip time :184
+27-02-2023 08:05:29.367;NTPServerLog;NTP time: 2023-2-27 8:5:30
+27-02-2023 08:05:29.368;NTPServerLog;Tablet time: 2023-2-27 8:5:29
+27-02-2023 08:05:29.369;NTPServerLog;Time difference: 532
+27-02-2023 08:05:29.381;NTPServerLog;OS clock update not required
+27-02-2023 08:20:29.417;NTPServerLog;Tablet clock update started
+27-02-2023 08:20:29.418;NTPServerLog;Checking NTP time and local time
+27-02-2023 08:20:29.419;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 08:20:29.660;NTPServerLog;Server connected
+27-02-2023 08:20:29.661;NTPServerLog;NTP round trip time :49
+27-02-2023 08:20:29.662;NTPServerLog;NTP time: 2023-2-27 8:20:30
+27-02-2023 08:20:29.663;NTPServerLog;Tablet time: 2023-2-27 8:20:29
+27-02-2023 08:20:29.664;NTPServerLog;Time difference: 668
+27-02-2023 08:20:29.676;NTPServerLog;OS clock update not required
+27-02-2023 08:35:29.716;NTPServerLog;Tablet clock update started
+27-02-2023 08:35:29.717;NTPServerLog;Checking NTP time and local time
+27-02-2023 08:35:29.718;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 08:35:30.092;NTPServerLog;Server connected
+27-02-2023 08:35:30.093;NTPServerLog;NTP round trip time :114
+27-02-2023 08:35:30.094;NTPServerLog;NTP time: 2023-2-27 8:35:30
+27-02-2023 08:35:30.095;NTPServerLog;Tablet time: 2023-2-27 8:35:30
+27-02-2023 08:35:30.097;NTPServerLog;Time difference: 604
+27-02-2023 08:35:30.109;NTPServerLog;OS clock update not required
+27-02-2023 08:50:30.141;NTPServerLog;Tablet clock update started
+27-02-2023 08:50:30.142;NTPServerLog;Checking NTP time and local time
+27-02-2023 08:50:30.143;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 08:50:30.542;NTPServerLog;Server connected
+27-02-2023 08:50:30.543;NTPServerLog;NTP round trip time :128
+27-02-2023 08:50:30.545;NTPServerLog;NTP time: 2023-2-27 8:50:31
+27-02-2023 08:50:30.547;NTPServerLog;Tablet time: 2023-2-27 8:50:30
+27-02-2023 08:50:30.549;NTPServerLog;Time difference: 585
+27-02-2023 08:50:30.561;NTPServerLog;OS clock update not required
+27-02-2023 09:05:30.599;NTPServerLog;Tablet clock update started
+27-02-2023 09:05:30.600;NTPServerLog;Checking NTP time and local time
+27-02-2023 09:05:30.601;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 09:05:30.896;NTPServerLog;Server connected
+27-02-2023 09:05:30.897;NTPServerLog;NTP round trip time :76
+27-02-2023 09:05:30.899;NTPServerLog;NTP time: 2023-2-27 9:5:31
+27-02-2023 09:05:30.901;NTPServerLog;Tablet time: 2023-2-27 9:5:30
+27-02-2023 09:05:30.902;NTPServerLog;Time difference: 641
+27-02-2023 09:05:30.914;NTPServerLog;OS clock update not required
+27-02-2023 09:20:30.951;NTPServerLog;Tablet clock update started
+27-02-2023 09:20:30.952;NTPServerLog;Checking NTP time and local time
+27-02-2023 09:20:30.953;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 09:20:31.400;NTPServerLog;Server connected
+27-02-2023 09:20:31.401;NTPServerLog;NTP round trip time :152
+27-02-2023 09:20:31.402;NTPServerLog;NTP time: 2023-2-27 9:20:32
+27-02-2023 09:20:31.403;NTPServerLog;Tablet time: 2023-2-27 9:20:31
+27-02-2023 09:20:31.404;NTPServerLog;Time difference: 569
+27-02-2023 09:20:31.416;NTPServerLog;OS clock update not required
+27-02-2023 09:35:31.455;NTPServerLog;Tablet clock update started
+27-02-2023 09:35:31.456;NTPServerLog;Checking NTP time and local time
+27-02-2023 09:35:31.457;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 09:35:31.704;NTPServerLog;Server connected
+27-02-2023 09:35:31.705;NTPServerLog;NTP round trip time :51
+27-02-2023 09:35:31.707;NTPServerLog;NTP time: 2023-2-27 9:35:32
+27-02-2023 09:35:31.708;NTPServerLog;Tablet time: 2023-2-27 9:35:31
+27-02-2023 09:35:31.710;NTPServerLog;Time difference: 658
+27-02-2023 09:35:31.722;NTPServerLog;OS clock update not required
+27-02-2023 09:50:31.757;NTPServerLog;Tablet clock update started
+27-02-2023 09:50:31.758;NTPServerLog;Checking NTP time and local time
+27-02-2023 09:50:31.760;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 09:50:32.014;NTPServerLog;Server connected
+27-02-2023 09:50:32.016;NTPServerLog;NTP round trip time :54
+27-02-2023 09:50:32.017;NTPServerLog;NTP time: 2023-2-27 9:50:32
+27-02-2023 09:50:32.018;NTPServerLog;Tablet time: 2023-2-27 9:50:32
+27-02-2023 09:50:32.019;NTPServerLog;Time difference: 653
+27-02-2023 09:50:32.031;NTPServerLog;OS clock update not required
+27-02-2023 10:05:32.066;NTPServerLog;Tablet clock update started
+27-02-2023 10:05:32.067;NTPServerLog;Checking NTP time and local time
+27-02-2023 10:05:32.068;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 10:05:32.580;NTPServerLog;Server connected
+27-02-2023 10:05:32.582;NTPServerLog;NTP round trip time :182
+27-02-2023 10:05:32.583;NTPServerLog;NTP time: 2023-2-27 10:5:33
+27-02-2023 10:05:32.584;NTPServerLog;Tablet time: 2023-2-27 10:5:32
+27-02-2023 10:05:32.585;NTPServerLog;Time difference: 537
+27-02-2023 10:05:32.596;NTPServerLog;OS clock update not required
+27-02-2023 10:20:32.631;NTPServerLog;Tablet clock update started
+27-02-2023 10:20:32.632;NTPServerLog;Checking NTP time and local time
+27-02-2023 10:20:32.633;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 10:20:33.074;NTPServerLog;Server connected
+27-02-2023 10:20:33.075;NTPServerLog;NTP round trip time :149
+27-02-2023 10:20:33.076;NTPServerLog;NTP time: 2023-2-27 10:20:33
+27-02-2023 10:20:33.077;NTPServerLog;Tablet time: 2023-2-27 10:20:33
+27-02-2023 10:20:33.078;NTPServerLog;Time difference: 567
+27-02-2023 10:20:33.090;NTPServerLog;OS clock update not required
+27-02-2023 10:35:33.128;NTPServerLog;Tablet clock update started
+27-02-2023 10:35:33.129;NTPServerLog;Checking NTP time and local time
+27-02-2023 10:35:33.130;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 10:36:03.300;NTPServerLog;Server connection failed
+27-02-2023 10:36:13.302;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 10:36:13.809;NTPServerLog;Server connected
+27-02-2023 10:36:13.810;NTPServerLog;NTP round trip time :149
+27-02-2023 10:36:13.811;NTPServerLog;NTP time: 2023-2-27 10:36:14
+27-02-2023 10:36:13.812;NTPServerLog;Tablet time: 2023-2-27 10:36:13
+27-02-2023 10:36:13.813;NTPServerLog;Time difference: 568
+27-02-2023 10:36:13.825;NTPServerLog;OS clock update not required
+27-02-2023 10:51:13.861;NTPServerLog;Tablet clock update started
+27-02-2023 10:51:13.862;NTPServerLog;Checking NTP time and local time
+27-02-2023 10:51:13.863;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 10:51:14.234;NTPServerLog;Server connected
+27-02-2023 10:51:14.235;NTPServerLog;NTP round trip time :112
+27-02-2023 10:51:14.236;NTPServerLog;NTP time: 2023-2-27 10:51:14
+27-02-2023 10:51:14.237;NTPServerLog;Tablet time: 2023-2-27 10:51:14
+27-02-2023 10:51:14.238;NTPServerLog;Time difference: 599
+27-02-2023 10:51:14.251;NTPServerLog;OS clock update not required
+27-02-2023 11:06:14.287;NTPServerLog;Tablet clock update started
+27-02-2023 11:06:14.288;NTPServerLog;Checking NTP time and local time
+27-02-2023 11:06:14.289;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 11:06:14.731;NTPServerLog;Server connected
+27-02-2023 11:06:14.733;NTPServerLog;NTP round trip time :146
+27-02-2023 11:06:14.734;NTPServerLog;NTP time: 2023-2-27 11:6:15
+27-02-2023 11:06:14.735;NTPServerLog;Tablet time: 2023-2-27 11:6:14
+27-02-2023 11:06:14.736;NTPServerLog;Time difference: 573
+27-02-2023 11:06:14.748;NTPServerLog;OS clock update not required
+27-02-2023 11:21:14.785;NTPServerLog;Tablet clock update started
+27-02-2023 11:21:14.786;NTPServerLog;Checking NTP time and local time
+27-02-2023 11:21:14.787;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 11:21:15.032;NTPServerLog;Server connected
+27-02-2023 11:21:15.033;NTPServerLog;NTP round trip time :47
+27-02-2023 11:21:15.034;NTPServerLog;NTP time: 2023-2-27 11:21:15
+27-02-2023 11:21:15.035;NTPServerLog;Tablet time: 2023-2-27 11:21:15
+27-02-2023 11:21:15.036;NTPServerLog;Time difference: 658
+27-02-2023 11:21:15.048;NTPServerLog;OS clock update not required
+27-02-2023 11:36:15.085;NTPServerLog;Tablet clock update started
+27-02-2023 11:36:15.086;NTPServerLog;Checking NTP time and local time
+27-02-2023 11:36:15.087;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 11:36:15.474;NTPServerLog;Server connected
+27-02-2023 11:36:15.475;NTPServerLog;NTP round trip time :124
+27-02-2023 11:36:15.477;NTPServerLog;NTP time: 2023-2-27 11:36:16
+27-02-2023 11:36:15.478;NTPServerLog;Tablet time: 2023-2-27 11:36:15
+27-02-2023 11:36:15.480;NTPServerLog;Time difference: 582
+27-02-2023 11:36:15.492;NTPServerLog;OS clock update not required
+27-02-2023 11:51:15.528;NTPServerLog;Tablet clock update started
+27-02-2023 11:51:15.529;NTPServerLog;Checking NTP time and local time
+27-02-2023 11:51:15.530;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 11:51:15.980;NTPServerLog;Server connected
+27-02-2023 11:51:15.981;NTPServerLog;NTP round trip time :150
+27-02-2023 11:51:15.983;NTPServerLog;NTP time: 2023-2-27 11:51:16
+27-02-2023 11:51:15.984;NTPServerLog;Tablet time: 2023-2-27 11:51:15
+27-02-2023 11:51:15.986;NTPServerLog;Time difference: 170
+27-02-2023 11:51:15.999;NTPServerLog;OS clock update not required
+27-02-2023 12:06:16.031;NTPServerLog;Tablet clock update started
+27-02-2023 12:06:16.032;NTPServerLog;Checking NTP time and local time
+27-02-2023 12:06:16.033;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 12:06:16.463;NTPServerLog;Server connected
+27-02-2023 12:06:16.464;NTPServerLog;NTP round trip time :139
+27-02-2023 12:06:16.466;NTPServerLog;NTP time: 2023-2-27 12:6:17
+27-02-2023 12:06:16.467;NTPServerLog;Tablet time: 2023-2-27 12:6:16
+27-02-2023 12:06:16.468;NTPServerLog;Time difference: 570
+27-02-2023 12:06:16.481;NTPServerLog;OS clock update not required
+27-02-2023 12:21:16.517;NTPServerLog;Tablet clock update started
+27-02-2023 12:21:16.519;NTPServerLog;Checking NTP time and local time
+27-02-2023 12:21:16.520;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 12:21:16.951;NTPServerLog;Server connected
+27-02-2023 12:21:16.952;NTPServerLog;NTP round trip time :145
+27-02-2023 12:21:16.953;NTPServerLog;NTP time: 2023-2-27 12:21:17
+27-02-2023 12:21:16.954;NTPServerLog;Tablet time: 2023-2-27 12:21:16
+27-02-2023 12:21:16.955;NTPServerLog;Time difference: 581
+27-02-2023 12:21:16.967;NTPServerLog;OS clock update not required
+27-02-2023 12:36:17.004;NTPServerLog;Tablet clock update started
+27-02-2023 12:36:17.006;NTPServerLog;Checking NTP time and local time
+27-02-2023 12:36:17.007;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 12:36:17.579;NTPServerLog;Server connected
+27-02-2023 12:36:17.581;NTPServerLog;NTP round trip time :217
+27-02-2023 12:36:17.582;NTPServerLog;NTP time: 2023-2-27 12:36:18
+27-02-2023 12:36:17.583;NTPServerLog;Tablet time: 2023-2-27 12:36:17
+27-02-2023 12:36:17.584;NTPServerLog;Time difference: 534
+27-02-2023 12:36:17.596;NTPServerLog;OS clock update not required
+27-02-2023 12:51:17.631;NTPServerLog;Tablet clock update started
+27-02-2023 12:51:17.632;NTPServerLog;Checking NTP time and local time
+27-02-2023 12:51:17.633;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 12:51:18.054;NTPServerLog;Server connected
+27-02-2023 12:51:18.055;NTPServerLog;NTP round trip time :139
+27-02-2023 12:51:18.056;NTPServerLog;NTP time: 2023-2-27 12:51:18
+27-02-2023 12:51:18.057;NTPServerLog;Tablet time: 2023-2-27 12:51:18
+27-02-2023 12:51:18.059;NTPServerLog;Time difference: 584
+27-02-2023 12:51:18.071;NTPServerLog;OS clock update not required
+27-02-2023 13:06:18.107;NTPServerLog;Tablet clock update started
+27-02-2023 13:06:18.109;NTPServerLog;Checking NTP time and local time
+27-02-2023 13:06:18.110;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 13:06:48.289;NTPServerLog;Server connection failed
+27-02-2023 13:06:58.291;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 13:06:58.731;NTPServerLog;Server connected
+27-02-2023 13:06:58.732;NTPServerLog;NTP round trip time :148
+27-02-2023 13:06:58.733;NTPServerLog;NTP time: 2023-2-27 13:6:59
+27-02-2023 13:06:58.734;NTPServerLog;Tablet time: 2023-2-27 13:6:58
+27-02-2023 13:06:58.735;NTPServerLog;Time difference: 561
+27-02-2023 13:06:58.747;NTPServerLog;OS clock update not required
+27-02-2023 13:21:58.781;NTPServerLog;Tablet clock update started
+27-02-2023 13:21:58.782;NTPServerLog;Checking NTP time and local time
+27-02-2023 13:21:58.783;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 13:21:59.140;NTPServerLog;Server connected
+27-02-2023 13:21:59.141;NTPServerLog;NTP round trip time :102
+27-02-2023 13:21:59.142;NTPServerLog;NTP time: 2023-2-27 13:21:59
+27-02-2023 13:21:59.143;NTPServerLog;Tablet time: 2023-2-27 13:21:59
+27-02-2023 13:21:59.144;NTPServerLog;Time difference: 637
+27-02-2023 13:21:59.155;NTPServerLog;OS clock update not required
+27-02-2023 13:36:59.191;NTPServerLog;Tablet clock update started
+27-02-2023 13:36:59.192;NTPServerLog;Checking NTP time and local time
+27-02-2023 13:36:59.193;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 13:37:29.333;NTPServerLog;Server connection failed
+27-02-2023 13:37:39.335;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 13:37:39.894;NTPServerLog;Server connected
+27-02-2023 13:37:39.895;NTPServerLog;NTP round trip time :157
+27-02-2023 13:37:39.896;NTPServerLog;NTP time: 2023-2-27 13:37:40
+27-02-2023 13:37:39.897;NTPServerLog;Tablet time: 2023-2-27 13:37:39
+27-02-2023 13:37:39.898;NTPServerLog;Time difference: 535
+27-02-2023 13:37:39.911;NTPServerLog;OS clock update not required
+27-02-2023 13:52:39.952;NTPServerLog;Tablet clock update started
+27-02-2023 13:52:39.953;NTPServerLog;Checking NTP time and local time
+27-02-2023 13:52:39.954;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 13:52:40.342;NTPServerLog;Server connected
+27-02-2023 13:52:40.343;NTPServerLog;NTP round trip time :120
+27-02-2023 13:52:40.344;NTPServerLog;NTP time: 2023-2-27 13:52:41
+27-02-2023 13:52:40.345;NTPServerLog;Tablet time: 2023-2-27 13:52:40
+27-02-2023 13:52:40.346;NTPServerLog;Time difference: 642
+27-02-2023 13:52:40.358;NTPServerLog;OS clock update not required
+27-02-2023 14:07:40.396;NTPServerLog;Tablet clock update started
+27-02-2023 14:07:40.397;NTPServerLog;Checking NTP time and local time
+27-02-2023 14:07:40.397;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 14:07:40.828;NTPServerLog;Server connected
+27-02-2023 14:07:40.829;NTPServerLog;NTP round trip time :141
+27-02-2023 14:07:40.831;NTPServerLog;NTP time: 2023-2-27 14:7:41
+27-02-2023 14:07:40.832;NTPServerLog;Tablet time: 2023-2-27 14:7:40
+27-02-2023 14:07:40.833;NTPServerLog;Time difference: 583
+27-02-2023 14:07:40.845;NTPServerLog;OS clock update not required
+27-02-2023 14:22:40.881;NTPServerLog;Tablet clock update started
+27-02-2023 14:22:40.882;NTPServerLog;Checking NTP time and local time
+27-02-2023 14:22:40.883;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 14:22:41.123;NTPServerLog;Server connected
+27-02-2023 14:22:41.124;NTPServerLog;NTP round trip time :47
+27-02-2023 14:22:41.125;NTPServerLog;NTP time: 2023-2-27 14:22:41
+27-02-2023 14:22:41.126;NTPServerLog;Tablet time: 2023-2-27 14:22:41
+27-02-2023 14:22:41.127;NTPServerLog;Time difference: 661
+27-02-2023 14:22:41.139;NTPServerLog;OS clock update not required
+27-02-2023 14:37:41.178;NTPServerLog;Tablet clock update started
+27-02-2023 14:37:41.180;NTPServerLog;Checking NTP time and local time
+27-02-2023 14:37:41.181;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 14:37:41.612;NTPServerLog;Server connected
+27-02-2023 14:37:41.613;NTPServerLog;NTP round trip time :143
+27-02-2023 14:37:41.615;NTPServerLog;NTP time: 2023-2-27 14:37:42
+27-02-2023 14:37:41.616;NTPServerLog;Tablet time: 2023-2-27 14:37:41
+27-02-2023 14:37:41.616;NTPServerLog;Time difference: 602
+27-02-2023 14:37:41.629;NTPServerLog;OS clock update not required
+27-02-2023 14:52:41.665;NTPServerLog;Tablet clock update started
+27-02-2023 14:52:41.666;NTPServerLog;Checking NTP time and local time
+27-02-2023 14:52:41.667;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 14:52:41.891;NTPServerLog;Server connected
+27-02-2023 14:52:41.893;NTPServerLog;NTP round trip time :41
+27-02-2023 14:52:41.895;NTPServerLog;NTP time: 2023-2-27 14:52:42
+27-02-2023 14:52:41.896;NTPServerLog;Tablet time: 2023-2-27 14:52:41
+27-02-2023 14:52:41.897;NTPServerLog;Time difference: 675
+27-02-2023 14:52:41.909;NTPServerLog;OS clock update not required
+27-02-2023 15:07:41.945;NTPServerLog;Tablet clock update started
+27-02-2023 15:07:41.946;NTPServerLog;Checking NTP time and local time
+27-02-2023 15:07:41.947;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 15:07:42.480;NTPServerLog;Server connected
+27-02-2023 15:07:42.482;NTPServerLog;NTP round trip time :193
+27-02-2023 15:07:42.483;NTPServerLog;NTP time: 2023-2-27 15:7:43
+27-02-2023 15:07:42.484;NTPServerLog;Tablet time: 2023-2-27 15:7:42
+27-02-2023 15:07:42.485;NTPServerLog;Time difference: 530
+27-02-2023 15:07:42.498;NTPServerLog;OS clock update not required
+27-02-2023 15:22:42.534;NTPServerLog;Tablet clock update started
+27-02-2023 15:22:42.535;NTPServerLog;Checking NTP time and local time
+27-02-2023 15:22:42.536;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 15:22:42.782;NTPServerLog;Server connected
+27-02-2023 15:22:42.783;NTPServerLog;NTP round trip time :49
+27-02-2023 15:22:42.784;NTPServerLog;NTP time: 2023-2-27 15:22:43
+27-02-2023 15:22:42.785;NTPServerLog;Tablet time: 2023-2-27 15:22:42
+27-02-2023 15:22:42.786;NTPServerLog;Time difference: 665
+27-02-2023 15:22:42.799;NTPServerLog;OS clock update not required
+27-02-2023 15:37:42.835;NTPServerLog;Tablet clock update started
+27-02-2023 15:37:42.836;NTPServerLog;Checking NTP time and local time
+27-02-2023 15:37:42.837;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 15:37:43.215;NTPServerLog;Server connected
+27-02-2023 15:37:43.216;NTPServerLog;NTP round trip time :115
+27-02-2023 15:37:43.217;NTPServerLog;NTP time: 2023-2-27 15:37:43
+27-02-2023 15:37:43.219;NTPServerLog;Tablet time: 2023-2-27 15:37:43
+27-02-2023 15:37:43.221;NTPServerLog;Time difference: 602
+27-02-2023 15:37:43.232;NTPServerLog;OS clock update not required
+27-02-2023 15:52:43.268;NTPServerLog;Tablet clock update started
+27-02-2023 15:52:43.269;NTPServerLog;Checking NTP time and local time
+27-02-2023 15:52:43.270;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 15:52:43.609;NTPServerLog;Server connected
+27-02-2023 15:52:43.610;NTPServerLog;NTP round trip time :98
+27-02-2023 15:52:43.612;NTPServerLog;NTP time: 2023-2-27 15:52:44
+27-02-2023 15:52:43.613;NTPServerLog;Tablet time: 2023-2-27 15:52:43
+27-02-2023 15:52:43.614;NTPServerLog;Time difference: 605
+27-02-2023 15:52:43.627;NTPServerLog;OS clock update not required
+27-02-2023 16:07:43.672;NTPServerLog;Tablet clock update started
+27-02-2023 16:07:43.673;NTPServerLog;Checking NTP time and local time
+27-02-2023 16:07:43.674;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 16:07:44.053;NTPServerLog;Server connected
+27-02-2023 16:07:44.055;NTPServerLog;NTP round trip time :113
+27-02-2023 16:07:44.056;NTPServerLog;NTP time: 2023-2-27 16:7:44
+27-02-2023 16:07:44.057;NTPServerLog;Tablet time: 2023-2-27 16:7:44
+27-02-2023 16:07:44.059;NTPServerLog;Time difference: 630
+27-02-2023 16:07:44.071;NTPServerLog;OS clock update not required
+27-02-2023 16:22:44.107;NTPServerLog;Tablet clock update started
+27-02-2023 16:22:44.108;NTPServerLog;Checking NTP time and local time
+27-02-2023 16:22:44.109;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 16:23:14.284;NTPServerLog;Server connection failed
+27-02-2023 16:23:24.286;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 16:23:24.533;NTPServerLog;Server connected
+27-02-2023 16:23:24.534;NTPServerLog;NTP round trip time :46
+27-02-2023 16:23:24.535;NTPServerLog;NTP time: 2023-2-27 16:23:25
+27-02-2023 16:23:24.536;NTPServerLog;Tablet time: 2023-2-27 16:23:24
+27-02-2023 16:23:24.538;NTPServerLog;Time difference: 662
+27-02-2023 16:23:24.550;NTPServerLog;OS clock update not required
+27-02-2023 16:38:24.585;NTPServerLog;Tablet clock update started
+27-02-2023 16:38:24.586;NTPServerLog;Checking NTP time and local time
+27-02-2023 16:38:24.587;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 16:38:24.965;NTPServerLog;Server connected
+27-02-2023 16:38:24.966;NTPServerLog;NTP round trip time :115
+27-02-2023 16:38:24.968;NTPServerLog;NTP time: 2023-2-27 16:38:25
+27-02-2023 16:38:24.969;NTPServerLog;Tablet time: 2023-2-27 16:38:24
+27-02-2023 16:38:24.970;NTPServerLog;Time difference: 629
+27-02-2023 16:38:24.982;NTPServerLog;OS clock update not required
+27-02-2023 16:53:25.022;NTPServerLog;Tablet clock update started
+27-02-2023 16:53:25.023;NTPServerLog;Checking NTP time and local time
+27-02-2023 16:53:25.024;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 16:53:55.206;NTPServerLog;Server connection failed
+27-02-2023 16:54:05.207;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 16:54:05.553;NTPServerLog;Server connected
+27-02-2023 16:54:05.554;NTPServerLog;NTP round trip time :145
+27-02-2023 16:54:05.555;NTPServerLog;NTP time: 2023-2-27 16:54:6
+27-02-2023 16:54:05.556;NTPServerLog;Tablet time: 2023-2-27 16:54:5
+27-02-2023 16:54:05.557;NTPServerLog;Time difference: 574
+27-02-2023 16:54:05.570;NTPServerLog;OS clock update not required
+27-02-2023 17:09:05.607;NTPServerLog;Tablet clock update started
+27-02-2023 17:09:05.608;NTPServerLog;Checking NTP time and local time
+27-02-2023 17:09:05.609;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 17:09:05.940;NTPServerLog;Server connected
+27-02-2023 17:09:05.941;NTPServerLog;NTP round trip time :148
+27-02-2023 17:09:05.942;NTPServerLog;NTP time: 2023-2-27 17:9:6
+27-02-2023 17:09:05.943;NTPServerLog;Tablet time: 2023-2-27 17:9:5
+27-02-2023 17:09:05.944;NTPServerLog;Time difference: 575
+27-02-2023 17:09:05.956;NTPServerLog;OS clock update not required
+27-02-2023 17:24:05.991;NTPServerLog;Tablet clock update started
+27-02-2023 17:24:05.993;NTPServerLog;Checking NTP time and local time
+27-02-2023 17:24:05.994;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 17:24:06.166;NTPServerLog;Server connected
+27-02-2023 17:24:06.167;NTPServerLog;NTP round trip time :59
+27-02-2023 17:24:06.168;NTPServerLog;NTP time: 2023-2-27 17:24:6
+27-02-2023 17:24:06.169;NTPServerLog;Tablet time: 2023-2-27 17:24:6
+27-02-2023 17:24:06.170;NTPServerLog;Time difference: 656
+27-02-2023 17:24:06.181;NTPServerLog;OS clock update not required
+27-02-2023 17:39:06.219;NTPServerLog;Tablet clock update started
+27-02-2023 17:39:06.220;NTPServerLog;Checking NTP time and local time
+27-02-2023 17:39:06.222;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 17:39:06.498;NTPServerLog;Server connected
+27-02-2023 17:39:06.500;NTPServerLog;NTP round trip time :114
+27-02-2023 17:39:06.502;NTPServerLog;NTP time: 2023-2-27 17:39:7
+27-02-2023 17:39:06.503;NTPServerLog;Tablet time: 2023-2-27 17:39:6
+27-02-2023 17:39:06.504;NTPServerLog;Time difference: 628
+27-02-2023 17:39:06.516;NTPServerLog;OS clock update not required
+27-02-2023 17:55:58.176;NTPServerLog;Tablet clock update started
+27-02-2023 17:55:58.177;NTPServerLog;Checking NTP time and local time
+27-02-2023 17:55:58.179;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 17:55:58.620;NTPServerLog;Server connected
+27-02-2023 17:55:58.621;NTPServerLog;NTP round trip time :148
+27-02-2023 17:55:58.623;NTPServerLog;NTP time: 2023-2-27 17:55:59
+27-02-2023 17:55:58.624;NTPServerLog;Tablet time: 2023-2-27 17:55:58
+27-02-2023 17:55:58.625;NTPServerLog;Time difference: 566
+27-02-2023 17:55:58.637;NTPServerLog;OS clock update not required
+27-02-2023 18:10:58.671;NTPServerLog;Tablet clock update started
+27-02-2023 18:10:58.672;NTPServerLog;Checking NTP time and local time
+27-02-2023 18:10:58.673;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 18:11:28.827;NTPServerLog;Server connection failed
+27-02-2023 18:11:38.829;NTPServerLog;Trying connect to server: 1.asia.pool.ntp.org
+27-02-2023 18:12:09.000;NTPServerLog;Server connection failed
+27-02-2023 18:12:19.002;NTPServerLog;Trying connect to server: 2.asia.pool.ntp.org
+27-02-2023 18:12:19.492;NTPServerLog;Server connected
+27-02-2023 18:12:19.493;NTPServerLog;NTP round trip time :143
+27-02-2023 18:12:19.494;NTPServerLog;NTP time: 2023-2-27 18:12:20
+27-02-2023 18:12:19.496;NTPServerLog;Tablet time: 2023-2-27 18:12:19
+27-02-2023 18:12:19.497;NTPServerLog;Time difference: 582
+27-02-2023 18:12:19.509;NTPServerLog;OS clock update not required
+27-02-2023 18:27:19.546;NTPServerLog;Tablet clock update started
+27-02-2023 18:27:19.547;NTPServerLog;Checking NTP time and local time
+27-02-2023 18:27:19.548;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 18:27:19.985;NTPServerLog;Server connected
+27-02-2023 18:27:19.986;NTPServerLog;NTP round trip time :145
+27-02-2023 18:27:19.988;NTPServerLog;NTP time: 2023-2-27 18:27:20
+27-02-2023 18:27:19.990;NTPServerLog;Tablet time: 2023-2-27 18:27:19
+27-02-2023 18:27:19.991;NTPServerLog;Time difference: 574
+27-02-2023 18:27:20.002;NTPServerLog;OS clock update not required
+27-02-2023 18:42:20.038;NTPServerLog;Tablet clock update started
+27-02-2023 18:42:20.039;NTPServerLog;Checking NTP time and local time
+27-02-2023 18:42:20.040;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 18:42:20.279;NTPServerLog;Server connected
+27-02-2023 18:42:20.281;NTPServerLog;NTP round trip time :48
+27-02-2023 18:42:20.282;NTPServerLog;NTP time: 2023-2-27 18:42:21
+27-02-2023 18:42:20.284;NTPServerLog;Tablet time: 2023-2-27 18:42:20
+27-02-2023 18:42:20.285;NTPServerLog;Time difference: 674
+27-02-2023 18:42:20.296;NTPServerLog;OS clock update not required
+27-02-2023 18:57:20.331;NTPServerLog;Tablet clock update started
+27-02-2023 18:57:20.333;NTPServerLog;Checking NTP time and local time
+27-02-2023 18:57:20.333;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 18:57:20.760;NTPServerLog;Server connected
+27-02-2023 18:57:20.761;NTPServerLog;NTP round trip time :132
+27-02-2023 18:57:20.762;NTPServerLog;NTP time: 2023-2-27 18:57:21
+27-02-2023 18:57:20.764;NTPServerLog;Tablet time: 2023-2-27 18:57:20
+27-02-2023 18:57:20.765;NTPServerLog;Time difference: 583
+27-02-2023 18:57:20.777;NTPServerLog;OS clock update not required
+27-02-2023 19:12:20.815;NTPServerLog;Tablet clock update started
+27-02-2023 19:12:20.816;NTPServerLog;Checking NTP time and local time
+27-02-2023 19:12:20.816;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 19:12:21.310;NTPServerLog;Server connected
+27-02-2023 19:12:21.311;NTPServerLog;NTP round trip time :173
+27-02-2023 19:12:21.312;NTPServerLog;NTP time: 2023-2-27 19:12:22
+27-02-2023 19:12:21.313;NTPServerLog;Tablet time: 2023-2-27 19:12:21
+27-02-2023 19:12:21.314;NTPServerLog;Time difference: 527
+27-02-2023 19:12:21.326;NTPServerLog;OS clock update not required
+27-02-2023 19:27:21.366;NTPServerLog;Tablet clock update started
+27-02-2023 19:27:21.367;NTPServerLog;Checking NTP time and local time
+27-02-2023 19:27:21.368;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 19:27:21.606;NTPServerLog;Server connected
+27-02-2023 19:27:21.607;NTPServerLog;NTP round trip time :46
+27-02-2023 19:27:21.609;NTPServerLog;NTP time: 2023-2-27 19:27:22
+27-02-2023 19:27:21.610;NTPServerLog;Tablet time: 2023-2-27 19:27:21
+27-02-2023 19:27:21.611;NTPServerLog;Time difference: 674
+27-02-2023 19:27:21.622;NTPServerLog;OS clock update not required
+27-02-2023 19:42:21.659;NTPServerLog;Tablet clock update started
+27-02-2023 19:42:21.660;NTPServerLog;Checking NTP time and local time
+27-02-2023 19:42:21.661;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 19:42:22.173;NTPServerLog;Server connected
+27-02-2023 19:42:22.175;NTPServerLog;NTP round trip time :185
+27-02-2023 19:42:22.176;NTPServerLog;NTP time: 2023-2-27 19:42:22
+27-02-2023 19:42:22.177;NTPServerLog;Tablet time: 2023-2-27 19:42:22
+27-02-2023 19:42:22.178;NTPServerLog;Time difference: 539
+27-02-2023 19:42:22.191;NTPServerLog;OS clock update not required
+27-02-2023 19:57:22.248;NTPServerLog;Tablet clock update started
+27-02-2023 19:57:22.250;NTPServerLog;Checking NTP time and local time
+27-02-2023 19:57:22.251;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 19:57:22.631;NTPServerLog;Server connected
+27-02-2023 19:57:22.632;NTPServerLog;NTP round trip time :115
+27-02-2023 19:57:22.633;NTPServerLog;NTP time: 2023-2-27 19:57:23
+27-02-2023 19:57:22.634;NTPServerLog;Tablet time: 2023-2-27 19:57:22
+27-02-2023 19:57:22.635;NTPServerLog;Time difference: 592
+27-02-2023 19:57:22.647;NTPServerLog;OS clock update not required
+27-02-2023 20:12:22.681;NTPServerLog;Tablet clock update started
+27-02-2023 20:12:22.682;NTPServerLog;Checking NTP time and local time
+27-02-2023 20:12:22.683;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 20:12:23.138;NTPServerLog;Server connected
+27-02-2023 20:12:23.139;NTPServerLog;NTP round trip time :155
+27-02-2023 20:12:23.140;NTPServerLog;NTP time: 2023-2-27 20:12:23
+27-02-2023 20:12:23.141;NTPServerLog;Tablet time: 2023-2-27 20:12:23
+27-02-2023 20:12:23.142;NTPServerLog;Time difference: 568
+27-02-2023 20:12:23.151;NTPServerLog;OS clock update not required
+27-02-2023 20:27:23.187;NTPServerLog;Tablet clock update started
+27-02-2023 20:27:23.188;NTPServerLog;Checking NTP time and local time
+27-02-2023 20:27:23.189;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 20:27:23.551;NTPServerLog;Server connected
+27-02-2023 20:27:23.552;NTPServerLog;NTP round trip time :109
+27-02-2023 20:27:23.553;NTPServerLog;NTP time: 2023-2-27 20:27:24
+27-02-2023 20:27:23.554;NTPServerLog;Tablet time: 2023-2-27 20:27:23
+27-02-2023 20:27:23.555;NTPServerLog;Time difference: 606
+27-02-2023 20:27:23.567;NTPServerLog;OS clock update not required
+27-02-2023 20:42:23.602;NTPServerLog;Tablet clock update started
+27-02-2023 20:42:23.603;NTPServerLog;Checking NTP time and local time
+27-02-2023 20:42:23.604;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 20:42:23.856;NTPServerLog;Server connected
+27-02-2023 20:42:23.857;NTPServerLog;NTP round trip time :51
+27-02-2023 20:42:23.859;NTPServerLog;NTP time: 2023-2-27 20:42:24
+27-02-2023 20:42:23.860;NTPServerLog;Tablet time: 2023-2-27 20:42:23
+27-02-2023 20:42:23.861;NTPServerLog;Time difference: 669
+27-02-2023 20:42:23.873;NTPServerLog;OS clock update not required
+27-02-2023 20:57:23.918;NTPServerLog;Tablet clock update started
+27-02-2023 20:57:23.921;NTPServerLog;Checking NTP time and local time
+27-02-2023 20:57:23.924;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 20:57:24.356;NTPServerLog;Server connected
+27-02-2023 20:57:24.357;NTPServerLog;NTP round trip time :141
+27-02-2023 20:57:24.358;NTPServerLog;NTP time: 2023-2-27 20:57:25
+27-02-2023 20:57:24.359;NTPServerLog;Tablet time: 2023-2-27 20:57:24
+27-02-2023 20:57:24.361;NTPServerLog;Time difference: 582
+27-02-2023 20:57:24.373;NTPServerLog;OS clock update not required
+27-02-2023 21:12:24.409;NTPServerLog;Tablet clock update started
+27-02-2023 21:12:24.411;NTPServerLog;Checking NTP time and local time
+27-02-2023 21:12:24.412;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 21:12:24.873;NTPServerLog;Server connected
+27-02-2023 21:12:24.874;NTPServerLog;NTP round trip time :155
+27-02-2023 21:12:24.875;NTPServerLog;NTP time: 2023-2-27 21:12:25
+27-02-2023 21:12:24.876;NTPServerLog;Tablet time: 2023-2-27 21:12:24
+27-02-2023 21:12:24.877;NTPServerLog;Time difference: 569
+27-02-2023 21:12:24.889;NTPServerLog;OS clock update not required
+27-02-2023 21:27:24.921;NTPServerLog;Tablet clock update started
+27-02-2023 21:27:24.922;NTPServerLog;Checking NTP time and local time
+27-02-2023 21:27:24.923;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 21:27:25.364;NTPServerLog;Server connected
+27-02-2023 21:27:25.365;NTPServerLog;NTP round trip time :145
+27-02-2023 21:27:25.366;NTPServerLog;NTP time: 2023-2-27 21:27:26
+27-02-2023 21:27:25.367;NTPServerLog;Tablet time: 2023-2-27 21:27:25
+27-02-2023 21:27:25.368;NTPServerLog;Time difference: 568
+27-02-2023 21:27:25.380;NTPServerLog;OS clock update not required
+27-02-2023 21:42:25.415;NTPServerLog;Tablet clock update started
+27-02-2023 21:42:25.416;NTPServerLog;Checking NTP time and local time
+27-02-2023 21:42:25.417;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 21:42:25.916;NTPServerLog;Server connected
+27-02-2023 21:42:25.918;NTPServerLog;NTP round trip time :175
+27-02-2023 21:42:25.919;NTPServerLog;NTP time: 2023-2-27 21:42:26
+27-02-2023 21:42:25.920;NTPServerLog;Tablet time: 2023-2-27 21:42:25
+27-02-2023 21:42:25.921;NTPServerLog;Time difference: 526
+27-02-2023 21:42:25.931;NTPServerLog;OS clock update not required
+27-02-2023 21:57:25.979;NTPServerLog;Tablet clock update started
+27-02-2023 21:57:25.981;NTPServerLog;Checking NTP time and local time
+27-02-2023 21:57:25.982;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 21:57:26.426;NTPServerLog;Server connected
+27-02-2023 21:57:26.427;NTPServerLog;NTP round trip time :149
+27-02-2023 21:57:26.428;NTPServerLog;NTP time: 2023-2-27 21:57:27
+27-02-2023 21:57:26.430;NTPServerLog;Tablet time: 2023-2-27 21:57:26
+27-02-2023 21:57:26.431;NTPServerLog;Time difference: 556
+27-02-2023 21:57:26.441;NTPServerLog;OS clock update not required
+27-02-2023 22:12:26.477;NTPServerLog;Tablet clock update started
+27-02-2023 22:12:26.478;NTPServerLog;Checking NTP time and local time
+27-02-2023 22:12:26.479;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 22:12:26.904;NTPServerLog;Server connected
+27-02-2023 22:12:26.906;NTPServerLog;NTP round trip time :142
+27-02-2023 22:12:26.908;NTPServerLog;NTP time: 2023-2-27 22:12:27
+27-02-2023 22:12:26.910;NTPServerLog;Tablet time: 2023-2-27 22:12:26
+27-02-2023 22:12:26.911;NTPServerLog;Time difference: 555
+27-02-2023 22:12:26.921;NTPServerLog;OS clock update not required
+27-02-2023 22:27:26.967;NTPServerLog;Tablet clock update started
+27-02-2023 22:27:26.969;NTPServerLog;Checking NTP time and local time
+27-02-2023 22:27:26.970;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 22:27:27.357;NTPServerLog;Server connected
+27-02-2023 22:27:27.359;NTPServerLog;NTP round trip time :116
+27-02-2023 22:27:27.360;NTPServerLog;NTP time: 2023-2-27 22:27:28
+27-02-2023 22:27:27.361;NTPServerLog;Tablet time: 2023-2-27 22:27:27
+27-02-2023 22:27:27.362;NTPServerLog;Time difference: 582
+27-02-2023 22:27:27.371;NTPServerLog;OS clock update not required
+27-02-2023 22:42:27.408;NTPServerLog;Tablet clock update started
+27-02-2023 22:42:27.409;NTPServerLog;Checking NTP time and local time
+27-02-2023 22:42:27.410;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 22:42:27.660;NTPServerLog;Server connected
+27-02-2023 22:42:27.661;NTPServerLog;NTP round trip time :50
+27-02-2023 22:42:27.662;NTPServerLog;NTP time: 2023-2-27 22:42:28
+27-02-2023 22:42:27.663;NTPServerLog;Tablet time: 2023-2-27 22:42:27
+27-02-2023 22:42:27.664;NTPServerLog;Time difference: 665
+27-02-2023 22:42:27.676;NTPServerLog;OS clock update not required
+27-02-2023 22:57:27.723;NTPServerLog;Tablet clock update started
+27-02-2023 22:57:27.724;NTPServerLog;Checking NTP time and local time
+27-02-2023 22:57:27.726;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 22:57:28.219;NTPServerLog;Server connected
+27-02-2023 22:57:28.220;NTPServerLog;NTP round trip time :174
+27-02-2023 22:57:28.222;NTPServerLog;NTP time: 2023-2-27 22:57:28
+27-02-2023 22:57:28.223;NTPServerLog;Tablet time: 2023-2-27 22:57:28
+27-02-2023 22:57:28.223;NTPServerLog;Time difference: 572
+27-02-2023 22:57:28.236;NTPServerLog;OS clock update not required
+27-02-2023 23:12:28.275;NTPServerLog;Tablet clock update started
+27-02-2023 23:12:28.276;NTPServerLog;Checking NTP time and local time
+27-02-2023 23:12:28.277;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 23:12:28.657;NTPServerLog;Server connected
+27-02-2023 23:12:28.659;NTPServerLog;NTP round trip time :116
+27-02-2023 23:12:28.660;NTPServerLog;NTP time: 2023-2-27 23:12:29
+27-02-2023 23:12:28.661;NTPServerLog;Tablet time: 2023-2-27 23:12:28
+27-02-2023 23:12:28.662;NTPServerLog;Time difference: 604
+27-02-2023 23:12:28.672;NTPServerLog;OS clock update not required
+27-02-2023 23:27:28.719;NTPServerLog;Tablet clock update started
+27-02-2023 23:27:28.721;NTPServerLog;Checking NTP time and local time
+27-02-2023 23:27:28.723;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 23:27:28.976;NTPServerLog;Server connected
+27-02-2023 23:27:28.977;NTPServerLog;NTP round trip time :47
+27-02-2023 23:27:28.979;NTPServerLog;NTP time: 2023-2-27 23:27:29
+27-02-2023 23:27:28.980;NTPServerLog;Tablet time: 2023-2-27 23:27:28
+27-02-2023 23:27:28.981;NTPServerLog;Time difference: 657
+27-02-2023 23:27:28.991;NTPServerLog;OS clock update not required
+27-02-2023 23:42:29.030;NTPServerLog;Tablet clock update started
+27-02-2023 23:42:29.031;NTPServerLog;Checking NTP time and local time
+27-02-2023 23:42:29.032;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 23:42:29.458;NTPServerLog;Server connected
+27-02-2023 23:42:29.459;NTPServerLog;NTP round trip time :141
+27-02-2023 23:42:29.461;NTPServerLog;NTP time: 2023-2-27 23:42:30
+27-02-2023 23:42:29.462;NTPServerLog;Tablet time: 2023-2-27 23:42:29
+27-02-2023 23:42:29.463;NTPServerLog;Time difference: 569
+27-02-2023 23:42:29.473;NTPServerLog;OS clock update not required
+27-02-2023 23:57:29.534;NTPServerLog;Tablet clock update started
+27-02-2023 23:57:29.535;NTPServerLog;Checking NTP time and local time
+27-02-2023 23:57:29.536;NTPServerLog;Trying connect to server: 0.asia.pool.ntp.org
+27-02-2023 23:57:29.841;NTPServerLog;Server connected
+27-02-2023 23:57:29.843;NTPServerLog;NTP round trip time :79
+27-02-2023 23:57:29.844;NTPServerLog;NTP time: 2023-2-27 23:57:30
+27-02-2023 23:57:29.845;NTPServerLog;Tablet time: 2023-2-27 23:57:29
+27-02-2023 23:57:29.846;NTPServerLog;Time difference: 640
+27-02-2023 23:57:29.858;NTPServerLog;OS clock update not required

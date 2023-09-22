@@ -1,0 +1,3 @@
+23-01-2023 20:03:43.366;WatchDogLog;Service destroy requested com.kantaribope.services.watchdog.WatchdogService
+23-01-2023 20:55:36.601;WatchDogLog;Requested to watch service com.kantaribope.lcm.LcmService
+23-01-2023 20:55:36.615;WatchDogLog;Starting com.kantaribope.lcm.LcmService (boot)

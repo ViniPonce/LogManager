@@ -1,0 +1,36 @@
+14-07-2023 05:40:50.716;NTPServerLog;Tablet clock update started
+14-07-2023 05:40:50.718;NTPServerLog;Checking NTP time and local time
+14-07-2023 05:40:50.719;NTPServerLog;Trying connect to server: a.ntp.br
+14-07-2023 05:40:50.742;NTPServerLog;Server connected
+14-07-2023 05:40:50.743;NTPServerLog;NTP round trip time :3
+14-07-2023 05:40:50.745;NTPServerLog;NTP time: 2023-7-14 5:40:50
+14-07-2023 05:40:50.747;NTPServerLog;Tablet time: 2023-7-14 5:40:50
+14-07-2023 05:40:50.748;NTPServerLog;Time difference: 139
+14-07-2023 05:40:50.761;NTPServerLog;OS clock update not required
+14-07-2023 11:40:50.793;NTPServerLog;Tablet clock update started
+14-07-2023 11:40:50.795;NTPServerLog;Checking NTP time and local time
+14-07-2023 11:40:50.797;NTPServerLog;Trying connect to server: a.ntp.br
+14-07-2023 11:40:50.829;NTPServerLog;Server connected
+14-07-2023 11:40:50.831;NTPServerLog;NTP round trip time :4
+14-07-2023 11:40:50.833;NTPServerLog;NTP time: 2023-7-14 11:40:50
+14-07-2023 11:40:50.835;NTPServerLog;Tablet time: 2023-7-14 11:40:50
+14-07-2023 11:40:50.837;NTPServerLog;Time difference: 136
+14-07-2023 11:40:50.849;NTPServerLog;OS clock update not required
+14-07-2023 17:40:50.883;NTPServerLog;Tablet clock update started
+14-07-2023 17:40:50.884;NTPServerLog;Checking NTP time and local time
+14-07-2023 17:40:50.885;NTPServerLog;Trying connect to server: a.ntp.br
+14-07-2023 17:40:50.906;NTPServerLog;Server connected
+14-07-2023 17:40:50.908;NTPServerLog;NTP round trip time :3
+14-07-2023 17:40:50.910;NTPServerLog;NTP time: 2023-7-14 17:40:51
+14-07-2023 17:40:50.912;NTPServerLog;Tablet time: 2023-7-14 17:40:50
+14-07-2023 17:40:50.913;NTPServerLog;Time difference: 139
+14-07-2023 17:40:50.919;NTPServerLog;OS clock update not required
+14-07-2023 23:40:50.959;NTPServerLog;Tablet clock update started
+14-07-2023 23:40:50.961;NTPServerLog;Checking NTP time and local time
+14-07-2023 23:40:50.962;NTPServerLog;Trying connect to server: a.ntp.br
+14-07-2023 23:40:50.983;NTPServerLog;Server connected
+14-07-2023 23:40:50.985;NTPServerLog;NTP round trip time :3
+14-07-2023 23:40:50.987;NTPServerLog;NTP time: 2023-7-14 23:40:51
+14-07-2023 23:40:50.988;NTPServerLog;Tablet time: 2023-7-14 23:40:50
+14-07-2023 23:40:50.990;NTPServerLog;Time difference: 139
+14-07-2023 23:40:51.002;NTPServerLog;OS clock update not required

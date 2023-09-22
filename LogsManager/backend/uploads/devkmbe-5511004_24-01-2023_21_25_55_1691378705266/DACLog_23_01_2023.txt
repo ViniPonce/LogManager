@@ -1,0 +1,6 @@
+23-01-2023 20:03:17.850;DACLog;All sensors are disconnected
+23-01-2023 20:03:17.856;DACLog;DAC selected: APS_8CC8
+23-01-2023 20:56:02.627;DACLog;Starting the services of sensors configured as DAC
+23-01-2023 20:56:02.649;DACLog;APS_8CC8 - Highest priority sensor
+23-01-2023 20:56:06.150;DACLog;All sensors are disconnected
+23-01-2023 20:56:06.158;DACLog;DAC selected: APS_8CC8

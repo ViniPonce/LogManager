@@ -1,0 +1,12 @@
+.react-keyed-file-browser {
+    width: 100%;
+  }
+  
+  .react-keyed-file-browser .rendered-file .file-item.col-file {
+    padding-right: 50px; 
+  }
+  
+  .react-keyed-file-browser .rendered-file .file-item.col-size {
+    padding-right: 50px; 
+  }
+  

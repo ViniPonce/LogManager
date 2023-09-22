@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import {
   Box,
@@ -14,13 +15,22 @@ import {
   Paper,
   TextField,
   Button,
+  Tabs,
+  Tab,
 } from '@mui/material';
-import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
-import { LocalizationProvider } from '@mui/x-date-pickers';
 import axios from 'axios';
 import { startOfDay, endOfDay, parseISO, toDate } from 'date-fns';
-import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
+import Divider from '@mui/material/Divider';
+import ButtonBase from '@mui/material/ButtonBase';
+import { Fab } from '@mui/material';
+import { Assignment as ReportsIcon } from '@mui/icons-material';
+import Tooltip from '@mui/material/Tooltip';
+import './LogAnalysis.css';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
+import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 
 function LogAnalysis() {
   const [checkboxes, setCheckboxes] = useState({
@@ -28,12 +38,110 @@ function LogAnalysis() {
     DAC_SIGNAL: false,
   });
 
+  const [showReportDialog, setShowReportDialog] = useState(false);
+
+  const handleReportButtonClick = () => {
+    setShowReportDialog(true);
+  };
+
+  const handleCloseReportDialog = () => {
+    setShowReportDialog(false);
+  };
+
+  const [showGridView, setShowGridView] = useState(false);
+  const [reportData, setReportData] = useState([]);
+  const [meterKey, setMeterKey] = useState('');
+
+  const handleMeterKeyChange = (event) => {
+    setMeterKey(event.target.value);
+  };
+
+  const [isHovered, setIsHovered] = useState(false);
+  const [isClicked, setIsClicked] = useState(false);
+  const buttonStyles = {
+    textDecoration: 'none',
+    marginLeft: '-8px',
+    color: '#393e46',
+  };
+
+  const clickedButtonStyles = {
+    textDecoration: 'underline',
+    textDecorationThickness: '3px',
+    fontWeight: 'bold',
+    color: '#1e56a0',
+    marginLeft: '-8px',
+  };
+
+  const handleButtonClick = () => {
+    setIsClicked(!isClicked);
+  };
+
   const [selectedStartDate, setSelectedStartDate] = useState(null);
   const [selectedEndDate, setSelectedEndDate] = useState(null);
   const [data, setData] = useState([]);
   const [filteredRows, setFilteredRows] = useState([]);
   const [tableColumns, setTableColumns] = useState([]);
   const [filterClicked, setFilterClicked] = useState(false);
+  const [showSensorGridView, setShowSensorGridView] = useState(false);
+  const [sensorReportData, setSensorReportData] = useState([]);
+  const [sensorTableColumns, setSensorTableColumns] = useState([]);
+  const [currentSensorPage, setCurrentSensorPage] = useState(1);
+  const [totalSensorPages, setTotalSensorPages] = useState(0);
+  const [sensorItemsPerPage] = useState(25);
+  const [selectedRowIndex, setSelectedRowIndex] = useState(-1);
+  const [activeTab, setActiveTab] = useState('General Report');
+  const handleTabChange = (event, newValue) => {
+    setActiveTab(newValue);
+  };
+
+
+  const handleRowClick = (index) => {
+
+    if (index === selectedRowIndex) {
+      setSelectedRowIndex(-1); 
+    } else {
+      setSelectedRowIndex(index); 
+    }
+  };
+
+  const handleNextSensorPage = () => {
+    if (currentSensorPage < totalSensorPages) {
+      setCurrentSensorPage((prevPage) => prevPage + 1);
+    }
+  };
+  
+  const handlePreviousSensorPage = () => {
+    if (currentSensorPage > 1) {
+      setCurrentSensorPage((prevPage) => prevPage - 1);
+    }
+  };
+  
+
+
+  const handleNextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+  
+  const handlePreviousPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+const [currentPageInput, setCurrentPageInput] = useState(1);
+
+const handlePageInputChange = (event) => {
+  const inputPage = parseInt(event.target.value, 10);
+  if (!isNaN(inputPage) && inputPage >= 1 && inputPage <= totalPages) {
+    setCurrentPageInput(inputPage);
+  }
+};
+
+const handlePageInputChangeAndGo = () => {
+  setCurrentPage(currentPageInput);
+};
 
   const handleChange = (event) => {
     const { name, checked } = event.target;
@@ -66,6 +174,105 @@ function LogAnalysis() {
     });
     setFilteredRows([]);
   };
+
+  const handleGenerateReport = async () => {
+    try {
+      const response = await axios.get('/api/generate-report', {
+        params: {
+          meterName: meterKey,
+        },
+      });
+
+      const reportData = response.data;
+
+      const columns = reportData.length > 0 ? Object.keys(reportData[0]) : [];
+      setShowGridView(true);
+      setReportData(reportData);
+      setTableColumns(columns);
+      setTotalPages(Math.ceil(reportData.length / itemsPerPage));
+
+    } catch (error) {
+      console.error('Error generating report:', error);
+    }
+  };
+
+
+  const [shouldGenerateSensorReport, setShouldGenerateSensorReport] = useState(false);
+  const handleGenerateSensorReport = async (meterKey) => {
+    if (shouldGenerateSensorReport) {
+    try {
+      const response = await axios.get('/api/generate-sensor-report', {
+        params: {
+          meterName: meterKey,
+        },
+      });
+      console.log('API Response:', response.data);
+  
+      const sensorReportData = response.data;
+      const columns = sensorReportData.length > 0 ? Object.keys(sensorReportData[0]) : [];
+
+      setShowSensorGridView(true);
+      setSensorReportData(sensorReportData);
+      console.log(sensorReportData)
+      setSensorTableColumns([columns]);
+      setTotalSensorPages(Math.ceil(sensorReportData.length / sensorItemsPerPage));
+    } catch (error) {
+      console.error('Error generating sensor report:', error);
+    }
+  }
+};
+
+
+const startIndex = (currentSensorPage - 1) * sensorItemsPerPage;
+const endIndex = startIndex + sensorItemsPerPage;
+
+
+// useEffect(() => {
+//   const response = handleGenerateSensorReport();
+//   console.log(response)
+//   setSensorReportData(response)
+
+//   return () => {
+    
+//   }
+// }, [])
+
+
+
+
+
+
+// useEffect(() => {
+
+//   const params = {
+//     meterName: meterKey,
+//     page: currentSensorPage,
+//     perPage: sensorItemsPerPage,
+//   };
+
+//   setIsLoading(true);
+
+//   axios
+//     .get('/api/generate-sensor-report', { params })
+//     .then((response) => {
+//       const data = response.data.slice(startIndex, endIndex);
+//       setSensorReportData(data);
+//       setTotalSensorPages(Math.ceil(response.data.length / sensorItemsPerPage));
+//     })
+
+//     setShowSensorGridView(true);
+//     setSensorReportData(sensorReportData);
+//     console.log(sensorReportData)
+//     setSensorTableColumns([columns]);
+//     setTotalSensorPages(Math.ceil(sensorReportData.length / sensorItemsPerPage));
+
+//     .catch((error) => {
+//       console.error('Error fetching sensor data:', error);
+//     })
+//     .finally(() => {
+//       setIsLoading(false);
+//     });
+// }, [currentSensorPage, sensorItemsPerPage, meterKey]);
 
   const fetchLogs = async (logType) => {
     try {
@@ -107,6 +314,42 @@ function LogAnalysis() {
     filterRows();
   }, [filterClicked, selectedStartDate, selectedEndDate]);
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(25); 
+  const [totalPages, setTotalPages] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handlePageChange = (newPage) => {
+    setCurrentPage(newPage);
+  };
+
+  useEffect(() => {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+
+    const params = {
+      meterName: meterKey, 
+      page: currentPage,
+      perPage: itemsPerPage,
+    };
+
+    setIsLoading(true);
+
+    axios.get('/api/generate-report', { params })
+      .then((response) => {
+        const data = response.data;
+        setReportData(data);
+        setTotalPages(Math.ceil(data.length / itemsPerPage));
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+  }, [currentPage, itemsPerPage, meterKey]);
+
+
   return (
     <Box
       sx={{
@@ -118,46 +361,334 @@ function LogAnalysis() {
         marginTop: '80px',
       }}
     >
-      <Typography variant="h5" align="center" gutterBottom>
-        Log Analysis
-      </Typography>
       <Box
         sx={{
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'flex-start',
-          width: '100%',
+          alignItems: 'center',
           marginTop: '16px',
         }}
       >
-        <Box
+
+      {showGridView && (
+        <Paper>
+          <TableContainer>
+            <Table>
+              <TableHead>
+                <TableRow>
+                  {tableColumns.map((column, index) => (
+                    <TableCell key={index} style={{ width: '30px' }}>{column}</TableCell>
+                  ))}
+                </TableRow>
+              </TableHead>
+              <TableBody>
+          {reportData.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage).map((row, index) => (
+            <TableRow
+              key={index}
+              className={`${index % 2 === 0 ? 'even-row' : 'odd-row'} ${index === selectedRowIndex ? 'selected-row' : ''}`} 
+              onClick={() => handleRowClick(index)} 
+              style={{ cursor: 'pointer' }}
+            >
+              {tableColumns.map((column, columnIndex) => (
+                <TableCell key={columnIndex} style={{ width: '10px' }}> {row[column]}</TableCell>
+              ))}
+            </TableRow>
+          ))}
+        </TableBody>
+            </Table>
+          </TableContainer>
+          <Box sx={{ display: 'flex', justifyContent: 'center', marginTop: '16px', alignItems: 'center' }}>
+  <IconButton
+    disabled={currentPage === 1}
+    onClick={handlePreviousPage}
+    sx={{ marginRight: '16px' }}
+  >
+    <KeyboardDoubleArrowLeftIcon />
+  </IconButton>
+  <Typography variant="body1">
+    Page {currentPage} of {totalPages}
+  </Typography>
+  <IconButton
+    disabled={currentPage === totalPages}
+    onClick={handleNextPage}
+    sx={{ marginLeft: '16px' }}
+  >
+    <KeyboardDoubleArrowRightIcon />
+  </IconButton>
+  <TextField
+    type="number"
+    inputProps={{ min: 1, max: totalPages }}
+    label="Go to Page"
+    variant="outlined"
+    size="small"
+    value={currentPageInput}
+    onChange={handlePageInputChange}
+    onBlur={handlePageInputChangeAndGo}
+    sx={{ width: '100px', marginLeft: '16px' }}
+  />
+</Box>
+        </Paper>
+      )}
+
+{showSensorGridView && (
+  <Paper>
+    <TableContainer>
+      <Table>
+        <TableHead>
+          <TableRow>
+            {sensorTableColumns.map((column, index) => (
+              <TableCell key={index} style={{ width: '30px' }}>{column}</TableCell>
+            ))}
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {sensorReportData.slice((currentSensorPage - 1) * sensorItemsPerPage,currentSensorPage * sensorItemsPerPage).map((row, index) => (
+              <TableRow
+                key={index}
+                className={`${
+                  index % 2 === 0 ? 'even-row' : 'odd-row'
+                } ${index === selectedRowIndex ? 'selected-row' : ''}`}
+                onClick={() => handleRowClick(index)}
+                style={{ cursor: 'pointer' }}
+              >
+                {sensorTableColumns.map((column, columnIndex) => (
+                  <TableCell key={columnIndex} style={{ width: '10px' }}>{row[column]}</TableCell>
+            ))}
+              </TableRow>
+            ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+    <Box sx={{ display: 'flex', justifyContent: 'center', marginTop: '16px', alignItems: 'center' }}>
+  <IconButton
+    disabled={currentSensorPage === 1}
+    onClick={handlePreviousSensorPage}
+    sx={{ marginRight: '16px' }}
+  >
+    <KeyboardDoubleArrowLeftIcon />
+  </IconButton>
+  <Typography variant="body1">
+    Page {currentSensorPage} of {totalSensorPages}
+  </Typography>
+  <IconButton
+    disabled={currentSensorPage === totalSensorPages}
+    onClick={handleNextSensorPage}
+    sx={{ marginLeft: '16px' }}
+  >
+    <KeyboardDoubleArrowRightIcon />
+  </IconButton>
+  <TextField
+    type="number"
+    inputProps={{ min: 1, max: totalSensorPages }}
+    label="Go to Page"
+    variant="outlined"
+    size="small"
+    value={currentSensorPage}
+    onChange={(e) => setCurrentSensorPage(parseInt(e.target.value, 10))}
+    onBlur={handlePageInputChangeAndGo}
+    sx={{ width: '100px', marginLeft: '16px' }}
+  />
+</Box>
+        </Paper>
+      )}
+
+      </Box>
+      {!showGridView && (
+  <Fab
+    color="primary"
+    aria-label="Reports"
+    onClick={handleReportButtonClick}
+    className="floating-button"
+    sx={{
+      position: 'absolute',
+      top: '8%',
+      right: '2200px',
+    }}
+  >
+    <Tooltip
+      title="Reports"
+      arrow
+      PopperProps={{
+        popperOptions: {
+          placement: 'right',
+          modifiers: [
+            {
+              name: 'offset',
+              options: {
+                offset: [0, 10],
+              },
+            },
+          ],
+        },
+      }}
+    >
+      <ReportsIcon />
+    </Tooltip>
+  </Fab>
+)}
+
+
+{showReportDialog && (
+  <Box
+    sx={{
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      backgroundColor: 'rgba(0, 0, 0, 0.7)',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      zIndex: 9999,
+    }}
+  >
+    {/* Conteúdo da tela de relatórios */}
+    <Box
+      sx={{
+        backgroundColor: '#fcfefe',
+        borderRadius: '4px',
+        padding: '16px',
+        boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.5)',
+        width: '50%',
+        height: '50%', 
+        display: 'flex',
+        flexDirection: 'column',
+        position: 'relative',
+      }}
+    >
+{/* Título "Reports" */}
+<Typography
+  variant="h6"
+  sx={{
+    marginBottom: '10px',
+    textAlign: 'center', 
+  }}
+>
+  Reports
+</Typography>
+
+      <Tabs
+        value={activeTab}
+        onChange={handleTabChange}
+        indicatorColor="primary"
+        textColor="primary"
+        variant="scrollable"
+        scrollButtons="auto"
+      >
+        <Tab label="General Report" value="General Report" />
+        <Tab label="Sensor Process Report" value="Sensor Process Report" />
+      </Tabs>
+
+      {/* Divider abaixo das abas */}
+      <Divider sx={{ width: '100%', marginBottom: '24px' }} />
+
+      {activeTab === 'General Report' && (
+  <div>
+    {/* Conteúdo da aba "General Report" */}
+    <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+      <Typography variant="h8" sx={{ flex: '0 0 auto', marginRight: '8px', marginTop: '4px' }}>
+        Enter Meter Key:
+      </Typography>
+      <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+        <TextField
+          id="meterKey"
+          label="Meter Key"
+          variant="outlined"
+          size="small"
+          value={meterKey}
+          onChange={handleMeterKeyChange}
+          style={{ width: '30%', marginRight: '10px' }}
+        />
+<Button
+  variant="contained"
+  color="primary"
+  sx={{
+    backgroundColor: '#1e56a0',
+    color: 'white',
+  }}
+  onClick={() => handleGenerateReport(meterKey)}
+>
+  Generate Report
+</Button>
+      </div>
+    </div>
+
+  </div>
+)}
+
+{activeTab === 'Sensor Process Report' && (
+  <div>
+    {/* Conteúdo da aba "Sensor Process Report" */}
+    <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+      <Typography variant="h8" sx={{ flex: '0 0 auto', marginRight: '8px', marginTop: '4px' }}>
+        Enter Meter Key:
+      </Typography>
+      <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+        <TextField
+          id="meterKey"
+          label="Meter Key"
+          variant="outlined"
+          size="small"
+          value={meterKey}
+          onChange={handleMeterKeyChange}
+          style={{ width: '30%', marginRight: '10px' }}
+        />
+        <Button
+          variant="contained"
+          color="primary"
           sx={{
-            border: '1px solid white',
-            borderRadius: '4px',
-            padding: '16px',
-            marginRight: '16px',
+            backgroundColor: '#1e56a0',
+            color: 'white',
           }}
+            onClick={() => {
+              setShouldGenerateSensorReport(true);
+              handleGenerateSensorReport(meterKey);
+            }}
         >
-          <Typography variant="h6" sx={{ marginBottom: '8px' }}>
-            Logs
-          </Typography>
+          Generate Sensor Report
+        </Button>
+      </div>
+    </div>
+
+    {/* Aqui você pode adicionar o restante do conteúdo da aba "Process Log" */}
+    {/* Certifique-se de incluir a tabela e os botões de paginação existentes */}
+  </div>
+)}
+
+      {/* Botão para fechar a tela de relatórios */}
+      <IconButton
+        color="red"
+        onClick={handleCloseReportDialog}
+        sx={{ position: 'absolute', top: '8px', right: '8px' }}
+      >
+        <CloseIcon />
+      </IconButton>
+    </Box>
+  </Box>
+)}
+
+
+
+<Box
+  sx={{
+    display: 'flex',
+    alignItems: 'flex-start',
+    width: '100%',
+    marginTop: '16px',
+  }}
+>
+  <Box
+    sx={{
+      border: '1px solid white',
+      borderRadius: '4px',
+      padding: '16px',
+    }}
+  >
+    <Typography variant="h6" sx={{ marginBottom: '8px' }}>
+      Logs
+    </Typography>
           <FormGroup>
-            <FormControlLabel
-              control={
-                <Checkbox
-                  sx={{ color: 'primary.main' }}
-                  checked={checkboxes.deliveryservicememoryusage}
-                  onChange={handleChange}
-                  name="deliveryservicememoryusage"
-                  value="deliveryservicememoryusage"
-                />
-              }
-              label={
-                <Typography variant="body1">
-                  Delivery Service Memory Usage
-                </Typography>
-              }
-            />
 <FormControlLabel
   control={
     <Checkbox
@@ -531,40 +1062,6 @@ function LogAnalysis() {
 />
           </FormGroup>
         </Box>
-        <Box
-          sx={{
-            flexGrow: 1,
-            minWidth: '650px',
-            marginRight: '16px',
-          }}
-        >
-          <TableContainer component={Paper}>
-            <Table sx={{ minWidth: 650 }} size="small">
-              <TableHead>
-                <TableRow>
-                  {tableColumns.map((columnName) => (
-                    <TableCell key={columnName}>{columnName}</TableCell>
-                  ))}
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {filteredRows.map((row) => (
-                  <TableRow key={row.id}>
-                    {tableColumns.map((columnName) => (
-                      <TableCell key={columnName}>
-                        {columnName === 'timestamp' ? (
-                          <span>{row[columnName]}</span>
-                        ) : (
-                          row[columnName]
-                        )}
-                      </TableCell>
-                    ))}
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        </Box>
       </Box>
       <Box
         sx={{
@@ -574,35 +1071,9 @@ function LogAnalysis() {
           marginTop: '16px',
         }}
       >
-        <Typography variant="h6" sx={{ marginRight: '16px' }}>
-          Date Filter:
-        </Typography>
-        <LocalizationProvider dateAdapter={AdapterDateFns}>
-          <DatePicker
-            selected={selectedStartDate}
-            onChange={(date) => setSelectedStartDate(date)}
-            dateFormat="dd/MM/yyyy"
-            placeholderText="Start Date"
-            isClearable
-          />
-        </LocalizationProvider>
-        <Typography variant="h6" sx={{ margin: '0px 16px' }}>
-          -
-        </Typography>
-        <LocalizationProvider dateAdapter={AdapterDateFns}>
-          <DatePicker
-            selected={selectedEndDate}
-            onChange={(date) => setSelectedEndDate(date)}
-            dateFormat="dd/MM/yyyy"
-            placeholderText="End Date"
-            isClearable
-          />
-        </LocalizationProvider>
       </Box>
     </Box>
   );
 }
 
 export default LogAnalysis;
-
-

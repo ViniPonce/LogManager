@@ -1,0 +1,63 @@
+27-01-2023 02:36:44.813;NTPServerLog;Tablet clock update started
+27-01-2023 02:36:44.815;NTPServerLog;Checking NTP time and local time
+27-01-2023 02:36:44.817;NTPServerLog;Trying connect to server: a.ntp.br
+27-01-2023 02:36:44.837;NTPServerLog;Server connected
+27-01-2023 02:36:44.839;NTPServerLog;NTP round trip time :2
+27-01-2023 02:36:44.841;NTPServerLog;NTP time: 2023-1-27 2:36:45
+27-01-2023 02:36:44.843;NTPServerLog;Tablet time: 2023-1-27 2:36:44
+27-01-2023 02:36:44.845;NTPServerLog;Time difference: 708
+27-01-2023 02:36:44.853;NTPServerLog;OS clock update not required
+27-01-2023 08:37:21.093;NTPServerLog;Tablet clock update started
+27-01-2023 08:37:21.095;NTPServerLog;Checking NTP time and local time
+27-01-2023 08:37:21.097;NTPServerLog;Trying connect to server: a.ntp.br
+27-01-2023 08:37:21.113;NTPServerLog;Server connected
+27-01-2023 08:37:21.115;NTPServerLog;NTP round trip time :2
+27-01-2023 08:37:21.117;NTPServerLog;NTP time: 2023-1-27 8:37:21
+27-01-2023 08:37:21.119;NTPServerLog;Tablet time: 2023-1-27 8:37:21
+27-01-2023 08:37:21.121;NTPServerLog;Time difference: 709
+27-01-2023 08:37:21.127;NTPServerLog;OS clock update not required
+27-01-2023 14:53:01.735;NTPServerLog;Tablet clock update started
+27-01-2023 14:53:01.739;NTPServerLog;Checking NTP time and local time
+27-01-2023 14:53:01.741;NTPServerLog;Trying connect to server: a.ntp.br
+27-01-2023 14:53:01.816;NTPServerLog;Server connected
+27-01-2023 14:53:01.818;NTPServerLog;NTP round trip time :7
+27-01-2023 14:53:01.820;NTPServerLog;NTP time: 2023-1-27 14:53:2
+27-01-2023 14:53:01.823;NTPServerLog;Tablet time: 2023-1-27 14:53:1
+27-01-2023 14:53:01.824;NTPServerLog;Time difference: 900
+27-01-2023 14:53:01.837;NTPServerLog;OS clock update not required
+27-01-2023 15:00:14.634;NTPServerLog;Tablet clock update started
+27-01-2023 15:00:14.637;NTPServerLog;Checking NTP time and local time
+27-01-2023 15:00:14.639;NTPServerLog;Trying connect to server: a.ntp.br
+27-01-2023 15:00:14.685;NTPServerLog;Server connected
+27-01-2023 15:00:14.687;NTPServerLog;NTP round trip time :7
+27-01-2023 15:00:14.689;NTPServerLog;NTP time: 2023-1-27 15:0:15
+27-01-2023 15:00:14.690;NTPServerLog;Tablet time: 2023-1-27 15:0:14
+27-01-2023 15:00:14.692;NTPServerLog;Time difference: 627
+27-01-2023 15:00:14.705;NTPServerLog;OS clock update not required
+27-01-2023 15:07:09.057;NTPServerLog;Tablet clock update started
+27-01-2023 15:07:09.059;NTPServerLog;Checking NTP time and local time
+27-01-2023 15:07:09.061;NTPServerLog;Trying connect to server: a.ntp.br
+27-01-2023 15:07:09.107;NTPServerLog;Server connected
+27-01-2023 15:07:09.109;NTPServerLog;NTP round trip time :7
+27-01-2023 15:07:09.111;NTPServerLog;NTP time: 2023-1-27 15:7:10
+27-01-2023 15:07:09.112;NTPServerLog;Tablet time: 2023-1-27 15:7:9
+27-01-2023 15:07:09.114;NTPServerLog;Time difference: 1335
+27-01-2023 15:07:09.127;NTPServerLog;Time difference greater than allowed, updating OS clock
+27-01-2023 15:14:19.751;NTPServerLog;Tablet clock update started
+27-01-2023 15:14:19.754;NTPServerLog;Checking NTP time and local time
+27-01-2023 15:14:19.755;NTPServerLog;Trying connect to server: a.ntp.br
+27-01-2023 15:14:19.816;NTPServerLog;Server connected
+27-01-2023 15:14:19.817;NTPServerLog;NTP round trip time :7
+27-01-2023 15:14:19.819;NTPServerLog;NTP time: 2023-1-27 15:14:20
+27-01-2023 15:14:19.820;NTPServerLog;Tablet time: 2023-1-27 15:14:19
+27-01-2023 15:14:19.822;NTPServerLog;Time difference: 626
+27-01-2023 15:14:19.833;NTPServerLog;OS clock update not required
+27-01-2023 17:49:44.617;NTPServerLog;Tablet clock update started
+27-01-2023 17:49:44.620;NTPServerLog;Checking NTP time and local time
+27-01-2023 17:49:44.622;NTPServerLog;Trying connect to server: a.ntp.br
+27-01-2023 17:49:44.679;NTPServerLog;Server connected
+27-01-2023 17:49:44.681;NTPServerLog;NTP round trip time :12
+27-01-2023 17:49:44.683;NTPServerLog;NTP time: 2023-1-27 17:49:45
+27-01-2023 17:49:44.685;NTPServerLog;Tablet time: 2023-1-27 17:49:44
+27-01-2023 17:49:44.686;NTPServerLog;Time difference: 674
+27-01-2023 17:49:44.699;NTPServerLog;OS clock update not required

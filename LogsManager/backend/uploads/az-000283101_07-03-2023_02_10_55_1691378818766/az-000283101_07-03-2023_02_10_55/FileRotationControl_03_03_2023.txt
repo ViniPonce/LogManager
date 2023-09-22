@@ -1,0 +1,27 @@
+03-03-2023 03:32:25.220;FileRotationControl;Current date minus 7 days is equals: 1677209545220
+03-03-2023 03:32:25.225;FileRotationControl;SensorsProcessLog_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.230;FileRotationControl;OnOffLog_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.232;FileRotationControl;RTMDeliveryLog_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.233;FileRotationControl;DashBoard_Communication_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.235;FileRotationControl;NTPServerLog_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.236;FileRotationControl;StatusLog_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.237;FileRotationControl;BatteryChargeControlLog_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.239;FileRotationControl;WatchdogMemoryUsage_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.241;FileRotationControl;LcmMemoryUsage_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.243;FileRotationControl;BackendMemoryUsage_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.244;FileRotationControl;DeliveryServiceMemoryUsage_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.246;FileRotationControl;MainLog_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.248;FileRotationControl;AudioMatchingMemoryUsage_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.249;FileRotationControl;MainProcessMemoryUsage_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.251;FileRotationControl;DMBELog_24_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.252;FileRotationControl;StorageStats_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.254;FileRotationControl;AudioCaptureMemoryUsage_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.255;FileRotationControl;BTRCLog_23_02_2023.txt delete file from 7 days 
+03-03-2023 03:32:25.257;FileRotationControl;BluetoothCommsLog_23_02_2023.txt delete file from 7 days 
+03-03-2023 11:32:25.285;FileRotationControl;Current date minus 7 days is equals: 1677238345284
+03-03-2023 11:32:25.290;FileRotationControl;No files deleted
+03-03-2023 19:32:25.316;FileRotationControl;Current date minus 7 days is equals: 1677267145316
+03-03-2023 19:32:25.319;FileRotationControl;StatusLog_24_02_2023.txt delete file from 7 days 
+03-03-2023 19:32:25.322;FileRotationControl;MainLog_24_02_2023.txt delete file from 7 days 
+03-03-2023 19:32:25.324;FileRotationControl;BTRCLog_24_02_2023.txt delete file from 7 days 
+03-03-2023 19:32:25.326;FileRotationControl;FileRotationControl_24_02_2023.txt delete file from 7 days 

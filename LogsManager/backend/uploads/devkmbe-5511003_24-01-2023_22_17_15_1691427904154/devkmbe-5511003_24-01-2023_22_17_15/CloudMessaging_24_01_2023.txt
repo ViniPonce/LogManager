@@ -1,0 +1,2 @@
+24-01-2023 21:12:21.758;CloudMessaging;PushReceiver is already running
+24-01-2023 21:12:21.760;CloudMessaging;Scheduled push receiver check

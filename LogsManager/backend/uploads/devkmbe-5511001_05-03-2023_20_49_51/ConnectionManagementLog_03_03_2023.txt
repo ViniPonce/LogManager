@@ -1,0 +1,31 @@
+03-03-2023 17:11:39.330;ConnectionManagementLog;Internet access problem detected
+03-03-2023 17:11:39.401;ConnectionManagementLog;Selecting the communication option: GSM ;  SIMCARD: 1 ;  NETWORK NAME: Automatic ;  APN: Claro Internet
+03-03-2023 17:11:45.506;ConnectionManagementLog;GSM network successfully registered
+03-03-2023 17:12:12.332;ConnectionManagementLog;Checking if network available
+03-03-2023 17:12:13.339;ConnectionManagementLog;Network connected
+03-03-2023 17:12:13.341;ConnectionManagementLog;Checking internet access
+03-03-2023 17:12:13.559;ConnectionManagementLog;Internet available
+03-03-2023 17:12:53.578;ConnectionManagementLog;Sending Network status to KMBE
+03-03-2023 17:12:55.216;ConnectionManagementLog;Network status sent successfully
+03-03-2023 17:13:13.561;ConnectionManagementLog;Retrying to use WiFi connection
+03-03-2023 17:13:13.564;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+03-03-2023 17:13:13.732;ConnectionManagementLog;Checking if network available
+03-03-2023 17:14:44.868;ConnectionManagementLog;Unable to connect to network for selected adapter
+03-03-2023 17:14:44.870;ConnectionManagementLog;The adapter selected does not working
+03-03-2023 17:14:44.871;ConnectionManagementLog;Changing the next adapter prioritized
+03-03-2023 17:14:49.873;ConnectionManagementLog;Selecting the communication option: GSM ;  SIMCARD: 1 ;  NETWORK NAME: Automatic ;  APN: Claro Internet
+03-03-2023 17:14:55.953;ConnectionManagementLog;GSM network successfully registered
+03-03-2023 17:15:22.753;ConnectionManagementLog;Checking if network available
+03-03-2023 17:15:23.758;ConnectionManagementLog;Network connected
+03-03-2023 17:15:23.760;ConnectionManagementLog;Checking internet access
+03-03-2023 17:15:24.028;ConnectionManagementLog;Internet available
+03-03-2023 17:16:04.045;ConnectionManagementLog;Sending Network status to KMBE
+03-03-2023 17:16:05.602;ConnectionManagementLog;Network status sent successfully
+03-03-2023 17:20:24.098;ConnectionManagementLog;Retrying to use WiFi connection
+03-03-2023 17:20:24.102;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+03-03-2023 17:20:24.217;ConnectionManagementLog;Checking if network available
+03-03-2023 17:20:31.230;ConnectionManagementLog;Network connected
+03-03-2023 17:20:31.232;ConnectionManagementLog;Checking internet access
+03-03-2023 17:20:31.315;ConnectionManagementLog;Internet available
+03-03-2023 17:21:11.317;ConnectionManagementLog;Sending Network status to KMBE
+03-03-2023 17:21:12.689;ConnectionManagementLog;Network status sent successfully

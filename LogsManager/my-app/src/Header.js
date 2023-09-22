@@ -41,7 +41,7 @@ const Header = () => {
   return (
     <div className={classes.header}>
       <img className={classes.logo} src="https://upload.wikimedia.org/wikipedia/commons/1/17/Logo_Kantar_noir.png" alt="Logo" />
-      <h1 className={classes.title}>Logs Manager</h1>
+      <h1 className={classes.title}>Log Manager</h1>
     </div>
   );
 };

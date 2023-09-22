@@ -1,0 +1,66 @@
+24-01-2023 12:50:59.258;KmbeDailySync;KMBE daily sync started
+24-01-2023 12:50:59.261;KmbeDailySync;Invalid KMBE credentials, getting new credentials
+24-01-2023 12:51:00.909;KmbeDailySync;Getting the KMBE token with the new credentials received
+24-01-2023 12:51:02.178;KmbeDailySync;KMBE daily sync started
+24-01-2023 12:51:02.180;KmbeDailySync;Sending custom parameter pending, sending now
+24-01-2023 12:51:22.292;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 12:51:24.419;KmbeDailySync;New settings received
+24-01-2023 12:51:24.428;KmbeDailySync;Scheduling the PM7 reset on the next TV OFF
+24-01-2023 12:51:24.850;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 12:51:24.917;KmbeDailySync;KMBE daily sync finished
+24-01-2023 13:29:13.574;KmbeDailySync;KMBE daily sync started
+24-01-2023 13:29:13.577;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 13:29:16.317;KmbeDailySync;No change in settings
+24-01-2023 13:29:16.346;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 13:29:16.427;KmbeDailySync;KMBE daily sync finished
+24-01-2023 13:49:32.775;KmbeDailySync;KMBE daily sync started
+24-01-2023 13:49:32.780;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 13:49:35.105;KmbeDailySync;New settings received
+24-01-2023 13:49:35.111;KmbeDailySync;Scheduling the PM7 reset on the next TV OFF
+24-01-2023 13:49:35.522;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 13:49:35.592;KmbeDailySync;KMBE daily sync finished
+24-01-2023 14:55:38.701;KmbeDailySync;KMBE daily sync started
+24-01-2023 14:55:38.705;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 14:55:41.448;KmbeDailySync;No change in settings
+24-01-2023 14:55:41.482;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 14:55:41.561;KmbeDailySync;KMBE daily sync finished
+24-01-2023 17:00:01.077;KmbeDailySync;KMBE daily sync started
+24-01-2023 17:00:01.080;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 17:01:02.277;KmbeDailySync;No change in settings
+24-01-2023 17:01:02.278;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 17:01:02.346;KmbeDailySync;KMBE daily sync finished
+24-01-2023 18:10:38.622;KmbeDailySync;KMBE daily sync started
+24-01-2023 18:10:38.626;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 18:10:41.386;KmbeDailySync;No change in settings
+24-01-2023 18:10:41.387;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 18:10:41.458;KmbeDailySync;KMBE daily sync finished
+24-01-2023 18:25:43.262;KmbeDailySync;KMBE daily sync started
+24-01-2023 18:25:43.267;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 18:25:48.099;KmbeDailySync;No change in settings
+24-01-2023 18:25:48.100;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 18:25:48.176;KmbeDailySync;KMBE daily sync finished
+24-01-2023 18:31:58.707;KmbeDailySync;KMBE daily sync started
+24-01-2023 18:31:58.711;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 18:32:01.644;KmbeDailySync;No change in settings
+24-01-2023 18:32:01.645;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 18:32:01.735;KmbeDailySync;KMBE daily sync finished
+24-01-2023 18:37:24.519;KmbeDailySync;KMBE daily sync started
+24-01-2023 18:37:24.521;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 18:37:27.223;KmbeDailySync;No change in settings
+24-01-2023 18:37:27.224;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 18:37:27.294;KmbeDailySync;KMBE daily sync finished
+24-01-2023 19:35:11.308;KmbeDailySync;KMBE daily sync started
+24-01-2023 19:35:11.312;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 19:36:12.451;KmbeDailySync;No change in settings
+24-01-2023 19:36:12.452;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 19:36:12.521;KmbeDailySync;KMBE daily sync finished
+24-01-2023 19:42:22.357;KmbeDailySync;KMBE daily sync started
+24-01-2023 19:42:22.362;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 19:42:25.098;KmbeDailySync;No change in settings
+24-01-2023 19:42:25.099;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 19:42:25.178;KmbeDailySync;KMBE daily sync finished
+24-01-2023 20:02:07.109;KmbeDailySync;KMBE daily sync started
+24-01-2023 20:02:07.111;KmbeDailySync;Checking new settings in the KMBE
+24-01-2023 20:02:09.722;KmbeDailySync;No change in settings
+24-01-2023 20:02:09.723;KmbeDailySync;Sending the PM7 information and status
+24-01-2023 20:02:09.779;KmbeDailySync;KMBE daily sync finished

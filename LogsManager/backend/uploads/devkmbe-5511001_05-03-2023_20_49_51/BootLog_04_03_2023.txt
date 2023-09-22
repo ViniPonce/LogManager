@@ -1,0 +1,23 @@
+04-03-2023 16:20:05.867;BootLog;onRestart
+04-03-2023 16:20:05.877;BootLog;onStart
+04-03-2023 16:20:05.922;BootLog;onResume
+04-03-2023 16:20:06.655;BootLog;onStop
+04-03-2023 16:20:11.940;BootLog;Start meter process
+04-03-2023 16:20:14.943;BootLog;Communication management started
+04-03-2023 16:20:14.972;BootLog;Communication management is already started successfully
+04-03-2023 16:20:29.975;BootLog;NTP service starting
+04-03-2023 16:20:35.014;BootLog;Communication management started successfully
+04-03-2023 16:20:35.018;BootLog;Please, wait for the communication with the DMBE
+04-03-2023 16:20:35.022;BootLog;DMBE service starting
+04-03-2023 16:20:38.030;BootLog;DMBE service started successfully
+04-03-2023 16:20:38.035;BootLog;Initializing audio services
+04-03-2023 16:20:41.040;BootLog;Audio services already running
+04-03-2023 16:20:41.042;BootLog;Initializing on-off sensor service
+04-03-2023 16:20:44.046;BootLog;On-off sensor service already running
+04-03-2023 16:20:44.049;BootLog;Initializing Direct Audio Capture sensor service
+04-03-2023 16:20:47.053;BootLog;Initializing Peripheral sensors service
+04-03-2023 16:20:50.056;BootLog;Peripheral sensors service started
+04-03-2023 16:20:50.059;BootLog;Initializing SI code sensor service
+04-03-2023 16:20:53.081;BootLog;SI code sensor does not configured
+04-03-2023 16:20:53.084;BootLog;Initializing Mainloop service
+04-03-2023 16:20:53.088;BootLog;MainLoop service already running

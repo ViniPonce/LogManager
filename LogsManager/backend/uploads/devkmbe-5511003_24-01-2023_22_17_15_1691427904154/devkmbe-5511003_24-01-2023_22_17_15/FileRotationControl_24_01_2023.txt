@@ -1,0 +1,6 @@
+24-01-2023 03:35:08.308;FileRotationControl;Current date minus 7 days is equals: 1673926508308
+24-01-2023 03:35:08.312;FileRotationControl;No files deleted
+24-01-2023 11:35:08.339;FileRotationControl;Current date minus 7 days is equals: 1673955308338
+24-01-2023 11:35:08.342;FileRotationControl;No files deleted
+24-01-2023 19:35:11.960;FileRotationControl;Current date minus 7 days is equals: 1673984111960
+24-01-2023 19:35:11.964;FileRotationControl;No files deleted

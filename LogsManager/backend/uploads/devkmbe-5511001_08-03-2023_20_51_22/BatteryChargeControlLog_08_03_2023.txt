@@ -1,0 +1,102 @@
+08-03-2023 00:20:17.296;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 00:20:17.299;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 00:49:22.410;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 00:49:22.412;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 01:18:38.530;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 01:18:38.533;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 01:43:52.518;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 01:43:52.521;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 01:59:18.553;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 01:59:18.556;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 02:20:17.650;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 02:20:17.653;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 02:49:37.736;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 02:49:37.739;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 03:14:27.968;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 03:14:27.971;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 03:43:47.841;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 03:43:47.844;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 03:59:18.881;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 03:59:18.884;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 04:20:17.993;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 04:20:17.996;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 04:49:43.053;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 04:49:43.056;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 05:14:48.202;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 05:14:48.205;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 05:43:48.154;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 05:43:48.158;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 05:59:19.230;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 05:59:19.233;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 06:20:18.470;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 06:20:18.471;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 06:49:43.397;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 06:49:43.399;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 07:14:54.024;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 07:14:54.034;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 07:43:44.079;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 07:43:44.082;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 07:59:20.155;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 07:59:20.158;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 08:20:33.396;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 08:20:33.398;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 08:49:49.296;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 08:49:49.299;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 09:14:59.368;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 09:14:59.371;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 09:43:54.296;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 09:43:54.300;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 09:59:40.474;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 09:59:40.477;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 10:20:49.663;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 10:20:49.665;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 10:50:09.641;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 10:50:09.644;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 11:19:14.708;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 11:19:14.711;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 11:44:14.802;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 11:44:14.805;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 11:59:40.821;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 11:59:40.824;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 12:20:54.932;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 12:20:54.935;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 12:49:44.990;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 12:49:44.993;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 13:15:00.080;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 13:15:00.083;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 13:44:05.280;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 13:44:05.283;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 13:59:41.155;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 13:59:41.159;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 14:20:55.289;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 14:20:55.292;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 14:49:55.435;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 14:49:55.437;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 15:15:08.674;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 15:15:08.678;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 15:44:34.071;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 15:44:34.073;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 15:59:34.102;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 15:59:34.105;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 16:20:57.852;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 16:20:57.855;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 16:50:08.050;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 16:50:08.053;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 17:20:33.520;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 17:20:33.524;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 17:45:13.167;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 17:45:13.170;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 18:14:58.496;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 18:14:58.498;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 18:44:48.316;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 18:44:48.319;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 18:59:48.360;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 18:59:48.363;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 19:21:07.780;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 19:21:07.783;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 19:50:58.032;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 19:50:58.034;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 20:21:03.113;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 20:21:03.114;BatteryChargeControlLog;Connected to USB. Charging is disabled
+08-03-2023 20:51:08.286;BatteryChargeControlLog;Battery level: 43.0%. Max threshold: 70.0%. Min threshold: 40.0%
+08-03-2023 20:51:08.289;BatteryChargeControlLog;Connected to USB. Charging is disabled

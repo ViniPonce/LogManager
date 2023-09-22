@@ -1,11 +1,13 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
-import { HomeOutlined, AssessmentOutlined, AssignmentOutlined, ChevronLeft } from '@material-ui/icons';
+import { HomeOutlined, AssessmentOutlined, AssignmentOutlined } from '@material-ui/icons';
 import { useNavigate } from 'react-router-dom';
 import './Sidebar.css';
 import Header from './Header';
 import WebFont from 'webfontloader';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -113,36 +115,6 @@ const Sidebar = () => {
         <List component="nav" aria-label="main mailbox folders">
           <ListItem
             button
-            className={`${classes.listItem} ${selectedTab === 'home' && !collapsed ? classes.selectedTab : ''} ${
-              selectedTab === 'home' && collapsed ? classes.collapsedSelectedTab : ''
-            }`}
-            onClick={() => navigateTo('/', 'home')}
-          >
-            <ListItemIcon>
-              <HomeOutlined />
-            </ListItemIcon>
-            <ListItemText
-              primary="Home"
-              className={`${classes.listItemText} ${collapsed ? classes.collapsedText : ''}`}
-            />
-          </ListItem>
-          <ListItem
-            button
-            className={`${classes.listItem} ${selectedTab === 'statusBitAnalysis' && !collapsed ? classes.selectedTab : ''} ${
-              selectedTab === 'statusBitAnalysis' && collapsed ? classes.collapsedSelectedTab : ''
-            }`}
-            onClick={() => navigateTo('/status-bit-analysis', 'statusBitAnalysis')}
-          >
-            <ListItemIcon>
-              <AssessmentOutlined />
-            </ListItemIcon>
-            <ListItemText
-              primary="Status Bit Analysis"
-              className={`${classes.listItemText} ${collapsed ? classes.collapsedText : ''}`}
-            />
-          </ListItem>
-          <ListItem
-            button
             className={`${classes.listItem} ${selectedTab === 'logAnalysis' && !collapsed ? classes.selectedTab : ''} ${
               selectedTab === 'logAnalysis' && collapsed ? classes.collapsedSelectedTab : ''
             }`}
@@ -158,7 +130,7 @@ const Sidebar = () => {
           </ListItem>
         </List>
         <div className={`${classes.arrowButton} ${collapsed ? '' : classes.collapsed}`} onClick={toggleCollapse}>
-          <ChevronLeft className={classes.chevronIcon} />
+          {collapsed ? <ChevronRightIcon className={classes.chevronIcon} /> : <ChevronLeftIcon className={classes.chevronIcon} />}
         </div>
       </div>
     </div>

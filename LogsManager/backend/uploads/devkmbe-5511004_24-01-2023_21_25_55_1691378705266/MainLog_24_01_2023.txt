@@ -1,0 +1,180 @@
+24-01-2023 02:56:14.982;MainLog;TV OFF
+24-01-2023 12:47:29.105;MainLog;Remove handlers
+24-01-2023 12:47:29.111;MainLog;Services Stopped
+24-01-2023 12:47:29.113;MainLog;Service destroyed
+24-01-2023 12:47:29.765;MainLog;Remove handlers
+24-01-2023 12:47:29.768;MainLog;MainLoop Service Stopped
+24-01-2023 12:51:40.061;MainLog;Initializing MainLoop Service
+24-01-2023 12:51:40.080;MainLog;Dac Sensor is configure, no microphone should be selected
+24-01-2023 12:51:40.081;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 12:51:40.088;MainLog;No sensors are currently connected
+24-01-2023 12:51:40.208;MainLog;Initializing DMBE service
+24-01-2023 12:52:40.106;MainLog;Could not connect to on-off sensor, please check sensor
+24-01-2023 12:52:40.124;MainLog;Starting the services of sensors configured as DAC
+24-01-2023 12:52:40.148;MainLog;Starting a DAC service for the sensor APS_8CC8
+24-01-2023 12:52:43.406;MainLog;TV OFF
+24-01-2023 12:52:51.648;MainLog;TV ON
+24-01-2023 12:52:51.768;MainLog;Remove handlers
+24-01-2023 13:22:37.387;MainLog;TV OFF
+24-01-2023 13:29:31.695;MainLog;Initializing MainLoop Service
+24-01-2023 13:29:31.718;MainLog;Dac Sensor is configure, no microphone should be selected
+24-01-2023 13:29:31.720;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 13:29:31.726;MainLog;No sensors are currently connected
+24-01-2023 13:29:31.829;MainLog;Initializing DMBE service
+24-01-2023 13:29:45.741;MainLog;Starting the services of sensors configured as DAC
+24-01-2023 13:29:45.765;MainLog;Starting a DAC service for the sensor APS_8CC8
+24-01-2023 13:29:49.054;MainLog;TV OFF
+24-01-2023 13:47:24.857;MainLog;Remove handlers
+24-01-2023 13:47:24.866;MainLog;Services Stopped
+24-01-2023 13:47:24.868;MainLog;Service destroyed
+24-01-2023 13:47:25.641;MainLog;Remove handlers
+24-01-2023 13:47:25.642;MainLog;MainLoop Service Stopped
+24-01-2023 13:49:50.867;MainLog;Initializing MainLoop Service
+24-01-2023 13:49:50.885;MainLog;Audio capture method set to: RIGHT_MIC
+24-01-2023 13:49:50.895;MainLog;Right mic was turned on
+24-01-2023 13:49:50.898;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 13:49:50.906;MainLog;No sensors are currently connected
+24-01-2023 13:49:50.999;MainLog;Initializing DMBE service
+24-01-2023 13:50:07.234;MainLog;TV OFF
+24-01-2023 13:53:16.535;MainLog;TV ON
+24-01-2023 13:53:16.657;MainLog;Remove handlers
+24-01-2023 14:53:22.829;MainLog;Remove handlers
+24-01-2023 14:53:22.839;MainLog;Services Stopped
+24-01-2023 14:53:22.841;MainLog;Service destroyed
+24-01-2023 14:53:23.817;MainLog;Remove handlers
+24-01-2023 14:53:23.818;MainLog;MainLoop Service Stopped
+24-01-2023 14:55:56.803;MainLog;Initializing MainLoop Service
+24-01-2023 14:55:56.839;MainLog;Microphone position change from remote: RIGHT_MIC - Updating shared preferences
+24-01-2023 14:55:56.846;MainLog;Audio capture method set to: RIGHT_MIC
+24-01-2023 14:55:56.855;MainLog;Right mic was turned on
+24-01-2023 14:55:56.857;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 14:55:56.862;MainLog;No sensors are currently connected
+24-01-2023 14:55:56.961;MainLog;Initializing DMBE service
+24-01-2023 14:56:13.180;MainLog;TV ON
+24-01-2023 14:56:13.313;MainLog;Remove handlers
+24-01-2023 17:01:18.321;MainLog;Initializing MainLoop Service
+24-01-2023 17:01:18.350;MainLog;Audio capture method set to: RIGHT_MIC
+24-01-2023 17:01:18.356;MainLog;Right mic was turned on
+24-01-2023 17:01:18.357;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 17:01:18.367;MainLog;No sensors are currently connected
+24-01-2023 17:01:18.464;MainLog;Initializing DMBE service
+24-01-2023 17:01:34.632;MainLog;TV OFF
+24-01-2023 17:05:09.943;MainLog;TV ON
+24-01-2023 17:05:10.065;MainLog;Remove handlers
+24-01-2023 18:08:03.992;MainLog;Remove handlers
+24-01-2023 18:08:03.999;MainLog;Services Stopped
+24-01-2023 18:08:04.001;MainLog;Service destroyed
+24-01-2023 18:08:04.284;MainLog;Remove handlers
+24-01-2023 18:08:04.286;MainLog;MainLoop Service Stopped
+24-01-2023 18:10:56.751;MainLog;Initializing MainLoop Service
+24-01-2023 18:10:56.776;MainLog;Audio capture method set to: RIGHT_MIC
+24-01-2023 18:10:56.783;MainLog;Right mic was turned on
+24-01-2023 18:10:56.784;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 18:10:56.790;MainLog;No sensors are currently connected
+24-01-2023 18:10:56.900;MainLog;Initializing DMBE service
+24-01-2023 18:11:56.809;MainLog;Could not connect to on-off sensor, please check sensor
+24-01-2023 18:11:59.085;MainLog;TV OFF
+24-01-2023 18:21:42.712;MainLog;Remove handlers
+24-01-2023 18:21:42.719;MainLog;Services Stopped
+24-01-2023 18:21:42.722;MainLog;Service destroyed
+24-01-2023 18:21:43.513;MainLog;Remove handlers
+24-01-2023 18:21:43.516;MainLog;MainLoop Service Stopped
+24-01-2023 18:26:03.367;MainLog;Initializing MainLoop Service
+24-01-2023 18:26:03.394;MainLog;Microphone position change from remote: RIGHT_MIC - Updating shared preferences
+24-01-2023 18:26:03.403;MainLog;Audio capture method set to: RIGHT_MIC
+24-01-2023 18:26:03.412;MainLog;Right mic was turned on
+24-01-2023 18:26:03.415;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 18:26:03.422;MainLog;No sensors are currently connected
+24-01-2023 18:26:03.504;MainLog;Initializing DMBE service
+24-01-2023 18:27:03.445;MainLog;Could not connect to on-off sensor, please check sensor
+24-01-2023 18:27:05.765;MainLog;TV OFF
+24-01-2023 18:30:21.763;MainLog;Remove handlers
+24-01-2023 18:30:21.771;MainLog;Services Stopped
+24-01-2023 18:30:21.773;MainLog;Service destroyed
+24-01-2023 18:30:22.051;MainLog;Remove handlers
+24-01-2023 18:30:22.052;MainLog;MainLoop Service Stopped
+24-01-2023 18:32:17.829;MainLog;Initializing MainLoop Service
+24-01-2023 18:32:17.855;MainLog;Audio capture method set to: RIGHT_MIC
+24-01-2023 18:32:17.862;MainLog;Right mic was turned on
+24-01-2023 18:32:17.864;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 18:32:17.869;MainLog;No sensors are currently connected
+24-01-2023 18:32:17.961;MainLog;Initializing DMBE service
+24-01-2023 18:32:34.177;MainLog;TV OFF
+24-01-2023 18:36:26.275;MainLog;Remove handlers
+24-01-2023 18:36:26.286;MainLog;Services Stopped
+24-01-2023 18:36:26.288;MainLog;Service destroyed
+24-01-2023 18:36:26.481;MainLog;Remove handlers
+24-01-2023 18:36:26.482;MainLog;MainLoop Service Stopped
+24-01-2023 18:37:42.623;MainLog;Initializing MainLoop Service
+24-01-2023 18:37:42.627;MainLog;backend health issues
+24-01-2023 18:37:42.765;MainLog;Initializing DMBE service
+24-01-2023 18:37:43.629;MainLog;backend health issues
+24-01-2023 18:37:44.631;MainLog;backend health issues
+24-01-2023 18:37:45.633;MainLog;backend health issues
+24-01-2023 18:37:46.635;MainLog;backend health issues
+24-01-2023 18:37:47.638;MainLog;backend health issues
+24-01-2023 18:37:48.640;MainLog;backend health issues
+24-01-2023 18:37:49.642;MainLog;backend health issues
+24-01-2023 18:37:50.644;MainLog;backend health issues
+24-01-2023 18:37:51.646;MainLog;backend health issues
+24-01-2023 18:37:52.648;MainLog;backend health issues
+24-01-2023 18:37:53.650;MainLog;backend health issues
+24-01-2023 18:37:54.652;MainLog;backend health issues
+24-01-2023 18:37:55.654;MainLog;backend health issues
+24-01-2023 18:37:56.656;MainLog;backend health issues
+24-01-2023 18:37:57.659;MainLog;backend health issues
+24-01-2023 18:37:58.661;MainLog;backend health issues
+24-01-2023 18:37:59.664;MainLog;backend health issues
+24-01-2023 18:38:00.667;MainLog;backend health issues
+24-01-2023 18:38:01.678;MainLog;Microphone position change from remote: RIGHT_MIC - Updating shared preferences
+24-01-2023 18:38:01.689;MainLog;Audio capture method set to: RIGHT_MIC
+24-01-2023 18:38:01.692;MainLog;Right mic is already turned on
+24-01-2023 18:38:01.693;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 18:38:01.699;MainLog;XPS sensor already connected
+24-01-2023 18:38:01.702;MainLog;Sensor: VEMITER-1
+24-01-2023 18:38:11.705;MainLog;Bluetooth adapter restarted
+24-01-2023 18:38:13.957;MainLog;TV OFF
+24-01-2023 19:27:17.293;MainLog;Remove handlers
+24-01-2023 19:27:17.300;MainLog;Services Stopped
+24-01-2023 19:27:17.302;MainLog;Service destroyed
+24-01-2023 19:27:17.841;MainLog;Remove handlers
+24-01-2023 19:27:17.842;MainLog;MainLoop Service Stopped
+24-01-2023 19:36:28.525;MainLog;Initializing MainLoop Service
+24-01-2023 19:36:28.546;MainLog;Audio capture method set to: RIGHT_MIC
+24-01-2023 19:36:28.559;MainLog;Right mic was turned on
+24-01-2023 19:36:28.561;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 19:36:28.569;MainLog;No sensors are currently connected
+24-01-2023 19:36:28.664;MainLog;Initializing DMBE service
+24-01-2023 19:36:44.832;MainLog;TV ON
+24-01-2023 19:36:44.966;MainLog;Remove handlers
+24-01-2023 19:39:54.237;MainLog;Remove handlers
+24-01-2023 19:39:54.243;MainLog;Services Stopped
+24-01-2023 19:39:54.244;MainLog;Service destroyed
+24-01-2023 19:39:55.041;MainLog;Remove handlers
+24-01-2023 19:39:55.043;MainLog;MainLoop Service Stopped
+24-01-2023 19:42:40.482;MainLog;Initializing MainLoop Service
+24-01-2023 19:42:40.504;MainLog;Microphone position change from remote: RIGHT_MIC - Updating shared preferences
+24-01-2023 19:42:40.512;MainLog;Audio capture method set to: RIGHT_MIC
+24-01-2023 19:42:40.523;MainLog;Right mic was turned on
+24-01-2023 19:42:40.526;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 19:42:40.530;MainLog;No sensors are currently connected
+24-01-2023 19:42:40.615;MainLog;Initializing DMBE service
+24-01-2023 19:42:56.831;MainLog;TV ON
+24-01-2023 19:42:56.978;MainLog;Remove handlers
+24-01-2023 19:55:29.933;MainLog;Remove handlers
+24-01-2023 19:55:29.944;MainLog;Services Stopped
+24-01-2023 19:55:29.945;MainLog;Service destroyed
+24-01-2023 19:55:30.245;MainLog;Remove handlers
+24-01-2023 19:55:30.247;MainLog;MainLoop Service Stopped
+24-01-2023 20:02:25.220;MainLog;Initializing MainLoop Service
+24-01-2023 20:02:25.239;MainLog;Microphone position change from remote: RIGHT_MIC - Updating shared preferences
+24-01-2023 20:02:25.245;MainLog;Audio capture method set to: RIGHT_MIC
+24-01-2023 20:02:25.249;MainLog;Right mic is already turned on
+24-01-2023 20:02:25.252;MainLog;Checking if some XPS sensor is already connected
+24-01-2023 20:02:25.259;MainLog;No sensors are currently connected
+24-01-2023 20:02:25.375;MainLog;Initializing DMBE service
+24-01-2023 20:02:41.495;MainLog;TV ON
+24-01-2023 20:02:41.627;MainLog;Remove handlers
+24-01-2023 20:06:16.718;MainLog;TV OFF
+24-01-2023 20:14:58.108;MainLog;TV ON
+24-01-2023 20:14:58.233;MainLog;Remove handlers

@@ -1,0 +1,176 @@
+27-01-2023 13:27:07.669;ConnectionManagementLog;Start communication management
+27-01-2023 13:27:07.772;ConnectionManagementLog;Communication script
+27-01-2023 13:27:07.773;ConnectionManagementLog;Wi-Fi;NA;NA;NA
+27-01-2023 13:27:17.824;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:27:17.864;ConnectionManagementLog;Checking if network available
+27-01-2023 13:28:49.012;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:28:49.014;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:28:49.016;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:28:54.018;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:28:54.032;ConnectionManagementLog;Checking if network available
+27-01-2023 13:30:25.166;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:30:25.168;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:30:25.170;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:30:30.172;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:30:30.183;ConnectionManagementLog;Checking if network available
+27-01-2023 13:32:01.337;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:32:01.339;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:32:01.340;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:32:06.343;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:32:06.356;ConnectionManagementLog;Checking if network available
+27-01-2023 13:33:37.530;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:33:37.532;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:33:37.533;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:33:42.536;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:33:42.547;ConnectionManagementLog;Checking if network available
+27-01-2023 13:35:13.719;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:35:13.721;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:35:13.723;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:35:18.725;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:35:18.736;ConnectionManagementLog;Checking if network available
+27-01-2023 13:36:49.909;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:36:49.911;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:36:49.913;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:36:54.916;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:36:54.925;ConnectionManagementLog;Checking if network available
+27-01-2023 13:37:10.997;ConnectionManagementLog;Checking internet access
+27-01-2023 13:37:11.091;ConnectionManagementLog;Internet access has a problem
+27-01-2023 13:38:26.064;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:38:26.073;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:38:26.075;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:38:31.078;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:38:31.094;ConnectionManagementLog;Checking if network available
+27-01-2023 13:40:02.228;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:40:02.230;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:40:02.232;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:40:07.236;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:40:07.248;ConnectionManagementLog;Checking if network available
+27-01-2023 13:41:38.391;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:41:38.393;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:41:38.395;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:41:43.398;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:41:43.412;ConnectionManagementLog;Checking if network available
+27-01-2023 13:43:19.278;ConnectionManagementLog;Start communication management
+27-01-2023 13:43:19.390;ConnectionManagementLog;Communication script
+27-01-2023 13:43:19.392;ConnectionManagementLog;Wi-Fi;NA;NA;NA
+27-01-2023 13:43:29.444;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:43:29.467;ConnectionManagementLog;Checking if network available
+27-01-2023 13:45:00.622;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:45:00.623;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:45:00.624;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:45:05.626;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:45:05.638;ConnectionManagementLog;Checking if network available
+27-01-2023 13:46:36.767;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:46:36.769;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:46:36.771;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:46:41.773;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:46:41.785;ConnectionManagementLog;Checking if network available
+27-01-2023 13:48:12.938;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:48:12.941;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:48:12.942;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:48:17.945;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:48:17.957;ConnectionManagementLog;Checking if network available
+27-01-2023 13:49:49.149;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:49:49.151;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:49:49.153;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:49:54.156;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:49:54.167;ConnectionManagementLog;Checking if network available
+27-01-2023 13:51:25.346;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:51:25.348;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:51:25.349;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:51:30.352;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:51:30.364;ConnectionManagementLog;Checking if network available
+27-01-2023 13:53:01.539;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:53:01.541;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:53:01.542;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:53:06.545;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:53:06.555;ConnectionManagementLog;Checking if network available
+27-01-2023 13:53:22.608;ConnectionManagementLog;Checking internet access
+27-01-2023 13:53:22.704;ConnectionManagementLog;Internet access has a problem
+27-01-2023 13:54:37.698;ConnectionManagementLog;Unable to connect to network for selected adapter
+27-01-2023 13:54:37.700;ConnectionManagementLog;The adapter selected does not working
+27-01-2023 13:54:37.702;ConnectionManagementLog;Changing the next adapter prioritized
+27-01-2023 13:54:42.705;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 13:54:42.719;ConnectionManagementLog;Checking if network available
+27-01-2023 13:55:21.774;ConnectionManagementLog;Network connected
+27-01-2023 13:55:21.776;ConnectionManagementLog;Checking internet access
+27-01-2023 13:55:21.875;ConnectionManagementLog;Internet available
+27-01-2023 13:55:21.877;ConnectionManagementLog;Communication management started successfully
+27-01-2023 13:56:01.877;ConnectionManagementLog;Sending Network status to KMBE
+27-01-2023 13:56:02.887;ConnectionManagementLog;Network status sent successfully
+27-01-2023 14:02:21.999;ConnectionManagementLog;Internet available
+27-01-2023 14:03:22.079;ConnectionManagementLog;Internet available
+27-01-2023 14:04:22.161;ConnectionManagementLog;Internet available
+27-01-2023 14:06:22.216;ConnectionManagementLog;Internet available
+27-01-2023 14:07:22.321;ConnectionManagementLog;Internet available
+27-01-2023 14:08:22.398;ConnectionManagementLog;Internet available
+27-01-2023 14:09:22.510;ConnectionManagementLog;Internet available
+27-01-2023 14:52:34.574;ConnectionManagementLog;Start communication management
+27-01-2023 14:52:34.674;ConnectionManagementLog;Communication script
+27-01-2023 14:52:34.675;ConnectionManagementLog;Wi-Fi;NA;NA;NA
+27-01-2023 14:52:44.828;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 14:52:44.846;ConnectionManagementLog;Checking if network available
+27-01-2023 14:52:45.851;ConnectionManagementLog;Network connected
+27-01-2023 14:52:45.853;ConnectionManagementLog;Checking internet access
+27-01-2023 14:52:46.102;ConnectionManagementLog;Internet available
+27-01-2023 14:52:46.104;ConnectionManagementLog;Communication management started successfully
+27-01-2023 14:52:46.604;ConnectionManagementLog;Checking internet access
+27-01-2023 14:52:46.676;ConnectionManagementLog;Internet available
+27-01-2023 14:53:26.106;ConnectionManagementLog;Sending Network status to KMBE
+27-01-2023 14:53:27.376;ConnectionManagementLog;Network status sent successfully
+27-01-2023 14:53:46.181;ConnectionManagementLog;Internet available
+27-01-2023 14:59:47.315;ConnectionManagementLog;Start communication management
+27-01-2023 14:59:47.416;ConnectionManagementLog;Communication script
+27-01-2023 14:59:47.418;ConnectionManagementLog;Wi-Fi;NA;NA;NA
+27-01-2023 14:59:57.539;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 14:59:57.569;ConnectionManagementLog;Checking if network available
+27-01-2023 14:59:58.575;ConnectionManagementLog;Network connected
+27-01-2023 14:59:58.577;ConnectionManagementLog;Checking internet access
+27-01-2023 14:59:58.711;ConnectionManagementLog;Internet available
+27-01-2023 14:59:58.713;ConnectionManagementLog;Communication management started successfully
+27-01-2023 14:59:59.347;ConnectionManagementLog;Checking internet access
+27-01-2023 14:59:59.570;ConnectionManagementLog;Internet available
+27-01-2023 15:00:38.741;ConnectionManagementLog;Sending Network status to KMBE
+27-01-2023 15:00:40.175;ConnectionManagementLog;Network status sent successfully
+27-01-2023 15:00:58.788;ConnectionManagementLog;Internet available
+27-01-2023 15:06:41.735;ConnectionManagementLog;Start communication management
+27-01-2023 15:06:41.837;ConnectionManagementLog;Communication script
+27-01-2023 15:06:41.839;ConnectionManagementLog;Wi-Fi;NA;NA;NA
+27-01-2023 15:06:51.959;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 15:06:51.988;ConnectionManagementLog;Checking if network available
+27-01-2023 15:06:52.993;ConnectionManagementLog;Network connected
+27-01-2023 15:06:52.995;ConnectionManagementLog;Checking internet access
+27-01-2023 15:06:53.141;ConnectionManagementLog;Internet available
+27-01-2023 15:06:53.143;ConnectionManagementLog;Communication management started successfully
+27-01-2023 15:06:53.770;ConnectionManagementLog;Checking internet access
+27-01-2023 15:06:53.993;ConnectionManagementLog;Internet available
+27-01-2023 15:07:34.018;ConnectionManagementLog;Sending Network status to KMBE
+27-01-2023 15:07:35.349;ConnectionManagementLog;Network status sent successfully
+27-01-2023 15:07:54.066;ConnectionManagementLog;Internet available
+27-01-2023 15:13:52.619;ConnectionManagementLog;Start communication management
+27-01-2023 15:13:52.721;ConnectionManagementLog;Communication script
+27-01-2023 15:13:52.723;ConnectionManagementLog;Wi-Fi;NA;NA;NA
+27-01-2023 15:14:02.852;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 15:14:02.877;ConnectionManagementLog;Checking if network available
+27-01-2023 15:14:03.882;ConnectionManagementLog;Network connected
+27-01-2023 15:14:03.884;ConnectionManagementLog;Checking internet access
+27-01-2023 15:14:03.976;ConnectionManagementLog;Internet available
+27-01-2023 15:14:03.977;ConnectionManagementLog;Communication management started successfully
+27-01-2023 15:14:04.650;ConnectionManagementLog;Checking internet access
+27-01-2023 15:14:04.695;ConnectionManagementLog;Internet available
+27-01-2023 15:14:44.039;ConnectionManagementLog;Sending Network status to KMBE
+27-01-2023 15:14:45.349;ConnectionManagementLog;Network status sent successfully
+27-01-2023 17:49:17.361;ConnectionManagementLog;Start communication management
+27-01-2023 17:49:17.451;ConnectionManagementLog;Communication script
+27-01-2023 17:49:17.452;ConnectionManagementLog;Wi-Fi;NA;NA;NA
+27-01-2023 17:49:27.587;ConnectionManagementLog;Selecting the communication option: Wi-Fi ;  SIMCARD: NA ;  NETWORK NAME: NA ;  APN: NA
+27-01-2023 17:49:27.609;ConnectionManagementLog;Checking if network available
+27-01-2023 17:49:28.613;ConnectionManagementLog;Network connected
+27-01-2023 17:49:28.615;ConnectionManagementLog;Checking internet access
+27-01-2023 17:49:28.748;ConnectionManagementLog;Internet available
+27-01-2023 17:49:28.749;ConnectionManagementLog;Communication management started successfully
+27-01-2023 17:49:29.393;ConnectionManagementLog;Checking internet access
+27-01-2023 17:49:29.554;ConnectionManagementLog;Internet available
+27-01-2023 17:50:08.926;ConnectionManagementLog;Sending Network status to KMBE
+27-01-2023 17:50:10.564;ConnectionManagementLog;Network status sent successfully
+27-01-2023 17:50:28.814;ConnectionManagementLog;Internet available

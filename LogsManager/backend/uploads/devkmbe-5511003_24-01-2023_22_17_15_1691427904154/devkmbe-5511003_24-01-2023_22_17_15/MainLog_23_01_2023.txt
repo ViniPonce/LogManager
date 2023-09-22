@@ -1,0 +1,10 @@
+23-01-2023 19:39:52.046;MainLog;Initializing MainLoop Service
+23-01-2023 19:39:52.064;MainLog;Dac Sensor is configure, no microphone should be selected
+23-01-2023 19:39:52.066;MainLog;Checking if some XPS sensor is already connected
+23-01-2023 19:39:52.073;MainLog;No sensors are currently connected
+23-01-2023 19:39:52.212;MainLog;Initializing DMBE service
+23-01-2023 19:40:07.087;MainLog;Starting the services of sensors configured as DAC
+23-01-2023 19:40:07.108;MainLog;Starting a DAC service for the sensor OPS_82FF
+23-01-2023 19:40:08.248;MainLog;TV ON
+23-01-2023 19:40:08.387;MainLog;Remove handlers
+23-01-2023 22:08:15.354;MainLog;TV OFF
